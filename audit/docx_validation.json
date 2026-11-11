@@ -1,0 +1,51 @@
+{
+  "status": "passed_text_table_and_package_checks",
+  "documents": [
+    {
+      "file": "docs/results/Results_Part1_StromalAtlas.docx",
+      "text_paragraphs": 11,
+      "tables": 0,
+      "zip_and_xml": "passed",
+      "source_text_and_tables": "identical",
+      "editable_text": true,
+      "pagination_rendering": "not performed: no Word/LibreOffice renderer available"
+    },
+    {
+      "file": "docs/results/Results_Part2_ClockPerformance_CellAge.docx",
+      "text_paragraphs": 19,
+      "tables": 1,
+      "zip_and_xml": "passed",
+      "source_text_and_tables": "identical",
+      "editable_text": true,
+      "pagination_rendering": "not performed: no Word/LibreOffice renderer available"
+    },
+    {
+      "file": "docs/results/Results_Part3_StableFeatures_Mechanisms.docx",
+      "text_paragraphs": 15,
+      "tables": 0,
+      "zip_and_xml": "passed",
+      "source_text_and_tables": "identical",
+      "editable_text": true,
+      "pagination_rendering": "not performed: no Word/LibreOffice renderer available"
+    },
+    {
+      "file": "docs/results/TabulaStromal_Results_Combined.docx",
+      "text_paragraphs": 45,
+      "tables": 1,
+      "zip_and_xml": "passed",
+      "source_text_and_tables": "identical",
+      "editable_text": true,
+      "pagination_rendering": "not performed: no Word/LibreOffice renderer available"
+    },
+    {
+      "file": "docs/results/Figure_Legends.docx",
+      "text_paragraphs": 16,
+      "tables": 0,
+      "zip_and_xml": "passed",
+      "source_text_and_tables": "identical",
+      "editable_text": true,
+      "pagination_rendering": "not performed: no Word/LibreOffice renderer available"
+    }
+  ],
+  "limitation": "Page layout, font substitution and clipping require a real Word/PDF rendering pass."
+}

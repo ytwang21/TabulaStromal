@@ -1,0 +1,7 @@
+lineage,signature,method,candidate_id,n_genes_listed,n_genes_matched,genes_used,source,role
+fibro,ECM,mean_log_expression,fibro:Fibro_marker_sub_ya:cell5,27,19,ACTA2;TAGLN;BGN;IGFBP7;TPM1;TPM2;MYL9;COL14A1;MYH11;MYLK;FN1;DCN;VCAN;COL5A1;COL5A2;PDGFA;MMP2;COL1A2;RGS5,F1_StromalAtlas/extended_figure1_SS/data/cache/fibro/candidate_mean.npy,historical functional signature; not tuned
+fibro,AP,mean_log_expression,fibro:Fibro_marker_sub_ya:cell5,8,6,CD74;HLA-DQA1;CD83;HLA-DRA;HLA-DPA1;HLA-DRB1,F1_StromalAtlas/extended_figure1_SS/data/cache/fibro/candidate_mean.npy,historical functional signature; not tuned
+fibro,Myfibro,mean_log_expression,global_combinations_trainGSE_20261106,4,4,ACTA2;CALD1;TAGLN;TPM1,F1_StromalAtlas/extended_figure1_SS/data/cache/fibro/figure_mean.npy,subtype; same lists/scores as bars
+fibro,eFibro,mean_log_expression,global_combinations_trainGSE_20261106,5,5,COL1A1;COL1A2;COL3A1;COL6A3;DCN,F1_StromalAtlas/extended_figure1_SS/data/cache/fibro/figure_mean.npy,subtype; same lists/scores as bars
+fibro,iFibro,mean_log_expression,global_combinations_trainGSE_20261106,3,3,CD74;HLA-DRA;HLA-DRB1,F1_StromalAtlas/extended_figure1_SS/data/cache/fibro/figure_mean.npy,subtype; same lists/scores as bars
+fibro,qFibro,mean_log_expression,global_combinations_trainGSE_20261106,3,3,APOD;CFD;MGP,F1_StromalAtlas/extended_figure1_SS/data/cache/fibro/figure_mean.npy,subtype; same lists/scores as bars

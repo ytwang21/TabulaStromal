@@ -11,6 +11,8 @@ import re
 import statistics
 import subprocess
 import sys
+from zipfile import ZipFile
+from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKSUMS = 'provenance/export_checksums.csv'
@@ -45,6 +47,8 @@ def main(argv=None):
     errors = []
     counts = {'python': 0, 'notebooks': 0, 'structured': 0, 'markdown_links': 0}
     files = public_files()
+    released_path=ROOT/'audit/released_assets.csv'
+    released={r['repository_file']:r for r in table('audit/released_assets.csv')} if released_path.exists() else {}
     for rel in files:
         path = ROOT / rel
         if path.is_symlink():
@@ -53,9 +57,23 @@ def main(argv=None):
         if path.suffix in PRIVATE_SUFFIXES:
             errors.append(f'Excluded research/credential format: {rel}')
         if path.stat().st_size > 2_000_000:
-            errors.append(f'File exceeds the curated 2 MB payload limit: {rel}')
+            approved=released.get(rel)
+            limit=32_000_000 if path.suffix in {'.png','.pdf'} else 8_000_000
+            if not (approved and path.suffix in {'.png','.pdf','.csv'} and
+                    path.stat().st_size <= limit and int(approved['bytes'])==path.stat().st_size and
+                    hashlib.sha256(path.read_bytes()).hexdigest()==approved['sha256']):
+                errors.append(f'Large file requires a matching reviewed scientific-asset record: {rel}')
         raw = path.read_bytes()
         if path.suffix in {'.png', '.jpg', '.jpeg', '.pdf'}:
+            continue
+        if path.suffix == '.docx':
+            try:
+                with ZipFile(path) as archive:
+                    assert archive.testzip() is None
+                    document=ET.fromstring(archive.read('word/document.xml'))
+                    assert any(n.text for n in document.iter('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}t'))
+            except Exception as exc:
+                errors.append(f'Invalid editable Word file {rel}: {exc}')
             continue
         try:
             text = raw.decode('utf-8')
@@ -88,7 +106,8 @@ def main(argv=None):
         except Exception as exc:
             errors.append(f'Invalid source/structured file {rel}: {type(exc).__name__}: {exc}')
         if path.suffix == '.md':
-            for target in re.findall(r'\]\(([^\s)]+)\)', text):
+            targets=re.findall(r'\]\(([^\s)]+)\)', text)+re.findall(r'(?:src|href)="([^\"]+)"',text)
+            for target in targets:
                 if target.startswith(('https://', 'http://', 'mailto:', '#')):
                     continue
                 target = target.split('#', 1)[0]

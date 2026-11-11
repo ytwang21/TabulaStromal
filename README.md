@@ -24,6 +24,25 @@ The atlas contains **5,916,760 fibroblast cells** and **2,239,277 endothelial ce
 
 ## Start here
 
+The four result directories now include original figures, aggregate tables, file/figure inventories and source-linked evidence:
+
+| Result directory | Gallery and audited content |
+| --- | --- |
+| [F1_StromalAtlas](F1_StromalAtlas/) | Figure 1, detailed subtypes, signature agreement and filtering figures |
+| [F2_ModelPerformance](F2_ModelPerformance/) | Original overview, complete Figure 2 and individual performance panels |
+| [TabulaStromal_Rebenchmark_2026](TabulaStromal_Rebenchmark_2026/) | Final EN protocols, bootstrap stability, enrichment and shared genes |
+| [CellAge_Exploration](CellAge_Exploration/) | Original CellAge figure, score/age analyses and historical clock context |
+
+Read the English Results sections or download editable Word files:
+
+| Section | English text | Editable Word |
+| --- | --- | --- |
+| Results Part 1 — Stromal Atlas | [Read](docs/results/Results_Part1_StromalAtlas.md) | [Download](docs/results/Results_Part1_StromalAtlas.docx) |
+| Results Part 2 — Clock Overview, Performance and CellAge | [Read](docs/results/Results_Part2_ClockPerformance_CellAge.md) | [Download](docs/results/Results_Part2_ClockPerformance_CellAge.docx) |
+| Results Part 3 — Stable Features and Molecular Associations | [Read](docs/results/Results_Part3_StableFeatures_Mechanisms.md) | [Download](docs/results/Results_Part3_StableFeatures_Mechanisms.docx) |
+
+[Combined Results Word](docs/results/TabulaStromal_Results_Combined.docx) · [Figure legends](docs/results/Figure_Legends.md) · [Audit scope](audit/README.md) · [Evidence registry](evidence/evidence_registry.csv)
+
 Use Python **3.11** and run commands from the repository root. No research data or pretrained weights are downloaded automatically.
 
 ```bash
@@ -89,7 +108,7 @@ docs/            Data contracts, reproduction, scientific scope and project map
 .github/         Continuous integration and contribution templates
 ```
 
-Large expression matrices, individual-level predictions, fitted models, caches, credentials, and unpublished manuscript drafts are excluded. [Source provenance](provenance/source_manifest.csv) links the exported modules to the original project tree. The [portability notes](docs/portability.md) describe modifications made for this release.
+Large expression matrices, individual-level predictions, fitted models, caches, credentials, and unreleased manuscript sections are excluded. This release includes three evidence-linked Results drafts and their editable Word versions. [Source provenance](provenance/source_manifest.csv) links the exported modules to the original project tree. The [portability notes](docs/portability.md) describe modifications made for this release.
 
 ## Citation, contribution, and permissions
 

@@ -1,0 +1,10 @@
+lineage,signature,method,candidate_id,n_genes_listed,n_genes_matched,genes_used,source,role
+endo,AP,mean_log_expression,endo:score_dict:cell6,8,6,CD74;CD83;HLA-DPA1;HLA-DQA1;HLA-DRA;HLA-DRB1,F1_StromalAtlas/extended_figure1_SS/data/cache/endo/candidate_mean.npy,historical functional signature; not tuned
+endo,Tip,mean_log_expression,endo:score_dict:cell6,13,11,ADM;ANGPT2;ANGPTL2;CXCR4;FSCN1;INSR;LXN;PDGFB;PGF;PLXND1;PXDN,F1_StromalAtlas/extended_figure1_SS/data/cache/endo/candidate_mean.npy,historical functional signature; not tuned
+endo,Stalk,mean_log_expression,endo:score_dict:cell6,8,4,ADIRF;CCL2;CLU;HLA-DRA,F1_StromalAtlas/extended_figure1_SS/data/cache/endo/candidate_mean.npy,historical functional signature; not tuned
+endo,ArtEC,mean_log_expression,global_combinations_trainGSE_20261106,8,8,ARL15;CXCL12;EFNB2;FBLN5;HEY1;IGFBP3;PTPRM;SRGN,F1_StromalAtlas/extended_figure1_SS/data/cache/endo/figure_mean.npy,subtype; same lists/scores as bars
+endo,CapEC,mean_log_expression,global_combinations_trainGSE_20261106,5,5,HSPG2;PCDH17;RGCC;SPARC;VWA1,F1_StromalAtlas/extended_figure1_SS/data/cache/endo/figure_mean.npy,subtype; same lists/scores as bars
+endo,VenEC,mean_log_expression,global_combinations_trainGSE_20261106,2,2,CLU;VCAM1,F1_StromalAtlas/extended_figure1_SS/data/cache/endo/figure_mean.npy,subtype; same lists/scores as bars
+endo,EndoMT,mean_log_expression,global_combinations_trainGSE_20261106,8,8,CAMK2N1;CD36;CFD;COL5A1;DCN;FN1;MMP2;VIM,F1_StromalAtlas/extended_figure1_SS/data/cache/endo/figure_mean.npy,subtype; same lists/scores as bars
+endo,MCs,mean_log_expression,global_combinations_trainGSE_20261106,7,7,ACTA2;MYH11;MYL9;PDGFRB;SOD3;TAGLN;TPM2,F1_StromalAtlas/extended_figure1_SS/data/cache/endo/figure_mean.npy,subtype; same lists/scores as bars
+endo,LEC,mean_log_expression,global_combinations_trainGSE_20261106,2,2,EFEMP1;PDPN,F1_StromalAtlas/extended_figure1_SS/data/cache/endo/figure_mean.npy,subtype; same lists/scores as bars

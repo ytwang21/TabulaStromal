@@ -1,0 +1,13 @@
+lineage,scope,threshold,n_successful_bootstraps,n_stable_Celltype_Gene,n_stable_Celltypes,n_unique_stable_Genes
+Fibro,outer1,0.7,300,329,6,313
+Fibro,outer1,0.75,300,219,5,212
+Fibro,outer2,0.7,300,411,4,388
+Fibro,outer2,0.75,300,310,4,297
+Fibro,outer3,0.7,300,399,4,377
+Fibro,outer3,0.75,300,277,3,265
+Fibro,outer4,0.7,300,347,5,327
+Fibro,outer4,0.75,300,248,5,237
+Fibro,outer5,0.7,300,306,3,287
+Fibro,outer5,0.75,300,223,3,214
+Fibro,full_train,0.7,300,438,5,416
+Fibro,full_train,0.75,300,321,4,304

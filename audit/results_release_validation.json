@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": 503,
+  "original_figure_files": 117,
+  "aggregate_tables": 81,
+  "figure_candidates": 847,
+  "evidence_records": 773,
+  "paragraph_claim_mappings": 26,
+  "complete_source_file_entries": 1413618,
+  "word_rendering": "Not performed; text/table/XML validation is recorded separately."
+}

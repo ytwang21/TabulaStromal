@@ -1,0 +1,32 @@
+lineage,score,celltype,mean,ci_low,ci_high,n_donors,n_gse,n_cells,n_tissues,inference
+fibro,hUSI,Myfibro_CALD1_kidney,0.37198022881374415,0.36140254002477085,0.381683974092698,63,12,78986,6,donor bootstrap; equal donor weighting
+fibro,hUSI,Myfibro_CALD1_pan,0.4893797986824368,0.47341145971413956,0.5037170227923077,219,64,90007,22,donor bootstrap; equal donor weighting
+fibro,hUSI,Myfibro_CDKN2A_brain,0.4872226179706802,0.446066802837348,0.5311170820473241,11,7,37322,6,donor bootstrap; equal donor weighting
+fibro,hUSI,Myfibro_CTSA_skin,0.6677659397306898,0.5972463018964472,0.72331375329766,11,8,14193,4,donor bootstrap; equal donor weighting
+fibro,hUSI,Myfibro_KRT8_pan,0.5586033974739918,0.5326198923493772,0.5859941280052074,30,13,41465,8,donor bootstrap; equal donor weighting
+fibro,hUSI,Myfibro_MYH11_uterus,0.4165818922539179,0.39275263396214033,0.44173104673912983,25,9,1575,9,donor bootstrap; equal donor weighting
+fibro,hUSI,Myfibro_QKI_brain,0.3770396902890986,0.3701092501457948,0.3837116703754814,169,24,80665,5,donor bootstrap; equal donor weighting
+fibro,hUSI,Myfibro_QKI_eye,0.3939049778554678,0.3828150083666222,0.40464678357625694,53,9,34374,2,donor bootstrap; equal donor weighting
+fibro,hUSI,Myfibro_TAGLN_pan,0.5788175857209124,0.574508745259538,0.5829822114841453,366,88,137404,30,donor bootstrap; equal donor weighting
+fibro,hUSI,Myfibro_TPM1_pan,0.5472539711153656,0.5172840955190988,0.57486574245991,71,30,73867,13,donor bootstrap; equal donor weighting
+fibro,hUSI,Myfibro_TUBB2B_pan,0.5185549452508836,0.5048835984255905,0.5320476268055444,123,25,142191,8,donor bootstrap; equal donor weighting
+fibro,hUSI,eFibro_COL1A1_lung,0.3584350913913439,0.3353607636250701,0.3831378499740303,27,10,3215,8,donor bootstrap; equal donor weighting
+fibro,hUSI,eFibro_COL1A1_pan,0.4997955329552827,0.48658788775108525,0.5120084661698916,402,91,170752,30,donor bootstrap; equal donor weighting
+fibro,hUSI,eFibro_COL1A2_pan,0.5792023686995975,0.5676394903038339,0.591406176916059,321,97,122750,29,donor bootstrap; equal donor weighting
+fibro,hUSI,eFibro_COL3A1_lung,0.45386937285290024,0.4307022200222469,0.47739829510973575,30,4,34583,3,donor bootstrap; equal donor weighting
+fibro,hUSI,eFibro_COL3A1_pan,0.5373406857096275,0.5244208326800317,0.5515554983824289,70,37,55060,19,donor bootstrap; equal donor weighting
+fibro,hUSI,eFibro_COL6A1_adipose,0.6503695161290323,,,1,1,31,1,donor bootstrap; equal donor weighting
+fibro,hUSI,eFibro_DCN_heart,0.6024541974230889,0.5948589068172936,0.6108350614203274,78,24,21733,17,donor bootstrap; equal donor weighting
+fibro,hUSI,eFibro_DCN_pan,0.5694682589036691,0.5595721177530534,0.5795806645137233,203,61,106615,25,donor bootstrap; equal donor weighting
+fibro,hUSI,eFibro_DCN_uterus,0.6127409892488515,0.5967476350180004,0.6350264875683678,10,4,3586,4,donor bootstrap; equal donor weighting
+fibro,hUSI,eFibro_HNRNPA1_pan,0.525702454519057,0.5130137800710043,0.538620698789663,101,31,52818,16,donor bootstrap; equal donor weighting
+fibro,hUSI,eFibro_IGFBP7_pan,0.6098672033787924,0.5975048307764356,0.6233489948851604,74,29,46868,13,donor bootstrap; equal donor weighting
+fibro,hUSI,eFibro_SPARC_pan,0.6090602502543423,0.594862763206984,0.6229854094673609,48,19,35654,8,donor bootstrap; equal donor weighting
+fibro,hUSI,iFibro_ARHGDIB_pan,0.5562885211301168,0.5389454201295496,0.5707330282347722,25,15,7626,10,donor bootstrap; equal donor weighting
+fibro,hUSI,iFibro_CD74_bone marrow,0.5041008651120036,0.4897578372763985,0.5209549661575649,45,21,22050,10,donor bootstrap; equal donor weighting
+fibro,hUSI,iFibro_CD74_pan,0.6392942334382768,0.6240115855059032,0.6544134442427497,81,40,15197,18,donor bootstrap; equal donor weighting
+fibro,hUSI,qFibro_APOD_breast,0.5887938477502253,0.5814397640744786,0.5957261836117324,75,24,20242,18,donor bootstrap; equal donor weighting
+fibro,hUSI,qFibro_CFD_pan,0.5799816489224675,0.5754853009431917,0.5843796796021552,150,35,36710,24,donor bootstrap; equal donor weighting
+fibro,hUSI,qFibro_CLU_bone,0.670778119988046,0.656856620227172,0.6846554371551562,25,4,69834,4,donor bootstrap; equal donor weighting
+fibro,hUSI,qFibro_CLU_pan,0.6101037009791097,0.6027481252665869,0.6174021983355487,159,40,84924,21,donor bootstrap; equal donor weighting
+fibro,hUSI,qFibro_MGP_eye,0.6646827526705013,,,1,1,1217,1,donor bootstrap; equal donor weighting

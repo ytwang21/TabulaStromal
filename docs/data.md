@@ -43,4 +43,4 @@ Model bundles are excluded because they contain fitted Python objects and may em
 
 ## What is public in this release
 
-Public payload: source code, stripped notebooks, configuration templates, aggregate performance, bootstrap feature summaries, aggregate CellAge associations, and provenance hashes. Excluded: expression matrices, cell/sample mapping files, sample-level predictions and clinical metadata, fitted model bundles, runtime/vendor directories, manuscript drafts, and secrets. These exclusions are enforced by the release audit and `.gitignore`.
+Public payload: source code, stripped notebooks, configuration templates, original result figures, aggregate performance, bootstrap feature summaries, aggregate CellAge associations, three Results drafts with editable Word versions, and provenance hashes. Excluded: expression matrices, cell/sample mapping files, sample-level predictions and clinical metadata, fitted model bundles, runtime/vendor directories, unreleased manuscript sections, and secrets. These exclusions are enforced by the release audit and `.gitignore`.

@@ -1,0 +1,40 @@
+tissue,n_cells
+skin,665082
+brain,494751
+breast,493731
+lung,421836
+bone marrow,397614
+uterus,377946
+peripheral nerve,342647
+embryo,315299
+heart,271229
+kidney,242608
+adipose,230650
+eye,196342
+ovary,186919
+bone,175372
+vessel,148917
+muscle,146072
+liver,128376
+pancreas,103785
+testis,83846
+prostate,75559
+ascites,65149
+oral cavity,58081
+tonsil,54548
+colon,45583
+thymus,44581
+soft tissue,23433
+limb,22637
+intestine,19106
+lymph,15402
+esophagus,13900
+stomach,13474
+ear,11283
+neck,11002
+airway,9617
+bladder,6899
+spleen,2010
+glands,893
+carcinoma,351
+nose,230

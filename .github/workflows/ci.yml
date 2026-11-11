@@ -26,6 +26,7 @@ jobs:
       - run: python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
       - run: python -m pip install -r requirements/benchmark.txt
       - run: python scripts/validate_repository.py --verify-checksums
+      - run: python scripts/validate_results_release.py
       - run: python -m unittest discover -s tests -v
       - run: python -m unittest discover -s workflows/benchmark/tests -p 'test_*.py' -v
   cellage:

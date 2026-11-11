@@ -1,0 +1,504 @@
+check,passed
+Asset bytes/hash: F1_StromalAtlas/figures/Fig1A_Fibroblast_Celltype_general.png,True
+Original unaltered figure: F1_StromalAtlas/figures/Fig1A_Fibroblast_Celltype_general.png,True
+Figure file signature: F1_StromalAtlas/figures/Fig1A_Fibroblast_Celltype_general.png,True
+Asset bytes/hash: F1_StromalAtlas/figures/Fig1B_Endothelial_Celltype_general.png,True
+Original unaltered figure: F1_StromalAtlas/figures/Fig1B_Endothelial_Celltype_general.png,True
+Figure file signature: F1_StromalAtlas/figures/Fig1B_Endothelial_Celltype_general.png,True
+Asset bytes/hash: F1_StromalAtlas/figures/Fig1C_Fibroblast_Tissue_from_Celltype.png,True
+Original unaltered figure: F1_StromalAtlas/figures/Fig1C_Fibroblast_Tissue_from_Celltype.png,True
+Figure file signature: F1_StromalAtlas/figures/Fig1C_Fibroblast_Tissue_from_Celltype.png,True
+Asset bytes/hash: F1_StromalAtlas/figures/Fig1D_Endothelial_Tissue_from_Celltype.png,True
+Original unaltered figure: F1_StromalAtlas/figures/Fig1D_Endothelial_Tissue_from_Celltype.png,True
+Figure file signature: F1_StromalAtlas/figures/Fig1D_Endothelial_Tissue_from_Celltype.png,True
+Asset bytes/hash: F1_StromalAtlas/figures/Fig1E_tissue_summary.png,True
+Original unaltered figure: F1_StromalAtlas/figures/Fig1E_tissue_summary.png,True
+Figure file signature: F1_StromalAtlas/figures/Fig1E_tissue_summary.png,True
+Asset bytes/hash: F1_StromalAtlas/figures/Fig1F_age_summary.png,True
+Original unaltered figure: F1_StromalAtlas/figures/Fig1F_age_summary.png,True
+Figure file signature: F1_StromalAtlas/figures/Fig1F_age_summary.png,True
+Asset bytes/hash: F1_StromalAtlas/figures/Fig1G_Fibroblast_markers.png,True
+Original unaltered figure: F1_StromalAtlas/figures/Fig1G_Fibroblast_markers.png,True
+Figure file signature: F1_StromalAtlas/figures/Fig1G_Fibroblast_markers.png,True
+Asset bytes/hash: F1_StromalAtlas/figures/Fig1H_Endothelial_markers.png,True
+Original unaltered figure: F1_StromalAtlas/figures/Fig1H_Endothelial_markers.png,True
+Figure file signature: F1_StromalAtlas/figures/Fig1H_Endothelial_markers.png,True
+Asset bytes/hash: F1_StromalAtlas/figures/Fig1I_Fibroblast_signatures.png,True
+Original unaltered figure: F1_StromalAtlas/figures/Fig1I_Fibroblast_signatures.png,True
+Figure file signature: F1_StromalAtlas/figures/Fig1I_Fibroblast_signatures.png,True
+Asset bytes/hash: F1_StromalAtlas/figures/Fig1J_Endothelial_signatures.png,True
+Original unaltered figure: F1_StromalAtlas/figures/Fig1J_Endothelial_signatures.png,True
+Figure file signature: F1_StromalAtlas/figures/Fig1J_Endothelial_signatures.png,True
+Asset bytes/hash: F1_StromalAtlas/figures/Fig1_StromalAtlas_main.png,True
+Original unaltered figure: F1_StromalAtlas/figures/Fig1_StromalAtlas_main.png,True
+Figure file signature: F1_StromalAtlas/figures/Fig1_StromalAtlas_main.png,True
+Asset bytes/hash: F1_StromalAtlas/figures/Fig1_StromalAtlas_main.pdf,True
+Original unaltered figure: F1_StromalAtlas/figures/Fig1_StromalAtlas_main.pdf,True
+Figure file signature: F1_StromalAtlas/figures/Fig1_StromalAtlas_main.pdf,True
+Asset bytes/hash: F1_StromalAtlas/figures/ExtendFig1_subtype_umap_composition_preview.png,True
+Original unaltered figure: F1_StromalAtlas/figures/ExtendFig1_subtype_umap_composition_preview.png,True
+Figure file signature: F1_StromalAtlas/figures/ExtendFig1_subtype_umap_composition_preview.png,True
+Asset bytes/hash: F1_StromalAtlas/figures/ExtendFig1_subtype_umap_composition.pdf,True
+Original unaltered figure: F1_StromalAtlas/figures/ExtendFig1_subtype_umap_composition.pdf,True
+Figure file signature: F1_StromalAtlas/figures/ExtendFig1_subtype_umap_composition.pdf,True
+Asset bytes/hash: F1_StromalAtlas/figures/ExtFig1_SignatureScore_preview.png,True
+Original unaltered figure: F1_StromalAtlas/figures/ExtFig1_SignatureScore_preview.png,True
+Figure file signature: F1_StromalAtlas/figures/ExtFig1_SignatureScore_preview.png,True
+Asset bytes/hash: F1_StromalAtlas/figures/ExtFig1_SignatureScore_Fibro_Endo.pdf,True
+Original unaltered figure: F1_StromalAtlas/figures/ExtFig1_SignatureScore_Fibro_Endo.pdf,True
+Figure file signature: F1_StromalAtlas/figures/ExtFig1_SignatureScore_Fibro_Endo.pdf,True
+Asset bytes/hash: F1_StromalAtlas/figures/Extended_Figure1_TISCH.pdf,True
+Original unaltered figure: F1_StromalAtlas/figures/Extended_Figure1_TISCH.pdf,True
+Figure file signature: F1_StromalAtlas/figures/Extended_Figure1_TISCH.pdf,True
+Asset bytes/hash: F1_StromalAtlas/figures/Extended_Figure1_HUSCH.pdf,True
+Original unaltered figure: F1_StromalAtlas/figures/Extended_Figure1_HUSCH.pdf,True
+Figure file signature: F1_StromalAtlas/figures/Extended_Figure1_HUSCH.pdf,True
+Asset bytes/hash: F1_StromalAtlas/tables/figure1/endo_Age_group_summary.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/figure1/endo_Celltype_to_Tissue_mapping.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/figure1/endo_Tissue_from_Celltype_summary.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/figure1/fibro_Age_group_summary.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/figure1/fibro_Celltype_to_Tissue_mapping.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/figure1/fibro_Tissue_from_Celltype_summary.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/fibro/counts_general.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/fibro/counts_subtype.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/fibro/counts_celltype.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/fibro/counts_tissue.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/fibro/counts_age_group.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/fibro/marker_summary.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/fibro/signature_mean.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/signatures/marker_combination_train_holdout_fibro.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/signatures/plot_reference_umap_signatures_fibro.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/endo/counts_general.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/endo/counts_subtype.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/endo/counts_celltype.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/endo/counts_tissue.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/endo/counts_age_group.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/endo/marker_summary.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/endo/signature_mean.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/signatures/marker_combination_train_holdout_endo.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/signatures/plot_reference_umap_signatures_endo.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/signatures/plot_reference_cluster_check.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/filtering/dataset_audit.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/filtering/full_reference_cell_counts.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/filtering/full_saved_filter_counts.csv,True
+Asset bytes/hash: F1_StromalAtlas/tables/filtering/stored_evaluation_all_lineages.csv,True
+Asset bytes/hash: F2_ModelPerformance/figures/TabulaStromal_Workflow_V6.png,True
+Original unaltered figure: F2_ModelPerformance/figures/TabulaStromal_Workflow_V6.png,True
+Figure file signature: F2_ModelPerformance/figures/TabulaStromal_Workflow_V6.png,True
+Asset bytes/hash: F2_ModelPerformance/figures/Fig2_StromalClock_ModelPerformance.png,True
+Original unaltered figure: F2_ModelPerformance/figures/Fig2_StromalClock_ModelPerformance.png,True
+Figure file signature: F2_ModelPerformance/figures/Fig2_StromalClock_ModelPerformance.png,True
+Asset bytes/hash: F2_ModelPerformance/figures/Fig2_StromalClock_ModelPerformance.pdf,True
+Original unaltered figure: F2_ModelPerformance/figures/Fig2_StromalClock_ModelPerformance.pdf,True
+Figure file signature: F2_ModelPerformance/figures/Fig2_StromalClock_ModelPerformance.pdf,True
+Asset bytes/hash: F2_ModelPerformance/figures/panels/Fig2B_R2_heatmap.pdf,True
+Original unaltered figure: F2_ModelPerformance/figures/panels/Fig2B_R2_heatmap.pdf,True
+Figure file signature: F2_ModelPerformance/figures/panels/Fig2B_R2_heatmap.pdf,True
+Asset bytes/hash: F2_ModelPerformance/figures/panels/Fig2B_R2_heatmap.png,True
+Original unaltered figure: F2_ModelPerformance/figures/panels/Fig2B_R2_heatmap.png,True
+Figure file signature: F2_ModelPerformance/figures/panels/Fig2B_R2_heatmap.png,True
+Asset bytes/hash: F2_ModelPerformance/figures/panels/Fig2C_MAE_heatmap.pdf,True
+Original unaltered figure: F2_ModelPerformance/figures/panels/Fig2C_MAE_heatmap.pdf,True
+Figure file signature: F2_ModelPerformance/figures/panels/Fig2C_MAE_heatmap.pdf,True
+Asset bytes/hash: F2_ModelPerformance/figures/panels/Fig2C_MAE_heatmap.png,True
+Original unaltered figure: F2_ModelPerformance/figures/panels/Fig2C_MAE_heatmap.png,True
+Figure file signature: F2_ModelPerformance/figures/panels/Fig2C_MAE_heatmap.png,True
+Asset bytes/hash: F2_ModelPerformance/figures/panels/Fig2D_MAD_heatmap.pdf,True
+Original unaltered figure: F2_ModelPerformance/figures/panels/Fig2D_MAD_heatmap.pdf,True
+Figure file signature: F2_ModelPerformance/figures/panels/Fig2D_MAD_heatmap.pdf,True
+Asset bytes/hash: F2_ModelPerformance/figures/panels/Fig2D_MAD_heatmap.png,True
+Original unaltered figure: F2_ModelPerformance/figures/panels/Fig2D_MAD_heatmap.png,True
+Figure file signature: F2_ModelPerformance/figures/panels/Fig2D_MAD_heatmap.png,True
+Asset bytes/hash: F2_ModelPerformance/figures/panels/Fig2E_Fibro_squareplot.pdf,True
+Original unaltered figure: F2_ModelPerformance/figures/panels/Fig2E_Fibro_squareplot.pdf,True
+Figure file signature: F2_ModelPerformance/figures/panels/Fig2E_Fibro_squareplot.pdf,True
+Asset bytes/hash: F2_ModelPerformance/figures/panels/Fig2E_Fibro_squareplot.png,True
+Original unaltered figure: F2_ModelPerformance/figures/panels/Fig2E_Fibro_squareplot.png,True
+Figure file signature: F2_ModelPerformance/figures/panels/Fig2E_Fibro_squareplot.png,True
+Asset bytes/hash: F2_ModelPerformance/figures/panels/Fig2F_Endo_squareplot.pdf,True
+Original unaltered figure: F2_ModelPerformance/figures/panels/Fig2F_Endo_squareplot.pdf,True
+Figure file signature: F2_ModelPerformance/figures/panels/Fig2F_Endo_squareplot.pdf,True
+Asset bytes/hash: F2_ModelPerformance/figures/panels/Fig2F_Endo_squareplot.png,True
+Original unaltered figure: F2_ModelPerformance/figures/panels/Fig2F_Endo_squareplot.png,True
+Figure file signature: F2_ModelPerformance/figures/panels/Fig2F_Endo_squareplot.png,True
+Asset bytes/hash: F2_ModelPerformance/tables/Fig2_performance_long.csv,True
+Asset bytes/hash: F2_ModelPerformance/tables/Fig2_scatter_metrics.csv,True
+Asset bytes/hash: F2_ModelPerformance/tables/Fig2_metric_validation.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_GO_Reactome_KEGG_enrichment.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_GO_Reactome_KEGG_enrichment.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_GO_Reactome_KEGG_enrichment.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_GO_Reactome_KEGG_enrichment.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_GO_Reactome_KEGG_enrichment.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_GO_Reactome_KEGG_enrichment.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_aging_sets_overlap.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_aging_sets_overlap.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_aging_sets_overlap.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_aging_sets_overlap.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_aging_sets_overlap.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_aging_sets_overlap.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_bootstrap_selection_frequency.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_bootstrap_selection_frequency.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_bootstrap_selection_frequency.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_bootstrap_selection_frequency.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_bootstrap_selection_frequency.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_bootstrap_selection_frequency.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_external_combined_noadapt.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_external_combined_noadapt.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_external_combined_noadapt.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_external_combined_noadapt.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_external_combined_noadapt.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_external_combined_noadapt.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_external_ft30_comparison.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_external_ft30_comparison.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_external_ft30_comparison.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_external_ft30_comparison.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_external_ft30_comparison.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_external_ft30_comparison.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_gene_age_associations.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_gene_age_associations.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_gene_age_associations.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_gene_age_associations.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_gene_age_associations.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_gene_age_associations.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_internal_cv.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_internal_cv.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_internal_cv.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_internal_cv.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_internal_cv.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_internal_cv.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_pathway_overlaps.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_pathway_overlaps.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_pathway_overlaps.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_pathway_overlaps.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_pathway_overlaps.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_pathway_overlaps.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_per_gse.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_per_gse.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_per_gse.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_per_gse.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_per_gse.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_per_gse.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_celltypes.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_celltypes.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_celltypes.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_celltypes.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_celltypes.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_celltypes.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_features.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_features.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_features.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_features.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_features.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_features.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_genes.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_genes.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_genes.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_genes.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_genes.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_stable_genes.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_subtype_pathways.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_subtype_pathways.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_subtype_pathways.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_subtype_pathways.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_subtype_pathways.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/final_clock_subtype_pathways.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/Fig3_TabulaStromal_Fibro_FINAL.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/Fig3_TabulaStromal_Fibro_FINAL.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/Fig3_TabulaStromal_Fibro_FINAL.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Fibro/Fig3_TabulaStromal_Fibro_FINAL.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Fibro/Fig3_TabulaStromal_Fibro_FINAL.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Fibro/Fig3_TabulaStromal_Fibro_FINAL.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Fibro/benchmark/cv_summary.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Fibro/benchmark/cv_fold_metrics.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Fibro/benchmark/model_comparison.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Fibro/external/final_clock_external_combined_metrics.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Fibro/external/final_clock_external_protocol_comparison.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Fibro/external/final_clock_per_gse_metrics.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Fibro/stability/stable_Celltype_Gene.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Fibro/stability/stable_celltypes_ranked.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Fibro/stability/stable_genes_unique.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Fibro/stability/final_clock_internal_cv_summary.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Fibro/stability/final_clock_internal_cv_metrics.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Fibro/stability/final_clock_paired_cv_comparison.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Fibro/stability/stable_feature_counts_summary.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Fibro/enrichment/final_clock_enrichment_summary.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Fibro/enrichment/final_clock_gene_set_provenance.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Fibro/enrichment/final_clock_stable_gene_age_association.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Fibro/enrichment/global_pathway_enrichment.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_GO_Reactome_KEGG_enrichment.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_GO_Reactome_KEGG_enrichment.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_GO_Reactome_KEGG_enrichment.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_GO_Reactome_KEGG_enrichment.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_GO_Reactome_KEGG_enrichment.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_GO_Reactome_KEGG_enrichment.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_aging_sets_overlap.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_aging_sets_overlap.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_aging_sets_overlap.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_aging_sets_overlap.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_aging_sets_overlap.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_aging_sets_overlap.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_bootstrap_selection_frequency.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_bootstrap_selection_frequency.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_bootstrap_selection_frequency.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_bootstrap_selection_frequency.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_bootstrap_selection_frequency.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_bootstrap_selection_frequency.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_external_combined_noadapt.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_external_combined_noadapt.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_external_combined_noadapt.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_external_combined_noadapt.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_external_combined_noadapt.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_external_combined_noadapt.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_external_ft30_comparison.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_external_ft30_comparison.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_external_ft30_comparison.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_external_ft30_comparison.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_external_ft30_comparison.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_external_ft30_comparison.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_gene_age_associations.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_gene_age_associations.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_gene_age_associations.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_gene_age_associations.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_gene_age_associations.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_gene_age_associations.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_internal_cv.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_internal_cv.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_internal_cv.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_internal_cv.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_internal_cv.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_internal_cv.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_pathway_overlaps.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_pathway_overlaps.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_pathway_overlaps.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_pathway_overlaps.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_pathway_overlaps.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_pathway_overlaps.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_per_gse.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_per_gse.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_per_gse.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_per_gse.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_per_gse.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_per_gse.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_celltypes.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_celltypes.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_celltypes.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_celltypes.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_celltypes.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_celltypes.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_features.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_features.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_features.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_features.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_features.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_features.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_genes.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_genes.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_genes.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_genes.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_genes.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_stable_genes.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_subtype_pathways.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_subtype_pathways.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_subtype_pathways.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_subtype_pathways.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_subtype_pathways.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/final_clock_subtype_pathways.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/Fig3_TabulaStromal_Endo_FINAL.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/Fig3_TabulaStromal_Endo_FINAL.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/Fig3_TabulaStromal_Endo_FINAL.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/Endo/Fig3_TabulaStromal_Endo_FINAL.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/Endo/Fig3_TabulaStromal_Endo_FINAL.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/Endo/Fig3_TabulaStromal_Endo_FINAL.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Endo/benchmark/cv_summary.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Endo/benchmark/cv_fold_metrics.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Endo/benchmark/model_comparison.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Endo/external/final_clock_external_combined_metrics.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Endo/external/final_clock_external_protocol_comparison.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Endo/external/final_clock_per_gse_metrics.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Endo/stability/stable_Celltype_Gene.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Endo/stability/stable_celltypes_ranked.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Endo/stability/stable_genes_unique.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Endo/stability/final_clock_internal_cv_summary.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Endo/stability/final_clock_internal_cv_metrics.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Endo/stability/final_clock_paired_cv_comparison.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Endo/stability/stable_feature_counts_summary.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Endo/enrichment/final_clock_enrichment_summary.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Endo/enrichment/final_clock_gene_set_provenance.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Endo/enrichment/final_clock_stable_gene_age_association.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/tables/Endo/enrichment/global_pathway_enrichment.csv,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/combined/Stromal_individual_aging_clock_Fibroblast_Endothelial_FINAL_v2.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/combined/Stromal_individual_aging_clock_Fibroblast_Endothelial_FINAL_v2.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/combined/Stromal_individual_aging_clock_Fibroblast_Endothelial_FINAL_v2.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/combined/Stromal_individual_aging_clock_Fibroblast_Endothelial_FINAL_v2.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/combined/Stromal_individual_aging_clock_Fibroblast_Endothelial_FINAL_v2.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/combined/Stromal_individual_aging_clock_Fibroblast_Endothelial_FINAL_v2.pdf,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/combined/Stromal_FinalClock_shared_specific_genes.png,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/combined/Stromal_FinalClock_shared_specific_genes.png,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/combined/Stromal_FinalClock_shared_specific_genes.png,True
+Asset bytes/hash: TabulaStromal_Rebenchmark_2026/figures/combined/Stromal_FinalClock_shared_specific_genes.pdf,True
+Original unaltered figure: TabulaStromal_Rebenchmark_2026/figures/combined/Stromal_FinalClock_shared_specific_genes.pdf,True
+Figure file signature: TabulaStromal_Rebenchmark_2026/figures/combined/Stromal_FinalClock_shared_specific_genes.pdf,True
+Asset bytes/hash: CellAge_Exploration/figures/Fig_CellAge_Stromal_Integration.pdf,True
+Original unaltered figure: CellAge_Exploration/figures/Fig_CellAge_Stromal_Integration.pdf,True
+Figure file signature: CellAge_Exploration/figures/Fig_CellAge_Stromal_Integration.pdf,True
+Asset bytes/hash: CellAge_Exploration/figures/Fig_CellAge_Stromal_Integration.png,True
+Original unaltered figure: CellAge_Exploration/figures/Fig_CellAge_Stromal_Integration.png,True
+Figure file signature: CellAge_Exploration/figures/Fig_CellAge_Stromal_Integration.png,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/A_fibro_embedding.pdf,True
+Original unaltered figure: CellAge_Exploration/figures/panels/A_fibro_embedding.pdf,True
+Figure file signature: CellAge_Exploration/figures/panels/A_fibro_embedding.pdf,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/A_fibro_embedding.png,True
+Original unaltered figure: CellAge_Exploration/figures/panels/A_fibro_embedding.png,True
+Figure file signature: CellAge_Exploration/figures/panels/A_fibro_embedding.png,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/B_endo_embedding.pdf,True
+Original unaltered figure: CellAge_Exploration/figures/panels/B_endo_embedding.pdf,True
+Figure file signature: CellAge_Exploration/figures/panels/B_endo_embedding.pdf,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/B_endo_embedding.png,True
+Original unaltered figure: CellAge_Exploration/figures/panels/B_endo_embedding.png,True
+Figure file signature: CellAge_Exploration/figures/panels/B_endo_embedding.png,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/C_fibro_ranking.pdf,True
+Original unaltered figure: CellAge_Exploration/figures/panels/C_fibro_ranking.pdf,True
+Figure file signature: CellAge_Exploration/figures/panels/C_fibro_ranking.pdf,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/C_fibro_ranking.png,True
+Original unaltered figure: CellAge_Exploration/figures/panels/C_fibro_ranking.png,True
+Figure file signature: CellAge_Exploration/figures/panels/C_fibro_ranking.png,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/D_endo_ranking.pdf,True
+Original unaltered figure: CellAge_Exploration/figures/panels/D_endo_ranking.pdf,True
+Figure file signature: CellAge_Exploration/figures/panels/D_endo_ranking.pdf,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/D_endo_ranking.png,True
+Original unaltered figure: CellAge_Exploration/figures/panels/D_endo_ranking.png,True
+Figure file signature: CellAge_Exploration/figures/panels/D_endo_ranking.png,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/E_fibro_age.pdf,True
+Original unaltered figure: CellAge_Exploration/figures/panels/E_fibro_age.pdf,True
+Figure file signature: CellAge_Exploration/figures/panels/E_fibro_age.pdf,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/E_fibro_age.png,True
+Original unaltered figure: CellAge_Exploration/figures/panels/E_fibro_age.png,True
+Figure file signature: CellAge_Exploration/figures/panels/E_fibro_age.png,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/F_endo_age.pdf,True
+Original unaltered figure: CellAge_Exploration/figures/panels/F_endo_age.pdf,True
+Figure file signature: CellAge_Exploration/figures/panels/F_endo_age.pdf,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/F_endo_age.png,True
+Original unaltered figure: CellAge_Exploration/figures/panels/F_endo_age.png,True
+Figure file signature: CellAge_Exploration/figures/panels/F_endo_age.png,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/G_fibro_sid.pdf,True
+Original unaltered figure: CellAge_Exploration/figures/panels/G_fibro_sid.pdf,True
+Figure file signature: CellAge_Exploration/figures/panels/G_fibro_sid.pdf,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/G_fibro_sid.png,True
+Original unaltered figure: CellAge_Exploration/figures/panels/G_fibro_sid.png,True
+Figure file signature: CellAge_Exploration/figures/panels/G_fibro_sid.png,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/H_endo_sid.pdf,True
+Original unaltered figure: CellAge_Exploration/figures/panels/H_endo_sid.pdf,True
+Figure file signature: CellAge_Exploration/figures/panels/H_endo_sid.pdf,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/H_endo_sid.png,True
+Original unaltered figure: CellAge_Exploration/figures/panels/H_endo_sid.png,True
+Figure file signature: CellAge_Exploration/figures/panels/H_endo_sid.png,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/I_fibro_feature_integration.pdf,True
+Original unaltered figure: CellAge_Exploration/figures/panels/I_fibro_feature_integration.pdf,True
+Figure file signature: CellAge_Exploration/figures/panels/I_fibro_feature_integration.pdf,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/I_fibro_feature_integration.png,True
+Original unaltered figure: CellAge_Exploration/figures/panels/I_fibro_feature_integration.png,True
+Figure file signature: CellAge_Exploration/figures/panels/I_fibro_feature_integration.png,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/J_endo_feature_integration.pdf,True
+Original unaltered figure: CellAge_Exploration/figures/panels/J_endo_feature_integration.pdf,True
+Figure file signature: CellAge_Exploration/figures/panels/J_endo_feature_integration.pdf,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/J_endo_feature_integration.png,True
+Original unaltered figure: CellAge_Exploration/figures/panels/J_endo_feature_integration.png,True
+Figure file signature: CellAge_Exploration/figures/panels/J_endo_feature_integration.png,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/K_fibro_pathways.pdf,True
+Original unaltered figure: CellAge_Exploration/figures/panels/K_fibro_pathways.pdf,True
+Figure file signature: CellAge_Exploration/figures/panels/K_fibro_pathways.pdf,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/K_fibro_pathways.png,True
+Original unaltered figure: CellAge_Exploration/figures/panels/K_fibro_pathways.png,True
+Figure file signature: CellAge_Exploration/figures/panels/K_fibro_pathways.png,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/L_endo_pathways.pdf,True
+Original unaltered figure: CellAge_Exploration/figures/panels/L_endo_pathways.pdf,True
+Figure file signature: CellAge_Exploration/figures/panels/L_endo_pathways.pdf,True
+Asset bytes/hash: CellAge_Exploration/figures/panels/L_endo_pathways.png,True
+Original unaltered figure: CellAge_Exploration/figures/panels/L_endo_pathways.png,True
+Figure file signature: CellAge_Exploration/figures/panels/L_endo_pathways.png,True
+Asset bytes/hash: CellAge_Exploration/tables/cohort_overview.csv,True
+Asset bytes/hash: CellAge_Exploration/tables/endo_age_associations.csv,True
+Asset bytes/hash: CellAge_Exploration/tables/endo_clock_associations.csv,True
+Asset bytes/hash: CellAge_Exploration/tables/endo_pathway_enrichment_significant.csv,True
+Asset bytes/hash: CellAge_Exploration/tables/endo_score_feature_gene_overlap.csv,True
+Asset bytes/hash: CellAge_Exploration/tables/endo_score_qc.csv,True
+Asset bytes/hash: CellAge_Exploration/tables/endo_subtype_contrasts.csv,True
+Asset bytes/hash: CellAge_Exploration/tables/endo_subtype_ranking.csv,True
+Asset bytes/hash: CellAge_Exploration/tables/fibro_age_associations.csv,True
+Asset bytes/hash: CellAge_Exploration/tables/fibro_clock_associations.csv,True
+Asset bytes/hash: CellAge_Exploration/tables/fibro_pathway_enrichment_significant.csv,True
+Asset bytes/hash: CellAge_Exploration/tables/fibro_score_feature_gene_overlap.csv,True
+Asset bytes/hash: CellAge_Exploration/tables/fibro_score_qc.csv,True
+Asset bytes/hash: CellAge_Exploration/tables/fibro_subtype_contrasts.csv,True
+Asset bytes/hash: CellAge_Exploration/tables/fibro_subtype_ranking.csv,True
+117 original figure files,True
+81 released aggregate tables,True
+847 figure candidates,True
+Published figure mapping,True
+Complete source summary count,True
+Claim exists in section: Atlas scale and metadata coverage,True
+Evidence IDs resolve: Atlas scale and metadata coverage,True
+Claim exists in section: Atlas scale and metadata coverage,True
+Evidence IDs resolve: Atlas scale and metadata coverage,True
+Claim exists in section: Hierarchical annotation and full-source expression summaries,True
+Evidence IDs resolve: Hierarchical annotation and full-source expression summaries,True
+Claim exists in section: Hierarchical annotation and full-source expression summaries,True
+Evidence IDs resolve: Hierarchical annotation and full-source expression summaries,True
+Claim exists in section: Retrospective signature agreement and exploratory resources,True
+Evidence IDs resolve: Retrospective signature agreement and exploratory resources,True
+Claim exists in section: Retrospective signature agreement and exploratory resources,True
+Evidence IDs resolve: Retrospective signature agreement and exploratory resources,True
+Claim exists in section: Clock overview and complete grouped benchmark,True
+Evidence IDs resolve: Clock overview and complete grouped benchmark,True
+Claim exists in section: Clock overview and complete grouped benchmark,True
+Evidence IDs resolve: Clock overview and complete grouped benchmark,True
+Claim exists in section: Internal performance and source-figure scope,True
+Evidence IDs resolve: Internal performance and source-figure scope,True
+Claim exists in section: Internal performance and source-figure scope,True
+Evidence IDs resolve: Internal performance and source-figure scope,True
+Claim exists in section: Internal performance and source-figure scope,True
+Evidence IDs resolve: Internal performance and source-figure scope,True
+Claim exists in section: A separate final interpretable ElasticNet branch,True
+Evidence IDs resolve: A separate final interpretable ElasticNet branch,True
+Claim exists in section: External transfer depends on adaptation and the evaluation population,True
+Evidence IDs resolve: External transfer depends on adaptation and the evaluation population,True
+Claim exists in section: External transfer depends on adaptation and the evaluation population,True
+Evidence IDs resolve: External transfer depends on adaptation and the evaluation population,True
+Claim exists in section: External transfer depends on adaptation and the evaluation population,True
+Evidence IDs resolve: External transfer depends on adaptation and the evaluation population,True
+Claim exists in section: CellAge identifies subtype differences without a confirmed adjusted age association,True
+Evidence IDs resolve: CellAge identifies subtype differences without a confirmed adjusted age association,True
+Claim exists in section: CellAge identifies subtype differences without a confirmed adjusted age association,True
+Evidence IDs resolve: CellAge identifies subtype differences without a confirmed adjusted age association,True
+Claim exists in section: CellAge identifies subtype differences without a confirmed adjusted age association,True
+Evidence IDs resolve: CellAge identifies subtype differences without a confirmed adjusted age association,True
+Claim exists in section: Group-bootstrap stability and subtype support,True
+Evidence IDs resolve: Group-bootstrap stability and subtype support,True
+Claim exists in section: Group-bootstrap stability and subtype support,True
+Evidence IDs resolve: Group-bootstrap stability and subtype support,True
+Claim exists in section: Stable-feature restriction did not improve age prediction,True
+Evidence IDs resolve: Stable-feature restriction did not improve age prediction,True
+Claim exists in section: Shared membership is not matched causal direction,True
+Evidence IDs resolve: Shared membership is not matched causal direction,True
+Claim exists in section: Functional annotation separates matrix-associated and vesicle-associated signals,True
+Evidence IDs resolve: Functional annotation separates matrix-associated and vesicle-associated signals,True
+Claim exists in section: Functional annotation separates matrix-associated and vesicle-associated signals,True
+Evidence IDs resolve: Functional annotation separates matrix-associated and vesicle-associated signals,True
+Claim exists in section: Functional annotation separates matrix-associated and vesicle-associated signals,True
+Evidence IDs resolve: Functional annotation separates matrix-associated and vesicle-associated signals,True
+Claim exists in section: Expression–age associations define follow-up hypotheses,True
+Evidence IDs resolve: Expression–age associations define follow-up hypotheses,True
+F1_StromalAtlas module evidence exists,True
+F1_StromalAtlas figures displayed,True
+F2_ModelPerformance module evidence exists,True
+F2_ModelPerformance figures displayed,True
+TabulaStromal_Rebenchmark_2026 module evidence exists,True
+TabulaStromal_Rebenchmark_2026 figures displayed,True
+CellAge_Exploration module evidence exists,True
+CellAge_Exploration figures displayed,True
+All eight Results external-table rows match source,True
+Editable Word text: Results_Part1_StromalAtlas.docx,True
+Editable Word text: Results_Part2_ClockPerformance_CellAge.docx,True
+Editable Word text: Results_Part3_StableFeatures_Mechanisms.docx,True
+Editable Word text: TabulaStromal_Results_Combined.docx,True
+Editable Word text: Figure_Legends.docx,True

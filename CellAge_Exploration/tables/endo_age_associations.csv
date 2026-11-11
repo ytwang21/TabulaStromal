@@ -1,0 +1,502 @@
+score,celltype,sensitivity,adjusted,spearman_rho,age_min,age_max,scope,n_rows,n_donors,n_gse,effect,ci_low,ci_high,p,adjustment,status,n_redundant_nuisance_columns,q,lineage
+hUSI,ArtEC_ARL15_pan,min_cells_10,False,,40.0,72.0,multi-GSE association,6,6,4,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,min_cells_10,False,0.15453523393955695,0.066,99.0,multi-GSE association,175,175,49,0.00022802527968276975,-9.109908721505606e-05,0.0005471496465805955,0.1602450784180277,,ok,0.0,0.3080289318893288,endo
+hUSI,ArtEC_FLT1_brain,min_cells_10,False,0.1352384692274494,35.0,95.0,multi-GSE association,44,44,6,0.0003742023517980006,-1.4286108408333978e-05,0.0007626908120043352,0.05864007509573396,,ok,0.0,0.1612602065132684,endo
+hUSI,ArtEC_FLT1_pan,min_cells_10,False,0.10827312768639492,0.0,95.0,multi-GSE association,95,95,18,0.00010749750656642251,-0.00015514886813600148,0.0003701438812688465,0.4184738082781848,,ok,0.0,0.4845486201115824,endo
+hUSI,ArtEC_THY1_pan,min_cells_10,False,-0.005978534340632771,8.0,95.0,multi-GSE association,51,51,11,0.00040268853838901,-0.0003351229245212584,0.0011405000012992784,0.27822270736817617,,ok,0.0,0.3825562226312422,endo
+hUSI,CapEC_DCN_breast,min_cells_10,False,,25.0,68.0,multi-GSE association,7,7,6,,,,,,insufficient_support,,,endo
+hUSI,CapEC_FLT1_uterus,min_cells_10,False,,6.0,78.0,multi-GSE association,10,10,5,,,,,,insufficient_support,,,endo
+hUSI,CapEC_GNG11_pan,min_cells_10,False,-0.0505143205999571,0.003,68.0,multi-GSE association,36,36,16,-0.001311946788380741,-0.0029616804352043963,0.0003377868584429147,0.11541306425845585,,ok,0.0,0.25390874136860286,endo
+hUSI,CapEC_TAGLN_pan,min_cells_10,False,,3.0,56.0,multi-GSE association,4,4,3,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TAGLN_prostate,min_cells_10,False,-0.1286790548155651,0.008,83.0,multi-GSE association,26,26,12,-0.00023607451065277426,-0.0008667238000254049,0.00039457477871985636,0.4479570109281098,,ok,0.0,0.4927527120209208,endo
+hUSI,CapEC_TM4SF1_breast,min_cells_10,False,0.2574333594277119,0.167,83.0,multi-GSE association,20,20,9,0.00047921048485319436,-0.00023353673373434792,0.0011919577034407366,0.1755081338679742,,ok,0.0,0.3080289318893288,endo
+hUSI,CapEC_TM4SF1_pan,min_cells_10,False,0.11981803489435885,0.003,99.0,multi-GSE association,258,258,59,0.00020285312452873912,2.9393423031191546e-05,0.0003763128260262867,0.0220817557657076,,ok,0.0,0.0763153116484277,endo
+hUSI,EndoMT_CD3D_pan,min_cells_10,False,,0.17,8.0,cohort-specific exploratory,7,7,2,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_CFD_bone marrow,min_cells_10,False,0.4091812198344681,0.0,77.0,multi-GSE association,33,33,14,0.0007585599242796613,-7.790947884293647e-05,0.001595029327402259,0.07398057523413805,,ok,0.0,0.18084140612789298,endo
+hUSI,EndoMT_CFD_pan,min_cells_10,False,0.2533102911346358,0.0,86.0,multi-GSE association,109,109,45,0.00045124231546037443,9.956251350062004e-05,0.0008029221174201288,0.01239565431650133,,ok,0.0,0.06817609874075731,endo
+hUSI,EndoMT_CLU_eye,min_cells_10,False,,0.11,0.11,cohort-specific exploratory,5,5,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_COL1A1_pan,min_cells_10,False,,0.0,44.0,multi-GSE association,8,8,6,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_EFEMP1_skin,min_cells_10,False,,0.008,0.008,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_GNG11_vessel,min_cells_10,False,,0.0,34.0,multi-GSE association,6,6,3,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_PTN_pan,min_cells_10,False,0.2597165439360855,0.0,99.0,multi-GSE association,59,59,19,0.0005098090736592626,0.00019729616059627338,0.0008223219867222517,0.001836881046355641,,ok,0.0,0.02363274695803154,endo
+hUSI,EndoMT_TAGLN_pan,min_cells_10,False,0.0034871150219579253,0.0,76.0,multi-GSE association,25,25,9,0.00159519933916004,0.0006251330780325602,0.00256526560028752,0.002393068951750426,,ok,0.0,0.02363274695803154,endo
+hUSI,EndoMT_TGFBI_pan,min_cells_10,False,,13.0,13.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_TM4SF1_pan,min_cells_10,False,0.004076112404310141,0.003,76.0,multi-GSE association,69,69,23,-7.627912150777052e-06,-0.0004264929856873985,0.00041123716138584437,0.9711182854291136,,ok,0.0,0.9711182854291136,endo
+hUSI,EndoMT_TPM2_pan,min_cells_10,False,0.32490710873572365,0.0,0.329,multi-GSE association,41,41,19,0.22449413310020255,-0.12055493983045096,0.5695432060308561,0.19601841120230012,,ok,0.0,0.3080289318893288,endo
+hUSI,EndoMT_VIM_pan,min_cells_10,False,0.6072171111315542,0.0,76.0,multi-GSE association,54,54,13,0.000661397691527928,0.0002315174741476795,0.0010912779089081765,0.003222647312458846,,ok,0.0,0.02363274695803154,endo
+hUSI,LEC_EFEMP1_pan,min_cells_10,False,0.11430533994137852,0.077,83.0,multi-GSE association,93,93,24,0.00013141980185130798,-0.00016651999015743804,0.000429359593860054,0.38328282309694606,,ok,0.0,0.46845678378515626,endo
+hUSI,MCs_TPM2_pan,min_cells_10,False,,0.0,0.019,multi-GSE association,3,3,3,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CFD_pan,min_cells_10,False,-0.274581534685677,0.008,80.0,multi-GSE association,59,59,23,-0.0005329693263243185,-0.0009830286994564343,-8.290995319220267e-05,0.021110264758821433,,ok,0.0,0.0763153116484277,endo
+hUSI,VenEC_CLU_eye,min_cells_10,False,0.3848034275656061,0.014,100.0,multi-GSE association,87,87,16,0.0008717781761816011,-0.0008726750070234908,0.0026162313593866933,0.32327476953777334,,ok,0.0,0.4183555841077067,endo
+hUSI,VenEC_CLU_pan,min_cells_10,False,0.17043995405182177,0.014,86.3,multi-GSE association,175,175,44,0.00014017015872257735,-8.755990197893332e-05,0.00036790021942408806,0.22607802619331005,,ok,0.0,0.33158110508352145,endo
+hUSI,VenEC_DCN_breast,min_cells_10,False,,25.0,68.0,multi-GSE association,4,4,3,,,,,,insufficient_support,,,endo
+hUSI,VenEC_EPCAM_pan,min_cells_10,False,,0.014,60.0,multi-GSE association,9,9,4,,,,,,insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,min_cells_10,False,0.06282822058509352,0.077,86.3,multi-GSE association,153,153,38,-1.4846347287371691e-05,-0.0002667088642730479,0.00023701616969830453,0.9074419361154933,,ok,0.0,0.9506534568828977,endo
+hUSI,VenEC_TAGLN_pan,min_cells_10,False,-0.5072682301515219,0.014,73.0,multi-GSE association,14,14,10,-0.0008097321594615439,-0.001496265766291879,-0.00012319855263120873,0.024282144615408813,,ok,0.0,0.0763153116484277,endo
+hUSI,VenEC_TAGLN_pancreas,min_cells_10,False,0.20497105570701635,0.063,68.0,multi-GSE association,45,45,10,0.0005690415228465314,-0.00028264414525861696,0.00142072719095168,0.1850245750488905,,ok,0.0,0.3080289318893288,endo
+hUSI,VenEC_TM4SF1_breast,min_cells_10,False,,0.014,6.0,multi-GSE association,9,9,6,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_ARL15_pan,min_cells_10,True,,40.0,72.0,multi-GSE association,6,6,4,,,,,"tissue,sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,min_cells_10,True,0.15453523393955695,0.066,99.0,multi-GSE association,34,34,8,7.950447837647492e-05,-0.0007501581958912114,0.0009091671526441612,0.8466177288062733,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,8.0,0.9991253946919987,endo
+hUSI,ArtEC_FLT1_brain,min_cells_10,True,0.1352384692274494,35.0,95.0,multi-GSE association,35,35,3,-9.571540965773798e-05,-0.0026165404158713075,0.0024251095965558316,0.9389453360855788,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,4.0,0.9991253946919987,endo
+hUSI,ArtEC_FLT1_pan,min_cells_10,True,0.10827312768639492,0.0,95.0,multi-GSE association,26,26,4,-0.0007169112954827361,-0.0030170098545343315,0.0015831872635688592,0.526760310960159,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,4.0,0.9991253946919987,endo
+hUSI,ArtEC_THY1_pan,min_cells_10,True,-0.005978534340632771,8.0,95.0,multi-GSE association,16,16,3,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,3.0,,endo
+hUSI,CapEC_DCN_breast,min_cells_10,True,,25.0,68.0,multi-GSE association,3,3,2,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_FLT1_uterus,min_cells_10,True,,6.0,78.0,multi-GSE association,7,7,2,,,,,"tissue,sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_GNG11_pan,min_cells_10,True,-0.0505143205999571,0.003,68.0,multi-GSE association,1,1,1,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TAGLN_pan,min_cells_10,True,,3.0,56.0,multi-GSE association,4,4,3,,,,,"tissue,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TAGLN_prostate,min_cells_10,True,-0.1286790548155651,0.008,83.0,multi-GSE association,10,10,3,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_breast,min_cells_10,True,0.2574333594277119,0.167,83.0,multi-GSE association,11,11,3,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,min_cells_10,True,0.11981803489435885,0.003,99.0,multi-GSE association,52,52,8,-1.4486496864969927e-05,-0.0005156848331073966,0.0004867118393774568,0.9539541706230157,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,9.0,0.9991253946919987,endo
+hUSI,EndoMT_CD3D_pan,min_cells_10,True,,0.17,8.0,cohort-specific exploratory,7,7,2,,,,,"tissue,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_bone marrow,min_cells_10,True,0.4091812198344681,0.0,77.0,multi-GSE association,3,3,2,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,min_cells_10,True,0.2533102911346358,0.0,86.0,multi-GSE association,23,23,8,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,9.0,,endo
+hUSI,EndoMT_CLU_eye,min_cells_10,True,,0.11,0.11,cohort-specific exploratory,5,5,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_COL1A1_pan,min_cells_10,True,,0.0,44.0,multi-GSE association,2,2,2,,,,,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_EFEMP1_skin,min_cells_10,True,,0.008,0.008,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_GNG11_vessel,min_cells_10,True,,0.0,34.0,multi-GSE association,5,5,2,,,,,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_PTN_pan,min_cells_10,True,0.2597165439360855,0.0,99.0,multi-GSE association,4,4,2,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TAGLN_pan,min_cells_10,True,0.0034871150219579253,0.0,76.0,multi-GSE association,16,16,6,,,,,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,5.0,,endo
+hUSI,EndoMT_TGFBI_pan,min_cells_10,True,,13.0,13.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_TM4SF1_pan,min_cells_10,True,0.004076112404310141,0.003,76.0,multi-GSE association,9,9,5,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TPM2_pan,min_cells_10,True,0.32490710873572365,0.0,0.329,multi-GSE association,26,26,10,0.14179354538193412,-0.8111187774748663,1.0947058682387345,0.7617924531561729,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,14.0,0.9991253946919987,endo
+hUSI,EndoMT_VIM_pan,min_cells_10,True,0.6072171111315542,0.0,76.0,multi-GSE association,1,1,1,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,LEC_EFEMP1_pan,min_cells_10,True,0.11430533994137852,0.077,83.0,multi-GSE association,11,11,2,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,MCs_TPM2_pan,min_cells_10,True,,0.0,0.019,multi-GSE association,3,3,3,,,,,"tissue,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CFD_pan,min_cells_10,True,-0.274581534685677,0.008,80.0,multi-GSE association,7,7,3,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_eye,min_cells_10,True,0.3848034275656061,0.014,100.0,multi-GSE association,39,39,7,-9.229622402510788e-05,-0.0012986558471112738,0.001114063399061058,0.8777337415866836,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,6.0,0.9991253946919987,endo
+hUSI,VenEC_CLU_pan,min_cells_10,True,0.17043995405182177,0.014,86.3,multi-GSE association,23,23,7,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,6.0,,endo
+hUSI,VenEC_DCN_breast,min_cells_10,True,,25.0,68.0,multi-GSE association,3,3,2,,,,,"tissue,sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_EPCAM_pan,min_cells_10,True,,0.014,60.0,multi-GSE association,9,9,4,,,,,"tissue,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,min_cells_10,True,0.06282822058509352,0.077,86.3,multi-GSE association,20,20,4,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,7.0,,endo
+hUSI,VenEC_TAGLN_pan,min_cells_10,True,-0.5072682301515219,0.014,73.0,multi-GSE association,1,1,1,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pancreas,min_cells_10,True,0.20497105570701635,0.063,68.0,multi-GSE association,34,34,2,3.8491666430736857e-07,-0.0007086472335692923,0.0007094170668979071,0.9991253946919987,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,1.0,0.9991253946919987,endo
+hUSI,VenEC_TM4SF1_breast,min_cells_10,True,,0.014,6.0,multi-GSE association,3,3,2,,,,,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_ARL15_pan,min_cells_20,False,,40.0,72.0,multi-GSE association,5,5,3,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,min_cells_20,False,0.23831044948004168,0.077,99.0,multi-GSE association,114,114,39,0.0005371288371635416,0.00018602556637037885,0.0008882321079567044,0.003023660393688632,,ok,0.0,0.021470961103752184,endo
+hUSI,ArtEC_FLT1_brain,min_cells_20,False,0.06616703473920739,35.0,95.0,multi-GSE association,37,37,3,0.00026246485980273797,-0.00018689923410300236,0.0007118289537084784,0.24394913909733598,,ok,0.0,0.4994045297082494,endo
+hUSI,ArtEC_FLT1_pan,min_cells_20,False,0.04532600858797891,0.0,95.0,multi-GSE association,88,88,16,3.432695493093456e-05,-0.00024064753362188835,0.0003093014434837575,0.8046210241092651,,ok,0.0,0.8940233601214056,endo
+hUSI,ArtEC_THY1_pan,min_cells_20,False,-0.058636795814065557,8.0,95.0,multi-GSE association,44,44,11,0.0002209634265766668,-0.0005446843939562303,0.0009866112471095638,0.5635986860522852,,ok,0.0,0.7514649147363803,endo
+hUSI,CapEC_DCN_breast,min_cells_20,False,,25.0,68.0,multi-GSE association,6,6,5,,,,,,insufficient_support,,,endo
+hUSI,CapEC_FLT1_uterus,min_cells_20,False,,6.0,70.0,multi-GSE association,7,7,3,,,,,,insufficient_support,,,endo
+hUSI,CapEC_GNG11_pan,min_cells_20,False,0.125920165972079,0.003,31.0,multi-GSE association,29,29,13,-0.000705749867897054,-0.005042795432523323,0.0036312956967292148,0.7413692252063916,,ok,0.0,0.8721990884781078,endo
+hUSI,CapEC_TAGLN_pan,min_cells_20,False,,46.0,56.0,cohort-specific exploratory,2,2,2,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TAGLN_prostate,min_cells_20,False,-0.4008266601638629,0.008,83.0,multi-GSE association,18,18,11,-0.0005062834810864648,-0.0011619427827146464,0.0001493758205417168,0.12167050448093242,,ok,0.0,0.46276215515797187,endo
+hUSI,CapEC_TM4SF1_breast,min_cells_20,False,,30.0,83.0,multi-GSE association,11,11,4,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,min_cells_20,False,0.07986771563247391,0.003,99.0,multi-GSE association,238,238,56,0.00013320626501019196,-4.3487437236689494e-05,0.0003098999672570734,0.13882864654739155,,ok,0.0,0.46276215515797187,endo
+hUSI,EndoMT_CD3D_pan,min_cells_20,False,,0.17,8.0,cohort-specific exploratory,7,7,2,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_CFD_bone marrow,min_cells_20,False,0.33444009872982877,0.0,77.0,multi-GSE association,24,24,14,0.0006315896060202408,-0.00032705942934843244,0.001590238641388914,0.18610975341171448,,ok,0.0,0.4994045297082494,endo
+hUSI,EndoMT_CFD_pan,min_cells_20,False,0.1558001840238831,0.0,86.0,multi-GSE association,75,75,30,0.0002621600481187412,-0.00017478387181973253,0.0006991039680572149,0.23570982973226232,,ok,0.0,0.4994045297082494,endo
+hUSI,EndoMT_CLU_eye,min_cells_20,False,,0.11,0.11,cohort-specific exploratory,5,5,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_COL1A1_pan,min_cells_20,False,,0.0,4.0,multi-GSE association,6,6,4,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_EFEMP1_skin,min_cells_20,False,,0.008,0.008,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_GNG11_vessel,min_cells_20,False,,0.0,0.019,cohort-specific exploratory,3,3,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_PTN_pan,min_cells_20,False,0.20866800018782497,0.005,89.0,multi-GSE association,52,52,16,0.00046576619565014024,0.00013887576331200117,0.0007926566279882793,0.006116730452548136,,ok,0.0,0.03058365226274068,endo
+hUSI,EndoMT_TAGLN_pan,min_cells_20,False,0.04385913139814064,0.0,76.0,multi-GSE association,23,23,8,0.0017922849926040128,0.000966934990077998,0.0026176349951300276,0.00017635367612405328,,ok,0.0,0.0035270735224810653,endo
+hUSI,EndoMT_TGFBI_pan,min_cells_20,False,,13.0,13.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_TM4SF1_pan,min_cells_20,False,0.1488290558358897,0.167,76.0,multi-GSE association,32,32,14,0.00017640688354038044,-0.0003628725807739221,0.000715686347854683,0.5096076749756142,,ok,0.0,0.7280109642508775,endo
+hUSI,EndoMT_TPM2_pan,min_cells_20,False,0.29581803379759775,0.0,0.329,multi-GSE association,40,40,19,0.20068960979255046,-0.14670994138928045,0.5480891609743814,0.2497022648541247,,ok,0.0,0.4994045297082494,endo
+hUSI,EndoMT_VIM_pan,min_cells_20,False,0.6613962793439131,0.0,76.0,multi-GSE association,49,49,11,0.000694315805878684,0.00024420593584551756,0.0011444256759118505,0.0032206441655628273,,ok,0.0,0.021470961103752184,endo
+hUSI,LEC_EFEMP1_pan,min_cells_20,False,0.06816336506869589,0.077,72.0,multi-GSE association,72,72,21,6.546779592787075e-05,-0.00032007215163864583,0.0004510077434943873,0.7359196352963872,,ok,0.0,0.8721990884781078,endo
+hUSI,MCs_TPM2_pan,min_cells_20,False,,0.0,0.019,multi-GSE association,3,3,3,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CFD_pan,min_cells_20,False,-0.18384018973951521,0.008,80.0,multi-GSE association,38,38,16,-0.0002805519592588183,-0.0008110254431029517,0.00024992152458531514,0.2908426278216631,,ok,0.0,0.5288047778575692,endo
+hUSI,VenEC_CLU_eye,min_cells_20,False,0.41490072427837915,0.223,100.0,multi-GSE association,84,84,14,0.0010228666080627454,-0.00119420555165921,0.0032399387677847008,0.36147409290837296,,ok,0.0,0.602456821513955,endo
+hUSI,VenEC_CLU_pan,min_cells_20,False,0.14034382576174242,0.066,86.3,multi-GSE association,139,139,41,0.00010964065420171319,-0.00015082049670666172,0.0003701018051100881,0.4066537958322245,,ok,0.0,0.6256212243572684,endo
+hUSI,VenEC_DCN_breast,min_cells_20,False,,46.0,68.0,cohort-specific exploratory,2,2,2,,,,,,insufficient_support,,,endo
+hUSI,VenEC_EPCAM_pan,min_cells_20,False,,0.014,60.0,multi-GSE association,9,9,4,,,,,,insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,min_cells_20,False,0.05952212246195083,0.077,86.3,multi-GSE association,127,127,36,-1.291229872743923e-05,-0.00029932501866474154,0.0002735004212098631,0.9290506237357111,,ok,0.0,0.9290506237357111,endo
+hUSI,VenEC_TAGLN_pan,min_cells_20,False,,0.014,73.0,multi-GSE association,11,11,7,,,,,,insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pancreas,min_cells_20,False,0.11445476596707974,0.063,66.0,multi-GSE association,40,40,8,7.559217409068347e-05,-0.0007939247020922355,0.0009451090502736024,0.8613261347805183,,ok,0.0,0.9066590892426509,endo
+hUSI,VenEC_TM4SF1_breast,min_cells_20,False,,0.014,6.0,multi-GSE association,8,8,6,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_ARL15_pan,min_cells_20,True,,40.0,72.0,multi-GSE association,5,5,3,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,min_cells_20,True,0.23831044948004168,0.077,99.0,multi-GSE association,21,21,7,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,8.0,,endo
+hUSI,ArtEC_FLT1_brain,min_cells_20,True,0.06616703473920739,35.0,95.0,multi-GSE association,30,30,2,0.0002011908607130481,-0.0022086358637698872,0.0026110175851959835,0.8656049490367272,"tissue,sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,1.0,0.9991496685402064,endo
+hUSI,ArtEC_FLT1_pan,min_cells_20,True,0.04532600858797891,0.0,95.0,multi-GSE association,22,22,4,-0.0005770102343187891,-0.002467955472958336,0.0013139350043207582,0.532554665166338,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,4.0,0.9991496685402064,endo
+hUSI,ArtEC_THY1_pan,min_cells_20,True,-0.058636795814065557,8.0,95.0,multi-GSE association,16,16,3,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,3.0,,endo
+hUSI,CapEC_DCN_breast,min_cells_20,True,,25.0,68.0,multi-GSE association,4,4,3,,,,,"tissue,sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_FLT1_uterus,min_cells_20,True,,6.0,70.0,multi-GSE association,5,5,1,,,,,"tissue,sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_GNG11_pan,min_cells_20,True,0.125920165972079,0.003,31.0,multi-GSE association,1,1,1,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TAGLN_pan,min_cells_20,True,,46.0,56.0,cohort-specific exploratory,2,2,2,,,,,"tissue,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TAGLN_prostate,min_cells_20,True,-0.4008266601638629,0.008,83.0,multi-GSE association,3,3,2,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_breast,min_cells_20,True,,30.0,83.0,multi-GSE association,7,7,2,,,,,"tissue,sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,min_cells_20,True,0.07986771563247391,0.003,99.0,multi-GSE association,47,47,8,-6.0195126570904665e-05,-0.0006830448183326444,0.0005626545651908351,0.846613064473964,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,9.0,0.9991496685402064,endo
+hUSI,EndoMT_CD3D_pan,min_cells_20,True,,0.17,8.0,cohort-specific exploratory,7,7,2,,,,,"tissue,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_bone marrow,min_cells_20,True,0.33444009872982877,0.0,77.0,multi-GSE association,2,2,2,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,min_cells_20,True,0.1558001840238831,0.0,86.0,multi-GSE association,16,16,7,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,9.0,,endo
+hUSI,EndoMT_CLU_eye,min_cells_20,True,,0.11,0.11,cohort-specific exploratory,5,5,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_COL1A1_pan,min_cells_20,True,,0.0,4.0,multi-GSE association,6,6,4,,,,,"tissue,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_EFEMP1_skin,min_cells_20,True,,0.008,0.008,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_GNG11_vessel,min_cells_20,True,,0.0,0.019,cohort-specific exploratory,3,3,1,,,,,"treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_PTN_pan,min_cells_20,True,0.20866800018782497,0.005,89.0,multi-GSE association,2,2,1,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TAGLN_pan,min_cells_20,True,0.04385913139814064,0.0,76.0,multi-GSE association,14,14,5,,,,,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,3.0,,endo
+hUSI,EndoMT_TGFBI_pan,min_cells_20,True,,13.0,13.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_TM4SF1_pan,min_cells_20,True,0.1488290558358897,0.167,76.0,multi-GSE association,1,1,1,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TPM2_pan,min_cells_20,True,0.29581803379759775,0.0,0.329,multi-GSE association,25,25,10,0.2206157936071228,-0.8522252990982945,1.2934568863125402,0.6750444259458476,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,14.0,0.9991496685402064,endo
+hUSI,EndoMT_VIM_pan,min_cells_20,True,0.6613962793439131,0.0,76.0,multi-GSE association,0,0,0,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,LEC_EFEMP1_pan,min_cells_20,True,0.06816336506869589,0.077,72.0,multi-GSE association,9,9,1,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,MCs_TPM2_pan,min_cells_20,True,,0.0,0.019,multi-GSE association,3,3,3,,,,,"tissue,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CFD_pan,min_cells_20,True,-0.18384018973951521,0.008,80.0,multi-GSE association,3,3,1,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_eye,min_cells_20,True,0.41490072427837915,0.223,100.0,multi-GSE association,38,38,6,-9.229622402512598e-05,-0.0012841470629088858,0.001099554614858634,0.8761711163959018,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,6.0,0.9991496685402064,endo
+hUSI,VenEC_CLU_pan,min_cells_20,True,0.14034382576174242,0.066,86.3,multi-GSE association,18,18,7,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,6.0,,endo
+hUSI,VenEC_DCN_breast,min_cells_20,True,,46.0,68.0,cohort-specific exploratory,2,2,2,,,,,"tissue,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_EPCAM_pan,min_cells_20,True,,0.014,60.0,multi-GSE association,9,9,4,,,,,"tissue,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,min_cells_20,True,0.05952212246195083,0.077,86.3,multi-GSE association,18,18,4,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,7.0,,endo
+hUSI,VenEC_TAGLN_pan,min_cells_20,True,,0.014,73.0,multi-GSE association,1,1,1,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pancreas,min_cells_20,True,0.11445476596707974,0.063,66.0,multi-GSE association,36,36,4,3.8491666429218974e-07,-0.0007276226406899405,0.0007283924740185249,0.9991496685402064,"tissue,sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,1.0,0.9991496685402064,endo
+hUSI,VenEC_TM4SF1_breast,min_cells_20,True,,0.014,6.0,multi-GSE association,2,2,2,,,,,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_ARL15_pan,min_cells_50,False,,40.0,72.0,multi-GSE association,4,4,3,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,min_cells_50,False,0.08626124690123402,0.077,91.0,multi-GSE association,51,51,22,0.0002603808741693187,-0.00026250393702577997,0.0007832656853644173,0.32202892049626475,,ok,0.0,0.6440578409925295,endo
+hUSI,ArtEC_FLT1_brain,min_cells_50,False,-0.11684983915125763,35.0,95.0,cohort-specific exploratory,31,31,2,-2.932165411226144e-06,-0.00041662082435094306,0.0004107564935284908,0.9885465989127076,,ok,0.0,0.9975818783939987,endo
+hUSI,ArtEC_FLT1_pan,min_cells_50,False,0.026907061877031863,0.0,95.0,multi-GSE association,76,76,11,1.7393681670245737e-05,-0.0002778568457937353,0.00031264420913422675,0.906890137611846,,ok,0.0,0.9975818783939987,endo
+hUSI,ArtEC_THY1_pan,min_cells_50,False,-0.13145511756350448,8.0,95.0,multi-GSE association,41,41,11,-1.3255018675403083e-06,-0.000879761312903831,0.0008771103091687503,0.9975818783939987,,ok,0.0,0.9975818783939987,endo
+hUSI,CapEC_DCN_breast,min_cells_50,False,,46.0,68.0,cohort-specific exploratory,2,2,2,,,,,,insufficient_support,,,endo
+hUSI,CapEC_FLT1_uterus,min_cells_50,False,,68.0,68.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_GNG11_pan,min_cells_50,False,0.2884210722614072,0.003,3.0,multi-GSE association,21,21,11,0.013645315902185614,0.002250488484835108,0.02504014331953612,0.021326996350334342,,ok,0.0,0.11757104343484392,endo
+hUSI,CapEC_TAGLN_pan,min_cells_50,False,,46.0,46.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TAGLN_prostate,min_cells_50,False,,0.008,73.0,multi-GSE association,11,11,9,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_breast,min_cells_50,False,,50.0,83.0,multi-GSE association,8,8,4,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,min_cells_50,False,0.08763449872318915,0.014,83.0,multi-GSE association,177,177,45,0.00011241649307652736,-9.639990582453959e-05,0.0003212328919775943,0.2894852834597917,,ok,0.0,0.6440578409925295,endo
+hUSI,EndoMT_CD3D_pan,min_cells_50,False,,0.17,8.0,cohort-specific exploratory,7,7,2,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_CFD_bone marrow,min_cells_50,False,0.08056054385890983,0.0,64.0,multi-GSE association,12,12,10,0.00029632456995238297,-0.002179809151468084,0.0027724582913728497,0.7971133945920508,,ok,0.0,0.9565360735104609,endo
+hUSI,EndoMT_CFD_pan,min_cells_50,False,0.18899488127150577,0.0,69.0,multi-GSE association,33,33,17,0.00035226881138662643,-0.0004617322581967829,0.0011662698809700358,0.3846166547803186,,ok,0.0,0.6923099786045734,endo
+hUSI,EndoMT_COL1A1_pan,min_cells_50,False,,0.0,4.0,multi-GSE association,6,6,4,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_EFEMP1_skin,min_cells_50,False,,0.008,0.008,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_GNG11_vessel,min_cells_50,False,,0.0,0.019,cohort-specific exploratory,3,3,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_PTN_pan,min_cells_50,False,0.24270977596025112,0.005,89.0,multi-GSE association,46,46,14,0.00048139559748419485,0.00013054478007789726,0.0008322464148904924,0.008255740233231506,,ok,0.0,0.07430166209908357,endo
+hUSI,EndoMT_TAGLN_pan,min_cells_50,False,0.041922932640801325,0.0,76.0,multi-GSE association,16,16,7,0.0019673862077971725,0.00126976755753233,0.002665004858062015,2.3848234781942144e-05,,ok,0.0,0.0004292682260749586,endo
+hUSI,EndoMT_TGFBI_pan,min_cells_50,False,,13.0,13.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_TM4SF1_pan,min_cells_50,False,,0.167,70.0,multi-GSE association,9,9,7,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_TPM2_pan,min_cells_50,False,0.229725186962104,0.0,0.329,multi-GSE association,32,32,18,0.17861977627772502,-0.11222495756056633,0.46946451011601636,0.21973671296667835,,ok,0.0,0.6440578409925295,endo
+hUSI,EndoMT_VIM_pan,min_cells_50,False,0.6313611097731986,0.0,69.0,multi-GSE association,44,44,10,0.0006983666942653904,8.705025408875587e-05,0.0013096831344420249,0.026126898541076426,,ok,0.0,0.11757104343484392,endo
+hUSI,LEC_EFEMP1_pan,min_cells_50,False,0.012627132902133185,0.274,70.0,multi-GSE association,43,43,15,-0.00013545980593271606,-0.0007002375134949017,0.00042931790162946957,0.6308794676499105,,ok,0.0,0.9463192014748658,endo
+hUSI,MCs_TPM2_pan,min_cells_50,False,,0.0,0.008,cohort-specific exploratory,2,2,2,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CFD_pan,min_cells_50,False,-0.10067581766870763,0.008,80.0,multi-GSE association,24,24,10,-0.00011696512276969818,-0.0008113531391508189,0.0005774228936114226,0.7306702486163796,,ok,0.0,0.9565360735104609,endo
+hUSI,VenEC_CLU_eye,min_cells_50,False,0.42107427450611784,0.223,100.0,multi-GSE association,81,81,11,0.0009167112503280071,-0.0013987343215995374,0.0032321568222555518,0.43309009961692524,,ok,0.0,0.7086928902822413,endo
+hUSI,VenEC_CLU_pan,min_cells_50,False,0.006279057433373698,0.077,84.0,multi-GSE association,75,75,33,-4.8128127526252075e-05,-0.0003693815114594603,0.00027312525640695614,0.766150475779089,,ok,0.0,0.9565360735104609,endo
+hUSI,VenEC_DCN_breast,min_cells_50,False,,46.0,68.0,cohort-specific exploratory,2,2,2,,,,,,insufficient_support,,,endo
+hUSI,VenEC_EPCAM_pan,min_cells_50,False,,0.014,30.0,multi-GSE association,7,7,4,,,,,,insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,min_cells_50,False,0.16748114759143212,0.077,86.3,multi-GSE association,81,81,26,0.000209351052841447,-8.003901039879433e-05,0.0004987411160816883,0.15386670939240998,,ok,0.0,0.5539201538126759,endo
+hUSI,VenEC_TAGLN_pan,min_cells_50,False,,0.014,71.0,multi-GSE association,8,8,4,,,,,,insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pancreas,min_cells_50,False,0.17627743379952932,0.09,66.0,multi-GSE association,36,36,4,0.00025900410232918437,-0.00022925867561268177,0.0007472668802710505,0.28889548850975244,,ok,0.0,0.6440578409925295,endo
+hUSI,VenEC_TM4SF1_breast,min_cells_50,False,,0.014,6.0,multi-GSE association,5,5,4,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_ARL15_pan,min_cells_50,True,,40.0,72.0,multi-GSE association,4,4,3,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,min_cells_50,True,0.08626124690123402,0.077,91.0,multi-GSE association,6,6,4,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_FLT1_brain,min_cells_50,True,-0.11684983915125763,35.0,95.0,cohort-specific exploratory,26,26,1,-0.0004998620220944862,-0.0028388148480380723,0.0018390908038491,0.6636120430601391,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.9991253946919534,endo
+hUSI,ArtEC_FLT1_pan,min_cells_50,True,0.026907061877031863,0.0,95.0,multi-GSE association,18,18,4,-0.0009808297337307818,-0.002841516642864989,0.0008798571754034257,0.2815528909599686,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,5.0,0.9991253946919534,endo
+hUSI,ArtEC_THY1_pan,min_cells_50,True,-0.13145511756350448,8.0,95.0,multi-GSE association,16,16,3,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,3.0,,endo
+hUSI,CapEC_DCN_breast,min_cells_50,True,,46.0,68.0,cohort-specific exploratory,2,2,2,,,,,"tissue,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_FLT1_uterus,min_cells_50,True,,68.0,68.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_GNG11_pan,min_cells_50,True,0.2884210722614072,0.003,3.0,multi-GSE association,5,5,2,,,,,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TAGLN_pan,min_cells_50,True,,46.0,46.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TAGLN_prostate,min_cells_50,True,,0.008,73.0,multi-GSE association,1,1,1,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_breast,min_cells_50,True,,50.0,83.0,multi-GSE association,4,4,2,,,,,"tissue,sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,min_cells_50,True,0.08763449872318915,0.014,83.0,multi-GSE association,33,33,7,4.224913991977484e-05,-0.0006635750194874173,0.000748073299326967,0.903719690758926,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,7.0,0.9991253946919534,endo
+hUSI,EndoMT_CD3D_pan,min_cells_50,True,,0.17,8.0,cohort-specific exploratory,7,7,2,,,,,"tissue,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_bone marrow,min_cells_50,True,0.08056054385890983,0.0,64.0,multi-GSE association,1,1,1,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,min_cells_50,True,0.18899488127150577,0.0,69.0,multi-GSE association,4,4,3,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_COL1A1_pan,min_cells_50,True,,0.0,4.0,multi-GSE association,6,6,4,,,,,"tissue,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_EFEMP1_skin,min_cells_50,True,,0.008,0.008,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_GNG11_vessel,min_cells_50,True,,0.0,0.019,cohort-specific exploratory,3,3,1,,,,,"treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_PTN_pan,min_cells_50,True,0.24270977596025112,0.005,89.0,multi-GSE association,1,1,1,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TAGLN_pan,min_cells_50,True,0.041922932640801325,0.0,76.0,multi-GSE association,10,10,4,,,,,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TGFBI_pan,min_cells_50,True,,13.0,13.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_TM4SF1_pan,min_cells_50,True,,0.167,70.0,multi-GSE association,0,0,0,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TPM2_pan,min_cells_50,True,0.229725186962104,0.0,0.329,multi-GSE association,17,17,8,,,,,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,10.0,,endo
+hUSI,EndoMT_VIM_pan,min_cells_50,True,0.6313611097731986,0.0,69.0,multi-GSE association,0,0,0,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,LEC_EFEMP1_pan,min_cells_50,True,0.012627132902133185,0.274,70.0,multi-GSE association,3,3,1,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,MCs_TPM2_pan,min_cells_50,True,,0.0,0.008,cohort-specific exploratory,2,2,2,,,,,"tissue,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CFD_pan,min_cells_50,True,-0.10067581766870763,0.008,80.0,multi-GSE association,3,3,1,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_eye,min_cells_50,True,0.42107427450611784,0.223,100.0,multi-GSE association,36,36,4,-9.229622402510702e-05,-0.0012546003789505266,0.0010700079309003126,0.872857504027718,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,4.0,0.9991253946919534,endo
+hUSI,VenEC_CLU_pan,min_cells_50,True,0.006279057433373698,0.077,84.0,multi-GSE association,9,9,7,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_DCN_breast,min_cells_50,True,,46.0,68.0,cohort-specific exploratory,2,2,2,,,,,"tissue,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_EPCAM_pan,min_cells_50,True,,0.014,30.0,multi-GSE association,7,7,4,,,,,"tissue,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,min_cells_50,True,0.16748114759143212,0.077,86.3,multi-GSE association,13,13,3,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,5.0,,endo
+hUSI,VenEC_TAGLN_pan,min_cells_50,True,,0.014,71.0,multi-GSE association,8,8,4,,,,,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pancreas,min_cells_50,True,0.17627743379952932,0.09,66.0,multi-GSE association,34,34,2,3.849166643273179e-07,-0.0007086472335692701,0.0007094170668979248,0.9991253946919534,"tissue,sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.9991253946919534,endo
+hUSI,VenEC_TM4SF1_breast,min_cells_50,True,,0.014,6.0,multi-GSE association,2,2,2,,,,,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,healthy_only,True,0.1624711337490663,7.0,88.0,multi-GSE association,11,11,4,,,,,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_FLT1_brain,healthy_only,True,0.14943082703136254,35.0,95.0,multi-GSE association,14,14,2,,,,,"tissue,sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,1.0,,endo
+hUSI,ArtEC_FLT1_pan,healthy_only,True,0.1325800374859673,6.0,89.0,multi-GSE association,19,19,4,-0.0008863813538118577,-0.0027127751078582798,0.0009400124002345643,0.3214206851478669,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,4.0,0.7165805846915834,endo
+hUSI,ArtEC_THY1_pan,healthy_only,True,-0.18988218279172436,50.0,95.0,multi-GSE association,11,11,3,,,,,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_DCN_breast,healthy_only,True,,25.0,68.0,multi-GSE association,4,4,3,,,,,"tissue,sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_FLT1_uterus,healthy_only,True,,6.0,70.0,multi-GSE association,4,4,1,,,,,"tissue,sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_GNG11_pan,healthy_only,True,0.18744081682760957,0.003,31.0,multi-GSE association,11,11,3,,,,,"tissue,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TAGLN_pan,healthy_only,True,,46.0,46.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TAGLN_prostate,healthy_only,True,,29.0,83.0,cohort-specific exploratory,2,2,1,,,,,"tissue,sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_breast,healthy_only,True,,32.0,83.0,cohort-specific exploratory,3,3,1,,,,,"tissue,sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,healthy_only,True,0.14070169111062703,0.003,83.0,multi-GSE association,28,28,5,-0.00025011436722058127,-0.0011803447897056844,0.0006801160552645217,0.5857031048843221,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,4.0,0.7165805846915834,endo
+hUSI,EndoMT_CFD_bone marrow,healthy_only,True,,0.03,68.0,multi-GSE association,4,4,4,,,,,"tissue,sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,healthy_only,True,-0.16262350118813731,0.0,65.0,multi-GSE association,10,10,4,,,,,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CLU_eye,healthy_only,True,,0.11,0.11,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_COL1A1_pan,healthy_only,True,,0.034,0.041,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_EFEMP1_skin,healthy_only,True,,0.008,0.008,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_GNG11_vessel,healthy_only,True,,0.0,0.019,cohort-specific exploratory,3,3,1,,,,,"treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_PTN_pan,healthy_only,True,0.16259522090515857,0.03,89.0,multi-GSE association,0,0,0,,,,,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TAGLN_pan,healthy_only,True,-0.11863054142038623,0.0,10.0,multi-GSE association,10,10,4,,,,,"tissue,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TM4SF1_pan,healthy_only,True,0.3374346160205777,20.0,76.0,multi-GSE association,8,8,5,,,,,"tissue,sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TPM2_pan,healthy_only,True,0.25969914167882435,0.0,0.329,multi-GSE association,23,23,9,0.22061579360712255,-0.8133903920993252,1.2546219793135702,0.6624601848197161,"tissue,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,12.0,0.7165805846915834,endo
+hUSI,EndoMT_VIM_pan,healthy_only,True,0.5495309923039514,0.0,76.0,multi-GSE association,5,5,2,,,,,"tissue,sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,LEC_EFEMP1_pan,healthy_only,True,0.07567980180786303,0.274,70.0,multi-GSE association,28,28,6,0.00024359123819959376,-0.0003301494501750992,0.0008173319265742867,0.39135840549320344,"tissue,sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",ok,4.0,0.7165805846915834,endo
+hUSI,MCs_TPM2_pan,healthy_only,True,,0.0,0.019,cohort-specific exploratory,2,2,2,,,,,"tissue,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CFD_pan,healthy_only,True,,0.063,68.0,multi-GSE association,3,3,2,,,,,"tissue,sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_eye,healthy_only,True,0.40434841227620366,0.223,90.0,multi-GSE association,22,22,4,-0.0010390627051133708,-0.006911459018449767,0.004833333608223025,0.7165805846915834,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,4.0,0.7165805846915834,endo
+hUSI,VenEC_CLU_pan,healthy_only,True,0.017407939375501967,0.066,76.0,multi-GSE association,12,12,5,,,,,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,6.0,,endo
+hUSI,VenEC_DCN_breast,healthy_only,True,,46.0,68.0,cohort-specific exploratory,2,2,2,,,,,"tissue,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_EPCAM_pan,healthy_only,True,,0.014,60.0,multi-GSE association,7,7,4,,,,,"tissue,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,healthy_only,True,0.0026074923757374224,7.0,73.0,multi-GSE association,11,11,2,,,,,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pan,healthy_only,True,,0.154,35.0,cohort-specific exploratory,5,5,2,,,,,"tissue,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pancreas,healthy_only,True,0.15627749657853632,0.09,66.0,multi-GSE association,17,17,3,-0.00043370860629788314,-0.0014094919685328678,0.0005420747559371016,0.3600807657517757,"tissue,sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",ok,1.0,0.7165805846915834,endo
+hUSI,ArtEC_FLT1_brain,tissue:adipose,True,,68.0,68.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_FLT1_pan,tissue:adipose,True,0.44104084162502416,24.0,73.0,cohort-specific exploratory,21,21,1,0.0003328989250595003,-7.513283458753629e-05,0.0007409306847065368,0.10427545498846215,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.10427545498846215,endo
+hUSI,CapEC_FLT1_uterus,tissue:adipose,True,,35.0,68.0,cohort-specific exploratory,5,5,1,,,,,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:adipose,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,tissue:adipose,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CLU_eye,tissue:adipose,True,,41.0,41.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:airway,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:airway,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_CFD_bone marrow,tissue:airway,True,,44.0,63.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_VIM_pan,tissue:airway,True,,54.0,63.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:airway,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:airway,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_CFD_bone marrow,tissue:ascites,True,,53.0,53.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_VIM_pan,tissue:ascites,True,,53.0,53.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:bladder,True,,43.0,43.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:bladder,True,,31.0,43.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,tissue:bladder,True,,43.0,43.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:bladder,True,,31.0,50.0,cohort-specific exploratory,3,3,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:bladder,True,,31.0,51.0,cohort-specific exploratory,3,3,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:bone,True,,20.0,49.0,cohort-specific exploratory,4,4,1,,,,,"sex,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:bone,True,,20.0,72.0,cohort-specific exploratory,8,8,1,,,,,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,tissue:bone,True,,20.0,71.0,cohort-specific exploratory,8,8,1,,,,,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,LEC_EFEMP1_pan,tissue:bone,True,,24.0,36.0,cohort-specific exploratory,3,3,1,,,,,"sex,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:bone,True,,20.0,72.0,cohort-specific exploratory,7,7,1,,,,,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:bone,True,,20.0,49.0,cohort-specific exploratory,4,4,1,,,,,"sex,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:bone marrow,True,,48.0,75.0,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:bone marrow,True,,28.0,75.0,cohort-specific exploratory,7,7,1,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CD3D_pan,tissue:bone marrow,True,,0.17,0.17,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_bone marrow,tissue:bone marrow,True,,0.0,64.0,multi-GSE association,1,1,1,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,tissue:bone marrow,True,,29.0,64.0,cohort-specific exploratory,2,2,1,,,,,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TM4SF1_pan,tissue:bone marrow,True,,48.0,75.0,cohort-specific exploratory,3,3,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,LEC_EFEMP1_pan,tissue:bone marrow,True,,29.0,29.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:bone marrow,True,,29.0,68.0,cohort-specific exploratory,4,4,1,,,,,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_ARL15_pan,tissue:brain,True,,40.0,72.0,multi-GSE association,5,5,3,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:brain,True,,25.0,86.3,multi-GSE association,8,8,2,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_FLT1_brain,tissue:brain,True,0.0631972841393601,35.0,95.0,cohort-specific exploratory,29,29,1,0.0002011908607131059,-0.0021718127048730527,0.0025741944262992643,0.8633738923475491,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.8633738923475491,endo
+hUSI,ArtEC_FLT1_pan,tissue:brain,True,-0.004400442706805578,35.0,95.0,multi-GSE association,7,7,3,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_THY1_pan,tissue:brain,True,0.14229136977143128,8.0,95.0,multi-GSE association,15,15,2,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,1.0,,endo
+hUSI,CapEC_DCN_breast,tissue:brain,True,,25.0,65.0,cohort-specific exploratory,2,2,1,,,,,"sex,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:brain,True,0.8285226585322002,0.329,86.3,multi-GSE association,12,12,2,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,1.0,,endo
+hUSI,EndoMT_CFD_pan,tissue:brain,True,,0.274,65.0,cohort-specific exploratory,3,3,1,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CLU_eye,tissue:brain,True,,0.11,0.11,cohort-specific exploratory,5,5,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_COL1A1_pan,tissue:brain,True,,0.0,0.041,cohort-specific exploratory,4,4,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_PTN_pan,tissue:brain,True,0.14260481918147616,0.005,76.0,multi-GSE association,2,2,1,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TAGLN_pan,tissue:brain,True,,0.11,76.0,multi-GSE association,7,7,2,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TPM2_pan,tissue:brain,True,,0.0,0.274,cohort-specific exploratory,4,4,2,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_VIM_pan,tissue:brain,True,0.732609010220178,0.0,0.011,cohort-specific exploratory,23,23,1,4.599112443599978,2.321611168301754,6.876613718898202,0.0003812936558588663,"total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.0007625873117177326,endo
+hUSI,LEC_EFEMP1_pan,tissue:brain,True,,20.0,65.0,cohort-specific exploratory,9,9,1,,,,,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_eye,tissue:brain,True,,0.223,57.0,multi-GSE association,2,2,2,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:brain,True,,20.0,86.3,multi-GSE association,8,8,2,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:brain,True,,20.0,86.3,cohort-specific exploratory,8,8,1,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_DCN_breast,tissue:breast,True,,68.0,68.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TAGLN_prostate,tissue:breast,True,,68.0,83.0,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_breast,tissue:breast,True,,68.0,83.0,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:breast,True,,74.0,83.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CFD_pan,tissue:breast,True,,68.0,68.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_DCN_breast,tissue:breast,True,,68.0,68.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_TM4SF1_breast,tissue:breast,True,,0.5,0.5,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_FLT1_pan,tissue:colon,True,,78.0,78.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_FLT1_pan,tissue:ear,True,,5.0,6.0,cohort-specific exploratory,2,2,1,,,,,"disease_status,total_counts,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_FLT1_uterus,tissue:ear,True,,6.0,6.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:embryo,True,,7.0,7.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_GNG11_pan,tissue:embryo,True,,0.025,10.0,multi-GSE association,7,7,3,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TAGLN_prostate,tissue:embryo,True,,2.0,2.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:embryo,True,,7.0,7.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_CFD_bone marrow,tissue:embryo,True,,0.03,0.03,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,tissue:embryo,True,,0.0,0.077,cohort-specific exploratory,2,2,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_PTN_pan,tissue:embryo,True,,0.154,10.0,multi-GSE association,10,10,4,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TAGLN_pan,tissue:embryo,True,,8.0,10.0,cohort-specific exploratory,7,7,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TPM2_pan,tissue:embryo,True,,0.0,0.329,multi-GSE association,8,8,3,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,MCs_TPM2_pan,tissue:embryo,True,,0.0,0.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CLU_eye,tissue:embryo,True,,0.227,0.227,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_EPCAM_pan,tissue:embryo,True,,0.014,0.027,cohort-specific exploratory,5,5,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:embryo,True,,7.0,7.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pan,tissue:embryo,True,,0.154,0.154,cohort-specific exploratory,4,4,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_TM4SF1_breast,tissue:embryo,True,,0.038,0.038,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:esophagus,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:esophagus,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:eye,True,,76.0,99.0,multi-GSE association,8,8,3,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_FLT1_pan,tissue:eye,True,,83.0,93.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_THY1_pan,tissue:eye,True,-0.14083730682480425,50.0,90.0,multi-GSE association,1,1,1,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:eye,True,,0.115,99.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,tissue:eye,True,,2.0,86.0,cohort-specific exploratory,3,3,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_PTN_pan,tissue:eye,True,-0.5066091584587634,64.0,89.0,cohort-specific exploratory,14,14,2,,,,,"sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,0.0,,endo
+hUSI,VenEC_CFD_pan,tissue:eye,True,,2.0,2.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CLU_eye,tissue:eye,True,0.6522661964443937,25.0,100.0,multi-GSE association,35,35,3,-9.229622402511569e-05,-0.0012395497302889757,0.0010549572822387443,0.8710978683009671,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,1.0,0.8710978683009671,endo
+hUSI,VenEC_CLU_pan,tissue:eye,True,,76.0,84.0,cohort-specific exploratory,4,4,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:eye,True,,86.0,86.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_GNG11_pan,tissue:heart,True,,0.014,0.082,cohort-specific exploratory,5,5,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_PTN_pan,tissue:heart,True,,0.082,0.082,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_TPM2_pan,tissue:heart,True,,0.008,0.063,cohort-specific exploratory,2,2,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pancreas,tissue:heart,True,,0.063,0.063,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:intestine,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,tissue:intestine,True,,0.274,31.0,cohort-specific exploratory,2,2,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_PTN_pan,tissue:intestine,True,,0.274,0.274,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,LEC_EFEMP1_pan,tissue:intestine,True,,0.274,0.274,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CFD_pan,tissue:intestine,True,,0.274,0.274,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:intestine,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pancreas,tissue:intestine,True,,0.274,0.274,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:kidney,True,,0.077,44.0,cohort-specific exploratory,5,5,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_FLT1_pan,tissue:kidney,True,-0.08042048557625163,0.0,76.0,multi-GSE association,16,16,2,-0.0008855023757367909,-0.002681495113632187,0.0009104903621586051,0.30994253694941576,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,1.0,0.30994253694941576,endo
+hUSI,CapEC_GNG11_pan,tissue:kidney,True,,0.068,0.068,cohort-specific exploratory,2,2,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:kidney,True,,0.014,44.0,cohort-specific exploratory,7,7,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_bone marrow,tissue:kidney,True,,57.0,57.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,tissue:kidney,True,,0.167,0.167,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_PTN_pan,tissue:kidney,True,,0.068,0.068,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_TM4SF1_pan,tissue:kidney,True,,0.167,0.167,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TPM2_pan,tissue:kidney,True,,0.068,0.068,cohort-specific exploratory,2,2,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,LEC_EFEMP1_pan,tissue:kidney,True,,0.077,0.167,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_eye,tissue:kidney,True,,50.0,50.0,cohort-specific exploratory,2,2,2,,,,,"sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:kidney,True,,0.077,58.0,cohort-specific exploratory,3,3,1,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_EPCAM_pan,tissue:kidney,True,,0.301,0.301,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:kidney,True,,0.077,0.636,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pan,tissue:kidney,True,,0.014,0.014,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:liver,True,,31.0,69.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_GNG11_pan,tissue:liver,True,,0.003,31.0,multi-GSE association,5,5,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TAGLN_prostate,tissue:liver,True,,3.0,3.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:liver,True,,0.003,69.0,multi-GSE association,7,7,3,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,tissue:liver,True,,69.0,69.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_TM4SF1_pan,tissue:liver,True,,3.0,3.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_VIM_pan,tissue:liver,True,,0.003,0.003,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CFD_pan,tissue:liver,True,,3.0,3.0,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pancreas,tissue:liver,True,,0.09,31.0,multi-GSE association,2,2,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:lung,True,0.09309927401879836,20.0,75.0,multi-GSE association,19,19,4,-0.0005414360548595476,-0.0014692488618805114,0.0003863767521614162,0.23599058129294948,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,1.0,0.3235141700997657,endo
+hUSI,ArtEC_FLT1_pan,tissue:lung,True,,0.03,83.0,cohort-specific exploratory,7,7,1,,,,,"sex,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TAGLN_prostate,tissue:lung,True,,0.008,0.008,cohort-specific exploratory,2,2,1,,,,,"total_counts,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:lung,True,-0.0369759699637395,20.0,80.0,multi-GSE association,44,44,4,0.0002837156472992291,-0.00013783234991281482,0.000705263644511273,0.1817675939681211,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,1.0,0.3235141700997657,endo
+hUSI,EndoMT_CD3D_pan,tissue:lung,True,,8.0,8.0,cohort-specific exploratory,4,4,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_bone marrow,tissue:lung,True,,8.0,8.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,tissue:lung,True,,66.0,66.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TM4SF1_pan,tissue:lung,True,0.47640325268788586,20.0,76.0,multi-GSE association,13,13,3,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,1.0,,endo
+hUSI,EndoMT_TPM2_pan,tissue:lung,True,,0.082,0.312,multi-GSE association,5,5,4,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_VIM_pan,tissue:lung,True,-0.08435969626135142,18.0,76.0,multi-GSE association,12,12,4,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,1.0,,endo
+hUSI,LEC_EFEMP1_pan,tissue:lung,True,,20.0,69.0,multi-GSE association,7,7,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CFD_pan,tissue:lung,True,,0.008,80.0,multi-GSE association,8,8,1,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:lung,True,-0.07493587001820032,20.0,76.0,multi-GSE association,23,23,3,-0.00017174788750369454,-0.0005244335177449018,0.00018093774273751276,0.3235141700997657,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,1.0,0.3235141700997657,endo
+hUSI,VenEC_FLT1_pan,tissue:lung,True,,21.0,66.0,multi-GSE association,9,9,3,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pan,tissue:lung,True,,35.0,35.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pancreas,tissue:lung,True,,6.0,6.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_TM4SF1_breast,tissue:lung,True,,0.31,6.0,cohort-specific exploratory,3,3,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:muscle,True,,26.0,50.0,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:muscle,True,,26.0,50.0,cohort-specific exploratory,8,8,2,,,,,"sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,tissue:muscle,True,,26.0,50.0,cohort-specific exploratory,6,6,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:muscle,True,,26.0,26.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:muscle,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:neck,True,,17.0,17.0,cohort-specific exploratory,2,2,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:neck,True,,17.0,17.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_TM4SF1_pan,tissue:neck,True,,17.0,17.0,cohort-specific exploratory,2,2,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:neck,True,,17.0,17.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:neck,True,,17.0,17.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pan,tissue:nose,True,,62.0,62.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:oral cavity,True,,13.0,13.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:oral cavity,True,,13.0,44.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,tissue:oral cavity,True,,13.0,13.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,LEC_EFEMP1_pan,tissue:oral cavity,True,,44.0,44.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:oral cavity,True,,13.0,44.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:oral cavity,True,,44.0,44.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:ovary,True,,30.0,52.0,cohort-specific exploratory,5,5,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_FLT1_pan,tissue:ovary,True,,23.0,54.0,cohort-specific exploratory,8,8,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:ovary,True,0.062436880762571374,30.0,52.0,cohort-specific exploratory,14,14,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,0.0,,endo
+hUSI,EndoMT_CFD_pan,tissue:ovary,True,,30.0,52.0,cohort-specific exploratory,9,9,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_VIM_pan,tissue:ovary,True,,8.0,8.0,cohort-specific exploratory,4,4,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,LEC_EFEMP1_pan,tissue:ovary,True,0.35128668915990213,30.0,52.0,cohort-specific exploratory,14,14,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,0.0,,endo
+hUSI,VenEC_CFD_pan,tissue:ovary,True,,71.0,71.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:ovary,True,,30.0,55.0,cohort-specific exploratory,10,10,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:ovary,True,,30.0,52.0,cohort-specific exploratory,9,9,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pan,tissue:ovary,True,,41.0,71.0,cohort-specific exploratory,3,3,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:pancreas,True,,29.0,60.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_DCN_breast,tissue:pancreas,True,,46.0,46.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_GNG11_pan,tissue:pancreas,True,,0.041,0.041,cohort-specific exploratory,6,6,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TAGLN_pan,tissue:pancreas,True,,46.0,46.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TAGLN_prostate,tissue:pancreas,True,,29.0,73.0,multi-GSE association,4,4,3,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_breast,tissue:pancreas,True,,30.0,54.0,cohort-specific exploratory,6,6,1,,,,,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:pancreas,True,0.1634758768482255,29.0,60.0,multi-GSE association,16,16,3,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,1.0,,endo
+hUSI,EndoMT_CFD_pan,tissue:pancreas,True,,60.0,73.0,cohort-specific exploratory,2,2,1,,,,,"sex,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TPM2_pan,tissue:pancreas,True,,0.011,0.055,multi-GSE association,8,8,2,,,,,"gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CFD_pan,tissue:pancreas,True,,29.0,73.0,cohort-specific exploratory,3,3,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:pancreas,True,,60.0,60.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_DCN_breast,tissue:pancreas,True,,46.0,46.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_EPCAM_pan,tissue:pancreas,True,,30.0,60.0,cohort-specific exploratory,3,3,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:pancreas,True,,29.0,60.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pancreas,tissue:pancreas,True,0.16341536658526565,26.0,66.0,cohort-specific exploratory,34,34,2,3.849166643273179e-07,-0.0007086472335692701,0.0007094170668979248,0.9991253946919534,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.9991253946919534,endo
+hUSI,ArtEC_FLT1_pan,tissue:peripheral nerve,True,,44.0,44.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_PTN_pan,tissue:peripheral nerve,True,,0.03,0.123,cohort-specific exploratory,8,8,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TAGLN_pan,tissue:peripheral nerve,True,,0.0,0.123,multi-GSE association,7,7,3,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TPM2_pan,tissue:peripheral nerve,True,,0.036,0.123,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:prostate,True,,46.0,75.0,multi-GSE association,8,8,3,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_FLT1_uterus,tissue:prostate,True,,70.0,70.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TAGLN_prostate,tissue:prostate,True,,61.0,73.0,cohort-specific exploratory,2,2,1,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_breast,tissue:prostate,True,,61.0,61.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:prostate,True,0.3782004270968829,46.0,75.0,multi-GSE association,3,3,1,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_bone marrow,tissue:prostate,True,,68.0,68.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,tissue:prostate,True,,66.0,75.0,cohort-specific exploratory,2,2,1,,,,,"treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TM4SF1_pan,tissue:prostate,True,,61.0,70.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_VIM_pan,tissue:prostate,True,,68.0,68.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CFD_pan,tissue:prostate,True,,54.0,75.0,cohort-specific exploratory,3,3,1,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:prostate,True,-0.07561558268037195,46.0,71.0,cohort-specific exploratory,20,20,2,-0.0005025231998970741,-0.001283470699439317,0.0002784242996451689,0.1938856172890651,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,2.0,0.1938856172890651,endo
+hUSI,VenEC_FLT1_pan,tissue:prostate,True,0.5205281783973466,46.0,75.0,multi-GSE association,3,3,1,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_TAGLN_pan,tissue:prostate,True,,73.0,73.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:skin,True,-0.26469391539638376,18.0,71.0,multi-GSE association,1,1,1,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_DCN_breast,tissue:skin,True,,53.0,54.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TAGLN_prostate,tissue:skin,True,,51.0,54.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_breast,tissue:skin,True,,52.0,52.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:skin,True,-0.08540841482456694,0.333,72.0,multi-GSE association,1,1,1,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_bone marrow,tissue:skin,True,,8.0,8.0,cohort-specific exploratory,4,4,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,tissue:skin,True,-0.2905598239128798,0.019,72.0,multi-GSE association,1,1,1,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_COL1A1_pan,tissue:skin,True,,4.0,4.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_EFEMP1_skin,tissue:skin,True,,0.008,0.008,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_GNG11_vessel,tissue:skin,True,,0.0,0.019,cohort-specific exploratory,3,3,1,,,,,"treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TGFBI_pan,tissue:skin,True,,13.0,13.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_TM4SF1_pan,tissue:skin,True,,18.0,69.0,multi-GSE association,4,4,3,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_TPM2_pan,tissue:skin,True,,0.016,0.041,cohort-specific exploratory,5,5,2,,,,,"gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_VIM_pan,tissue:skin,True,,8.0,8.0,cohort-specific exploratory,4,4,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,LEC_EFEMP1_pan,tissue:skin,True,-0.3645264200154227,18.0,72.0,multi-GSE association,17,17,6,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,1.0,,endo
+hUSI,MCs_TPM2_pan,tissue:skin,True,,0.019,0.019,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CFD_pan,tissue:skin,True,,0.038,54.0,multi-GSE association,4,4,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:skin,True,-0.021613204143766208,0.333,70.0,multi-GSE association,1,1,1,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:skin,True,-0.22606149839924586,0.333,71.0,multi-GSE association,1,1,1,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_TM4SF1_breast,tissue:skin,True,,0.038,0.038,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_CFD_bone marrow,tissue:spleen,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TAGLN_pan,tissue:stomach,True,,56.0,56.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TAGLN_prostate,tissue:stomach,True,,56.0,58.0,cohort-specific exploratory,2,2,1,,,,,"sex,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:stomach,True,,62.0,67.0,cohort-specific exploratory,3,3,1,,,,,"sex,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:stomach,True,,62.0,62.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:testis,True,,37.0,42.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:testis,True,,37.0,37.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:testis,True,,25.0,37.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:testis,True,,37.0,37.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:thymus,True,,25.0,25.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:thymus,True,,25.0,25.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_CFD_bone marrow,tissue:thymus,True,,5.0,5.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,LEC_EFEMP1_pan,tissue:thymus,True,,25.0,25.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:thymus,True,,25.0,25.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:thymus,True,,25.0,25.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:tonsil,True,,6.0,63.0,cohort-specific exploratory,6,6,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:tonsil,True,,6.0,63.0,cohort-specific exploratory,7,7,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,tissue:tonsil,True,,6.0,42.0,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,LEC_EFEMP1_pan,tissue:tonsil,True,,18.0,42.0,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:tonsil,True,,6.0,63.0,cohort-specific exploratory,6,6,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:tonsil,True,,6.0,42.0,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:uterus,True,,0.014,0.066,cohort-specific exploratory,6,6,2,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_pan,tissue:uterus,True,,0.066,42.0,cohort-specific exploratory,3,3,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_COL1A1_pan,tissue:uterus,True,,0.008,0.008,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,EndoMT_PTN_pan,tissue:uterus,True,,0.014,0.014,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,MCs_TPM2_pan,tissue:uterus,True,,0.008,0.008,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CFD_pan,tissue:uterus,True,,0.063,0.066,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:uterus,True,,0.066,0.066,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_FLT1_pan,tissue:uterus,True,,34.0,42.0,cohort-specific exploratory,4,4,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,VenEC_TM4SF1_breast,tissue:uterus,True,,0.014,0.014,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,ArtEC_CXCL12_pan,tissue:vessel,True,,76.0,76.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_GNG11_pan,tissue:vessel,True,,0.036,0.036,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,CapEC_TM4SF1_pan,tissue:vessel,True,,47.0,67.0,cohort-specific exploratory,2,2,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_CFD_bone marrow,tissue:vessel,True,,74.0,77.0,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo
+hUSI,EndoMT_VIM_pan,tissue:vessel,True,,47.0,47.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,endo
+hUSI,VenEC_CLU_pan,tissue:vessel,True,,47.0,76.0,cohort-specific exploratory,2,2,2,,,,,"sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,endo

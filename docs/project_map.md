@@ -15,7 +15,7 @@ This repository is a curated source export, not a recursive copy of the original
 | `wutongdao_TabulaStromal` | `legacy/wutongdao_TabulaStromal` | Annotation and early model notebooks; outputs removed |
 | Root `code` | `legacy/code` | Historical integration, annotation inference and exploratory notebooks |
 | `data`, `AgePrediction/Valid_data` | Not exported | Expression matrices and individual-level input data |
-| `Manuscript` | Not exported | Unpublished drafts, Word documents and large audit files |
+| `Manuscript` | Original workspace not exported | Three evidence-linked Results drafts are regenerated under `docs/results`; source legends are mapped in the manifest |
 | Vendored Python/R packages, model caches, run backups | Not exported | Obtain dependencies separately; keep research archives externally |
 
 Older GeneModel/IDEAL-Age/downstream scripts are superseded for this source release by the explicit rebenchmark and final-clock implementations. Historical notebooks reference some of those external project artifacts; those references do not make them included or portable. Server process watchdogs, scheduler helpers, PID files and automatic restart scripts are omitted because they manage the original running environment.

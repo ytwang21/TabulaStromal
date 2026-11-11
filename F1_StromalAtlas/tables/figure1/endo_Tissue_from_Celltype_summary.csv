@@ -1,0 +1,12 @@
+group,n_cells,n_samples
+pan,1425926,3126
+breast,283314,953
+eye,121489,424
+prostate,103094,516
+bone marrow,102034,782
+vessel,59595,136
+pancreas,53897,397
+brain,50261,125
+uterus,34637,223
+skin,4990,30
+lymph,40,2

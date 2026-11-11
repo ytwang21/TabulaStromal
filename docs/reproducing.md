@@ -69,6 +69,6 @@ CellAge uses its own run IDs, join audits and resumable stages. Its historical `
 
 ## Historical figures and notebooks
 
-`workflows/model_performance/make_fig2.py` needs its archived fold-4 inputs and overview PDF. This release includes aggregate Figure 2 metrics, not sample-level plot data or an asserted final-model figure. The source is retained for inspection; its asset paths require the original archive. `scripts/plot_summary.py` independently regenerates the README figure from released aggregate values.
+`workflows/model_performance/make_fig2.py` needs its archived fold-4 inputs and overview PDF. This release includes the original rendered Figure 2 and aggregate metrics, not individual prediction rows. The source is retained for inspection; rebuilding it requires the original archive. `scripts/plot_summary.py` independently regenerates the separate scope-labelled final-clock chart from released aggregate values.
 
 The `legacy/` notebooks retain annotation/integration logic with outputs cleared and personal paths generalized. They require external inputs and their historical environments. They are not covered by a claim of end-to-end execution in this source release.

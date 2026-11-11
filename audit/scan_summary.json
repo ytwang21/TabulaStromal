@@ -1,0 +1,13 @@
+{
+  "scanned_files": 1413618,
+  "figure_candidates": 847,
+  "complete_inventory": "outputs/source_audit/full_file_inventory.csv.gz",
+  "complete_inventory_public": false,
+  "source_roots": {
+    "F1_StromalAtlas": "F1_StromalAtlas",
+    "F2_ModelPerformance": "F2_ModelPerformance",
+    "TabulaStromal_Rebenchmark_2026": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026",
+    "CellAge_Exploration": "AgePrediction/CellAge_Exploration"
+  },
+  "policy": "Full metadata scan; no expression matrix densified; no model content read by discovery."
+}
