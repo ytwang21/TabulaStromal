@@ -1,0 +1,29 @@
+{
+  "scale_from_previous": 1.5,
+  "previous": {
+    "base": 20,
+    "title": 27,
+    "panel": 42,
+    "strip": 24,
+    "celltype": 13,
+    "tick": 20,
+    "axis": 22,
+    "legend": 21,
+    "note": 16
+  },
+  "current": {
+    "base": 30.0,
+    "title": 40.5,
+    "panel": 63.0,
+    "strip": 36.0,
+    "celltype": 19.5,
+    "tick": 30.0,
+    "axis": 33.0,
+    "legend": 31.5,
+    "note": 24.0
+  },
+  "umap_axes": 19.5,
+  "figure_heading": 43.5,
+  "color": "#000000",
+  "weight": "normal"
+}

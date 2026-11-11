@@ -1,0 +1,20 @@
+{
+  "dpi": 300,
+  "figure_size": [26, 24.5],
+  "row_height_ratios": [6.7, 5.6, 3.5, 4.2],
+  "atlas_scatter_size": 10,
+  "atlas_scatter_alpha": 0.8,
+  "outline_group": "subtype",
+  "outline_mass": 0.99,
+  "outline_grid": 300,
+  "top_tissues": 12,
+  "trajectory_models": {"fibro": "selected", "endo": "selected"},
+  "expected_metacell_inputs": {
+    "fibro": "./data/scalex/fibro/human/trajectory/data/FibAtlas_CelltypePan_BatT_47646.h5ad",
+    "endo": "./data/scalex//endo/human/trajectory/data/EndoAtlas_CelltypePan_BatT_19011.h5ad"
+  },
+  "general_colors": {
+    "fibro": {"qFibro": "#9467bd", "Myfibro": "#1f77b4", "iFibro": "#e377c2", "eFibro": "#87ceeb"},
+    "endo": {"PC": "#1f77b4", "VenEC": "#ff7f0e", "EndoMT-II": "#2ca02c", "CapEC": "#d62728", "LymEC": "#9467bd", "SMC": "#8c564b", "ArtEC": "#e377c2", "EndoMT-I": "#7f7f7f", "MCs": "#1f77b4", "LEC": "#9467bd", "EndoMT": "#2ca02c"}
+  }
+}

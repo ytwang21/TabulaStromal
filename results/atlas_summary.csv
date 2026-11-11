@@ -1,0 +1,3 @@
+lineage,n_cells,n_genes,n_sample_labels,n_GSE_labels,n_raw_tissue_labels,independent_donor_count
+fibro,5916760,11700,4818,848,39,not_verified
+endo,2239277,11521,3553,748,39,not_verified

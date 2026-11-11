@@ -1,0 +1,51 @@
+{
+  "inputs": {
+    "fibro": "../../../data/scalex/fibro/human/Fibro_human_FibDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyFib.h5ad",
+    "endo": "../../../data/scalex/endo/human/Endo_human_EndoDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyEndo.h5ad"
+  },
+  "fields": {},
+  "expression_source": "X",
+  "expression_scale": "log1p",
+  "seed": 42,
+  "chunk_rows": 4096,
+  "plot_cells": 160000,
+  "trajectory_cells": 12000,
+  "trajectory_neighbors": [
+    15,
+    30
+  ],
+  "trajectory_root": {
+    "fibro": "qFibro",
+    "endo": "ArtEC"
+  },
+  "paga_threshold": 0.15,
+  "signature_bins": 25,
+  "controls_per_bin": 50,
+  "pilot_blocks": 16,
+  "pilot_block_rows": 256,
+  "top_tissues": 12,
+  "dpi": 300,
+  "trajectory_engine": "metacell_three_method",
+  "metacell_inputs": {
+    "fibro": "../../../data/scalex/fibro/human/trajectory/data/FibAtlas_CelltypePan_BatT_47646.h5ad",
+    "endo": "../../../data/scalex/endo/human/trajectory/data/EndoAtlas_CelltypePan_BatT_19011.h5ad"
+  },
+  "metacell_trajectory": {
+    "rscript": "Rscript",
+    "monocle_hvg": [
+      750,
+      1000,
+      1500
+    ],
+    "monocle_deg": [
+      50,
+      150,
+      350
+    ],
+    "stream_nodes": 50,
+    "stream_seed_clusters": 7,
+    "preferred_method": "monocle",
+    "max_fit_metacells": 6000,
+    "cellrank_landmarks": 200
+  }
+}

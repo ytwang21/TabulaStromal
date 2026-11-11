@@ -1,0 +1,27 @@
+output_dir: ./StromalAtlas/extended_figure1_SS
+prompt_file: ./StromalAtlas/extended_figure1_SS/StromalAtlas_ExtendFig1_SignatureScore.md
+inputs:
+  fibro: ./data/scalex/fibro/human/Fibro_human_FibDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyFib.h5ad
+  endo: ./data/scalex/endo/human/Endo_human_EndoDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyEndo.h5ad
+notebooks:
+  fibro: ./wutongdao_TabulaStromal/LLM_Fib_annotation.ipynb
+  endo: ./wutongdao_TabulaStromal/LLM_Endo_annotation.ipynb
+fig1_dir: ./StromalAtlas/results/fig1_20261103_v2
+group_column: GSE
+holdout_fraction: 0.30
+seed: 42
+chunk_rows: 8192
+pilot_blocks: 40
+pilot_rows_per_block: 384
+expression_bins: 25
+controls_per_bin: 12
+min_cells_per_group_subtype: 20
+min_training_pairs: 10
+selection_min_detection: 0.05
+selection_min_pair_effect: 0.02
+selection_min_stability: 0.65
+max_final_genes: 8
+bootstrap_replicates: 500
+plot_cells: 90000
+dpi: 300
+version: ss_v1_20261104

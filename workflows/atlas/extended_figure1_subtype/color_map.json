@@ -1,0 +1,119 @@
+{
+  "source": "./StromalAtlas/results/fig1_20261103_v2/config_used.json",
+  "general_colors": {
+    "Myfibro": "#BC788E",
+    "eFibro": "#619BC2",
+    "iFibro": "#D7A254",
+    "qFibro": "#66A88D",
+    "ArtEC": "#AD7FA8",
+    "CapEC": "#65AC9E",
+    "VenEC": "#7497C5",
+    "EndoMT": "#D19A62",
+    "MCs": "#BE7F91",
+    "LEC": "#A5B86F"
+  },
+  "general_order": {
+    "fibro": [
+      "Myfibro",
+      "eFibro",
+      "iFibro",
+      "qFibro"
+    ],
+    "endo": [
+      "ArtEC",
+      "CapEC",
+      "VenEC",
+      "EndoMT",
+      "MCs",
+      "LEC"
+    ]
+  },
+  "celltype_colors": {
+    "fibro": {
+      "Myfibro_CALD1_kidney": "#ffff00",
+      "Myfibro_CALD1_pan": "#1ce6ff",
+      "Myfibro_CDKN2A_brain": "#ff34ff",
+      "Myfibro_CTSA_skin": "#ff4a46",
+      "Myfibro_KRT8_pan": "#008941",
+      "Myfibro_MYH11_uterus": "#006fa6",
+      "Myfibro_QKI_brain": "#a30059",
+      "Myfibro_QKI_eye": "#ffdbe5",
+      "Myfibro_TAGLN_pan": "#7a4900",
+      "Myfibro_TPM1_pan": "#0000a6",
+      "Myfibro_TUBB2B_pan": "#63ffac",
+      "eFibro_COL1A1_lung": "#b79762",
+      "eFibro_COL1A1_pan": "#004d43",
+      "eFibro_COL1A2_pan": "#8fb0ff",
+      "eFibro_COL3A1_lung": "#997d87",
+      "eFibro_COL3A1_pan": "#5a0007",
+      "eFibro_COL6A1_adipose": "#809693",
+      "eFibro_DCN_heart": "#6a3a4c",
+      "eFibro_DCN_pan": "#1b4400",
+      "eFibro_DCN_uterus": "#4fc601",
+      "eFibro_HNRNPA1_pan": "#3b5dff",
+      "eFibro_IGFBP7_pan": "#4a3b53",
+      "eFibro_SPARC_pan": "#ff2f80",
+      "iFibro_ARHGDIB_pan": "#61615a",
+      "iFibro_CD74_bone marrow": "#ba0900",
+      "iFibro_CD74_pan": "#6b7900",
+      "iFibro_CD74_skin": "#00c2a0",
+      "qFibro_APOD_breast": "#ffaa92",
+      "qFibro_CFD_pan": "#ff90c9",
+      "qFibro_CLU_bone": "#b903aa",
+      "qFibro_CLU_pan": "#d16100",
+      "qFibro_MGP_eye": "#ddefff"
+    },
+    "endo": {
+      "ArtEC_ARL15_pan": "#ffff00",
+      "ArtEC_CXCL12_pan": "#1ce6ff",
+      "ArtEC_FLT1_brain": "#ff34ff",
+      "ArtEC_FLT1_pan": "#ff4a46",
+      "ArtEC_HSPG2_brain": "#008941",
+      "ArtEC_THY1_pan": "#006fa6",
+      "CapEC_DCN_breast": "#7a4900",
+      "CapEC_FLT1_uterus": "#0000a6",
+      "CapEC_GNG11_pan": "#63ffac",
+      "CapEC_TAGLN_pan": "#b79762",
+      "CapEC_TAGLN_prostate": "#004d43",
+      "CapEC_TM4SF1_breast": "#8fb0ff",
+      "CapEC_TM4SF1_pan": "#997d87",
+      "EndoMT_CD3D_pan": "#5a0007",
+      "EndoMT_CFD_bone marrow": "#809693",
+      "EndoMT_CFD_pan": "#6a3a4c",
+      "EndoMT_CLU_eye": "#1b4400",
+      "EndoMT_COL1A1_pan": "#4fc601",
+      "EndoMT_EFEMP1_skin": "#3b5dff",
+      "EndoMT_GNG11_vessel": "#4a3b53",
+      "EndoMT_PTN_pan": "#ff2f80",
+      "EndoMT_TAGLN_pan": "#61615a",
+      "EndoMT_TGFBI_pan": "#ba0900",
+      "EndoMT_TM4SF1_lymph": "#6b7900",
+      "EndoMT_TM4SF1_pan": "#00c2a0",
+      "EndoMT_TPM2_pan": "#ffaa92",
+      "EndoMT_VIM_pan": "#ff90c9",
+      "LEC_EFEMP1_pan": "#7b4f4b",
+      "MCs_TPM2_pan": "#a1c299",
+      "VenEC_CFD_pan": "#ffb500",
+      "VenEC_CLU_eye": "#c2ffed",
+      "VenEC_CLU_pan": "#a079bf",
+      "VenEC_DCN_breast": "#cc0744",
+      "VenEC_EPCAM_pan": "#c0b9b2",
+      "VenEC_FLT1_pan": "#c2ff99",
+      "VenEC_TAGLN_pan": "#001e09",
+      "VenEC_TAGLN_pancreas": "#00489c",
+      "VenEC_TM4SF1_breast": "#6f0062"
+    }
+  },
+  "celltype_palette_sources": {
+    "fibro": {
+      "h5ad": "./data/scalex/fibro/human/Fibro_human_FibDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyFib.h5ad",
+      "labels": "obs/Celltype/categories",
+      "colors": "uns/Celltype_colors"
+    },
+    "endo": {
+      "h5ad": "./data/scalex/endo/human/Endo_human_EndoDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyEndo.h5ad",
+      "labels": "obs/Celltype/categories",
+      "colors": "uns/Celltype_colors"
+    }
+  }
+}

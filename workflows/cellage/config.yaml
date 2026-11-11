@@ -1,0 +1,142 @@
+project_root: .
+output_root: outputs/cellage
+seed: 42
+min_match_rate: 0.95
+min_cells: 20
+cell_threshold_sensitivity:
+- 10
+- 20
+- 50
+min_donors: 12
+min_gse: 3
+bootstrap_n: 1000
+max_memory_gb: 16
+embedding_max_cells: 40000
+figure_dpi: 300
+age_units: years
+age_units_evidence: Existing GeneModel chronological-age labels and numeric fractional
+  years; keep Age/age conflicts in audit.
+donor_crosswalk: null
+expression:
+  enabled: false
+  counts_provenance: null
+  chunk_size: 2048
+  min_detected_donors: 6
+lineages:
+  fibro:
+    atlas: ./data/scalex/fibro/human/Fibro_human_FibDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyFib.h5ad
+    age_atlas: ./data/scalex/fibro/human/Fibro_human_FibDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyFib_age.h5ad
+    raw_atlas: ./data/scalex/fibro/human/Fibro_human_FibDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyFib_age_raw.h5ad
+    scores:
+      hUSI:
+        path: ./data/scalex/fibro/human/age_prediction/CellAge/HUSI/results/Fibro/normalize/Fibro_husi_result_meta.csv
+        cell_column: cellid
+        values:
+          hUSI: hUSI
+          husi_SSE: husi_SSE
+          husi_GMM: husi_GMM
+        semantics: senescence_score
+        direction: higher
+        binary_column: husi_SSE
+        binary_semantics_verified: true
+        scope: age_atlas; no downsampling in inspected run script
+        source_script: ./data/scalex/fibro/human/age_prediction/CellAge/HUSI/script/run_husi_fib.py
+      SenCID:
+        path: ./data/scalex/fibro/human/age_prediction/CellAge/SenCID/results/FibroSubtype_SenCID_meta.tsv
+        cell_column: cellid
+        values:
+          SID1: SenCID_rec_SID1
+          SID2: SenCID_rec_SID2
+          SID3: SenCID_rec_SID3
+          SID4: SenCID_rec_SID4
+          SID5: SenCID_rec_SID5
+          SID6: SenCID_rec_SID6
+        semantics: SID_recommendation_not_senescence_prediction
+        direction: not_applicable
+        scope: partial age atlas; exact coverage audited
+        source_script: external_inputs/run_ScenCID.py
+    genemodel:
+      predictions: ./AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro/benchmark/cv_predictions.csv
+      model_column: model
+      model_value: ElasticNet
+      split_column: split
+      allowed_splits:
+      - Valid
+      split_evidence: Existing grouped outer CV; only completed held-out folds available
+        at snapshot; K8000 ElasticNet prespecified, no performance selection
+      sample_column: sample
+      age_column: Age
+      prediction_column: prediction
+      fold_column: fold
+      donor_disjoint_verified: false
+      donor_disjoint_evidence: null
+      stable_features: ./AgePrediction/GeneModel/code/TabulaStromal_Fibro_Downstream/results/Part2_StableFeatures/stable_Celltype_Gene_features.csv
+      feature_universe: ./AgePrediction/GeneModel/code/TabulaStromal_Fibro_Downstream/results/Part2_StableFeatures/bootstrap_selection_frequency.csv
+      gene_set_config: ./AgePrediction/GeneModel/code/TabulaStromal_Fibro_Downstream/config.yaml
+      score_gene_lists:
+        hUSI: external_inputs/SenOCLR_features.csv
+      historical_predictions: ./AgePrediction/GeneModel/code/TabulaStromal_Fibro_Downstream/results/Part2_StableFeatures/Recovery/archived_OOF_predictions.csv
+      feature_count_column: K
+      feature_count: 8000
+      preprocessing_train_only_verified: true
+      preprocessing_evidence: ./AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/tabulastromal/training.py
+  endo:
+    atlas: ./data/scalex/endo/human/Endo_human_EndoDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyEndo.h5ad
+    age_atlas: ./data/scalex/endo/human/Endo_human_EndoDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyEndo_age.h5ad
+    raw_atlas: ./data/scalex/endo/human/Endo_human_EndoDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyEndo_age_raw.h5ad
+    scores:
+      hUSI:
+        path: ./data/scalex/fibro/human/age_prediction/CellAge/HUSI/results/Endo/normalize/Endo_husi_result_meta.csv
+        cell_column: cellid
+        values:
+          hUSI: hUSI
+          husi_SSE: husi_SSE
+          husi_GMM: husi_GMM
+        semantics: senescence_score
+        direction: higher
+        binary_column: husi_SSE
+        binary_semantics_verified: true
+        scope: age_atlas; no downsampling in inspected run script
+        source_script: ./data/scalex/fibro/human/age_prediction/CellAge/HUSI/script/run_husi_fib.py
+      SenCID:
+        path: ./data/scalex/fibro/human/age_prediction/CellAge/SenCID/results/EndoSubtype_SenCID_meta.tsv
+        cell_column: cellid
+        values:
+          SID1: SenCID_rec_SID1
+          SID2: SenCID_rec_SID2
+          SID3: SenCID_rec_SID3
+          SID4: SenCID_rec_SID4
+          SID5: SenCID_rec_SID5
+          SID6: SenCID_rec_SID6
+        semantics: SID_recommendation_not_senescence_prediction
+        direction: not_applicable
+        scope: partial age atlas; exact coverage audited
+        source_script: external_inputs/run_ScenCID.py
+    genemodel:
+      predictions: ./AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/benchmark/cv_predictions.csv
+      model_column: model
+      model_value: ElasticNet
+      split_column: split
+      allowed_splits:
+      - Valid
+      split_evidence: Existing grouped outer CV; only completed held-out folds available
+        at snapshot; K8000 ElasticNet prespecified, no performance selection
+      sample_column: sample
+      age_column: Age
+      prediction_column: prediction
+      fold_column: fold
+      donor_disjoint_verified: false
+      donor_disjoint_evidence: null
+      stable_features: ./AgePrediction/GeneModel/code/TabulaStromal_Endo_Downstream/results/Part2_StableFeatures/stable_Celltype_Gene_features.csv
+      feature_universe: ./AgePrediction/GeneModel/code/TabulaStromal_Endo_Downstream/results/Part2_StableFeatures/bootstrap_selection_frequency.csv
+      gene_set_config: ./AgePrediction/GeneModel/code/TabulaStromal_Endo_Downstream/config.yaml
+      score_gene_lists:
+        hUSI: external_inputs/SenOCLR_features.csv
+      historical_predictions: ./AgePrediction/GeneModel/code/TabulaStromal_Endo_Downstream/results/Part2_StableFeatures/NewBaseline/new_EN_OOF_predictions.csv
+      feature_count_column: K
+      feature_count: 8000
+      preprocessing_train_only_verified: true
+      preprocessing_evidence: ./AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/tabulastromal/training.py
+donor_column: sample
+donor_identity_evidence: Historical workflow uses sample as the aggregation unit;
+  independent donor identity is not verified by this repository.

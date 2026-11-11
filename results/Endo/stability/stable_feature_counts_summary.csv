@@ -1,0 +1,13 @@
+lineage,scope,threshold,n_successful_bootstraps,n_stable_Celltype_Gene,n_stable_Celltypes,n_unique_stable_Genes
+Endo,outer1,0.7,300,10,2,10
+Endo,outer1,0.75,300,2,1,2
+Endo,outer2,0.7,300,22,1,22
+Endo,outer2,0.75,300,14,1,14
+Endo,outer3,0.7,300,13,1,13
+Endo,outer3,0.75,300,8,1,8
+Endo,outer4,0.7,300,30,1,30
+Endo,outer4,0.75,300,20,1,20
+Endo,outer5,0.7,300,9,2,9
+Endo,outer5,0.75,300,0,0,0
+Endo,full_train,0.7,300,23,1,23
+Endo,full_train,0.75,300,15,1,15

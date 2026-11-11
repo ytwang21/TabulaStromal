@@ -1,0 +1,23 @@
+protocol: External-FT30-AllSample-ENReference-v3
+adaptation_fraction: 0.30
+adaptation_seed: 42
+repeats: 1
+continuation_epochs: 60
+continuation_boost_rounds: 60
+external_eval_mode: adapt30_all100
+workers_per_lineage: 56
+bootstrap_workers: 96
+worker_threads: 1
+gpu_ids: [5, 6]
+gpu_enabled: true
+gpu_min_samples: 16
+reserve_memory_gb: 192
+heartbeat_seconds: 30
+per_gse_policy: preserve_existing_outputs_no_new_fraction_grid
+lineages:
+  Fibro:
+    config: Fibro_Accelerated_20261102/config_fibro_fast.yaml
+    package_root: Fibro_Accelerated_20261102
+  Endo:
+    config: config.yaml
+    package_root: .

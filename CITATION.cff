@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this software when using TabulaStromal. No manuscript DOI is assigned in this source release."
+type: software
+title: "TabulaStromal: human stromal atlas and transcriptomic age prediction workflows"
+authors:
+  - name: "TabulaStromal contributors"
+version: 0.1.0
+date-released: 2026-11-11
+keywords:
+  - single-cell transcriptomics
+  - fibroblast
+  - endothelial cells
+  - age prediction
+  - feature stability

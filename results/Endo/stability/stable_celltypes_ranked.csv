@@ -1,0 +1,2 @@
+Celltype,n_stable_features,n_unique_stable_genes,candidate_features,stable_fraction_of_candidates,coefficient_sum,coefficient_absolute_sum,coefficient_mean,selection_frequency_mean,n_cells,n_samples,stable_per_1000_cells,stable_genes
+CapEC_TM4SF1_pan,23,23,5489,0.004190198578976134,1.083855661,2.5985551430000005,0.04712415917391305,0.7689855072463767,28185,134,0.8160368990597836,CD59;COL6A2;COPRS;CYSTM1;DDAH2;ERO1A;GTF2I;HLA-DPA1;HLA-DPB1;IVNS1ABP;MT1X;NREP;PDLIM1;RPS27L;SNHG8;SOD2;STMN1;TMED10;UACA;VGLL4;WTAP;ZFAS1;ZFP36

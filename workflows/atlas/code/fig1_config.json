@@ -1,0 +1,29 @@
+{
+  "source_run": "../results/runs/meta_full_20261031_232542_2002510",
+  "output_dir": "../results/fig1_20261103_v2",
+  "dpi": 300,
+  "plot_cells_per_lineage": 160000,
+  "seed": 42,
+  "figure_size": [50, 57],
+  "legend_fontsize": 54,
+  "legend_title_fontsize": 60,
+  "statistics_fontsize": 24,
+  "general_order": {
+    "fibro": ["Myfibro", "eFibro", "iFibro", "qFibro"],
+    "endo": ["ArtEC", "CapEC", "VenEC", "EndoMT", "MCs", "LEC"]
+  },
+  "general_colors": {
+    "Myfibro": "#BC788E", "eFibro": "#619BC2", "iFibro": "#D7A254", "qFibro": "#66A88D",
+    "ArtEC": "#AD7FA8", "CapEC": "#65AC9E", "VenEC": "#7497C5", "EndoMT": "#D19A62", "MCs": "#BE7F91", "LEC": "#A5B86F"
+  },
+  "tissue_colors": {
+    "pan": "#AFC7CE", "adipose": "#F4A340", "brain": "#4EB67A", "breast": "#ED8D5A",
+    "heart": "#D94B63", "uterus": "#DA9EB5", "lung": "#F7D06A", "kidney": "#DEB740",
+    "skin": "#7654A0", "eye": "#7EAFD7", "bone": "#B99A71", "bone marrow": "#A78BBC",
+    "prostate": "#7498AB", "vessel": "#0C6D82", "pancreas": "#B5BB53", "lymph": "#50BFB5"
+  },
+  "age_colors": {
+    "A": "#71B4A3", "B": "#EFA17D", "C": "#95A1BE", "D": "#D48AB5",
+    "E": "#AACA61", "F": "#E2CE57", "G": "#D9BC92", "H": "#8CC4D0", "Unknown": "#C5C9CD"
+  }
+}

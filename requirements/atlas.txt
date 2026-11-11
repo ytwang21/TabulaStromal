@@ -1,0 +1,16 @@
+# Validated versions are captured per run in shared/requirements-lock.txt.
+anndata>=0.8,<0.12
+scanpy>=1.10,<1.12
+numpy>=1.24,<2
+pandas>=1.5,<3
+scipy>=1.10,<1.14
+h5py>=3.9
+matplotlib>=3.6
+scikit-learn>=1.2
+igraph>=0.11
+bbknn>=1.6
+nbformat>=5
+nbclient>=0.8
+ipykernel>=6
+pypdf>=4
+Pillow>=9.2

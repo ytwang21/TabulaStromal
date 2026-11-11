@@ -1,0 +1,578 @@
+score,celltype,sensitivity,adjusted,spearman_rho,age_min,age_max,scope,n_rows,n_donors,n_gse,effect,ci_low,ci_high,p,adjustment,status,n_redundant_nuisance_columns,q,lineage
+hUSI,Myfibro_CALD1_kidney,min_cells_10,False,0.11069488172569156,0.3,89.0,multi-GSE association,73,73,14,0.00029167594076553603,-0.00010341610259356494,0.000686767984124637,0.14546740320316945,,ok,0.0,0.22202919436273233,fibro
+hUSI,Myfibro_CALD1_pan,min_cells_10,False,-0.1558926430022073,0.0,100.0,multi-GSE association,284,284,79,-0.0005147615801515597,-0.0009100946382291131,-0.0001194285220740063,0.010893802958159492,,ok,0.0,0.02430156044512502,fibro
+hUSI,Myfibro_CDKN2A_brain,min_cells_10,False,0.06451654344593885,0.0,69.0,multi-GSE association,15,15,9,0.0022730336332152743,0.0006560027541547679,0.0038900645122757808,0.009273662336833468,,ok,0.0,0.022411350647347547,fibro
+hUSI,Myfibro_CTSA_skin,min_cells_10,False,-0.01760177082722231,0.019,70.0,multi-GSE association,14,14,11,0.00035066525497306263,-0.0014607962152137703,0.0021621267251598956,0.6826214748770673,,ok,0.0,0.7549982614613064,fibro
+hUSI,Myfibro_KRT8_pan,min_cells_10,False,0.1352097738186739,0.011,10.0,multi-GSE association,39,39,15,-0.009301968797486616,-0.01599511243994705,-0.0026088251550261824,0.007718026525119217,,ok,0.0,0.02238227692284573,fibro
+hUSI,Myfibro_MYH11_uterus,min_cells_10,False,0.22578574490727385,0.164,91.0,multi-GSE association,36,36,15,0.0007846066281415169,-0.0005355480616681108,0.0021047613179511447,0.2356967086667657,,ok,0.0,0.32548593101600976,fibro
+hUSI,Myfibro_QKI_brain,min_cells_10,False,0.2102975737219333,0.0,100.0,multi-GSE association,171,171,24,0.000517608398048895,0.00026780210594379007,0.0007674146901539998,6.640373457147377e-05,,ok,0.0,0.0003851416605145478,fibro
+hUSI,Myfibro_QKI_eye,min_cells_10,False,0.1689437909443467,0.038,100.0,multi-GSE association,54,54,10,0.0005107690952054459,-3.1836393697530995e-05,0.0010533745841084228,0.06449695965070401,,ok,0.0,0.10391176832613423,fibro
+hUSI,Myfibro_TAGLN_pan,min_cells_10,False,0.28080255254602293,0.0,99.0,multi-GSE association,370,370,80,0.0003910451036593841,0.00021175826661002533,0.0005703319407087429,2.2951088330068338e-05,,ok,0.0,0.00022186052052399394,fibro
+hUSI,Myfibro_TPM1_pan,min_cells_10,False,0.042951228725400394,0.0,71.0,multi-GSE association,71,71,31,-0.0029757084125118156,-0.005018397725205405,-0.0009330190998182259,0.004905859596587005,,ok,0.0,0.017783741037627893,fibro
+hUSI,Myfibro_TUBB2B_pan,min_cells_10,False,0.46490761161258726,0.0,69.0,multi-GSE association,56,56,22,0.0002877650184908567,-0.0005697932336502696,0.001145323270631983,0.5040913403099053,,ok,0.0,0.6091103695411356,fibro
+hUSI,eFibro_COL1A1_lung,min_cells_10,False,-0.0015616346274648647,0.0,70.0,multi-GSE association,30,30,10,0.0014828593601324057,0.0003457044952678821,0.0026200142249969294,0.012387558700480842,,ok,0.0,0.025659943022424598,fibro
+hUSI,eFibro_COL1A1_pan,min_cells_10,False,-0.04013626319106272,0.0,100.0,multi-GSE association,460,460,93,-0.0001549096079918758,-0.0006070662657696313,0.0002972470497858797,0.501119377691359,,ok,0.0,0.6091103695411356,fibro
+hUSI,eFibro_COL1A2_pan,min_cells_10,False,0.2951838223244032,0.0,95.0,multi-GSE association,329,329,94,0.0013668991904537571,0.0008716359749424879,0.0018621624059650265,1.1021709596640746e-07,,ok,0.0,1.598147891512908e-06,fibro
+hUSI,eFibro_COL3A1_lung,min_cells_10,False,0.07947887371821985,0.049,23.0,multi-GSE association,22,22,4,-5.4415129683908076e-05,-0.005755380709363394,0.0056465504499955774,0.9843506641548618,,ok,0.0,0.9843506641548618,fibro
+hUSI,eFibro_COL3A1_pan,min_cells_10,False,0.07040988865918953,0.0,71.0,multi-GSE association,72,72,38,2.5665737825816847e-05,-0.0006073369787196126,0.0006586684543712463,0.935791523608537,,ok,0.0,0.969212649451699,fibro
+hUSI,eFibro_COL6A1_adipose,min_cells_10,False,,0.019,0.09,cohort-specific exploratory,2,2,2,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,min_cells_10,False,0.3141810045658114,0.167,99.0,multi-GSE association,92,92,29,0.00045108400828048885,0.00017276319269384378,0.0007294048238671339,0.0017813247213636437,,ok,0.0,0.0073797738456493804,fibro
+hUSI,eFibro_DCN_pan,min_cells_10,False,-0.36747592533772233,0.0,99.0,multi-GSE association,253,253,61,-0.0011341058427280137,-0.0014669011306170411,-0.0008013105548389863,1.266141494457803e-10,,ok,0.0,3.671810333927629e-09,fibro
+hUSI,eFibro_DCN_uterus,min_cells_10,False,0.8000122099190337,0.014,51.0,multi-GSE association,14,14,5,0.0016690287334864945,0.0005038056706302798,0.002834251796342709,0.008537589680274241,,ok,0.0,0.022411350647347547,fibro
+hUSI,eFibro_HNRNPA1_pan,min_cells_10,False,-0.3718385464665046,0.0,71.0,multi-GSE association,76,76,30,-0.0014593724687855078,-0.0027464408952997486,-0.0001723040422712673,0.02680284165236418,,ok,0.0,0.04943767908053414,fibro
+hUSI,eFibro_IGFBP7_pan,min_cells_10,False,0.009368398688785265,0.0,99.0,multi-GSE association,60,60,26,7.153658236302177e-05,-0.0003019879045055852,0.00044506106923162874,0.7029294158432853,,ok,0.0,0.7549982614613064,fibro
+hUSI,eFibro_SPARC_pan,min_cells_10,False,-0.1261292254528184,0.0,99.0,multi-GSE association,52,52,18,-0.00020801939005425283,-0.0008844969823828513,0.00046845820227434565,0.5397574684920718,,ok,0.0,0.6261186634508034,fibro
+hUSI,iFibro_ARHGDIB_pan,min_cells_10,False,0.020242584896741043,0.0,89.0,multi-GSE association,33,33,18,-0.00024708800522333556,-0.0007918351618765477,0.0002976591514298766,0.3624437876347635,,ok,0.0,0.47776681097309737,fibro
+hUSI,iFibro_CD74_bone marrow,min_cells_10,False,0.4202949513172301,0.0,94.0,multi-GSE association,50,50,22,0.0010139671023385141,0.0005533592039114383,0.00147457500076559,5.3968796279763646e-05,,ok,0.0,0.0003851416605145478,fibro
+hUSI,iFibro_CD74_pan,min_cells_10,False,0.21350847546121865,0.0,100.0,multi-GSE association,106,106,45,0.0007248857466590253,0.00021216890700307735,0.001237602586314973,0.006025424454752395,,ok,0.0,0.019415256576424383,fibro
+hUSI,iFibro_CD74_skin,min_cells_10,False,,53.0,53.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,min_cells_10,False,0.16929774994723257,0.077,88.0,multi-GSE association,91,91,27,0.0002723617729537631,-0.00011069346649360257,0.0006554170124011288,0.16122951658451112,,ok,0.0,0.23378279904754112,fibro
+hUSI,qFibro_CFD_pan,min_cells_10,False,0.20799585897147924,0.003,89.0,multi-GSE association,165,165,37,0.0002565607355526798,2.9134411631151225e-05,0.0004839870594742084,0.027275960872018834,,ok,0.0,0.04943767908053414,fibro
+hUSI,qFibro_CLU_bone,min_cells_10,False,0.33219168894462703,20.0,86.0,multi-GSE association,28,28,6,0.0006326318164285682,6.532400743173585e-05,0.0011999396254254006,0.030185958325697326,,ok,0.0,0.05149369361442485,fibro
+hUSI,qFibro_CLU_pan,min_cells_10,False,0.2692981858882959,0.083,99.0,multi-GSE association,132,132,40,0.0004959239250862744,0.00019826989883032343,0.0007935779513422254,0.001262283736904431,,ok,0.0,0.00610103806170475,fibro
+hUSI,qFibro_MGP_eye,min_cells_10,False,,86.0,86.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_kidney,min_cells_10,True,0.11069488172569156,0.3,89.0,multi-GSE association,34,34,4,-0.0009146682575463224,-0.0023085184164798383,0.0004791819013871936,0.19098653363659243,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,4.0,0.38197306727318486,fibro
+hUSI,Myfibro_CALD1_pan,min_cells_10,True,-0.1558926430022073,0.0,100.0,multi-GSE association,55,55,10,-0.0010674142025763143,-0.0022654747378396604,0.0001306463326870319,0.07967338148925959,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,8.0,0.31869352595703837,fibro
+hUSI,Myfibro_CDKN2A_brain,min_cells_10,True,0.06451654344593885,0.0,69.0,multi-GSE association,8,8,3,,,,,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CTSA_skin,min_cells_10,True,-0.01760177082722231,0.019,70.0,multi-GSE association,0,0,0,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_KRT8_pan,min_cells_10,True,0.1352097738186739,0.011,10.0,multi-GSE association,21,21,6,1.5789120334094504,0.2481108698692951,2.909713196949606,0.02240223117545973,"tissue,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,7.0,0.16924342553534025,fibro
+hUSI,Myfibro_MYH11_uterus,min_cells_10,True,0.22578574490727385,0.164,91.0,multi-GSE association,4,4,3,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_QKI_brain,min_cells_10,True,0.2102975737219333,0.0,100.0,multi-GSE association,41,41,6,0.0001568779063158328,-0.0008370786521343491,0.0011508344647660148,0.7513940689434939,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,6.0,0.894928066431768,fibro
+hUSI,Myfibro_QKI_eye,min_cells_10,True,0.1689437909443467,0.038,100.0,multi-GSE association,6,6,2,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,min_cells_10,True,0.28080255254602293,0.0,99.0,multi-GSE association,72,72,10,2.868886790401235e-05,-0.0004235405804580236,0.0004809183162660483,0.8996990201964188,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,10.0,0.9412666557142473,fibro
+hUSI,Myfibro_TPM1_pan,min_cells_10,True,0.042951228725400394,0.0,71.0,multi-GSE association,0,0,0,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TUBB2B_pan,min_cells_10,True,0.46490761161258726,0.0,69.0,multi-GSE association,2,2,1,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_lung,min_cells_10,True,-0.0015616346274648647,0.0,70.0,multi-GSE association,0,0,0,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,min_cells_10,True,-0.04013626319106272,0.0,100.0,multi-GSE association,126,126,19,-9.438481581466198e-05,-0.000771380069883071,0.000582610438253747,0.7830620581277971,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,15.0,0.894928066431768,fibro
+hUSI,eFibro_COL1A2_pan,min_cells_10,True,0.2951838223244032,0.0,95.0,multi-GSE association,78,78,12,0.0004149102254563026,-0.00019915758182242004,0.0010289780327350252,0.18243177162433824,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,13.0,0.38197306727318486,fibro
+hUSI,eFibro_COL3A1_lung,min_cells_10,True,0.07947887371821985,0.049,23.0,multi-GSE association,22,22,4,0.004620818748623055,-0.0013447438306956909,0.010586381327941801,0.12214593391697451,"tissue,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,4.0,0.38197306727318486,fibro
+hUSI,eFibro_COL3A1_pan,min_cells_10,True,0.07040988865918953,0.0,71.0,multi-GSE association,3,3,2,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL6A1_adipose,min_cells_10,True,,0.019,0.09,cohort-specific exploratory,2,2,2,,,,,"tissue,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,min_cells_10,True,0.3141810045658114,0.167,99.0,multi-GSE association,28,28,7,-0.0014602223180092255,-0.00471348296534211,0.0017930383293236585,0.3652265130072223,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,8.0,0.5312385643741415,fibro
+hUSI,eFibro_DCN_pan,min_cells_10,True,-0.36747592533772233,0.0,99.0,multi-GSE association,35,35,10,0.000411788864047832,-0.00045577332074805775,0.0012793510488437218,0.34155338074789154,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,11.0,0.5312385643741415,fibro
+hUSI,eFibro_DCN_uterus,min_cells_10,True,0.8000122099190337,0.014,51.0,multi-GSE association,14,14,5,,,,,"tissue,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,4.0,,fibro
+hUSI,eFibro_HNRNPA1_pan,min_cells_10,True,-0.3718385464665046,0.0,71.0,multi-GSE association,38,38,13,-0.007438301133449141,-0.012845283305309051,-0.002031318961589231,0.008337591964250603,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,14.0,0.13340147142800965,fibro
+hUSI,eFibro_IGFBP7_pan,min_cells_10,True,0.009368398688785265,0.0,99.0,multi-GSE association,18,18,3,-0.00032051412236141407,-0.0026704268528589445,0.0020293986081361165,0.7770042747495066,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,5.0,0.894928066431768,fibro
+hUSI,eFibro_SPARC_pan,min_cells_10,True,-0.1261292254528184,0.0,99.0,multi-GSE association,28,28,5,-0.0007880514064348273,-0.001963775971930308,0.00038767315906065316,0.18034991187100585,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,5.0,0.38197306727318486,fibro
+hUSI,iFibro_ARHGDIB_pan,min_cells_10,True,0.020242584896741043,0.0,89.0,multi-GSE association,4,4,3,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_bone marrow,min_cells_10,True,0.4202949513172301,0.0,94.0,multi-GSE association,2,2,2,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,min_cells_10,True,0.21350847546121865,0.0,100.0,multi-GSE association,12,12,8,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: target_fully_confounded,,,fibro
+hUSI,iFibro_CD74_skin,min_cells_10,True,,53.0,53.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,min_cells_10,True,0.16929774994723257,0.077,88.0,multi-GSE association,23,23,8,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,10.0,,fibro
+hUSI,qFibro_CFD_pan,min_cells_10,True,0.20799585897147924,0.003,89.0,multi-GSE association,32,32,9,5.9713151505459954e-05,-0.001579887485206502,0.001699313788217422,0.9412666557142473,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,9.0,0.9412666557142473,fibro
+hUSI,qFibro_CLU_bone,min_cells_10,True,0.33219168894462703,20.0,86.0,multi-GSE association,25,25,5,0.0005148919586751301,4.895806666657069e-05,0.0009808258506836896,0.0317331422878763,"tissue,sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,2.0,0.16924342553534025,fibro
+hUSI,qFibro_CLU_pan,min_cells_10,True,0.2692981858882959,0.083,99.0,multi-GSE association,40,40,8,0.0007383099246969366,-0.0005406537655596201,0.0020172736149534935,0.25004007712399445,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,6.0,0.444515692664879,fibro
+hUSI,qFibro_MGP_eye,min_cells_10,True,,86.0,86.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_kidney,min_cells_20,False,0.027018551520389154,0.3,89.0,multi-GSE association,61,61,11,0.00011267755134725281,-0.00029202343742405995,0.0005173785401185655,0.579649311625859,,ok,0.0,0.6850400955578333,fibro
+hUSI,Myfibro_CALD1_pan,min_cells_20,False,-0.23603943163813002,0.0,100.0,multi-GSE association,212,212,61,-0.0007728741146063682,-0.0011977466442014287,-0.00034800158501130786,0.00041741238231973916,,ok,0.0,0.0021705443880626436,fibro
+hUSI,Myfibro_CDKN2A_brain,min_cells_20,False,,0.0,69.0,multi-GSE association,9,9,5,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CTSA_skin,min_cells_20,False,,0.019,70.0,multi-GSE association,11,11,8,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_KRT8_pan,min_cells_20,False,-0.06481696717921505,0.011,10.0,multi-GSE association,30,30,13,-0.010741011181710025,-0.01820756049526237,-0.0032744618681576822,0.006349481919407516,,ok,0.0,0.020635816238074426,fibro
+hUSI,Myfibro_MYH11_uterus,min_cells_20,False,0.17536995327604907,5.0,91.0,multi-GSE association,24,24,8,0.0010774224473061589,-0.0002694322632690138,0.0024242771578813316,0.11154234331416589,,ok,0.0,0.18125630788551955,fibro
+hUSI,Myfibro_QKI_brain,min_cells_20,False,0.22636414164397292,0.038,100.0,multi-GSE association,158,158,23,0.0005489095171620734,0.0002723588185797545,0.0008254602157443923,0.00013172047213098887,,ok,0.0,0.0008561830688514275,fibro
+hUSI,Myfibro_QKI_eye,min_cells_20,False,0.20269809182707255,25.0,100.0,multi-GSE association,49,49,9,0.0007450383181710457,-5.048752674626487e-05,0.001540564163088356,0.06576358409934215,,ok,0.0,0.12213237047020685,fibro
+hUSI,Myfibro_TAGLN_pan,min_cells_20,False,0.3022704977375211,0.0,99.0,multi-GSE association,319,319,76,0.0003941864261742591,0.00021601207890748622,0.000572360773441032,1.8147499550721316e-05,,ok,0.0,0.00015727832943958472,fibro
+hUSI,Myfibro_TPM1_pan,min_cells_20,False,0.03234174084239724,0.0,71.0,multi-GSE association,60,60,28,-0.0026498776957863384,-0.0050554322782580575,-0.0002443231133146188,0.03142156518590954,,ok,0.0,0.0742691540757862,fibro
+hUSI,Myfibro_TUBB2B_pan,min_cells_20,False,0.5125975551192402,0.0,69.0,multi-GSE association,42,42,15,0.0001306982385556551,-0.0007416073813138363,0.0010030038584251466,0.763732654384512,,ok,0.0,0.8633499571303179,fibro
+hUSI,eFibro_COL1A1_lung,min_cells_20,False,-0.11066161610969502,0.0,60.0,multi-GSE association,25,25,9,0.00072388313657253,-0.00026160810813248884,0.0017093743812775489,0.14257671890686235,,ok,0.0,0.21805851126931888,fibro
+hUSI,eFibro_COL1A1_pan,min_cells_20,False,0.032745202201923784,0.0,95.0,multi-GSE association,375,375,83,0.0001445917528207018,-0.0003639550765709666,0.0006531385822123703,0.5764466513368711,,ok,0.0,0.6850400955578333,fibro
+hUSI,eFibro_COL1A2_pan,min_cells_20,False,0.34455373089841973,0.0,95.0,multi-GSE association,282,282,84,0.001648438009075695,0.0010845525092405375,0.0022123235089108522,2.2703088120805533e-08,,ok,0.0,2.951401455704719e-07,fibro
+hUSI,eFibro_COL3A1_lung,min_cells_20,False,0.21888693478410842,6.0,23.0,multi-GSE association,21,21,3,0.0021839735180741605,-0.004747137159978689,0.00911508419612701,0.5184934375865357,,ok,0.0,0.6740414688624963,fibro
+hUSI,eFibro_COL3A1_pan,min_cells_20,False,0.15285760137842505,0.0,71.0,multi-GSE association,58,58,30,7.877617954015175e-05,-0.0006184185666341984,0.0007759709257145019,0.8218094008726491,,ok,0.0,0.8902935176120365,fibro
+hUSI,eFibro_COL6A1_adipose,min_cells_20,False,,0.019,0.019,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,min_cells_20,False,0.32880068767927606,0.167,99.0,multi-GSE association,75,75,23,0.0004754134917090715,0.00016063550612480126,0.0007901914772933418,0.003577767500666001,,ok,0.0,0.013288850716759434,fibro
+hUSI,eFibro_DCN_pan,min_cells_20,False,-0.4461096096962774,0.0,89.0,multi-GSE association,193,193,56,-0.0013083332436867883,-0.0016708311707643148,-0.0009458353166092618,2.1175355129988682e-11,,ok,0.0,5.505592333797057e-10,fibro
+hUSI,eFibro_DCN_uterus,min_cells_20,False,,25.0,51.0,multi-GSE association,10,10,4,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,min_cells_20,False,-0.266049052544473,0.0,71.0,multi-GSE association,61,61,25,-0.0012949566384173568,-0.0032146389136462764,0.0006247256368115629,0.18229849147448496,,ok,0.0,0.26332004324092273,fibro
+hUSI,eFibro_IGFBP7_pan,min_cells_20,False,-0.10628620450157494,0.049,99.0,multi-GSE association,52,52,20,-3.330073161167911e-05,-0.00044313138475517757,0.00037652992153181935,0.8710639673604428,,ok,0.0,0.9059065260548604,fibro
+hUSI,eFibro_SPARC_pan,min_cells_20,False,-0.2257329835192119,0.0,99.0,multi-GSE association,39,39,16,-0.0003730412183636615,-0.0011459733179292916,0.00039989088120196846,0.334730672656971,,ok,0.0,0.4580524994253287,fibro
+hUSI,iFibro_ARHGDIB_pan,min_cells_20,False,0.14610667080236184,0.0,89.0,multi-GSE association,25,25,15,-2.3232440332400168e-05,-0.000531452544667688,0.0004849876640028876,0.9256162384872777,,ok,0.0,0.9256162384872777,fibro
+hUSI,iFibro_CD74_bone marrow,min_cells_20,False,0.2434085255839924,0.0,94.0,multi-GSE association,38,38,17,0.0008683231586312998,0.00023147700541377057,0.001505169311848829,0.008877495456045659,,ok,0.0,0.025646097984131904,fibro
+hUSI,iFibro_CD74_pan,min_cells_20,False,0.17483331551087627,0.0,100.0,multi-GSE association,77,77,37,0.0006205965139406183,4.677112696605315e-05,0.0011944219009151834,0.03440918954656566,,ok,0.0,0.07455324401755893,fibro
+hUSI,qFibro_APOD_breast,min_cells_20,False,0.2615838139063188,0.077,86.0,multi-GSE association,70,70,21,0.00042336111768954314,-4.6750957798840156e-05,0.0008934731931779264,0.07678321456385484,,ok,0.0,0.13309090524401507,fibro
+hUSI,qFibro_CFD_pan,min_cells_20,False,0.20294843604843452,6.0,89.0,multi-GSE association,138,138,32,0.00026843365190630227,3.639123845195177e-05,0.0005004760653606528,0.023695546387254886,,ok,0.0,0.0616084206068627,fibro
+hUSI,qFibro_CLU_bone,min_cells_20,False,0.31349922569908856,20.0,86.0,multi-GSE association,25,25,4,0.0006086183103063671,2.7108624985611304e-06,0.0012145257581141732,0.049062010735684766,,ok,0.0,0.09812402147136953,fibro
+hUSI,qFibro_CLU_pan,min_cells_20,False,0.29590757621040364,0.219,99.0,multi-GSE association,105,105,32,0.0005506917211022717,0.00021052847186564712,0.0008908549703388963,0.0017639031344220625,,ok,0.0,0.00764358024916227,fibro
+hUSI,qFibro_MGP_eye,min_cells_20,False,,86.0,86.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_kidney,min_cells_20,True,0.027018551520389154,0.3,89.0,multi-GSE association,33,33,3,-0.0009146682575463253,-0.00228949970693424,0.00046016319184158914,0.18485570722774367,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,3.0,0.691064947390313,fibro
+hUSI,Myfibro_CALD1_pan,min_cells_20,True,-0.23603943163813002,0.0,100.0,multi-GSE association,44,44,8,-0.0007160978336327982,-0.0021371690691020656,0.0007049734018364691,0.31519942538372664,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,8.0,0.691064947390313,fibro
+hUSI,Myfibro_CDKN2A_brain,min_cells_20,True,,0.0,69.0,multi-GSE association,5,5,2,,,,,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CTSA_skin,min_cells_20,True,,0.019,70.0,multi-GSE association,0,0,0,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_KRT8_pan,min_cells_20,True,-0.06481696717921505,0.011,10.0,multi-GSE association,18,18,6,0.8942666385421196,-2.4094024452550613,4.197935722339301,0.5754022747429509,"tissue,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,7.0,0.9267649401310764,fibro
+hUSI,Myfibro_MYH11_uterus,min_cells_20,True,0.17536995327604907,5.0,91.0,multi-GSE association,2,2,2,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_QKI_brain,min_cells_20,True,0.22636414164397292,0.038,100.0,multi-GSE association,41,41,6,0.0001568779063158328,-0.0008370786521343491,0.0011508344647660148,0.7513940689434939,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,6.0,0.9267649401310764,fibro
+hUSI,Myfibro_QKI_eye,min_cells_20,True,0.20269809182707255,25.0,100.0,multi-GSE association,5,5,2,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,min_cells_20,True,0.3022704977375211,0.0,99.0,multi-GSE association,62,62,10,-6.63303806594114e-05,-0.000596237191241793,0.0004635764299229702,0.8031962814469329,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,10.0,0.9267649401310764,fibro
+hUSI,Myfibro_TPM1_pan,min_cells_20,True,0.03234174084239724,0.0,71.0,multi-GSE association,0,0,0,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TUBB2B_pan,min_cells_20,True,0.5125975551192402,0.0,69.0,multi-GSE association,0,0,0,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_lung,min_cells_20,True,-0.11066161610969502,0.0,60.0,multi-GSE association,0,0,0,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,min_cells_20,True,0.032745202201923784,0.0,95.0,multi-GSE association,98,98,17,2.7605105273372024e-06,-0.000759026316011774,0.0007645473370664484,0.9942763525461644,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,14.0,0.9942763525461644,fibro
+hUSI,eFibro_COL1A2_pan,min_cells_20,True,0.34455373089841973,0.0,95.0,multi-GSE association,71,71,10,0.00032579146932237455,-0.0003351399343364782,0.0009867228729812274,0.328937417139029,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,11.0,0.691064947390313,fibro
+hUSI,eFibro_COL3A1_lung,min_cells_20,True,0.21888693478410842,6.0,23.0,multi-GSE association,21,21,3,0.0046208187486228075,-0.0012253817645171312,0.010467019261762746,0.11482123544748216,"tissue,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,3.0,0.5741061772374108,fibro
+hUSI,eFibro_COL3A1_pan,min_cells_20,True,0.15285760137842505,0.0,71.0,multi-GSE association,2,2,2,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL6A1_adipose,min_cells_20,True,,0.019,0.019,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,min_cells_20,True,0.32880068767927606,0.167,99.0,multi-GSE association,23,23,5,-0.0007586790770000005,-0.003932458859069895,0.0024151007050698943,0.6249863338225026,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,4.0,0.9267649401310764,fibro
+hUSI,eFibro_DCN_pan,min_cells_20,True,-0.4461096096962774,0.0,89.0,multi-GSE association,21,21,10,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,11.0,,fibro
+hUSI,eFibro_DCN_uterus,min_cells_20,True,,25.0,51.0,multi-GSE association,10,10,4,,,,,"tissue,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,min_cells_20,True,-0.266049052544473,0.0,71.0,multi-GSE association,33,33,11,0.2670884967653602,0.0686618669101271,0.46551512662059324,0.009919458785661113,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,11.0,0.07439594089245835,fibro
+hUSI,eFibro_IGFBP7_pan,min_cells_20,True,-0.10628620450157494,0.049,99.0,multi-GSE association,17,17,2,-0.00032051412236140805,-0.0026151401109532385,0.0019741118662304226,0.7709555582033463,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,3.0,0.9267649401310764,fibro
+hUSI,eFibro_SPARC_pan,min_cells_20,True,-0.2257329835192119,0.0,99.0,multi-GSE association,23,23,4,-0.0007921409855697766,-0.002236303943125355,0.0006520219719858018,0.26754858695677225,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,4.0,0.691064947390313,fibro
+hUSI,iFibro_ARHGDIB_pan,min_cells_20,True,0.14610667080236184,0.0,89.0,multi-GSE association,4,4,3,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_bone marrow,min_cells_20,True,0.2434085255839924,0.0,94.0,multi-GSE association,2,2,2,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,min_cells_20,True,0.17483331551087627,0.0,100.0,multi-GSE association,6,6,4,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,min_cells_20,True,0.2615838139063188,0.077,86.0,multi-GSE association,18,18,6,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,9.0,,fibro
+hUSI,qFibro_CFD_pan,min_cells_20,True,0.20294843604843452,6.0,89.0,multi-GSE association,29,29,8,-0.00010011007331562384,-0.0017079495947066553,0.0015077294480754077,0.8994234546503953,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,6.0,0.9636679871254236,fibro
+hUSI,qFibro_CLU_bone,min_cells_20,True,0.31349922569908856,20.0,86.0,multi-GSE association,22,22,3,0.0005480432565229546,0.00014950403592639495,0.0009465824771195142,0.00938069791556394,"tissue,sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,2.0,0.07439594089245835,fibro
+hUSI,qFibro_CLU_pan,min_cells_20,True,0.29590757621040364,0.219,99.0,multi-GSE association,35,35,7,0.0006427401440822801,-0.0007906463579753784,0.0020761266461399386,0.36856797194150026,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,5.0,0.691064947390313,fibro
+hUSI,qFibro_MGP_eye,min_cells_20,True,,86.0,86.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_kidney,min_cells_50,False,3.4606579942708894e-05,0.3,76.0,multi-GSE association,56,56,9,7.288807833653378e-05,-0.0003950064923588238,0.0005407826490318913,0.7560783268190129,,ok,0.0,0.8640895163645862,fibro
+hUSI,Myfibro_CALD1_pan,min_cells_50,False,-0.335203444574618,0.0,95.0,multi-GSE association,127,127,44,-0.001038567376343746,-0.0015239284022858135,-0.0005532063504016788,4.37947511220361e-05,,ok,0.0,0.0003503580089762888,fibro
+hUSI,Myfibro_CDKN2A_brain,min_cells_50,False,,0.0,0.058,cohort-specific exploratory,5,5,2,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CTSA_skin,min_cells_50,False,,0.027,70.0,multi-GSE association,9,9,6,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_KRT8_pan,min_cells_50,False,0.004577025016863636,0.011,10.0,multi-GSE association,26,26,11,-0.011646814296053269,-0.0196212096377957,-0.003672418954310839,0.005923032336537865,,ok,0.0,0.020307539439558393,fibro
+hUSI,Myfibro_MYH11_uterus,min_cells_50,False,,6.0,78.0,multi-GSE association,10,10,4,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_QKI_brain,min_cells_50,False,0.1940766271330652,0.11,100.0,multi-GSE association,138,138,20,0.0004093770859347831,0.00014427261083028124,0.0006744815610392849,0.002717582781926743,,ok,0.0,0.013044397353248366,fibro
+hUSI,Myfibro_QKI_eye,min_cells_50,False,0.19732749871231606,25.0,100.0,multi-GSE association,45,45,7,0.000790617928934264,-7.33480391642866e-05,0.0016545838970328146,0.07188336756472315,,ok,0.0,0.1358486753765345,fibro
+hUSI,Myfibro_TAGLN_pan,min_cells_50,False,0.33994430451739555,0.0,99.0,multi-GSE association,226,226,61,0.0004107001365601853,0.0001882470840325416,0.0006331531890878291,0.00034059361577710675,,ok,0.0,0.0020435616946626405,fibro
+hUSI,Myfibro_TPM1_pan,min_cells_50,False,0.17209892628250462,0.0,71.0,multi-GSE association,45,45,20,-0.002251039564389948,-0.004606038075619716,0.00010395894683982044,0.06052927922589508,,ok,0.0,0.13206388194740745,fibro
+hUSI,Myfibro_TUBB2B_pan,min_cells_50,False,0.6482381236094432,0.0,69.0,multi-GSE association,36,36,12,9.277011089282557e-05,-0.0008373160392707965,0.0010228562610564477,0.8407060064256169,,ok,0.0,0.9050157122478242,fibro
+hUSI,eFibro_COL1A1_lung,min_cells_50,False,,0.0,27.0,multi-GSE association,10,10,5,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,min_cells_50,False,0.16754244579066438,0.0,95.0,multi-GSE association,274,274,62,0.000803013426048261,0.00018413468621007864,0.0014218921658864434,0.011179213593807929,,ok,0.0,0.029811236250154475,fibro
+hUSI,eFibro_COL1A2_pan,min_cells_50,False,0.4000222510984476,0.005,86.0,multi-GSE association,203,203,64,0.0018905687882952687,0.0012418607672503527,0.0025392768093401847,3.320857781601485e-08,,ok,0.0,5.224475922092184e-07,fibro
+hUSI,eFibro_COL3A1_lung,min_cells_50,False,0.21888693478410842,6.0,23.0,multi-GSE association,21,21,3,0.0021839735180741605,-0.004747137159978689,0.00911508419612701,0.5184934375865357,,ok,0.0,0.6221921251038428,fibro
+hUSI,eFibro_COL3A1_pan,min_cells_50,False,0.3555960473566193,0.0,70.0,multi-GSE association,39,39,21,0.00048082711750741295,-0.0001949233113824546,0.0011565775463972805,0.1579296759007936,,ok,0.0,0.2368945138511904,fibro
+hUSI,eFibro_DCN_heart,min_cells_50,False,0.4002317202794181,2.0,99.0,multi-GSE association,47,47,16,0.0005129757522210522,0.0001602187338893853,0.0008657327705527191,0.005301950694150695,,ok,0.0,0.020307539439558393,fibro
+hUSI,eFibro_DCN_pan,min_cells_50,False,-0.512751019036916,0.0,89.0,multi-GSE association,115,115,38,-0.0013913649261275956,-0.0018608566877245255,-0.0009218731645306657,4.3537299350768196e-08,,ok,0.0,5.224475922092184e-07,fibro
+hUSI,eFibro_DCN_uterus,min_cells_50,False,,31.0,46.0,cohort-specific exploratory,4,4,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,min_cells_50,False,-0.20010366323061912,0.0,13.0,multi-GSE association,41,41,17,-0.009842872921448323,-0.022457486594371946,0.0027717407514753004,0.12267346131447227,,ok,0.0,0.19627753810315562,fibro
+hUSI,eFibro_IGFBP7_pan,min_cells_50,False,-0.17533676353520172,0.068,99.0,multi-GSE association,34,34,9,2.8855873842998294e-05,-0.0004593654548215721,0.0005170772025075687,0.9050157122478242,,ok,0.0,0.9050157122478242,fibro
+hUSI,eFibro_SPARC_pan,min_cells_50,False,-0.4174683595746118,0.0,99.0,multi-GSE association,27,27,10,-0.0006485021123347611,-0.0013906705672773725,9.366634260785035e-05,0.08410765769979306,,ok,0.0,0.1441845560567881,fibro
+hUSI,iFibro_ARHGDIB_pan,min_cells_50,False,0.3030650594660058,0.0,89.0,multi-GSE association,18,18,10,3.10799225652727e-05,-0.0004318782364649832,0.0004940380815955285,0.8890301702736758,,ok,0.0,0.9050157122478242,fibro
+hUSI,iFibro_CD74_bone marrow,min_cells_50,False,0.05054159755477648,0.0,74.0,multi-GSE association,27,27,11,0.0006500134005388622,-0.0005185675311596706,0.001818594332237395,0.26330335861991544,,ok,0.0,0.35107114482655394,fibro
+hUSI,iFibro_CD74_pan,min_cells_50,False,0.02451533251251962,0.0,100.0,multi-GSE association,58,58,29,0.0004102642039349133,-0.0002602873161555099,0.0010808157240253366,0.22554972138894783,,ok,0.0,0.3184231360785146,fibro
+hUSI,qFibro_APOD_breast,min_cells_50,False,0.17854424112598805,20.0,83.0,multi-GSE association,54,54,19,0.000301327800979036,-0.00034476443013206376,0.0009474200320901358,0.35379924786293127,,ok,0.0,0.44690431309001843,fibro
+hUSI,qFibro_CFD_pan,min_cells_50,False,0.23373478788214952,17.0,86.0,multi-GSE association,87,87,24,0.0003578919197101383,3.9923987074335276e-05,0.0006758598523459412,0.027836062993010186,,ok,0.0,0.06680655118322444,fibro
+hUSI,qFibro_CLU_bone,min_cells_50,False,0.29407993559049017,20.0,86.0,multi-GSE association,21,21,3,0.0005751244564491452,-6.0216851649896094e-05,0.0012104657645481865,0.07358469916228952,,ok,0.0,0.1358486753765345,fibro
+hUSI,qFibro_CLU_pan,min_cells_50,False,0.3040779833288167,0.219,94.0,multi-GSE association,74,74,25,0.0005645851510354656,0.00014480130722910756,0.0009843689948418237,0.009082540183740162,,ok,0.0,0.027247620551220486,fibro
+hUSI,qFibro_MGP_eye,min_cells_50,False,,86.0,86.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_kidney,min_cells_50,True,3.4606579942708894e-05,0.3,76.0,multi-GSE association,33,33,3,-0.0009146682575463253,-0.00228949970693424,0.00046016319184158914,0.18485570722774367,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,3.0,0.34660445105201937,fibro
+hUSI,Myfibro_CALD1_pan,min_cells_50,True,-0.335203444574618,0.0,95.0,multi-GSE association,29,29,6,-0.0012983498778807627,-0.0028006420913581406,0.00020394233559661488,0.08756153716492796,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,8.0,0.2460455045303189,fibro
+hUSI,Myfibro_CDKN2A_brain,min_cells_50,True,,0.0,0.058,cohort-specific exploratory,5,5,2,,,,,"tissue,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CTSA_skin,min_cells_50,True,,0.027,70.0,multi-GSE association,1,1,1,,,,,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_KRT8_pan,min_cells_50,True,0.004577025016863636,0.011,10.0,multi-GSE association,17,17,5,0.8942666385421336,-2.3316765375618704,4.120209814646138,0.564962352079236,"tissue,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,5.0,0.6074755111829255,fibro
+hUSI,Myfibro_MYH11_uterus,min_cells_50,True,,6.0,78.0,multi-GSE association,10,10,4,,,,,"tissue,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_QKI_brain,min_cells_50,True,0.1940766271330652,0.11,100.0,multi-GSE association,34,34,5,0.0002357018621591228,-0.0006639084507678522,0.0011353121750860978,0.5975694743550012,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,5.0,0.6074755111829255,fibro
+hUSI,Myfibro_QKI_eye,min_cells_50,True,0.19732749871231606,25.0,100.0,multi-GSE association,4,4,2,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,min_cells_50,True,0.33994430451739555,0.0,99.0,multi-GSE association,39,39,8,0.00026063336318750494,-0.0005236247410019666,0.0010448914673769766,0.5051650546831499,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,8.0,0.6074755111829255,fibro
+hUSI,Myfibro_TPM1_pan,min_cells_50,True,0.17209892628250462,0.0,71.0,multi-GSE association,0,0,0,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TUBB2B_pan,min_cells_50,True,0.6482381236094432,0.0,69.0,multi-GSE association,21,21,7,1.1779378352998737,0.05930615780257753,2.29656951279717,0.040008423938744674,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,6.0,0.15003158977029252,fibro
+hUSI,eFibro_COL1A1_lung,min_cells_50,True,,0.0,27.0,multi-GSE association,0,0,0,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,min_cells_50,True,0.16754244579066438,0.0,95.0,multi-GSE association,62,62,14,-0.00045839420072557146,-0.001288882208139848,0.000372093806688705,0.2740550410973151,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,13.0,0.4567584018288585,fibro
+hUSI,eFibro_COL1A2_pan,min_cells_50,True,0.4000222510984476,0.005,86.0,multi-GSE association,60,60,9,0.0004672531838177448,-0.00010843157896160758,0.0010429379465970972,0.10968496559994736,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,10.0,0.2460455045303189,fibro
+hUSI,eFibro_COL3A1_lung,min_cells_50,True,0.21888693478410842,6.0,23.0,multi-GSE association,21,21,3,0.0046208187486228075,-0.0012253817645171312,0.010467019261762746,0.11482123544748216,"tissue,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,3.0,0.2460455045303189,fibro
+hUSI,eFibro_COL3A1_pan,min_cells_50,True,0.3555960473566193,0.0,70.0,multi-GSE association,24,24,9,-0.0072437635519644605,-0.012330180536394402,-0.0021573465675345186,0.007250638352587168,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,10.0,0.10875957528880752,fibro
+hUSI,eFibro_DCN_heart,min_cells_50,True,0.4002317202794181,2.0,99.0,multi-GSE association,18,18,3,0.0006446423166635747,-0.0011626989357743172,0.0024519835691014665,0.46202697347063193,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,2.0,0.6074755111829255,fibro
+hUSI,eFibro_DCN_pan,min_cells_50,True,-0.512751019036916,0.0,89.0,multi-GSE association,11,11,6,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_uterus,min_cells_50,True,,31.0,46.0,cohort-specific exploratory,4,4,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,min_cells_50,True,-0.20010366323061912,0.0,13.0,multi-GSE association,21,21,6,0.19750579649466457,0.041263643058611216,0.3537479499307179,0.015811420687543567,"tissue,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,8.0,0.11858565515657675,fibro
+hUSI,eFibro_IGFBP7_pan,min_cells_50,True,-0.17533676353520172,0.068,99.0,multi-GSE association,14,14,1,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,0.0,,fibro
+hUSI,eFibro_SPARC_pan,min_cells_50,True,-0.4174683595746118,0.0,99.0,multi-GSE association,18,18,3,-0.0005260663698752701,-0.0018299698659059787,0.0007778371261554385,0.40648057881377875,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,3.0,0.6074755111829255,fibro
+hUSI,iFibro_ARHGDIB_pan,min_cells_50,True,0.3030650594660058,0.0,89.0,multi-GSE association,4,4,3,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_bone marrow,min_cells_50,True,0.05054159755477648,0.0,74.0,multi-GSE association,1,1,1,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,min_cells_50,True,0.02451533251251962,0.0,100.0,multi-GSE association,5,5,4,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,min_cells_50,True,0.17854424112598805,20.0,83.0,multi-GSE association,16,16,6,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,9.0,,fibro
+hUSI,qFibro_CFD_pan,min_cells_50,True,0.23373478788214952,17.0,86.0,multi-GSE association,23,23,6,,,,,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,5.0,,fibro
+hUSI,qFibro_CLU_bone,min_cells_50,True,0.29407993559049017,20.0,86.0,multi-GSE association,18,18,2,0.0005818711228399963,6.304768126564242e-05,0.00110069456441435,0.030112204229615847,"tissue,sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,1.0,0.15003158977029252,fibro
+hUSI,qFibro_CLU_pan,min_cells_50,True,0.3040779833288167,0.219,94.0,multi-GSE association,23,23,6,0.0004129637669898021,-0.0012304215158983316,0.002056349049877936,0.6074755111829255,"tissue,sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,6.0,0.6074755111829255,fibro
+hUSI,qFibro_MGP_eye,min_cells_50,True,,86.0,86.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_kidney,healthy_only,True,0.0614635159433822,0.333,89.0,multi-GSE association,33,33,3,-0.0009146682575463253,-0.00228949970693424,0.00046016319184158914,0.18485570722774367,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,3.0,0.508353194876295,fibro
+hUSI,Myfibro_CALD1_pan,healthy_only,True,-0.3933414888547841,0.003,100.0,multi-GSE association,26,26,6,-5.2711051864984954e-05,-0.001177073824478474,0.0010716517207485041,0.923851354573636,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,5.0,0.9508845544729587,fibro
+hUSI,Myfibro_CDKN2A_brain,healthy_only,True,,0.025,0.11,multi-GSE association,3,3,3,,,,,"tissue,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CTSA_skin,healthy_only,True,,0.019,23.0,multi-GSE association,7,7,4,,,,,"tissue,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_KRT8_pan,healthy_only,True,-0.03091416457685821,0.011,10.0,multi-GSE association,18,18,6,0.8942666385421196,-2.4094024452550613,4.197935722339301,0.5754022747429509,"tissue,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,7.0,0.7911781277715575,fibro
+hUSI,Myfibro_MYH11_uterus,healthy_only,True,-0.10535561567092337,6.0,78.0,multi-GSE association,1,1,1,,,,,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_QKI_brain,healthy_only,True,0.2122705895711232,0.038,100.0,multi-GSE association,21,21,5,7.958986182215295e-05,-0.0011948539869486977,0.0013540337105930034,0.8976543307127266,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,5.0,0.9508845544729587,fibro
+hUSI,Myfibro_QKI_eye,healthy_only,True,0.2475837002847359,25.0,100.0,multi-GSE association,4,4,2,,,,,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,healthy_only,True,0.3326874601373736,0.0,90.0,multi-GSE association,27,27,6,-0.0002721477128579233,-0.0010216329080490812,0.0004773374823332347,0.46212843631691647,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,6.0,0.7262018284980116,fibro
+hUSI,Myfibro_TPM1_pan,healthy_only,True,0.2115684599539049,0.0,10.0,multi-GSE association,37,37,12,1.4880548737011405,0.1838558314671901,2.792253915935091,0.026487989426436175,"tissue,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,11.0,0.14568394184539896,fibro
+hUSI,Myfibro_TUBB2B_pan,healthy_only,True,0.6568222348760907,0.027,37.0,multi-GSE association,22,22,8,0.4852827686442147,-0.8089731668311693,1.7795387041195987,0.4442358217645478,"tissue,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,7.0,0.7262018284980116,fibro
+hUSI,eFibro_COL1A1_lung,healthy_only,True,-0.14901472872158306,0.0,41.0,multi-GSE association,11,11,4,,,,,"tissue,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,healthy_only,True,-0.11961316990943525,0.003,95.0,multi-GSE association,54,54,10,-3.423674303563301e-05,-0.001143819054636318,0.001075345568565052,0.9508845544729587,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,10.0,0.9508845544729587,fibro
+hUSI,eFibro_COL1A2_pan,healthy_only,True,0.330655076801817,0.005,95.0,multi-GSE association,31,31,5,0.0004295311031748952,-0.0006729067748737962,0.0015319689812235866,0.4324526065217458,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,5.0,0.7262018284980116,fibro
+hUSI,eFibro_COL3A1_lung,healthy_only,True,0.2892918485425533,6.0,13.5,cohort-specific exploratory,20,20,2,0.004620818748622649,-0.0011038001875872915,0.010345437684832589,0.10747524294577526,"tissue,gse,total_counts,pct_counts_mt,n_genes_by_counts",ok,1.0,0.394075890801176,fibro
+hUSI,eFibro_COL3A1_pan,healthy_only,True,0.02534729507819799,0.014,71.0,multi-GSE association,21,21,10,,,,,"tissue,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,10.0,,fibro
+hUSI,eFibro_COL6A1_adipose,healthy_only,True,,0.019,0.019,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,healthy_only,True,0.37748071131583794,1.0,89.0,multi-GSE association,10,10,3,,,,,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,healthy_only,True,-0.6951620452301159,0.0,87.0,multi-GSE association,7,7,5,,,,,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_uterus,healthy_only,True,,25.0,46.0,cohort-specific exploratory,5,5,2,,,,,"tissue,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,healthy_only,True,-0.25136255324300033,0.027,13.5,multi-GSE association,27,27,9,0.3350294312207646,0.13421932927426428,0.535839533167265,0.002028380054606281,"tissue,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,9.0,0.022312180600669092,fibro
+hUSI,eFibro_IGFBP7_pan,healthy_only,True,0.14490184187511848,0.049,89.0,multi-GSE association,11,11,4,,,,,"tissue,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_SPARC_pan,healthy_only,True,,1.0,89.0,multi-GSE association,4,4,1,,,,,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_ARHGDIB_pan,healthy_only,True,,0.005,53.0,multi-GSE association,5,5,4,,,,,"tissue,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_bone marrow,healthy_only,True,,0.005,66.0,multi-GSE association,1,1,1,,,,,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,healthy_only,True,-0.11525102683885699,0.0,76.0,multi-GSE association,3,3,3,,,,,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,healthy_only,True,0.4733008707375502,20.0,83.0,multi-GSE association,11,11,3,,,,,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,healthy_only,True,0.15498908686533075,20.0,87.0,multi-GSE association,19,19,5,,,,,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,5.0,,fibro
+hUSI,qFibro_CLU_bone,healthy_only,True,,20.0,64.0,cohort-specific exploratory,8,8,2,,,,,"tissue,sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,healthy_only,True,0.3146432578605183,0.219,89.0,multi-GSE association,15,15,3,,,,,"tissue,sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,4.0,,fibro
+hUSI,Myfibro_CALD1_kidney,tissue:adipose,True,,51.0,68.0,cohort-specific exploratory,2,2,1,,,,,"sex,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:adipose,True,-0.01352095216816156,24.0,73.0,cohort-specific exploratory,18,18,1,5.190483864003304e-05,-0.0010541083093917273,0.0011579179866717934,0.9222861547463199,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.9222861547463199,fibro
+hUSI,Myfibro_MYH11_uterus,tissue:adipose,True,,24.0,57.0,cohort-specific exploratory,7,7,1,,,,,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:adipose,True,-0.23288593243836414,0.041,73.0,multi-GSE association,24,24,2,0.000609184348351507,-9.524581857601046e-05,0.0013136145152790244,0.08680193751203275,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.1736038750240655,fibro
+hUSI,eFibro_COL1A2_pan,tissue:adipose,True,,24.0,53.0,cohort-specific exploratory,8,8,1,,,,,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:adipose,True,-0.01939125131128147,0.041,73.0,cohort-specific exploratory,12,12,1,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,0.0,,fibro
+hUSI,qFibro_CFD_pan,tissue:adipose,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:airway,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:airway,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:airway,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,iFibro_ARHGDIB_pan,tissue:airway,True,,53.0,53.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,iFibro_CD74_bone marrow,tissue:airway,True,,52.0,63.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,tissue:airway,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:airway,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:airway,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:bladder,True,,33.0,50.0,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:bladder,True,,31.0,50.0,cohort-specific exploratory,3,3,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:bladder,True,,31.0,50.0,cohort-specific exploratory,4,4,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL3A1_pan,tissue:bladder,True,,43.0,50.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,tissue:bladder,True,,31.0,43.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:bladder,True,,31.0,50.0,cohort-specific exploratory,6,6,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_uterus,tissue:bladder,True,,50.0,51.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,tissue:bladder,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:bladder,True,,31.0,43.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:bladder,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:bone,True,0.1043956043956044,20.0,86.0,cohort-specific exploratory,13,13,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,0.0,,fibro
+hUSI,Myfibro_TPM1_pan,tissue:bone,True,,0.231,0.231,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:bone,True,-0.002197802197802198,0.231,86.0,multi-GSE association,14,14,3,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,0.0,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:bone,True,,0.231,86.0,multi-GSE association,6,6,3,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL3A1_pan,tissue:bone,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,tissue:bone,True,0.16083916083916086,20.0,86.0,cohort-specific exploratory,12,12,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,0.0,,fibro
+hUSI,eFibro_DCN_pan,tissue:bone,True,,0.231,67.0,multi-GSE association,3,3,3,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_IGFBP7_pan,tissue:bone,True,,0.231,0.231,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,tissue:bone,True,,36.0,86.0,cohort-specific exploratory,3,3,1,,,,,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,tissue:bone,True,,27.0,86.0,cohort-specific exploratory,6,6,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:bone,True,,20.0,86.0,cohort-specific exploratory,10,10,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CLU_bone,tissue:bone,True,0.4317191089474679,20.0,86.0,cohort-specific exploratory,14,14,1,,,,,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,0.0,,fibro
+hUSI,qFibro_CLU_pan,tissue:bone,True,,20.0,86.0,cohort-specific exploratory,10,10,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:bone marrow,True,,41.0,75.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:bone marrow,True,,23.0,75.0,multi-GSE association,8,8,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_lung,tissue:bone marrow,True,,41.0,41.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:bone marrow,True,,23.0,75.0,cohort-specific exploratory,7,7,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:bone marrow,True,,23.0,75.0,multi-GSE association,8,8,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,tissue:bone marrow,True,,48.0,64.0,cohort-specific exploratory,2,2,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:bone marrow,True,,28.0,68.0,multi-GSE association,5,5,3,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_ARHGDIB_pan,tissue:bone marrow,True,,0.0,75.0,multi-GSE association,1,1,1,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_bone marrow,tissue:bone marrow,True,-0.43736614916344707,0.0,74.0,multi-GSE association,17,17,4,-0.09862902501546388,-0.4228752842609114,0.22561723422998364,0.5281746244347499,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,3.0,0.5281746244347499,fibro
+hUSI,iFibro_CD74_pan,tissue:bone marrow,True,0.43191340523995003,0.0,75.0,multi-GSE association,2,2,2,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:bone marrow,True,,64.0,68.0,cohort-specific exploratory,2,2,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CLU_bone,tissue:bone marrow,True,,23.0,75.0,cohort-specific exploratory,4,4,1,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:bone marrow,True,,28.0,69.0,cohort-specific exploratory,3,3,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_kidney,tissue:brain,True,,0.3,64.0,cohort-specific exploratory,4,4,2,,,,,"sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:brain,True,-0.24428947886125182,0.3,100.0,multi-GSE association,29,29,3,-0.0009297254526394573,-0.003369389095003495,0.0015099381897245804,0.441574537535919,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,2.0,0.6298608483033168,fibro
+hUSI,Myfibro_CDKN2A_brain,tissue:brain,True,,0.0,0.11,cohort-specific exploratory,5,5,2,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CTSA_skin,tissue:brain,True,,0.027,70.0,multi-GSE association,6,6,3,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_MYH11_uterus,tissue:brain,True,,77.0,77.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_QKI_brain,tissue:brain,True,0.045535162599116365,0.3,100.0,multi-GSE association,33,33,4,0.0003571731751778527,-0.0011379848622599794,0.001852331212615685,0.6298608483033168,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,3.0,0.6298608483033168,fibro
+hUSI,Myfibro_QKI_eye,tissue:brain,True,,47.0,100.0,multi-GSE association,4,4,3,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:brain,True,0.7483063583954354,0.329,86.3,multi-GSE association,12,12,2,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,1.0,,fibro
+hUSI,Myfibro_TPM1_pan,tissue:brain,True,,0.038,71.0,multi-GSE association,2,2,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TUBB2B_pan,tissue:brain,True,-0.05654027941921756,0.0,69.0,multi-GSE association,0,0,0,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_lung,tissue:brain,True,,60.0,60.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:brain,True,-0.6470623834378056,0.0,95.0,multi-GSE association,34,34,5,0.0007139351024711977,5.878381941260534e-05,0.0013690863855297902,0.03361992770904562,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,3.0,0.10085978312713686,fibro
+hUSI,eFibro_COL1A2_pan,tissue:brain,True,0.28571441703512285,0.0,95.0,multi-GSE association,17,17,4,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,3.0,,fibro
+hUSI,eFibro_COL3A1_lung,tissue:brain,True,,23.0,23.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL3A1_pan,tissue:brain,True,,0.0,35.0,multi-GSE association,2,2,2,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,tissue:brain,True,,38.1,45.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:brain,True,,0.0,61.0,multi-GSE association,6,6,2,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,tissue:brain,True,-0.1641459764339964,0.0,71.0,multi-GSE association,7,7,1,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_IGFBP7_pan,tissue:brain,True,,0.11,71.0,multi-GSE association,7,7,3,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_SPARC_pan,tissue:brain,True,-0.1233244460274959,0.0,71.0,multi-GSE association,9,9,2,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,tissue:brain,True,-0.41541399181883587,0.0,100.0,multi-GSE association,3,3,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,tissue:brain,True,,20.0,65.0,cohort-specific exploratory,10,10,1,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:brain,True,,20.0,65.0,cohort-specific exploratory,10,10,1,,,,,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CLU_bone,tissue:brain,True,,31.0,66.0,cohort-specific exploratory,3,3,1,,,,,"sex,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:brain,True,0.6736026501603376,0.223,69.0,multi-GSE association,13,13,3,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,2.0,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:breast,True,,83.0,83.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:breast,True,,68.0,83.0,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,tissue:breast,True,,83.0,83.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:breast,True,,83.0,83.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:breast,True,,83.0,83.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_MYH11_uterus,tissue:colon,True,,24.0,78.0,cohort-specific exploratory,6,6,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_QKI_brain,tissue:colon,True,,65.0,78.0,cohort-specific exploratory,4,4,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_lung,tissue:colon,True,,24.0,24.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:colon,True,,24.0,78.0,cohort-specific exploratory,11,11,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:colon,True,,24.0,78.0,cohort-specific exploratory,9,9,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:ear,True,,0.164,6.0,cohort-specific exploratory,3,3,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_MYH11_uterus,tissue:ear,True,,5.0,6.0,cohort-specific exploratory,2,2,1,,,,,"disease_status,total_counts,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TPM1_pan,tissue:ear,True,,0.164,0.164,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_lung,tissue:ear,True,,0.164,0.164,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:ear,True,,0.164,6.0,cohort-specific exploratory,3,3,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:ear,True,,0.164,0.164,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,tissue:ear,True,,0.164,0.164,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:embryo,True,0.8372704993979251,0.003,2.0,multi-GSE association,10,10,2,,,,,"gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_KRT8_pan,tissue:embryo,True,,0.025,0.154,multi-GSE association,5,5,3,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:embryo,True,,0.0,7.0,multi-GSE association,7,7,4,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TPM1_pan,tissue:embryo,True,0.6628052287272,0.014,0.154,multi-GSE association,10,10,3,,,,,"gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TUBB2B_pan,tissue:embryo,True,,0.077,0.227,cohort-specific exploratory,5,5,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:embryo,True,,0.025,0.049,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:embryo,True,-0.5621615051439863,0.014,8.0,multi-GSE association,18,18,8,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,1.0,,fibro
+hUSI,eFibro_COL3A1_pan,tissue:embryo,True,-0.18386184452728221,0.014,8.0,multi-GSE association,4,4,3,,,,,"gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,tissue:embryo,True,,1.0,1.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:embryo,True,,0.0,7.0,multi-GSE association,4,4,2,,,,,"gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,tissue:embryo,True,-0.13273857129916752,0.041,0.227,multi-GSE association,17,17,5,-0.10807362977311061,-0.3107100827590352,0.09456282321281398,0.2748767743175466,"gse,total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.2748767743175466,fibro
+hUSI,eFibro_IGFBP7_pan,tissue:embryo,True,,1.0,7.0,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_SPARC_pan,tissue:embryo,True,,1.0,1.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:embryo,True,,0.219,2.0,cohort-specific exploratory,4,4,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:esophagus,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:esophagus,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:esophagus,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,tissue:esophagus,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,tissue:esophagus,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:esophagus,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:esophagus,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_kidney,tissue:eye,True,,58.0,89.0,cohort-specific exploratory,15,15,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:eye,True,,0.014,85.0,cohort-specific exploratory,6,6,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_MYH11_uterus,tissue:eye,True,,91.0,91.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_QKI_brain,tissue:eye,True,0.3380424791907249,25.0,100.0,multi-GSE association,7,7,1,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_QKI_eye,tissue:eye,True,0.24208276480173313,25.0,100.0,multi-GSE association,3,3,1,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:eye,True,-0.10297996543500777,0.014,99.0,multi-GSE association,29,29,2,7.978725337964173e-05,-0.0010893150433990027,0.001248889550158286,0.8898212811628903,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.9505072847359417,fibro
+hUSI,Myfibro_TPM1_pan,tissue:eye,True,,0.115,0.115,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:eye,True,,0.115,88.0,multi-GSE association,8,8,3,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:eye,True,,0.019,0.115,cohort-specific exploratory,4,4,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL3A1_pan,tissue:eye,True,,0.019,0.115,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,tissue:eye,True,-0.20908936041167628,2.0,99.0,multi-GSE association,18,18,2,-0.0007586790770000066,-0.0036150292378523408,0.0020976710838523276,0.5825233983758751,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.9505072847359417,fibro
+hUSI,eFibro_DCN_pan,tissue:eye,True,,0.014,89.0,multi-GSE association,7,7,2,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,tissue:eye,True,,2.0,2.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_IGFBP7_pan,tissue:eye,True,-0.30173715729410916,76.0,99.0,cohort-specific exploratory,15,15,1,-0.00032051412236140317,-0.002501238215695213,0.0018602099709724065,0.7572350699990029,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.9505072847359417,fibro
+hUSI,eFibro_SPARC_pan,tissue:eye,True,0.21991997062090168,2.0,99.0,multi-GSE association,17,17,3,7.429919073207591e-05,-0.0024238147865758273,0.002572413168039979,0.9505072847359417,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.9505072847359417,fibro
+hUSI,iFibro_ARHGDIB_pan,tissue:eye,True,,84.0,89.0,cohort-specific exploratory,3,3,2,,,,,"sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_bone marrow,tissue:eye,True,,94.0,94.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,tissue:eye,True,,76.0,81.0,cohort-specific exploratory,2,2,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,tissue:eye,True,,75.0,75.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:eye,True,,84.0,89.0,cohort-specific exploratory,5,5,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:eye,True,-0.4917244046205399,2.0,99.0,multi-GSE association,18,18,3,-0.0007049306902512943,-0.0023666051999561588,0.0009567438194535701,0.38326101124315237,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.9505072847359417,fibro
+hUSI,qFibro_MGP_eye,tissue:eye,True,,86.0,86.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:heart,True,,0.027,0.082,cohort-specific exploratory,5,5,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_KRT8_pan,tissue:heart,True,,0.011,0.082,cohort-specific exploratory,6,6,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TPM1_pan,tissue:heart,True,,0.027,0.082,cohort-specific exploratory,4,4,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TUBB2B_pan,tissue:heart,True,,0.027,0.027,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:heart,True,,0.041,0.082,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:heart,True,,0.063,0.082,cohort-specific exploratory,2,2,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,tissue:heart,True,,0.027,0.082,cohort-specific exploratory,4,4,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:intestine,True,,0.274,0.274,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:intestine,True,,19.0,31.0,cohort-specific exploratory,2,2,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:intestine,True,,0.274,31.0,multi-GSE association,2,2,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL3A1_pan,tissue:intestine,True,,0.274,0.274,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,tissue:intestine,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:intestine,True,,0.274,31.0,cohort-specific exploratory,2,2,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,tissue:intestine,True,,0.274,0.274,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,tissue:intestine,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:intestine,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:intestine,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_kidney,tissue:kidney,True,0.24882760532157067,2.0,76.0,multi-GSE association,19,19,2,-0.0007916380958608161,-0.0022845741333302402,0.0007012979416086082,0.2799229533692884,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,1.0,0.2799229533692884,fibro
+hUSI,Myfibro_CALD1_pan,tissue:kidney,True,-0.12772594268928944,0.0,76.0,multi-GSE association,5,5,2,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CDKN2A_brain,tissue:kidney,True,,0.025,0.025,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_KRT8_pan,tissue:kidney,True,,0.049,0.049,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_MYH11_uterus,tissue:kidney,True,,45.0,45.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_QKI_brain,tissue:kidney,True,,4.0,4.0,cohort-specific exploratory,2,2,1,,,,,"sex,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:kidney,True,,0.014,60.0,cohort-specific exploratory,4,4,1,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TPM1_pan,tissue:kidney,True,,0.025,4.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_lung,tissue:kidney,True,,0.0,5.0,cohort-specific exploratory,9,9,1,,,,,"sex,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:kidney,True,0.5017687427657797,0.0,76.0,multi-GSE association,6,6,1,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:kidney,True,,0.014,0.167,multi-GSE association,6,6,3,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:kidney,True,,0.014,45.0,cohort-specific exploratory,5,5,2,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,tissue:kidney,True,,0.049,0.068,cohort-specific exploratory,3,3,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_IGFBP7_pan,tissue:kidney,True,,0.049,0.636,multi-GSE association,3,3,3,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,tissue:kidney,True,,0.167,0.167,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,tissue:kidney,True,,0.077,0.077,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CDKN2A_brain,tissue:liver,True,,69.0,69.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CTSA_skin,tissue:liver,True,,69.0,69.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:liver,True,,0.005,69.0,multi-GSE association,5,5,3,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TPM1_pan,tissue:liver,True,,0.09,0.09,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:liver,True,,0.003,0.09,cohort-specific exploratory,2,2,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:liver,True,,0.09,84.0,multi-GSE association,3,3,3,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL3A1_pan,tissue:liver,True,,0.09,0.09,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:liver,True,,3.0,3.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,tissue:liver,True,,0.09,0.09,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_IGFBP7_pan,tissue:liver,True,,69.0,69.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,iFibro_ARHGDIB_pan,tissue:liver,True,,0.005,0.005,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:liver,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:lung,True,,0.083,69.0,multi-GSE association,7,7,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_KRT8_pan,tissue:lung,True,,0.312,0.312,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:lung,True,-0.18932004707268385,0.083,77.0,multi-GSE association,20,20,4,-0.0008418935343389167,-0.0030557597367469286,0.0013719726680690952,0.4358994789065178,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.5302259650909433,fibro
+hUSI,Myfibro_TPM1_pan,tissue:lung,True,,6.0,8.5,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:lung,True,-0.43774711741922573,0.03,83.0,multi-GSE association,37,37,4,9.721639988277811e-05,-0.00021387199235563774,0.00040830479212119395,0.5302259650909433,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,1.0,0.5302259650909433,fibro
+hUSI,eFibro_COL1A2_pan,tissue:lung,True,-0.03280547709172148,0.083,80.0,multi-GSE association,17,17,4,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,1.0,,fibro
+hUSI,eFibro_COL3A1_lung,tissue:lung,True,0.20345698480808852,6.0,13.5,cohort-specific exploratory,19,19,1,0.0046208187486227875,-0.0009799043694522216,0.010221541866697798,0.10013057842147868,"total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.40052231368591473,fibro
+hUSI,eFibro_COL3A1_pan,tissue:lung,True,,6.0,6.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,tissue:lung,True,,0.167,77.0,multi-GSE association,5,5,3,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:lung,True,-0.3543881464403645,21.0,80.0,multi-GSE association,10,10,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,tissue:lung,True,,6.0,13.5,cohort-specific exploratory,10,10,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_ARHGDIB_pan,tissue:lung,True,,38.0,38.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,iFibro_CD74_bone marrow,tissue:lung,True,,66.0,66.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,tissue:lung,True,0.36493797212992807,18.0,80.0,multi-GSE association,14,14,4,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,1.0,,fibro
+hUSI,qFibro_APOD_breast,tissue:lung,True,,64.0,66.0,cohort-specific exploratory,2,2,1,,,,,"sex,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:lung,True,-0.06332700152036538,20.0,80.0,multi-GSE association,31,31,4,0.00012690858626940868,-0.00021393637725431564,0.000467753549793133,0.4529448193165052,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,1.0,0.5302259650909433,fibro
+hUSI,Myfibro_CALD1_pan,tissue:lymph,True,,17.0,17.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:lymph,True,,0.167,17.0,cohort-specific exploratory,2,2,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_ARHGDIB_pan,tissue:lymph,True,,17.0,17.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,iFibro_CD74_bone marrow,tissue:lymph,True,,17.0,17.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,tissue:lymph,True,,17.0,17.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:muscle,True,,26.0,50.0,cohort-specific exploratory,6,6,1,,,,,"sex,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:muscle,True,,8.167,50.0,multi-GSE association,5,5,3,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:muscle,True,,26.0,50.0,cohort-specific exploratory,4,4,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:muscle,True,,5.5,8.167,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:muscle,True,,26.0,26.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:muscle,True,,26.0,50.0,cohort-specific exploratory,4,4,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:neck,True,,17.0,17.0,cohort-specific exploratory,2,2,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:neck,True,,17.0,17.0,cohort-specific exploratory,2,2,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:neck,True,,17.0,17.0,cohort-specific exploratory,2,2,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:neck,True,,17.0,17.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,tissue:neck,True,,17.0,17.0,cohort-specific exploratory,2,2,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,tissue:neck,True,,17.0,17.0,cohort-specific exploratory,2,2,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:neck,True,,17.0,17.0,cohort-specific exploratory,2,2,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:oral cavity,True,,13.0,13.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_KRT8_pan,tissue:oral cavity,True,,0.104,0.104,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:oral cavity,True,,0.104,44.0,multi-GSE association,7,7,4,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TUBB2B_pan,tissue:oral cavity,True,,0.104,0.104,cohort-specific exploratory,6,6,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_lung,tissue:oral cavity,True,,13.0,13.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:oral cavity,True,,13.0,44.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:oral cavity,True,,13.0,44.0,multi-GSE association,3,3,3,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL3A1_lung,tissue:oral cavity,True,,13.0,13.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL3A1_pan,tissue:oral cavity,True,,13.0,13.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,tissue:oral cavity,True,,13.0,13.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:oral cavity,True,,13.0,44.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,tissue:oral cavity,True,,13.0,13.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_SPARC_pan,tissue:oral cavity,True,,13.0,13.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,iFibro_ARHGDIB_pan,tissue:oral cavity,True,,20.0,59.0,cohort-specific exploratory,3,3,1,,,,,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_bone marrow,tissue:oral cavity,True,,23.0,58.0,cohort-specific exploratory,6,6,1,,,,,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,tissue:oral cavity,True,,20.0,35.0,cohort-specific exploratory,3,3,1,,,,,"sex,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,tissue:oral cavity,True,,44.0,44.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:oral cavity,True,,44.0,44.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:oral cavity,True,,13.0,44.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_kidney,tissue:ovary,True,,23.0,23.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:ovary,True,,23.0,54.0,multi-GSE association,10,10,3,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CTSA_skin,tissue:ovary,True,,23.0,49.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_MYH11_uterus,tissue:ovary,True,,23.0,54.0,cohort-specific exploratory,5,5,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:ovary,True,0.1931985544415818,30.0,71.0,multi-GSE association,23,23,3,0.00012240488099356998,-0.0007888937598487184,0.0010337035218358583,0.78318333487532,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.78318333487532,fibro
+hUSI,eFibro_COL1A1_lung,tissue:ovary,True,,27.0,29.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:ovary,True,-0.04726782007299241,23.0,54.0,multi-GSE association,16,16,3,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,0.0,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:ovary,True,0.39111638673421495,23.0,71.0,multi-GSE association,13,13,4,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,1.0,,fibro
+hUSI,eFibro_COL3A1_pan,tissue:ovary,True,,31.0,55.0,cohort-specific exploratory,7,7,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,tissue:ovary,True,0.06994163148589498,30.0,52.0,cohort-specific exploratory,13,13,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,0.0,,fibro
+hUSI,eFibro_DCN_pan,tissue:ovary,True,-0.011504875287827817,23.0,55.0,multi-GSE association,19,19,3,0.00031061192895040165,-0.0005256484692917203,0.0011468723271925237,0.4453291648970964,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.78318333487532,fibro
+hUSI,eFibro_DCN_uterus,tissue:ovary,True,,31.0,46.0,cohort-specific exploratory,6,6,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,tissue:ovary,True,,51.0,51.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,iFibro_ARHGDIB_pan,tissue:ovary,True,,53.0,55.0,cohort-specific exploratory,2,2,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,tissue:ovary,True,,31.0,48.0,cohort-specific exploratory,3,3,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,tissue:ovary,True,0.11452113358750411,30.0,52.0,cohort-specific exploratory,12,12,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,0.0,,fibro
+hUSI,qFibro_CFD_pan,tissue:ovary,True,,30.0,52.0,cohort-specific exploratory,10,10,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:ovary,True,,52.0,52.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:pancreas,True,,0.055,0.055,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CDKN2A_brain,tissue:pancreas,True,,0.055,0.055,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_KRT8_pan,tissue:pancreas,True,,0.011,0.055,multi-GSE association,10,10,2,,,,,"gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:pancreas,True,,26.0,73.0,multi-GSE association,10,10,3,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TPM1_pan,tissue:pancreas,True,,0.041,0.041,cohort-specific exploratory,4,4,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:pancreas,True,-0.05850387875233915,26.0,73.0,multi-GSE association,33,33,2,0.0005035066688771347,-0.00020884311319309412,0.0012158564509473636,0.15964851436018565,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",ok,1.0,0.3192970287203713,fibro
+hUSI,eFibro_COL1A2_pan,tissue:pancreas,True,0.21094705269207623,0.041,73.0,multi-GSE association,42,42,1,0.0001564068652622852,-0.00025373533452098757,0.000566549065045558,0.4456273372965863,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.4456273372965863,fibro
+hUSI,eFibro_COL3A1_pan,tissue:pancreas,True,,60.0,60.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:pancreas,True,,29.0,60.0,multi-GSE association,4,4,3,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,tissue:pancreas,True,,0.041,0.041,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,tissue:pancreas,True,,73.0,73.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,tissue:pancreas,True,,46.0,46.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:pancreas,True,,29.0,29.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_kidney,tissue:peripheral nerve,True,,0.333,0.333,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:peripheral nerve,True,,0.038,44.0,multi-GSE association,5,5,3,,,,,"gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_KRT8_pan,tissue:peripheral nerve,True,,6.0,10.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_QKI_brain,tissue:peripheral nerve,True,,0.038,45.0,multi-GSE association,5,5,4,,,,,"gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:peripheral nerve,True,,0.123,0.123,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_TPM1_pan,tissue:peripheral nerve,True,,0.0,10.0,multi-GSE association,6,6,4,,,,,"gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TUBB2B_pan,tissue:peripheral nerve,True,0.48138047213060664,0.036,0.244,multi-GSE association,16,16,5,,,,,"gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,2.0,,fibro
+hUSI,eFibro_COL1A1_lung,tissue:peripheral nerve,True,,0.0,0.333,cohort-specific exploratory,8,8,2,,,,,"gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:peripheral nerve,True,0.10380979149799291,0.036,56.0,multi-GSE association,5,5,1,,,,,"sex,gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:peripheral nerve,True,,0.025,0.329,cohort-specific exploratory,4,4,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL3A1_pan,tissue:peripheral nerve,True,,0.025,0.233,cohort-specific exploratory,3,3,2,,,,,"gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,tissue:peripheral nerve,True,,0.036,0.058,cohort-specific exploratory,2,2,2,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:peripheral nerve,True,,0.233,0.244,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:prostate,True,,66.0,73.0,cohort-specific exploratory,2,2,1,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:prostate,True,0.17890619754110912,46.0,75.0,multi-GSE association,3,3,1,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:prostate,True,,61.0,73.0,multi-GSE association,4,4,3,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:prostate,True,,66.0,75.0,cohort-specific exploratory,3,3,1,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL3A1_pan,tissue:prostate,True,,66.0,71.0,cohort-specific exploratory,3,3,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,tissue:prostate,True,,70.0,71.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:prostate,True,-0.30700624833000845,46.0,75.0,multi-GSE association,15,15,3,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,0.0,,fibro
+hUSI,eFibro_IGFBP7_pan,tissue:prostate,True,,66.0,75.0,cohort-specific exploratory,2,2,1,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,tissue:prostate,True,,70.0,70.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,tissue:prostate,True,,73.0,73.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:prostate,True,,69.0,71.0,cohort-specific exploratory,3,3,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:skin,True,0.5035891654550093,0.008,69.0,multi-GSE association,0,0,0,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_CTSA_skin,tissue:skin,True,,0.019,13.0,cohort-specific exploratory,2,2,2,,,,,"gse,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_KRT8_pan,tissue:skin,True,,0.041,0.041,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_MYH11_uterus,tissue:skin,True,,54.0,54.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:skin,True,-0.1249860137357707,0.014,74.0,multi-GSE association,2,2,2,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TPM1_pan,tissue:skin,True,0.5776511616797421,0.019,0.041,cohort-specific exploratory,12,12,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,0.0,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:skin,True,0.051987192885582865,0.003,74.0,multi-GSE association,3,3,3,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:skin,True,-0.27886593728794584,0.005,74.0,multi-GSE association,2,2,2,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL3A1_pan,tissue:skin,True,,0.036,0.036,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL6A1_adipose,tissue:skin,True,,0.019,0.019,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:skin,True,-0.3545415050241249,0.0,54.0,multi-GSE association,25,25,3,4.748706004754858,2.5169321801753273,6.980479829334389,0.00019518204513322457,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",ok,1.0,0.00019518204513322457,fibro
+hUSI,eFibro_IGFBP7_pan,tissue:skin,True,-0.509226633102017,0.25,86.0,multi-GSE association,9,9,1,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_SPARC_pan,tissue:skin,True,,50.0,72.0,multi-GSE association,4,4,3,,,,,"gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_ARHGDIB_pan,tissue:skin,True,,68.0,68.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,iFibro_CD74_bone marrow,tissue:skin,True,,42.0,68.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,tissue:skin,True,,34.0,72.0,multi-GSE association,7,7,4,,,,,"sex,gse,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,tissue:skin,True,-0.1176650861324843,21.0,74.0,multi-GSE association,2,2,2,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:skin,True,0.07368287657450276,18.0,74.0,multi-GSE association,3,3,3,,,,,"sex,gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:skin,True,-0.3282486399579728,21.0,72.0,multi-GSE association,10,10,5,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:stomach,True,,62.0,62.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:stomach,True,,48.0,68.0,cohort-specific exploratory,4,4,1,,,,,"sex,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:stomach,True,,48.0,62.0,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:stomach,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:stomach,True,,62.0,62.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:testis,True,,37.0,42.0,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:testis,True,,25.0,42.0,cohort-specific exploratory,4,4,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TUBB2B_pan,tissue:testis,True,,36.0,37.0,cohort-specific exploratory,2,2,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:testis,True,,36.0,36.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:testis,True,,25.0,55.0,cohort-specific exploratory,10,10,2,,,,,"gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_uterus,tissue:testis,True,,36.0,36.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_IGFBP7_pan,tissue:testis,True,,36.0,36.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:testis,True,,25.0,25.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:thymus,True,,25.0,25.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:thymus,True,,25.0,25.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:thymus,True,,25.0,25.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:thymus,True,,25.0,25.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,tissue:thymus,True,,25.0,25.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:thymus,True,,25.0,25.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_uterus,tissue:thymus,True,,25.0,25.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:thymus,True,,25.0,25.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:thymus,True,,25.0,25.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:tonsil,True,0.4476796858771102,6.0,63.0,cohort-specific exploratory,15,15,1,-0.00023092649732081756,-0.0005123073766872756,5.045438204564042e-05,0.1001931881434572,"total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.2472268101665987,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:tonsil,True,-0.499235156978273,6.0,63.0,cohort-specific exploratory,18,18,1,-0.00014301752619771653,-0.00032926695878259286,4.323190638715979e-05,0.12361340508329935,"total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.2472268101665987,fibro
+hUSI,eFibro_COL1A1_pan,tissue:tonsil,True,,6.0,63.0,cohort-specific exploratory,11,11,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:tonsil,True,-0.07135643515722442,6.0,63.0,cohort-specific exploratory,14,14,1,-3.444521584576566e-05,-0.0006072492149793974,0.0005383587832878661,0.898624343900544,"total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.898624343900544,fibro
+hUSI,eFibro_DCN_heart,tissue:tonsil,True,,6.0,58.0,cohort-specific exploratory,6,6,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_DCN_pan,tissue:tonsil,True,0.33062626255365146,6.0,63.0,cohort-specific exploratory,16,16,1,-0.00019438095493061382,-0.0007097013916471486,0.00032093948178592096,0.4339594345867165,"total_counts,pct_counts_mt,n_genes_by_counts",ok,0.0,0.5786125794489553,fibro
+hUSI,iFibro_CD74_pan,tissue:tonsil,True,,17.0,17.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_APOD_breast,tissue:tonsil,True,,58.0,58.0,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:tonsil,True,,6.0,63.0,cohort-specific exploratory,9,9,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:tonsil,True,,6.0,58.0,cohort-specific exploratory,4,4,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:uterus,True,0.8021804007354325,0.008,43.0,multi-GSE association,13,13,2,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,1.0,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:uterus,True,,0.014,0.014,cohort-specific exploratory,5,5,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL1A2_pan,tissue:uterus,True,,0.014,0.014,cohort-specific exploratory,6,6,1,,,,,"disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_COL3A1_pan,tissue:uterus,True,0.4533415105531991,0.014,0.066,cohort-specific exploratory,14,14,2,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",not_identifiable: aliased_covariates_or_insufficient_residual_df,1.0,,fibro
+hUSI,eFibro_DCN_pan,tissue:uterus,True,,0.014,43.0,multi-GSE association,4,4,2,,,,,"gse,disease_status,treatment,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_HNRNPA1_pan,tissue:uterus,True,,0.014,0.014,cohort-specific exploratory,3,3,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,eFibro_IGFBP7_pan,tissue:uterus,True,,0.066,0.066,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,iFibro_ARHGDIB_pan,tissue:uterus,True,,0.014,0.014,cohort-specific exploratory,2,2,1,,,,,"total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,tissue:uterus,True,,0.014,0.014,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:uterus,True,,42.0,42.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_CALD1_pan,tissue:vessel,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,Myfibro_TAGLN_pan,tissue:vessel,True,,31.0,83.0,cohort-specific exploratory,4,4,2,,,,,"sex,gse,disease_status,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,Myfibro_TPM1_pan,tissue:vessel,True,,0.036,0.036,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL1A1_pan,tissue:vessel,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_COL3A1_pan,tissue:vessel,True,,0.036,0.036,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,eFibro_DCN_heart,tissue:vessel,True,,67.0,83.0,cohort-specific exploratory,3,3,1,,,,,"sex,total_counts,pct_counts_mt,n_genes_by_counts",insufficient_support,,,fibro
+hUSI,iFibro_CD74_bone marrow,tissue:vessel,True,,74.0,74.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,iFibro_CD74_pan,tissue:vessel,True,,74.0,74.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CFD_pan,tissue:vessel,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CLU_bone,tissue:vessel,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro
+hUSI,qFibro_CLU_pan,tissue:vessel,True,,31.0,31.0,cohort-specific exploratory,1,1,1,,,,,,insufficient_support,,,fibro

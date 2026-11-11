@@ -1,0 +1,112 @@
+output_root: outputs/benchmark
+seed: 42
+lineages:
+  Fibro:
+    train: ./data/scalex/fibro/human/age_prediction/data/Fibro_human_FibDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyFib_age_normal.h5ad
+    external_combined: ./AgePrediction/Valid_data/Fibro_valid_bacthGSE_withNormalAllAge.h5ad
+    external_gse_dir: ./AgePrediction/Valid_data/GSElevelBatchRemoved/Fibro
+  Endo:
+    train: ./data/scalex/endo/human/age_prediction/data/Endo_human_EndoDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyEndo_age_normal.h5ad
+    external_combined: ./AgePrediction/Valid_data/Endo_valid_bacthGSE_withNormalAllAge.h5ad
+    external_gse_dir: ./AgePrediction/Valid_data/GSElevelBatchRemoved/Endo
+reference_paths: {}
+fields:
+  age: Age
+  sample: sample
+  gse: GSE
+  gsm: GSM
+  celltype: Celltype
+  donor: null
+  age_fallbacks:
+  - age
+features:
+  min_cells_per_sample: 5
+  min_cells_per_subtype: 1
+  chunk_cells: 2048
+  cells_per_subtype: 4
+  variance_threshold: 0.01
+  selection: mutual_info
+  K:
+  - 8000
+  - 10000
+  - 15000
+  - 20000
+cv:
+  n_splits: 5
+  age_bins: 8
+  inner_splits: 3
+resources:
+  threads: 4
+  device: cpu
+  parallel_lineages: false
+models:
+  names:
+  - XGBoost
+  - ExtraTrees
+  - ElasticNet
+  - MLP
+  - Ridge
+  - Lasso
+  - RandomForest
+  - GradientBoosting
+  - Supervised_PCA_Ridge
+  - SVR
+  - DeepSets
+  - Pseudobulk
+  - Ensemble
+  tune_linear: true
+  linear_alphas:
+  - 0.01
+  - 0.1
+  - 1.0
+  - 10.0
+  l1_ratios:
+  - 0.1
+  - 0.3
+  - 0.5
+  - 0.7
+  max_iter: 100000
+  xgb_estimators: 1500
+  tree_estimators: 800
+  boost_estimators: 500
+  mlp_max_iter: 3000
+  deep_epochs: 60
+  deep_hidden: 64
+  deep_batch_samples: 8
+  deep_lr: 0.001
+external:
+  primary_method: bbknn
+  include_alternate_method: true
+  bbknn_expression: raw
+  scanorama_expression: X
+  fractions:
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  - 0.6
+  - 0.7
+  repeats: 5
+  min_gse_samples: 5
+  min_adapt_groups: 2
+  min_test_groups: 2
+  calibration_alpha: 10.0
+stability:
+  n_bootstrap: 300
+  threshold: 0.7
+  sensitivity_thresholds:
+  - 0.75
+  coefficient_epsilon: 1.0e-08
+  min_fold_improvements: 4
+  r2_tolerance: 0.02
+enrichment:
+  provided_sets: resources/provided_aging_sets.json
+  gmt_dir: resources/gene_sets
+  provenance_csv: resources/gene_sets/provenance.csv
+  hgnc_tsv: resources/hgnc_complete_set.tsv
+  stromal_sasp_evidence_csv: null
+  min_set_size: 5
+  max_set_size: 3000
+figures:
+  dpi: 350

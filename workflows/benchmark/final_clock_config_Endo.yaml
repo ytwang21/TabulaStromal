@@ -1,0 +1,17 @@
+protocol: FinalEN-Phase3-4-v1
+lineage: Endo
+n_bootstrap: 300
+threshold: 0.7
+sensitivity_threshold: 0.75
+seed: 42
+K_selection: reuse_best_EN_mean_internal_Valid_R2
+stable_promotion_min_fold_improvements: 4
+stable_promotion_r2_tolerance: 0.02
+adaptation_fraction: 0.3
+adaptation_strategy: regularized_refit_adapt_only_EN_reference
+workers: 4
+io_workers: 4
+reserve_memory_gb: 4
+dpi: 350
+output_policy: existing_lineage_directories_final_clock_filenames
+gpu_policy: CPU_only_existing_EN_objective_no_unverified_GPU_solver

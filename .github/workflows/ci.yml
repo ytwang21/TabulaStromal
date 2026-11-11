@@ -1,0 +1,48 @@
+name: Source and synthetic verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - run: python -m pip install -r requirements/benchmark.txt
+      - run: python scripts/validate_repository.py --verify-checksums
+      - run: python -m unittest discover -s tests -v
+      - run: python -m unittest discover -s workflows/benchmark/tests -p 'test_*.py' -v
+  cellage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: python -m pip install -r requirements/cellage.txt
+      - run: python -m pytest -q
+        working-directory: workflows/cellage
+      - run: python scripts/run_workflow.py cellage --phase smoke-test --output-root outputs/cellage-smoke
