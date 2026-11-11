@@ -6,23 +6,21 @@ TabulaStromal brings together fibroblast and endothelial atlas analysis, a 13-mo
 
 The atlas contains **5,916,760 fibroblast cells** and **2,239,277 endothelial cells**. Clock development uses separate, filtered age-labelled cohorts of **640** and **437 sample units**, respectively. Sample labels and GSE/GSM groups should not be equated with independently verified donors. The full atlas includes heterogeneous disease annotations; it is not a uniformly healthy cohort.
 
-![Final ElasticNet clock performance by evaluation scope](docs/assets/clock_performance.png)
+## Model Overview
 
-## Workflow
+![TabulaStromal model overview](docs/assets/TabulaStromal_Workflow_V6.png)
 
-```mermaid
-flowchart LR
-    A[Annotated human single-cell atlases] --> B[Atlas audit and subtype summaries]
-    A --> C[Age-labelled development cohorts]
-    C --> D[Sample × Celltype_Gene pseudobulk]
-    D --> E[Grouped cross-validation: 13 models]
-    E --> F[Final ElasticNet branch]
-    F --> G[External: no adaptation]
-    F --> H[30% external adaptation → 70% held-out evaluation]
-    F --> I[Group bootstrap stability and enrichment]
-    A --> J[Existing hUSI and recSID outputs]
-    J --> K[CellAge score audit and associations]
-```
+*Project workflow overview (schematic).*
+
+## Model Performance
+
+<p align="center">
+  <a href="docs/assets/Fig2B_R2_heatmap.png"><img src="docs/assets/Fig2B_R2_heatmap.png" width="32%" alt="Figure 2B: model R²" /></a>
+  <a href="docs/assets/Fig2C_MAE_heatmap.png"><img src="docs/assets/Fig2C_MAE_heatmap.png" width="32%" alt="Figure 2C: model MAE (years)" /></a>
+  <a href="docs/assets/Fig2D_MAD_heatmap.png"><img src="docs/assets/Fig2D_MAD_heatmap.png" width="32%" alt="Figure 2D: age-label MAD (years)" /></a>
+</p>
+
+*Original Figure 2 panels B–D, shown using the corresponding standalone panel exports. Source fold: 4. External values use FT30 ALL100, including adaptation samples. MAD describes age-label dispersion; the final-clock evaluation scopes are reported separately below.*
 
 ## Start here
 

@@ -11,6 +11,6 @@ The original project is not modified. `provenance/source_manifest.csv` records t
 - Final-clock workers and I/O workers default to 4 and reserve memory to 4 GB; the original bootstrap count, seed, thresholds and adaptation strategy are retained. This changes execution resources, not a claim of an exact bitwise reproduction.
 - The old CellAge donor-identity note is replaced with an explicit limitation: the exported repository cannot independently verify that sample labels identify unique donors.
 - Numeric result values are unchanged. Path fields are generalized and final-model paths describe the expected local output layout.
-- Small helper scripts, documentation, CI and release audits are new. The README performance figure is generated from released aggregate data rather than a conceptual study illustration.
+- Small helper scripts, documentation, CI and release audits are new. The README displays the supplied project overview and the original Figure 2 B–D panel exports, with their evaluation scope identified in the caption. The separate `clock_performance.png` asset is generated from the released final-clock aggregate metrics.
 
 Checkpoint identities include source/config/input fingerprints. A new export cannot silently reuse an old run under a different identity. Preserve the verified original archive when inspecting historical results, and start a new output directory for new analyses. Archived accelerated runners retain source-layout assumptions and are included for method provenance, not as the default portable command.
