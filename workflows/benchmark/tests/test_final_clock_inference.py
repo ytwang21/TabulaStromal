@@ -20,6 +20,13 @@ class FinalInferenceTests(unittest.TestCase):
         expected=predict_age(self.frame,self.clock).age_pred
         actual=predict_age(self.frame[self.frame.columns[::-1]],self.clock).age_pred
         np.testing.assert_array_equal(expected,actual)
+    def test_memory_layout_does_not_change_prediction(self):
+        expected=bundle_predict(self.clock,np.array(self.raw,order='C'))
+        storage=np.empty((len(self.raw),self.raw.shape[1]*2),dtype=np.float32)
+        storage[:,::2]=self.raw
+        for values in [np.array(self.raw,order='F'),storage[:,::2]]:
+            np.testing.assert_array_equal(values,self.raw)
+            np.testing.assert_array_equal(bundle_predict(self.clock,values),expected)
     def test_missing_features_use_zero_before_frozen_scaler(self):
         name=self.frame.columns[1];missing=self.frame.drop(columns=name)
         explicit=self.frame.copy();explicit[name]=0

@@ -102,8 +102,11 @@ def load_final_clock(model_path):
     return b
 
 def bundle_predict(b,X):
-    z=b['preprocessor'].transform(np.asarray(X,np.float32))
-    return np.asarray(b['model'].predict(z),float)
+    # Column selection can give equal-valued C/F-order pandas buffers. Use
+    # one memory order so float32 BLAS accumulation does not depend on that
+    # representation. Frozen scaling, feature values and model stay intact.
+    z=b['preprocessor'].transform(np.ascontiguousarray(X,dtype=np.float32))
+    return np.asarray(b['model'].predict(np.ascontiguousarray(z)),float)
 
 def selected_h5ad(path,b,expression='X'):
     """Chunked sample×selected-Celltype_Gene means, with NO ratio features.

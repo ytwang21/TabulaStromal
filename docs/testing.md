@@ -21,7 +21,7 @@ python -m pip install -r requirements/benchmark.txt
 python -m unittest discover -s workflows/benchmark/tests -p 'test_*.py' -v
 ```
 
-Checks include: group-separated CV; train-only feature preprocessing and frozen scalers; separate adaptation/test groups; metric formulas and consistent evaluation pairs; corruption detection; all 13 models producing finite predictions and surviving serialization; all seven stages on small synthetic H5AD; resume without rewriting a completed final model; inference feature ordering, missing features, underscore-containing identifiers and unlabeled H5AD inputs.
+Checks include: group-separated CV; train-only feature preprocessing and frozen scalers; separate adaptation/test groups; metric formulas and consistent evaluation pairs; corruption detection, including atomic replacement under coarse timestamps; all 13 models producing finite predictions and surviving serialization; all seven stages on small synthetic H5AD; resume without rewriting a completed final model; inference feature ordering, C/Fortran/strided array-layout invariance, missing features, underscore-containing identifiers and unlabeled H5AD inputs.
 
 ## CellAge
 

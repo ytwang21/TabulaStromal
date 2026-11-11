@@ -28,7 +28,9 @@ def file_info(path):
 def file_hash(path):
     p = Path(path)
     st = p.stat()
-    key = (str(p.resolve()), st.st_size, st.st_mtime_ns, st.st_ctime_ns)
+    # Atomic replacement can preserve size and timestamp ticks on a coarse
+    # filesystem. A new inode must never reuse the prior file's digest.
+    key = (str(p.resolve()), st.st_dev, st.st_ino, st.st_size, st.st_mtime_ns, st.st_ctime_ns)
     if key in _HASHES: return _HASHES[key]
     h = hashlib.sha256()
     with open(path, 'rb') as f:

@@ -1,6 +1,8 @@
 """Meaningful synthetic leakage, artifact and complete-stage integration checks."""
 import copy,json,os,subprocess,sys,tempfile,unittest
 from pathlib import Path
+from types import SimpleNamespace
+from unittest.mock import patch
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
 for key in ['OMP_NUM_THREADS','OPENBLAS_NUM_THREADS','MKL_NUM_THREADS']:os.environ[key]='1'
@@ -87,6 +89,20 @@ class Invariants(unittest.TestCase):
                 save_bundle(Path(td)/name,name,model,pre,dict(seed=42));nn,loaded,pp,info=load_bundle(Path(td)/name,cfg)
                 np.testing.assert_allclose(predict_model(loaded,nn,Z,bags),pred,rtol=1e-6)
                 if name in ['DeepSets','Ensemble']:self.assertTrue((Path(td)/name/'state_dict.pt').exists())
+
+    def test_atomic_replacement_with_coarse_timestamps(self):
+        real_stat=Path.stat
+        def coarse_stat(path,*args,**kwargs):
+            st=real_stat(path,*args,**kwargs)
+            return SimpleNamespace(st_dev=st.st_dev,st_ino=st.st_ino,st_mode=st.st_mode,
+                                   st_size=st.st_size,st_mtime_ns=0,st_ctime_ns=0)
+        with tempfile.TemporaryDirectory() as td:
+            path=Path(td)/'data';marker=Path(td)/'complete.json'
+            with patch.object(Path,'stat',coarse_stat):
+                write_text(path,'abc');cache=Cache('test');cache.mark(marker,[path])
+                self.assertTrue(cache.valid(marker))
+                write_text(path,'xyz')
+                self.assertFalse(cache.valid(marker))
 
     def test_end_to_end_and_resume(self):
         with tempfile.TemporaryDirectory(prefix='tabulastromal_smoke_') as td:
