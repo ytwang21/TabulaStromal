@@ -12,7 +12,7 @@ def main():
     with (ROOT / 'audit/released_assets.csv').open() as f:
         assets = list(csv.DictReader(f))
     facts = json.loads((ROOT / 'audit/verified_facts.json').read_text())
-    source_map = json.loads((ROOT / 'outputs/source_audit/scan_receipt.json').read_text())['source_roots']
+    source_map = json.loads((ROOT / 'audit/scan_summary.json').read_text())['source_roots']
     result_files = {
         'F1_StromalAtlas': 'Results_Part1_StromalAtlas',
         'F2_ModelPerformance': 'Results_Part2_ClockPerformance_CellAge',
@@ -38,7 +38,7 @@ def main():
                  'CellAge_Exploration':'CellAge: Senescence-Associated Scores and Clock Integration'}[module]
         text = [f'# {title}', '',
                 f'Source project directory: `{source_map[module]}`. This page presents the selected verified result versions, original figure files, and aggregate evidence.', '',
-                f'**Results:** [English text](../docs/results/{result_files[module]}.md) · [Editable Word](../docs/results/{result_files[module]}.docx) · [Figure legends](../docs/results/Figure_Legends.md)', '',
+                f'**Results:** [English text](../docs/results/{result_files[module]}.md) · [Editable Word](../docs/results/{result_files[module]}.docx) · [PDF preview](../docs/results/{result_files[module]}.pdf) · [Figure legends](../docs/results/Figure_Legends.md)', '',
                 '**Audit:** [File inventory](audit/file_inventory.csv) · [Figure inventory](audit/figure_inventory.csv) · [Evidence registry](evidence/evidence_registry.csv) · [Released asset hashes](audit/released_assets.csv)', '',
                 f'**Code:** [Workflow source](../workflows/{workflows[module]}/) · [Reproduction instructions](../docs/reproducing.md)', '']
         if module == 'F1_StromalAtlas':

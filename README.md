@@ -35,13 +35,15 @@ The four result directories now include original figures, aggregate tables, file
 
 Read the English Results sections or download editable Word files:
 
-| Section | English text | Editable Word |
-| --- | --- | --- |
-| Results Part 1 — Stromal Atlas | [Read](docs/results/Results_Part1_StromalAtlas.md) | [Download](docs/results/Results_Part1_StromalAtlas.docx) |
-| Results Part 2 — Clock Overview, Performance and CellAge | [Read](docs/results/Results_Part2_ClockPerformance_CellAge.md) | [Download](docs/results/Results_Part2_ClockPerformance_CellAge.docx) |
-| Results Part 3 — Stable Features and Molecular Associations | [Read](docs/results/Results_Part3_StableFeatures_Mechanisms.md) | [Download](docs/results/Results_Part3_StableFeatures_Mechanisms.docx) |
+| Section | English text | Editable Word | PDF reading copy |
+| --- | --- | --- | --- |
+| Results Part 1 — Stromal Atlas | [Read](docs/results/Results_Part1_StromalAtlas.md) | [Download](docs/results/Results_Part1_StromalAtlas.docx) | [Preview](docs/results/Results_Part1_StromalAtlas.pdf) |
+| Results Part 2 — Clock Overview, Performance and CellAge | [Read](docs/results/Results_Part2_ClockPerformance_CellAge.md) | [Download](docs/results/Results_Part2_ClockPerformance_CellAge.docx) | [Preview](docs/results/Results_Part2_ClockPerformance_CellAge.pdf) |
+| Results Part 3 — Stable Features and Molecular Associations | [Read](docs/results/Results_Part3_StableFeatures_Mechanisms.md) | [Download](docs/results/Results_Part3_StableFeatures_Mechanisms.docx) | [Preview](docs/results/Results_Part3_StableFeatures_Mechanisms.pdf) |
 
-[Combined Results Word](docs/results/TabulaStromal_Results_Combined.docx) · [Figure legends](docs/results/Figure_Legends.md) · [Audit scope](audit/README.md) · [Evidence registry](evidence/evidence_registry.csv)
+[Combined Results Word](docs/results/TabulaStromal_Results_Combined.docx) · [Combined PDF](docs/results/TabulaStromal_Results_Combined.pdf) · [Figure legends](docs/results/Figure_Legends.md) · [Audit scope](audit/README.md) · [Evidence registry](evidence/evidence_registry.csv)
+
+Word and PDF copies retain clickable figure/evidence links. PDF reading copies are actual renders of the released Word files, with [page checks and hash receipts](audit/docx_rendering_report.md).
 
 Use Python **3.11** and run commands from the repository root. No research data or pretrained weights are downloaded automatically.
 

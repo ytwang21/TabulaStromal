@@ -4,7 +4,7 @@
 
 The interpretable branch used 300 successful group bootstrap fits within each of five outer-training partitions and in the full development set, giving 1,800 checked records per lineage. Filtering, ranking and scaling were repeated within resamples. At selection frequency ≥0.70, full-development stability identified 438 fibroblast Celltype_Gene pairs representing 416 genes in five detailed cell types, and 23 endothelial pairs representing 23 genes in one cell type ([Fig. 3C,D,G–L](../../TabulaStromal_Rebenchmark_2026/figures/combined/Stromal_individual_aging_clock_Fibroblast_Endothelial_FINAL_v2.pdf)). Each held-out stable-model comparison used its corresponding outer-training stable set; full-development stability was used for exploratory explanation.
 
-Fibroblast pair counts were eFibro_COL1A1_pan, 205 pairs; Myfibro_TAGLN_pan, 153 pairs; Myfibro_CALD1_pan, 75 pairs; eFibro_DCN_pan, 4 pairs; eFibro_COL1A2_pan, 1 pairs. The endothelial set was confined to CapEC_TM4SF1_pan. Candidate-normalized fractions and source cell/sample coverage accompany the raw counts. Unequal observation and candidate-gene opportunity limit interpretation of these counts as intrinsic subtype importance.
+Fibroblast pair counts were eFibro_COL1A1_pan, 205 pairs; Myfibro_TAGLN_pan, 153 pairs; Myfibro_CALD1_pan, 75 pairs; eFibro_DCN_pan, 4 pairs; eFibro_COL1A2_pan, 1 pair. The endothelial set was confined to CapEC_TM4SF1_pan. Candidate-normalized fractions and source cell/sample coverage accompany the raw counts. Unequal observation and candidate-gene opportunity limit interpretation of these counts as intrinsic subtype importance.
 
 ## Stable-feature restriction did not improve age prediction
 

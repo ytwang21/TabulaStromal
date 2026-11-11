@@ -11,4 +11,4 @@ python scripts/publish_github.py --repo ytwang21/TabulaStromal --visibility publ
 
 The publisher checks the clean committed tree, verifies the authenticated owner, creates an empty repository if absent, uploads main, and verifies the remote commit. It stops if a nonempty remote exists, visibility differs, or origin points elsewhere. It never force-pushes. The `workflow` OAuth scope is needed to upload the included GitHub Actions workflow.
 
-This source release does not automatically publish original study data, model weights, a manuscript, a DOI release or a paper. Those have separate resource and provenance requirements.
+This release includes three evidence-linked Results drafts, figure legends, editable Word files and corresponding PDF reading copies. It does not publish original study data, model weights, remaining manuscript sections, a DOI release or a paper. Those have separate resource and provenance requirements.

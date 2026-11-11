@@ -38,3 +38,24 @@ The CellAge tests exercise ID mapping, score semantics, sample aggregation, gene
 ## Scope not tested in CI
 
 Full private atlas processing, original model-weight equality, actual data access, R/STREAM/Monocle/CellRank trajectories, optional historical accelerators, private archive-dependent final-clock audits, and external hUSI/SenCID training are outside generic CI. Local execution evidence is recorded in `provenance/validation.json`; CI success is established only by the GitHub run itself.
+
+## Results Word files and PDF reading copies
+
+The Markdown, editable Word text and Word table cells are compared directly. Figure and evidence links remain clickable. The included PDF files were rendered from the actual DOCX with LibreOffice; [the page report](../audit/docx_rendering_report.md) records the renderer, fonts, text/link checks and page review. The release validator checks the recorded DOCX/PDF hashes in CI; CI does not launch LibreOffice or repeat visual review.
+
+To rebuild after editing a Results section:
+
+```bash
+python -m pip install -r requirements/manuscript.txt
+python scripts/build_results_documents.py
+python scripts/render_results_documents.py --soffice /path/to/soffice
+```
+
+Install LibreOffice separately; the scripts do not download it. Rendered page PNGs stay in ignored `outputs/document_qa/`. Inspect every page, including continued tables and superscript exponents, before recording visual approval in `audit/docx_rendering_report.json` and its Markdown report. Rebuilding either Word or PDF invalidates the previous hash receipt. Fonts can change pagination across machines.
+
+The four gallery pages can be rebuilt using only public release metadata:
+
+```bash
+python scripts/write_result_galleries.py
+python scripts/validate_results_release.py
+```

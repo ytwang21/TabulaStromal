@@ -62,11 +62,27 @@ def main():
             xml=ET.fromstring(archive.read('word/document.xml'))
             texts=[t.text or '' for t in xml.findall('.//w:t',NS)]
             check('Editable Word text: '+p.name,len(''.join(texts))>1000 and archive.testzip() is None)
+    render_path=ROOT/'audit/docx_rendering_report.json'
+    rendering='Not performed; text/table/XML validation is recorded separately.'
+    if render_path.exists():
+        render=json.loads(render_path.read_text())
+        check('Five Word rendering receipts',len(render['documents'])==5)
+        expected_documents={str(p.relative_to(ROOT)) for p in (ROOT/'docs/results').glob('*.docx')}
+        check('Word receipts cover exact release', {r['docx'] for r in render['documents']}==expected_documents)
+        for r in render['documents']:
+            check('Rendering receipt DOCX hash: '+r['docx'],sha256((ROOT/r['docx']).read_bytes()).hexdigest()==r['docx_sha256'])
+            raw=(ROOT/r['pdf']).read_bytes()
+            check('Rendering receipt PDF hash: '+r['pdf'],raw.startswith(b'%PDF') and sha256(raw).hexdigest()==r['pdf_sha256'])
+            check('Rendered text/links/page bounds: '+r['docx'],
+                  r['page_count']>0 and r['source_text_blocks_found']==r['source_text_blocks_checked']>0
+                  and r['hyperlink_targets_found']==r['hyperlink_targets_checked'] and r['out_of_page_text_spans']==0)
+            check('Visual page review recorded: '+r['docx'],r['visual_review']=='all pages inspected; no clipping or table overflow observed')
+        rendering='Actual DOCX to PDF rendering verified; receipt hashes, text, links and page review match this release.'
     report={'status':'passed','checks':len(checks),'original_figure_files':117,'aggregate_tables':81,
             'figure_candidates':len(figures),'evidence_records':len(evidence),
             'paragraph_claim_mappings':len(rows('audit/claim_to_evidence_report.csv')),
             'complete_source_file_entries':scan['scanned_files'],
-            'word_rendering':'Not performed; text/table/XML validation is recorded separately.'}
+            'word_rendering':rendering}
     (ROOT/'audit/results_release_validation.json').write_text(json.dumps(report,indent=2)+'\n')
     with (ROOT/'audit/results_release_checks.csv').open('w') as handle:
         writer=csv.DictWriter(handle,fieldnames=['check','passed'],lineterminator='\n')

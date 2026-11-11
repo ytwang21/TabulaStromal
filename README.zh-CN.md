@@ -25,6 +25,6 @@ python scripts/run_workflow.py benchmark --dry-run
 
 请保留科学范围的区别：样本标签不等于已经独立核实的供体；最终 EN 不等于全部模型中的内部最优模型；FT30 ALL100 包含适配样本，不能替代独立留出结果；hUSI 不等于以年为单位的生物年龄，recSID 不等于已经核实的衰老强度。负的外部 R² 在仓库中如实报告。
 
-新增四个结果目录的图件展示、文件与 Figure 清单、证据登记表，以及 [三个英文 Results 与可编辑 Word](docs/results/)。完整逐文件元数据清单保存在本地忽略目录，公开审计摘要覆盖全部扫描记录。
+新增四个结果目录的图件展示、文件与 Figure 清单、证据登记表，以及 [三个英文 Results、可编辑 Word 和同版 PDF](docs/results/)。Word/PDF 保留可点击的图件及证据链接；PDF 由真实 Word 文件经 LibreOffice 渲染，见 [逐页核查记录](audit/docx_rendering_report.md)。完整逐文件元数据清单保存在本地忽略目录，公开审计摘要覆盖全部扫描记录。
 
 原始矩阵、个人层面的预测/元数据、模型和运行缓存未复制到公开仓库。项目尚未选择整体开源许可证，详见 [NOTICE](NOTICE)。

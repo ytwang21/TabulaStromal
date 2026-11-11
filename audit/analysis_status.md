@@ -18,4 +18,4 @@ Metacell trajectories, per-GSE transfer outputs, enrichment, score–signature o
 
 Unique cross-study donor identities; an independently validated biological-age target; clinical/health-outcome utility; genuine SenCID intensity concordance; a complete current-final-OOF/CellAge joint analysis; perturbation-validated mechanisms; and actual GWAS/TF-network findings corresponding to the overview sketches.
 
-The audit checks existing study outputs. It does not claim that the full private-data study was rerun. Word pagination/font clipping has not been rendered in a real Word/LibreOffice engine.
+The audit checks existing study outputs. It does not claim that the full private-data study was rerun. The five Word files also have actual LibreOffice-rendered PDF reading copies; text, hyperlinks, page boundaries and visual review are recorded with file hashes in [the rendering receipt](docx_rendering_report.md). Font substitution can change pagination on other machines.

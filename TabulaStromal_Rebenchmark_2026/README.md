@@ -2,7 +2,7 @@
 
 Source project directory: `AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026`. This page presents the selected verified result versions, original figure files, and aggregate evidence.
 
-**Results:** [English text](../docs/results/Results_Part3_StableFeatures_Mechanisms.md) · [Editable Word](../docs/results/Results_Part3_StableFeatures_Mechanisms.docx) · [Figure legends](../docs/results/Figure_Legends.md)
+**Results:** [English text](../docs/results/Results_Part3_StableFeatures_Mechanisms.md) · [Editable Word](../docs/results/Results_Part3_StableFeatures_Mechanisms.docx) · [PDF preview](../docs/results/Results_Part3_StableFeatures_Mechanisms.pdf) · [Figure legends](../docs/results/Figure_Legends.md)
 
 **Audit:** [File inventory](audit/file_inventory.csv) · [Figure inventory](audit/figure_inventory.csv) · [Evidence registry](evidence/evidence_registry.csv) · [Released asset hashes](audit/released_assets.csv)
 

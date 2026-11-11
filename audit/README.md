@@ -11,7 +11,8 @@ The four original result trees were actually scanned: **1,413,618 file entries**
 | [released_assets.csv](released_assets.csv) | Every selected asset, source SHA256, exported SHA256, transformation and protocol |
 | [numeric_and_statistical_checks.csv](numeric_and_statistical_checks.csv) | Fresh numerical checks, including direct metric recomputation and split isolation |
 | [claim_to_evidence_report.csv](claim_to_evidence_report.csv) | Results paragraphs mapped to exact evidence IDs and source files |
-| [docx_validation_report.md](docx_validation_report.md) | Editable Word text/table/package checks and rendering limitation |
+| [docx_validation_report.md](docx_validation_report.md) | Editable Word text/table/package checks |
+| [docx_rendering_report.md](docx_rendering_report.md) | Actual Word-to-PDF rendering, text/link/page checks and hash receipts |
 | [analysis_status.md](analysis_status.md) | Completed analyses and limits |
 | [inconsistency_report.md](inconsistency_report.md) | Source-version and interpretation differences |
 

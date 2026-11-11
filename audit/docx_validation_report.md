@@ -6,4 +6,4 @@
 - docs/results/TabulaStromal_Results_Combined.docx: editable text, source paragraphs/tables and ZIP/XML verified.
 - docs/results/Figure_Legends.docx: editable text, source paragraphs/tables and ZIP/XML verified.
 
-No Word, LibreOffice or PDF page renderer is installed. Pagination, font substitution and clipping have not been visually validated. This is an editable Results draft, not a claim of publication-ready typesetting.
+Figure and evidence links are clickable. Tables repeat their header on continuation pages and retain editable cells. Page layout is checked separately in [the rendering report](docx_rendering_report.md); that report must match the current DOCX hashes.

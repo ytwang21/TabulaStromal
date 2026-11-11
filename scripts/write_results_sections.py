@@ -121,7 +121,7 @@ At the primary threshold of at least 20 scored cells per sample/tissue/subtype, 
          ['hUSI','recSID','paired_hUSI'],'Results2'),
     ])
 
-    subtype_text = '; '.join(f'{k}, {v} pairs' for k,v in facts['Fibro']['subtype_counts'].items())
+    subtype_text = '; '.join(f'{k}, {v} '+('pair' if v==1 else 'pairs') for k,v in facts['Fibro']['subtype_counts'].items())
     shared = ', '.join(facts['shared_stable_genes'])
     section('Results_Part3_StableFeatures_Mechanisms.md',
             'Results Part 3 — Stable expression features nominate lineage-associated molecular hypotheses', [
