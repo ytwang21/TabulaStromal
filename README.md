@@ -10,7 +10,7 @@ This release updates all five result modules from the source-verified 19 Novembe
 
 ![TabulaStromal model overview](docs/assets/TabulaStromal_Workflow_V6.png)
 
-*Original workflow schematic. Illustrative numbers, healthy-only/donor labels and GWAS drawings are not additional empirical findings. See the current complete Figure 2 and source-specific definitions in [F2_ModelPerformance](F2_ModelPerformance/).*
+*Updated original workflow (6144 × 4096). The lower training/evaluation plots show current development-set in-sample fits; the lower external plots show adapted ALL100 results used in model selection. MAD in these plots means median absolute prediction error. The upper external correlation example, healthy-only/donor labels and GWAS artwork remain schematic. See [workflow interpretation and exact supporting tables](docs/workflow.md).*
 
 ## Model Performance
 
@@ -39,7 +39,7 @@ The full grouped five-fold benchmark ranked XGBoost first for fibroblasts (mean 
 | Module | Current content |
 |---|---|
 | [F1_StromalAtlas](F1_StromalAtlas/) | Atlas overview, detailed states, metadata coverage, retrospective annotation agreement and filtering figures |
-| [F2_ModelPerformance](F2_ModelPerformance/) | Current complete Figure 2, original overview, B–F panels and exact aggregate metric tables |
+| [F2_ModelPerformance](F2_ModelPerformance/) | Updated original workflow, current complete Figure 2, B–F panels and exact aggregate metric tables |
 | [F3_ds_analysis](F3_ds_analysis/) | Selected features, functional annotation, LISA2, RNA networks, adult raw-count ECM, current CellAge, and the **40-slide PPTX** |
 | [TabulaStromal_Rebenchmark_2026](TabulaStromal_Rebenchmark_2026/) | Current 750/350-feature definitions and optimization protocol, with the earlier unreduced EN branch labeled separately |
 | [CellAge_Exploration](CellAge_Exploration/) | Historical score provenance and its distinction from the current selected-state CellAge analysis |
@@ -58,7 +58,7 @@ Current selected features span **27 states per lineage**, encode **678/337 uniqu
 
 ## Audit and provenance
 
-The complete five-root metadata discovery contains **1,469,578 file entries**, including historical and environment files; it does not imply reading all file contents. The public release contains **229 original scientific image/PDF files**, **201 aggregate/evidence tables** and the downstream PPTX. Core content hashes were rechecked for **432 audited source files** before export. See [audit scope and inventories](audit/README.md), [evidence registry](evidence/evidence_registry.csv), [release checks](audit/results_release_validation.json) and [Word rendering receipts](audit/docx_rendering_report.md).
+The complete five-root metadata discovery contains **1,469,578 file entries**, including historical and environment files; it does not imply reading all file contents. The public release contains **229 original scientific image/PDF files**, **201 aggregate/evidence tables** and the downstream PPTX. The content-read inventory now records **433 source files**: 432 checked before the initial export plus the newly refreshed workflow PNG. See [audit scope and inventories](audit/README.md), [evidence registry](evidence/evidence_registry.csv), [release checks](audit/results_release_validation.json) and [Word rendering receipts](audit/docx_rendering_report.md).
 
 All descendants of the F3 audit directory named `VenEC_CLU_eye_audit` and `F3_features/Age10_20_audit_20261117` are excluded. A legitimate Celltype named `VenEC_CLU_eye` in current aggregate results is not that excluded audit directory. Source images are unaltered. The PPTX retains all 40 slides and embedded image bytes; personal server paths in its XML text are generalized. Full cache-path inventories remain local under ignored `outputs/`.
 

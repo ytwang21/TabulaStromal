@@ -38,7 +38,7 @@ This release updates all five result modules from the source-verified 19 Novembe
 
 ![TabulaStromal model overview](docs/assets/TabulaStromal_Workflow_V6.png)
 
-*Original workflow schematic. Illustrative numbers, healthy-only/donor labels and GWAS drawings are not additional empirical findings. See the current complete Figure 2 and source-specific definitions in [F2_ModelPerformance](F2_ModelPerformance/).*
+*Updated original workflow (6144 × 4096). The lower training/evaluation plots show current development-set in-sample fits; the lower external plots show adapted ALL100 results used in model selection. MAD in these plots means median absolute prediction error. The upper external correlation example, healthy-only/donor labels and GWAS artwork remain schematic. See [workflow interpretation and exact supporting tables](docs/workflow.md).*
 
 ## Model Performance
 
@@ -67,7 +67,7 @@ The full grouped five-fold benchmark ranked XGBoost first for fibroblasts (mean 
 | Module | Current content |
 |---|---|
 | [F1_StromalAtlas](F1_StromalAtlas/) | Atlas overview, detailed states, metadata coverage, retrospective annotation agreement and filtering figures |
-| [F2_ModelPerformance](F2_ModelPerformance/) | Current complete Figure 2, original overview, B–F panels and exact aggregate metric tables |
+| [F2_ModelPerformance](F2_ModelPerformance/) | Updated original workflow, current complete Figure 2, B–F panels and exact aggregate metric tables |
 | [F3_ds_analysis](F3_ds_analysis/) | Selected features, functional annotation, LISA2, RNA networks, adult raw-count ECM, current CellAge, and the **40-slide PPTX** |
 | [TabulaStromal_Rebenchmark_2026](TabulaStromal_Rebenchmark_2026/) | Current 750/350-feature definitions and optimization protocol, with the earlier unreduced EN branch labeled separately |
 | [CellAge_Exploration](CellAge_Exploration/) | Historical score provenance and its distinction from the current selected-state CellAge analysis |
@@ -86,7 +86,7 @@ Current selected features span **27 states per lineage**, encode **678/337 uniqu
 
 ## Audit and provenance
 
-The complete five-root metadata discovery contains **{release['source_files']:,} file entries**, including historical and environment files; it does not imply reading all file contents. The public release contains **{release['original_figure_files']} original scientific image/PDF files**, **{release['aggregate_tables']} aggregate/evidence tables** and the downstream PPTX. Core content hashes were rechecked for **{release['source_reads_reverified']} audited source files** before export. See [audit scope and inventories](audit/README.md), [evidence registry](evidence/evidence_registry.csv), [release checks](audit/results_release_validation.json) and [Word rendering receipts](audit/docx_rendering_report.md).
+The complete five-root metadata discovery contains **{release['source_files']:,} file entries**, including historical and environment files; it does not imply reading all file contents. The public release contains **{release['original_figure_files']} original scientific image/PDF files**, **{release['aggregate_tables']} aggregate/evidence tables** and the downstream PPTX. The content-read inventory now records **{release['source_reads_reverified']} source files**: 432 checked before the initial export plus the newly refreshed workflow PNG. See [audit scope and inventories](audit/README.md), [evidence registry](evidence/evidence_registry.csv), [release checks](audit/results_release_validation.json) and [Word rendering receipts](audit/docx_rendering_report.md).
 
 All descendants of the F3 audit directory named `VenEC_CLU_eye_audit` and `F3_features/Age10_20_audit_20261117` are excluded. A legitimate Celltype named `VenEC_CLU_eye` in current aggregate results is not that excluded audit directory. Source images are unaltered. The PPTX retains all 40 slides and embedded image bytes; personal server paths in its XML text are generalized. Full cache-path inventories remain local under ignored `outputs/`.
 
@@ -140,6 +140,16 @@ Relative hUSI compares a state with other cell-weighted lineage cells in the sam
 The two user-excluded audit trees and all their descendants are absent from this public tree. [Evidence](evidence/evidence_registry.csv), [selected assets](audit/released_assets.csv) and [figure inventory](audit/figure_inventory.csv) identify the actual scope. No expression matrices, fitted models or individual-level score/prediction rows are released.
 ''')
     write('F2_ModelPerformance/README.md','''# F2 — Clock overview and current Figure 2
+
+## Updated model overview
+
+![Updated TabulaStromal workflow](figures/TabulaStromal_Workflow_V6.png)
+
+[Original workflow PNG, 6144 × 4096](figures/TabulaStromal_Workflow_V6.png) · [Workflow interpretation and supporting metrics](../docs/workflow.md) · [Source refresh record](../audit/workflow_refresh.json)
+
+The lower development plots show in-sample R²≈0.950 for both lineages; the lower external plots show adapted ALL100 R²=0.377/0.391, with external outcomes used for model selection. MAD in these plots means median absolute prediction error. The upper external correlation example and other conceptual labels are distinguished in the linked interpretation.
+
+## Complete Figure 2 and benchmark panels
 
 ![Current complete Figure 2](figures/Fig2_StromalClock_ModelPerformance.png)
 
@@ -212,6 +222,8 @@ The historical figure is retained as provenance. Its equal-state relative compar
             if module=='TabulaStromal_Rebenchmark_2026' and 'current_performance_first' not in str(prefix):
                 content+='Files named `final_clock_*` and the 438/23-pair signatures describe the earlier unreduced EN branch; the current compact representation is linked from the module overview.\n\n'
             if module=='CellAge_Exploration':content+='This folder belongs to the historical score snapshot. The current selected-state analysis is linked from the module overview.\n\n'
+            if prefix==Path('F2_ModelPerformance/figures'):
+                content+='The workflow PNG is the updated 6144 × 4096 source image. Its development and outcome-selected external plots have different evaluation scopes from the B–D benchmark panels. See [workflow interpretation](../../docs/workflow.md) and [source refresh record](../../audit/workflow_refresh.json).\n\n'
             images=[p for p in paths if p.suffix=='.png' and (ROOT/p).is_relative_to(directory)]
             for p in images[:8]:content+='!['+p.stem+']('+os.path.relpath(ROOT/p,directory)+')\n\n'
             if child:content+='Subdirectories: '+', '.join('['+n+']('+n.replace(' ','%20')+'/)' for n in child)+'.\n\n'
@@ -229,7 +241,7 @@ The historical figure is retained as provenance. Its equal-state relative compar
 
 The completed five-root metadata discovery contains **{release['source_files']:,} entries**, including dependencies, historical runs and caches. This is metadata discovery, not a claim to read every file. The full path-level inventory remains local in ignored `outputs/source_audit/full_file_inventory.csv.gz`; the public summary accounts for every entry.
 
-Immediately before export, **{release['source_reads_reverified']} audited content files** were rechecked against their stored SHA256 and modification times. The public payload contains {release['original_figure_files']} original image/PDF assets, {release['aggregate_tables']} aggregate/evidence tables and the portable-text version of the 40-slide PPTX. No cell/sample-level observations, predictions, model bundles or matrices are published.
+The content-read inventory records **{release['source_reads_reverified']} files** with source hashes and modification times. The initial export rechecked 432 audited content files; the subsequent [workflow refresh](workflow_refresh.json) reads one additional source image and updates both published copies. The complete metadata scan remains the original snapshot; this targeted image refresh is not a new five-root scan. The public payload contains {release['original_figure_files']} original image/PDF assets, {release['aggregate_tables']} aggregate/evidence tables and the portable-text version of the 40-slide PPTX. No cell/sample-level observations, predictions, model bundles or matrices are published.
 
 | Record | Meaning |
 |---|---|
@@ -237,6 +249,7 @@ Immediately before export, **{release['source_reads_reverified']} audited conten
 | [file_inventory.csv](file_inventory.csv) | Actually read core content, hashes and source-read scope |
 | [figure_inventory.csv](figure_inventory.csv) | Result figure candidates after dependency/private-path filtering; published status is separate |
 | [released_assets.csv](released_assets.csv) | Reviewed source/export hashes, transformations and protocol scope |
+| [workflow_refresh.json](workflow_refresh.json) | Incremental original workflow replacement, dimensions, hashes and unchanged metadata-scan scope |
 | [figure_manifest.csv](figure_manifest.csv) | Current manuscript Figure 1–6 / Extended Data / supplementary panel assignments |
 | [claim_to_evidence_report.csv](claim_to_evidence_report.csv) | {release['claim_mappings']} current Results paragraph/table mappings |
 | [Evidence registry](../evidence/evidence_registry.csv) | {release['evidence_records']:,} source-verified aggregate evidence entries; current and historical branches retained separately |
@@ -252,6 +265,14 @@ Both excluded F3 audit subtrees and all descendants are absent from published pa
 本次更新为 **2026-11-19** 经审计结果快照，包含 [F1 图谱](F1_StromalAtlas/)、[F2 模型表现](F2_ModelPerformance/)、[F3 下游机制关联](F3_ds_analysis/)、[Rebenchmark](TabulaStromal_Rebenchmark_2026/) 与 [CellAge](CellAge_Exploration/) 五个模块。
 
 [英文首页及模型图](README.md) · [40 页下游 PPT](F3_ds_analysis/TabulaStromal_F3_Downstream_Results_20261119.pptx) · [三段英文 Results 与 Word/PDF](docs/results/) · [审计清单](audit/README.md)
+
+## 更新后的 Model Overview
+
+![更新后的 TabulaStromal workflow](docs/assets/TabulaStromal_Workflow_V6.png)
+
+原图分辨率为 6144 × 4096。训练评估区下方为当前模型的开发集内拟合；外部评估区下方为参与模型选择的 adapted ALL100 结果。这些图中的 MAD 是预测误差中位数（MedAE）。上方 r=0.602 示例以及 healthy-only、donor 和 GWAS 等示意标签的解释见 [workflow 说明及来源](docs/workflow.md)。
+
+## Model Performance
 
 ![当前 Figure 2](F2_ModelPerformance/figures/Fig2_StromalClock_ModelPerformance.png)
 

@@ -4,6 +4,8 @@ Current snapshot: **19 November 2026**. Counts refer to sample/proxy units unles
 
 [Module overview](../README.md) · [Results and legends](../../docs/results)
 
+The workflow PNG is the updated 6144 × 4096 source image. Its development and outcome-selected external plots have different evaluation scopes from the B–D benchmark panels. See [workflow interpretation](../../docs/workflow.md) and [source refresh record](../../audit/workflow_refresh.json).
+
 ![TabulaStromal_Workflow_V6](TabulaStromal_Workflow_V6.png)
 
 ![Fig2_StromalClock_ModelPerformance](Fig2_StromalClock_ModelPerformance.png)

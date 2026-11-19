@@ -1,12 +1,12 @@
 {
   "status": "passed",
-  "files": 851,
-  "payload_bytes": 334756968,
+  "files": 853,
+  "payload_bytes": 366288481,
   "checks": {
     "python": 134,
     "notebooks": 16,
-    "structured": 42,
-    "markdown_links": 1167,
+    "structured": 43,
+    "markdown_links": 1191,
     "aggregate_metric_comparisons": 2496
   },
   "errors": []

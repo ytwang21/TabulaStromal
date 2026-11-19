@@ -1,5 +1,15 @@
 # F2 — Clock overview and current Figure 2
 
+## Updated model overview
+
+![Updated TabulaStromal workflow](figures/TabulaStromal_Workflow_V6.png)
+
+[Original workflow PNG, 6144 × 4096](figures/TabulaStromal_Workflow_V6.png) · [Workflow interpretation and supporting metrics](../docs/workflow.md) · [Source refresh record](../audit/workflow_refresh.json)
+
+The lower development plots show in-sample R²≈0.950 for both lineages; the lower external plots show adapted ALL100 R²=0.377/0.391, with external outcomes used for model selection. MAD in these plots means median absolute prediction error. The upper external correlation example and other conceptual labels are distinguished in the linked interpretation.
+
+## Complete Figure 2 and benchmark panels
+
 ![Current complete Figure 2](figures/Fig2_StromalClock_ModelPerformance.png)
 
 [Full-resolution PNG](figures/Fig2_StromalClock_ModelPerformance.png) · [PDF](figures/Fig2_StromalClock_ModelPerformance.pdf) · [Current source manifest](tables/source_manifest.json) · [Results Part 2](../docs/results/Results_Part2_ClockPerformance_CellAge.md)
