@@ -1,0 +1,51 @@
+Term,Overlap_Count,Pathway_Size,Query_Size,Background_Size,Genes,P_value,FDR,Gene_ratio,Fold_enrichment,Database,Direction,Lineage
+Coagulation,2,80,11,11700,C1S;FYN,0.002439867754582846,0.1219933877291423,0.18181818181818182,26.59090909090909,Hallmark,Mixed,Fibroblast
+Complement,2,142,11,11700,C1S;FYN,0.0074876228901567,0.1871905722539175,0.18181818181818182,14.980793854033292,Hallmark,Mixed,Fibroblast
+Interferon Alpha Response,1,90,11,11700,C1S,0.08146839877763938,0.7819787099022533,0.09090909090909091,11.818181818181818,Hallmark,Mixed,Fibroblast
+Androgen Response,1,91,11,11700,HERC3,0.08233866988990866,0.7819787099022533,0.09090909090909091,11.688311688311689,Hallmark,Mixed,Fibroblast
+Fatty Acid Metabolism,1,128,11,11700,APEX1,0.11401656939503398,0.7819787099022533,0.09090909090909091,8.309659090909092,Hallmark,Mixed,Fibroblast
+UV Response Dn,1,133,11,11700,FYN,0.11822024446781941,0.7819787099022533,0.09090909090909091,7.997265892002734,Hallmark,Mixed,Fibroblast
+Interferon Gamma Response,1,170,11,11700,C1S,0.14876831284638836,0.7819787099022533,0.09090909090909091,6.25668449197861,Hallmark,Mixed,Fibroblast
+Adipogenesis,1,185,11,11700,APLP2,0.16087614677534767,0.7819787099022533,0.09090909090909091,5.74938574938575,Hallmark,Mixed,Fibroblast
+Mitotic Spindle,1,191,11,11700,ARAP3,0.16567528268012152,0.7819787099022533,0.09090909090909091,5.568776772965255,Hallmark,Mixed,Fibroblast
+Oxidative Phosphorylation,1,198,11,11700,ABCB7,0.17124272967409782,0.7819787099022533,0.09090909090909091,5.371900826446281,Hallmark,Mixed,Fibroblast
+Myc Targets V1,1,199,11,11700,APEX1,0.1720353161784957,0.7819787099022533,0.09090909090909091,5.344906349931476,Hallmark,Mixed,Fibroblast
+Allograft Rejection,0,128,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Angiogenesis,0,22,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Apical Junction,0,140,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Apical Surface,0,29,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Apoptosis,0,142,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Bile Acid Metabolism,0,70,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Cholesterol Homeostasis,0,68,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+DNA Repair,0,144,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+E2F Targets,0,187,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Epithelial Mesenchymal Transition,0,155,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Estrogen Response Early,0,151,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Estrogen Response Late,0,137,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+G2-M Checkpoint,0,177,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Glycolysis,0,166,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Hedgehog Signaling,0,24,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Hypoxia,0,167,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+IL-2/STAT5 Signaling,0,161,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+IL-6/JAK/STAT3 Signaling,0,60,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Inflammatory Response,0,127,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+KRAS Signaling Dn,0,63,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+KRAS Signaling Up,0,135,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Myc Targets V2,0,57,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Myogenesis,0,125,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Notch Signaling,0,29,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+PI3K/AKT/mTOR  Signaling,0,93,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Pancreas Beta Cells,0,13,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Pperoxisome,0,84,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Protein Secretion,0,93,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Reactive Oxygen Species Pathway,0,47,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Spermatogenesis,0,59,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+TGF-beta Signaling,0,52,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+TNF-alpha Signaling via NF-kB,0,178,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+UV Response Up,0,133,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Unfolded Protein Response,0,109,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Wnt-beta Catenin Signaling,0,37,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+Xenobiotic Metabolism,0,134,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+heme Metabolism,0,155,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+mTORC1 Signaling,0,196,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast
+p53 Pathway,0,184,11,11700,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Fibroblast

@@ -1,0 +1,41 @@
+slide,section,title,image_paths,takeaway
+1,TabulaStromal · Downstream analysis,稳定年龄预测特征的基质细胞生物学解读,,Fibroblast × Endothelial | Stable features → Function / TF → ECM → Senescence state
+2,研究设计,先区分预测、功能关联与细胞衰老状态,,证据分层：描述性模式 → 经校正的统计关联 → 待实验验证的机制假说
+3,01 · 稳定特征,两类细胞各27个 stable celltypes，特征分布不均,F3_features/results/Fibroblast/figures/stable_features_subtype_barplot.png;F3_features/results/Endothelial/figures/stable_features_subtype_barplot.png,Fibroblast：750 features / 678 genes；Endothelial：350 features / 337 genes。柱长不是细胞丰度。
+4,01 · 稳定特征,Fibroblast：存在年轻、中年和老年相对高表达模式,F3_features/results/Fibroblast/figures/top_dynamic_stable_features.png,保留原始 Age_group A–H；Young-high=A–C，Middle-high=D–F，Old-high=G–H，仅为展示分组。
+5,01 · 稳定特征,Endothelial：年龄组模式具有异质性,F3_features/results/Endothelial/figures/top_dynamic_stable_features.png,161 / 350 个特征通过展示筛选；全部特征仍保留。热图模式不代表独立复现或显著年龄效应。
+6,02 · 功能富集,Fibroblast：炎症与胶原相关基质功能富集,F3_features/functional_network_20261118/Fibroblast/figures/All_Hallmark_dotplot.png;F3_features/functional_network_20261118/Fibroblast/figures/All_GO_CC_dotplot.png,稳定年龄预测基因携带炎症与基质功能信息；ORA不提供通路激活方向。
+7,02 · 功能富集,Endothelial：金属稳态与细胞骨架信号集中,F3_features/functional_network_20261118/Endothelial/figures/All_Reactome_2022_dotplot.png;F3_features/functional_network_20261118/Endothelial/figures/All_GO_CC_dotplot.png,可支持金属稳态 / 骨架相关功能富集；不推断实际金属暴露。
+8,02 · 功能网络,Fibroblast：将显著功能连接到具体稳定基因,F3_features/functional_network_20261118/Fibroblast/figures/age_associated_gene_functional_theme_network.png,功能网络用于解释富集由哪些基因贡献，不新增独立的机制证据。
+9,02 · 功能网络,Endothelial：金属稳态与黏附 / 骨架两个主题,F3_features/functional_network_20261118/Endothelial/figures/age_associated_gene_functional_theme_network.png,同一个功能主题中可出现不同模型贡献方向，不能整体命名为“促进衰老”。
+10,02 · KEGG上下文,Fibroblast：KEGG成员图扩展功能覆盖,F3_features/results/Fibroblast/figures/KEGG_pathway_gene_heatmap.png,132 个基因 / 28 条上下文通路；该图展示成员关系，Fibroblast全局KEGG无FDR显著通路。
+11,02 · KEGG上下文,Endothelial：成员覆盖与显著富集是两件事,F3_features/results/Endothelial/figures/KEGG_pathway_gene_heatmap.png,“富集图基因少”源于显著性 / 显示筛选，不代表 stable genes 在读取时丢失。
+12,03 · LISA2,LISA输入门槛决定实际可分析的细胞类型,TF_analysis/stable_celltype_LISA2_20261118/figures/LISA2_celltype_eligibility.png,Fibroblast 14 / 27、Endothelial 5 / 27 完成三类assay；其余映射基因不足20个，明确跳过。
+13,03 · LISA2,Fibroblast：多个celltype具有候选调控关联,TF_analysis/stable_celltype_LISA2_20261118/Fibroblast/figures/celltype_TF_heatmap.png,q为lineage内全部celltype×factor校正；关联不证明TF随年龄激活或驱动衰老。
+14,03 · LISA2,Endothelial：调控关联在celltype之间不同,TF_analysis/stable_celltype_LISA2_20261118/Endothelial/figures/celltype_TF_heatmap.png,候选因子适合后续验证；当前未检验出两lineage之间正式的调控差异。
+15,03 · 先验约束GRN,表达网络补充了TF与stable targets的联系,TF_analysis/results/Fibroblast/figures/Fibroblast_stable_target_heatmap.png;TF_analysis/results/Endothelial/figures/Endothelial_stable_target_heatmap.png,Fibroblast：21个可分析celltypes / 65条stable-target边；Endothelial：15个 / 7条。边数不是年龄效应。
+16,03 · 先验约束GRN,应激与炎症相关靶基因：可检验的网络候选,TF_analysis/results/Fibroblast/celltypes/eFibro_COL1A1_pan/TF_target_network.png;TF_analysis/results/Endothelial/celltypes/EndoMT_VIM_pan/TF_target_network.png,Fibro：HIF1A—NAMPT、CEBPB / STAT3—SOD2；Endo：PPARD—CCL2。均为候选关联。
+17,04 · ECM,稳定时钟基因覆盖多类ECM功能成员,2026_Nat Aging_HAECA/stromal_ECM_20261118/Fibroblast/figures/celltype_ECM_membership.png;2026_Nat Aging_HAECA/stromal_ECM_20261118/Endothelial/figures/celltype_ECM_membership.png,这是stable gene成员计数，不是年龄斜率，也不是物理ECM重塑活性。
+18,04 · ECM年龄关联,Fibroblast：ECM年龄关联方向依赖组织背景,2026_Nat Aging_HAECA/stromal_ECM_20261118/Fibroblast/figures/ECM_signature_age_contrasts.png,eFibro_COL1A1_pan：ovary的collagen formation负向（q=1.03×10⁻⁶）；colon的ECM organization正向（q=1.16×10⁻⁴）。
+19,04 · ECM年龄关联,Endothelial：特定组织中出现ECM程序年龄关联,2026_Nat Aging_HAECA/stromal_ECM_20261118/Endothelial/figures/ECM_signature_age_contrasts.png,两lineage合计312项ECM对比中67项显著；对比含重叠组织 / 基因集，不是67次独立复现。
+20,04 · 机械敏感TF,TEAD4：具有局部支持的机械敏感调控线索,2026_Nat Aging_HAECA/stromal_ECM_20261118/Endothelial/figures/HAECA_Fig3b_mechanosensitive_TF_adaptation.png,142项可测机械敏感TF对比仅1项显著；不支持YAP / TAZ / TEAD在所有基质细胞普遍激活。
+21,05 · CellAge交叉分析,stable celltypes的hUSI分布不等于真实细胞年龄,F3_features/ModelFeature_cellAge/Fibroblast/figures/hUSI_Age_group.png;F3_features/ModelFeature_cellAge/Endothelial/figures/hUSI_Age_group.png,年龄来源一致的成年样本：Fibro 731个代理 / 87 GSE，Endo 529个 / 80 GSE；热图为描述性模式。
+22,05 · CellAge交叉分析,Fibroblast：部分stable celltypes的相对hUSI较高或较低,F3_features/ModelFeature_cellAge/Fibroblast/figures/relative_hUSI.png,上述两项在健康、训练 / 非训练与10 / 50细胞阈值检查中方向一致；这是状态差异，不是年龄加速。
+23,05 · CellAge交叉分析,Endothelial：同一时钟中包含高分与低分celltypes,F3_features/ModelFeature_cellAge/Endothelial/figures/relative_hUSI.png,EndoMT_CFD_pan在健康子集中未通过FDR；不能把某个状态标签整体命名为促衰老。
+24,05 · CellAge年龄关联,目前没有hUSI年龄斜率通过主分析FDR,F3_features/ModelFeature_cellAge/Fibroblast/figures/hUSI_age_per10y.png;F3_features/ModelFeature_cellAge/Endothelial/figures/hUSI_age_per10y.png,Fibro 16 / 27、Endo 13 / 27可估；全部主年龄斜率FDR>0.05。未显著不等于效应必然不存在。
+25,05 · Celltype丰度,年龄组间可见分布差异，但热图不是显著性证据,F3_features/ModelFeature_cellAge/Fibroblast/figures/composition_Age_group.png;F3_features/ModelFeature_cellAge/Endothelial/figures/composition_Age_group.png,分母为同sample×tissue中该lineage全部细胞；各sample等权，不把细胞数当生物学重复。
+26,05 · Celltype丰度,年轻 / 年老组的比例差异尚未获得校正后支持,F3_features/ModelFeature_cellAge/Fibroblast/figures/proportion_old_minus_young_pp.png;F3_features/ModelFeature_cellAge/Endothelial/figures/proportion_old_minus_young_pp.png,原始B/C vs F/G/H：Fibro 20个、Endo 16个celltypes可估；主对比均无FDR≤0.05。
+27,05 · 模型特征与CellAge,时钟特征数与相对hUSI：尚无显著单调关系,F3_features/ModelFeature_cellAge/figures/Fig_ModelFeature_CellAge_Integration.png,特征数 / 系数绝对值与CellAge效应的Spearman关系，完整探索检验集合校正后均无FDR显著结果。
+28,06 · 跨模块整合,已经形成候选假说，尚未形成因果机制闭环,TF_analysis/stable_celltype_LISA2_20261118/integration/figures/integration_hypothesis_framework.png,同一celltype内，尚无候选同时满足LISA、TF regulon年龄效应与靶基因年龄效应三项显著。
+29,06 · 结论,目前可以写入结果段的三点,,候选调控因子与ECM机制需要真实donor映射、独立队列及实验验证。
+30,附录 A · 完整表达热图,完整特征热图保留，可在PPT中放大查看,F3_features/results/Fibroblast/figures/stable_feature_age_heatmap.png;F3_features/results/Endothelial/figures/stable_feature_age_heatmap.png,Fibro显示520 / 750行；Endo显示161 / 350行。仅删除不满足展示规则的行，未删改原始stable名单。
+31,附录 B · LISA排名,Fibroblast Top 15：面板 a–f（6个celltypes）,TF_analysis/stable_celltype_LISA2_20261118/Fibroblast/combined_top_TFs.png,原合并图上部两行（实际包含6个celltypes）；横轴为描述性−log10 P，各面板独立刻度。
+32,附录 B · LISA排名,Fibroblast Top 15：面板 g–l（6个celltypes）,TF_analysis/stable_celltype_LISA2_20261118/Fibroblast/combined_top_TFs.png,展示排名不替代FDR判断；eFibro_COL1A2_pan第一名TCF7校正后q=0.056，尚未显著。
+33,附录 B · LISA排名,Fibroblast Top 15：面板 m–n（2个celltypes）,TF_analysis/stable_celltype_LISA2_20261118/Fibroblast/combined_top_TFs.png,iFibro_CD74_pan与qFibro_CLU_pan；候选调控关联不能命名为促衰老 / 抗衰老效应。
+34,附录 B · LISA排名,Endothelial：5个有结果celltypes的Top 15,TF_analysis/stable_celltype_LISA2_20261118/Endothelial/combined_top_TFs.png,只包含完成LISA的5个celltypes；少于20个映射基因的22个celltypes未补造输入。
+35,附录 C · 系数方向功能,Fibroblast：正 / 负模型系数基因的功能补充,F3_features/results/Fibroblast/figures/Positive_Hallmark_dotplot.png;F3_features/results/Fibroblast/figures/Negative_Reactome_dotplot.png,模型条件系数不是表达上调 / 下调，也不是促衰老 / 抗衰老。
+36,附录 C · 系数方向功能,Endothelial：金属稳态与间充质集合的补充,F3_features/results/Endothelial/figures/Positive_Reactome_dotplot.png;F3_features/results/Endothelial/figures/Negative_Hallmark_dotplot.png,方向分组与数据库版本均保持原结果定义，不与主分析的全体基因检验混合。
+37,附录 D · ECM基因,ECM基因年龄统计量：定位后续验证候选,2026_Nat Aging_HAECA/stromal_ECM_20261118/Fibroblast/figures/stable_ECM_gene_age_heatmap.png;2026_Nat Aging_HAECA/stromal_ECM_20261118/Endothelial/figures/stable_ECM_gene_age_heatmap.png,颜色为raw-count Wald统计量，不是表达量；热图并非每个基因都显著。
+38,附录 E · SenCID,现有SenCID输出是SID推荐，不能当细胞年龄,F3_features/ModelFeature_cellAge/Fibroblast/figures/SenCID_recommendation_profiles.png;F3_features/ModelFeature_cellAge/Endothelial/figures/SenCID_recommendation_profiles.png,recSID推荐模式仅作描述；不能将SID1–6相加、排序或解释为衰老强度。
+39,附录 F · 原生hUSI分类,SSE-high细胞比例：当前无显著年轻 / 年老差异,F3_features/ModelFeature_cellAge/Fibroblast/figures/SSE_old_minus_young_pp.png;F3_features/ModelFeature_cellAge/Endothelial/figures/SSE_old_minus_young_pp.png,原生SSE阈值是数据自适应分类；不把两个lineage的绝对比例直接当统一校准的衰老程度。
+40,附录 G · TF footprint,早期TF footprint图描述的是相对细胞状态,TF_analysis/results/Fibroblast/figures/Fibroblast_TF_grammar_dotplot.png;TF_analysis/results/Endothelial/figures/Endothelial_TF_grammar_dotplot.png,颜色为同TF跨celltype的footprint z-score，点大小关联TF RNA表达；不是motif结合或年龄效应。

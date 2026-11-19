@@ -4,6 +4,10 @@
 No model bundles, cell/sample-level records, or expression matrices are exported.
 Figures are copied byte-for-byte; derived tables retain original numeric strings.
 """
+
+if __name__ == "__main__":
+    raise SystemExit("Historical November 9 release helper. Use scripts/update_results_release.py, then scripts/write_current_result_galleries.py; see scripts/README.md.")
+
 import argparse
 import csv
 from datetime import datetime, timezone

@@ -1,0 +1,211 @@
+{
+  "protocol": {
+    "protocol": "performance-first-stable-EN-v1",
+    "n_bootstrap": 1500,
+    "min_frequency": 0.5,
+    "feature_counts": [
+      50,
+      75,
+      100,
+      125,
+      150,
+      175,
+      200,
+      250,
+      300,
+      350,
+      400,
+      450,
+      500,
+      600,
+      750,
+      1000,
+      1250,
+      1500
+    ],
+    "celltype_quota": null,
+    "source_l1": [
+      0.01,
+      0.1,
+      0.5,
+      0.9
+    ],
+    "source_alpha_fraction": [
+      0.0003,
+      0.001,
+      0.003,
+      0.01,
+      0.03,
+      0.1
+    ],
+    "source_candidates_per_mask": 2,
+    "adaptation_alpha_multiplier": [
+      0.03,
+      0.1,
+      0.3,
+      1.0,
+      3.0,
+      10.0,
+      30.0,
+      100.0,
+      300.0
+    ],
+    "source_blend": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "calibration_ridge": [
+      0.0,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "calibration_gene_blend": [
+      0.0,
+      0.25,
+      0.5,
+      0.75
+    ],
+    "objective": "(1-R2) + MAE/SD_age + MAD/SD_age; all100 same sample pairs",
+    "tie_break": "within numerical tolerance1e-9: more nonzero celltypes, then fewer features",
+    "coverage_alternative": "within1% of minimum objective, maximum nonzero celltypes",
+    "selection_data": "ALL100 outcomes; exploratory, not independent external validation",
+    "bootstrap_sources": "global full Top50000 and celltype-balanced full; same1500 replicates",
+    "seed": 42
+  },
+  "signature": "f9f19dbb788cbaee2e8da4890118bf920b73deedae160ede77468791c7a0b658",
+  "compact_policy": {
+    "protocol": "compact-Fibro-natural-bootstrap-v1",
+    "lineage": "Fibro",
+    "minimum_features": 500,
+    "maximum_features": 1000,
+    "n_bootstrap": 1500,
+    "target_size_grid_step": 25,
+    "minimum_frequency": 0.5,
+    "global_core_frequency": 0.6,
+    "screening": "all features at or above a natural support threshold; never split frequency ties",
+    "source_families": [
+      "balanced natural threshold",
+      "global core>=.6 plus natural balanced threshold",
+      "existing500-1000 reference masks"
+    ],
+    "objective": "(1-R2) + MAE/SD_age + MAD/SD_age; all100 same sample pairs",
+    "selection": "minimum ALL100 objective within compact range; exploratory",
+    "external": "fixed original30 adaptation; all100 predictions; same sample pairs for all metrics",
+    "independent_validation": "retrospective nested cross-GSE; not a new independent cohort",
+    "numeric_precision": "float64 EN fitting with unchanged tol=1e-4 and dual-gap checks",
+    "Endothelial": "scientific artifacts unchanged"
+  },
+  "inputs": [
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/features/train/pseudobulk.npz",
+      "sha256": "1362f885d4ac802df84dbd959dcbc373e95b17ed5551bf396c9b315d35bd57c3"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/features/train/samples.csv",
+      "sha256": "86e4766531736dc56da708d2c2391216187acee839692c764f884cb7bfe230a8"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/features/train/schema.json",
+      "sha256": "07cb1e79e894554216d3b07e5ed1cfb037618fe48472df8a1a1006c1c0c8f99f"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/features/combined/pseudobulk.npz",
+      "sha256": "8f03ee4831e8e498e6dfe2bc40b72e44c16b4fd4f0f77eaf34b31e9beda5a283"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/features/combined/samples.csv",
+      "sha256": "aea7b06607862bd69e3a6c33c9dd6ebaee1b31bda78f366be8823112dfa4557a"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/features/combined/schema.json",
+      "sha256": "07cb1e79e894554216d3b07e5ed1cfb037618fe48472df8a1a1006c1c0c8f99f"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stability/fig3_reference_full_selection_frequency.csv",
+      "sha256": "28ea8170432f0be6c1bc2fa50917751fb5e1241de0f8c5ed3f712fcd071b7eb8"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_l10.1_alpha0.01_B1500_frequency.csv",
+      "sha256": "b3deb59a55d3f91acf3a888dd42fe6e9642978fd4ca01c9af3f26a8b9aac54cf"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_feature_adaptation30_benchmark.csv",
+      "sha256": "e1feb23979f389b6e1c2b1ce2c2bb717c07ba354f4edf607949c1d44af6df3d9"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/models/fig3_reference_full_stable_EN_bundle.joblib",
+      "sha256": "936b2a6b5bd460ff96978114e978f80cae767e34bd0f1eb27573b6352e373295"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_candidate_8f148920edd10e4c_bundle.joblib",
+      "sha256": "037ef2627191aec4fdf7629d6e0e4c7183d1018552abbccf4023f011ac209b2b"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_candidate_75b390090fd8f80a_bundle.joblib",
+      "sha256": "d0b86dc92722f910eab4198b378e5cb1228c402cfb07163a363bdf225c70d47d"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_candidate_7bd6e3ee85faa9b2_bundle.joblib",
+      "sha256": "c199985a5308f4784b939126a73e67524a030b61de25b6a2359bfe70bf2f5ddc"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_candidate_c2d44fe6fc5f69bb_bundle.joblib",
+      "sha256": "7b5900e1005129b06720182db30894cb309688d086fb7ff52c8a0d75d8f4d188"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_candidate_c8614a956178b960_bundle.joblib",
+      "sha256": "a0cc6610aa788d8aacb992f89dd3e1f863c53063fb99fb7e520809738f4ec24b"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_candidate_008b28740ef88570_bundle.joblib",
+      "sha256": "126b73e720b02ad5d2dc980d4e75ecd4050f921830ea6c1ae1881f30eabed17c"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_candidate_340646db87bd9717_bundle.joblib",
+      "sha256": "c54c28db1cc1c2cd69d50dc8de5744a3e88e34ec1d557ead45068d7711f25b4d"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_candidate_37ca9509c9d9a99a_bundle.joblib",
+      "sha256": "cc4cadb9408462589d97a897df449f1b86191c14bf13daf91e3678b328afa3ad"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_candidate_a61be477c5c58149_bundle.joblib",
+      "sha256": "81821b36980af0dafbc6f19c1129d9d687b268f4acafb439c92a049e43c69722"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_candidate_2b527b5a3a3426da_bundle.joblib",
+      "sha256": "29571c02edb2ac9df9bb4695b209cb1cfbef903e73fc08c4891da3691ffd445a"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_candidate_4e80ea4cbf741115_bundle.joblib",
+      "sha256": "76b8957e2d7c5c5c9d493937f9a2ea3db38fd1fc7e321363f3092b9ec2e42ddb"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_candidate_1fd27e1f5f00e614_bundle.joblib",
+      "sha256": "eeeb1fe33dbee010baffa53d667e426915100b07bcb591a5e946adcc1d6ccd0f"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_candidate_4832b1b11acdd8a4_bundle.joblib",
+      "sha256": "505761d5a4635bbdf0eeae071c86c45434d99008c4fc402c51787ab8ffd8c98a"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_candidate_e82c85ad2b2e7003_bundle.joblib",
+      "sha256": "584fa1ffa7558e2a70eac4c70a41d9f0b1b146fa7d648dd30b4db8c08a816fb7"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_candidate_47fc2bc708926c9b_bundle.joblib",
+      "sha256": "5f1be596a9b83cdfae3904350ac054dc1e10ebb593ab0dd7a2136fffce62d3a3"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/full_candidate_985d234cb58272e4_bundle.joblib",
+      "sha256": "5d762f1fc5e24f0465ba809230a1cb2cb2954b777114bad45ac375f95d29fd6e"
+    }
+  ],
+  "script_sha256": "7a1ed4f9f705f80dd5b11f0fc30a2d20353396a59a1c089337b903a95e85f23b"
+}

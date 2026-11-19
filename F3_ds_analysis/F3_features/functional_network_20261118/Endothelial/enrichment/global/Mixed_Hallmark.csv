@@ -1,0 +1,51 @@
+Term,Overlap_Count,Pathway_Size,Query_Size,Background_Size,Genes,P_value,FDR,Gene_ratio,Fold_enrichment,Database,Direction,Lineage
+UV Response Dn,1,130,5,11521,RND3,0.055169132905259696,1.0,0.2,17.724615384615387,Hallmark,Mixed,Endothelial
+Inflammatory Response,1,133,5,11521,KCNJ2,0.0564128767629955,1.0,0.2,17.32481203007519,Hallmark,Mixed,Endothelial
+G2-M Checkpoint,1,175,5,11521,MEIS2,0.07368819814255727,1.0,0.2,13.166857142857145,Hallmark,Mixed,Endothelial
+Adipogenesis,0,183,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Allograft Rejection,0,136,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Androgen Response,0,90,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Angiogenesis,0,19,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Apical Junction,0,137,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Apical Surface,0,28,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Apoptosis,0,144,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Bile Acid Metabolism,0,71,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Cholesterol Homeostasis,0,68,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Coagulation,0,78,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Complement,0,147,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+DNA Repair,0,143,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+E2F Targets,0,182,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Epithelial Mesenchymal Transition,0,142,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Estrogen Response Early,0,148,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Estrogen Response Late,0,136,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Fatty Acid Metabolism,0,127,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Glycolysis,0,162,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Hedgehog Signaling,0,23,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Hypoxia,0,164,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+IL-2/STAT5 Signaling,0,164,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+IL-6/JAK/STAT3 Signaling,0,64,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Interferon Alpha Response,0,92,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Interferon Gamma Response,0,173,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+KRAS Signaling Dn,0,60,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+KRAS Signaling Up,0,133,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Mitotic Spindle,0,187,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Myc Targets V1,0,199,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Myc Targets V2,0,55,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Myogenesis,0,118,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Notch Signaling,0,29,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Oxidative Phosphorylation,0,198,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+PI3K/AKT/mTOR  Signaling,0,94,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Pancreas Beta Cells,0,13,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Pperoxisome,0,84,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Protein Secretion,0,93,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Reactive Oxygen Species Pathway,0,47,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Spermatogenesis,0,59,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+TGF-beta Signaling,0,52,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+TNF-alpha Signaling via NF-kB,0,181,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+UV Response Up,0,131,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Unfolded Protein Response,0,109,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Wnt-beta Catenin Signaling,0,34,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+Xenobiotic Metabolism,0,135,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+heme Metabolism,0,155,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+mTORC1 Signaling,0,195,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial
+p53 Pathway,0,182,5,11521,,1.0,1.0,0.0,0.0,Hallmark,Mixed,Endothelial

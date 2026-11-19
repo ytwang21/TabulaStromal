@@ -1,0 +1,325 @@
+Lineage,Celltype,Metric,n_samples,n_GSE,n_rows,Status,Effect,CI_low,CI_high,P_value,n_strata,covariates,covariance,residual_df,age_min,age_max,n_young,n_old,Evidence_scope,FDR
+Fibroblast,Myfibro_CALD1_kidney,relative_hUSI,30,8,30,estimated,0.011879146312619635,-0.006059156974092764,0.029817449599332035,0.16135177999657477,8.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,29.0,23.0,89.0,,,multi-study association,0.26325816736283253
+Fibroblast,Myfibro_CALD1_kidney,hUSI_age_per10y,30,4,30,estimated,-0.0014367071852212782,-0.02660872993129417,0.023735315560851615,0.9068506321013539,4.0,stratum;sex;log_depth;pct_counts_mt,HC3; limited-study exploratory,22.0,35.0,76.0,,,limited-study exploratory,0.9392381546764021
+Fibroblast,Myfibro_CALD1_kidney,proportion_age_pp_per10y,137,10,137,estimated,2.2515478005416116,-3.247714064442222,7.750809665525445,0.3785145524956317,10.0,stratum;,GSE-clustered,126.0,23.0,100.0,,,multi-study association,0.8788552474922735
+Fibroblast,Myfibro_CALD1_kidney,proportion_old_minus_young_pp,30,3,30,estimated,1.7717953197854364,-4.3389278898885895,7.882518529459462,0.5557708013824405,3.0,stratum;sex,HC3; limited-study exploratory,25.0,24.0,73.0,12.0,18.0,limited-study exploratory,0.9965074245274851
+Fibroblast,Myfibro_CALD1_kidney,hUSI_old_minus_young,4,1,4,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_CALD1_kidney,SSE_old_minus_young_pp,4,1,4,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_CALD1_pan,relative_hUSI,134,34,134,estimated,0.028726522019234292,0.01860365459465857,0.038849389443810015,1.8799583004136694e-06,34.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,133.0,21.0,100.0,,,multi-study association,1.4569676828205939e-05
+Fibroblast,Myfibro_CALD1_pan,hUSI_age_per10y,111,14,111,estimated,-0.001665372282212189,-0.007741111035588591,0.0044103664711642124,0.5639002917646865,14.0,stratum;log_depth;pct_counts_mt,GSE-clustered,94.0,21.0,100.0,,,multi-study association,0.9392381546764021
+Fibroblast,Myfibro_CALD1_pan,proportion_age_pp_per10y,390,36,390,estimated,-0.28726661815245763,-1.1245197485518055,0.5499865122468901,0.490689691178942,36.0,stratum;Disease_Status,GSE-clustered,351.0,18.0,100.0,,,multi-study association,0.8788552474922735
+Fibroblast,Myfibro_CALD1_pan,proportion_old_minus_young_pp,90,13,90,estimated,1.1573111289343825,-0.6236793761578316,2.9383016340265966,0.18225596345040448,13.0,stratum;,GSE-clustered,76.0,20.0,86.0,41.0,49.0,multi-study association,0.9965074245274851
+Fibroblast,Myfibro_CALD1_pan,hUSI_old_minus_young,23,4,23,estimated,0.0031982903688448586,-0.09090669437518013,0.09730327511286986,0.9432086085589748,4.0,stratum;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,15.0,21.0,73.0,12.0,11.0,limited-study exploratory,0.9726100768670826
+Fibroblast,Myfibro_CALD1_pan,SSE_old_minus_young_pp,23,4,23,estimated,3.466045430899114,-4.508530313561692,11.440621175359919,0.36890087926011883,4.0,stratum;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,15.0,21.0,73.0,12.0,11.0,limited-study exploratory,0.7933370998860722
+Fibroblast,Myfibro_KRT8_pan,relative_hUSI,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_KRT8_pan,hUSI_age_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_KRT8_pan,proportion_age_pp_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_KRT8_pan,proportion_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_KRT8_pan,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_KRT8_pan,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_MYH11_uterus,relative_hUSI,22,7,22,estimated,0.007824871662421256,-0.020760508312962757,0.036410251637805265,0.527900018309678,7.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,21.0,23.0,91.0,,,multi-study association,0.6294192526000008
+Fibroblast,Myfibro_MYH11_uterus,hUSI_age_per10y,18,3,18,estimated,-0.005225338046288885,-0.01940845753266094,0.008957781440083171,0.4346252303613083,3.0,stratum;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,11.0,23.0,78.0,,,limited-study exploratory,0.9392381546764021
+Fibroblast,Myfibro_MYH11_uterus,proportion_age_pp_per10y,121,10,121,estimated,-1.351380138142112,-3.856734051607389,1.1539737753231651,0.2533954825142755,10.0,stratum;Disease_Status,GSE-clustered,109.0,23.0,100.0,,,multi-study association,0.8788552474922735
+Fibroblast,Myfibro_MYH11_uterus,proportion_old_minus_young_pp,30,4,30,estimated,-10.68554039458468,-33.29991675566615,11.928835966496793,0.3391816128678491,4.0,stratum;Disease_Status,HC3; limited-study exploratory,24.0,24.0,78.0,14.0,16.0,limited-study exploratory,0.9965074245274851
+Fibroblast,Myfibro_MYH11_uterus,hUSI_old_minus_young,5,1,5,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_MYH11_uterus,SSE_old_minus_young_pp,5,1,5,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_QKI_brain,relative_hUSI,90,13,90,estimated,-0.011091536976025412,-0.02129184308438807,-0.0008912308676627539,0.03545415884528872,13.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,89.0,25.0,100.0,,,multi-study association,0.06869243276274689
+Fibroblast,Myfibro_QKI_brain,hUSI_age_per10y,129,12,129,estimated,-0.001222835542063708,-0.005344223244285977,0.002898552160158561,0.5271420094901349,12.0,stratum;log_depth;pct_counts_mt,GSE-clustered,114.0,25.0,100.0,,,multi-study association,0.9392381546764021
+Fibroblast,Myfibro_QKI_brain,proportion_age_pp_per10y,189,13,189,estimated,0.5867673770399271,-1.9706940378026359,3.1442287918824903,0.6261908114301067,13.0,stratum;,GSE-clustered,175.0,24.0,100.0,,,multi-study association,0.8788552474922735
+Fibroblast,Myfibro_QKI_brain,proportion_old_minus_young_pp,38,4,38,estimated,0.5870572730407984,-9.591569306954606,10.765683853036203,0.9073005910965988,4.0,stratum;,HC3; limited-study exploratory,33.0,24.0,78.0,15.0,23.0,limited-study exploratory,0.9965074245274851
+Fibroblast,Myfibro_QKI_brain,hUSI_old_minus_young,15,2,15,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_QKI_brain,SSE_old_minus_young_pp,15,2,15,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_QKI_eye,relative_hUSI,35,8,35,estimated,-0.010709947256410042,-0.03444075953389581,0.01302086502107573,0.32130792613560044,8.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,34.0,25.0,100.0,,,multi-study association,0.4150227379251506
+Fibroblast,Myfibro_QKI_eye,hUSI_age_per10y,41,5,41,estimated,-0.0009233244858348344,-0.008275744253540262,0.006429095281870592,0.7449167436145261,5.0,stratum;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,32.0,25.0,100.0,,,multi-study association,0.9392381546764021
+Fibroblast,Myfibro_QKI_eye,proportion_age_pp_per10y,145,9,145,estimated,-2.59176486938403,-11.97192661863377,6.788396879865709,0.5418236202983033,9.0,stratum;,GSE-clustered,135.0,25.0,100.0,,,multi-study association,0.8788552474922735
+Fibroblast,Myfibro_QKI_eye,proportion_old_minus_young_pp,13,1,13,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_QKI_eye,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_QKI_eye,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_TAGLN_pan,relative_hUSI,227,50,227,estimated,-0.021909661096605353,-0.02889371903863002,-0.014925603154580684,7.935797733398891e-08,55.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,226.0,18.0,99.0,,,multi-study association,1.2924414492842624e-06
+Fibroblast,Myfibro_TAGLN_pan,hUSI_age_per10y,208,29,208,estimated,-0.001446960848210761,-0.00378191408352301,0.0008879923871014882,0.21475216289136073,29.0,stratum;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,174.0,18.0,99.0,,,multi-study association,0.8896875319784944
+Fibroblast,Myfibro_TAGLN_pan,proportion_age_pp_per10y,288,33,288,estimated,-0.2789827137307319,-2.0555649992820286,1.4975995718205648,0.7511486659816282,33.0,stratum;Disease_Status,GSE-clustered,252.0,18.0,100.0,,,multi-study association,0.8788552474922735
+Fibroblast,Myfibro_TAGLN_pan,proportion_old_minus_young_pp,78,12,78,estimated,4.321503463714069,-5.313326137019893,13.956333064448032,0.34475892719756795,12.0,stratum;,GSE-clustered,65.0,20.0,86.0,41.0,37.0,multi-study association,0.9965074245274851
+Fibroblast,Myfibro_TAGLN_pan,hUSI_old_minus_young,47,9,47,estimated,-0.004684966478633168,-0.021900623652342605,0.01253069069507627,0.5477932437523589,9.0,stratum;log_depth;pct_counts_mt,GSE-clustered,35.0,20.0,86.3,23.0,24.0,multi-study association,0.962990751449856
+Fibroblast,Myfibro_TAGLN_pan,SSE_old_minus_young_pp,47,9,47,estimated,-1.0798943653080992,-5.0241575701342995,2.8643688395181006,0.5454192561716746,9.0,stratum;log_depth;pct_counts_mt,GSE-clustered,35.0,20.0,86.3,23.0,24.0,multi-study association,0.7933370998860722
+Fibroblast,Myfibro_TPM1_pan,relative_hUSI,2,2,2,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_TPM1_pan,hUSI_age_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_TPM1_pan,proportion_age_pp_per10y,47,2,47,estimated,-1.19207060329438,-3.7758171249286048,1.3916759183398448,0.35733414705321365,2.0,stratum;sex,HC3; limited-study exploratory,43.0,30.0,100.0,,,limited-study exploratory,0.8788552474922735
+Fibroblast,Myfibro_TPM1_pan,proportion_old_minus_young_pp,13,1,13,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_TPM1_pan,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_TPM1_pan,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_TUBB2B_pan,relative_hUSI,5,3,5,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_TUBB2B_pan,hUSI_age_per10y,3,1,3,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_TUBB2B_pan,proportion_age_pp_per10y,4,1,4,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_TUBB2B_pan,proportion_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_TUBB2B_pan,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,Myfibro_TUBB2B_pan,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_COL1A1_lung,relative_hUSI,5,4,5,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_COL1A1_lung,hUSI_age_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_COL1A1_lung,proportion_age_pp_per10y,50,3,50,estimated,-0.3531119591057206,-0.7949219795393262,0.08869806132788505,0.11450588972898353,3.0,stratum;,HC3; limited-study exploratory,46.0,23.0,78.0,,,limited-study exploratory,0.8788552474922735
+Fibroblast,eFibro_COL1A1_lung,proportion_old_minus_young_pp,22,2,22,estimated,-1.2734739194741835,-3.5954065742622916,1.0484587353139245,0.26524694453274383,2.0,stratum;,HC3; limited-study exploratory,19.0,24.0,78.0,5.0,17.0,limited-study exploratory,0.9965074245274851
+Fibroblast,eFibro_COL1A1_lung,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_COL1A1_lung,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_COL1A1_pan,relative_hUSI,281,53,281,estimated,-0.017052554693079095,-0.026696222076128,-0.007408887310030192,0.0008318682005723165,59.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,280.0,18.0,95.0,,,multi-study association,0.0036839877453916873
+Fibroblast,eFibro_COL1A1_pan,hUSI_age_per10y,252,27,252,estimated,-0.0013861442147369077,-0.003560442450729659,0.0007881540212558436,0.20151006601568913,27.0,stratum;log_depth;pct_counts_mt,GSE-clustered,222.0,18.0,95.0,,,multi-study association,0.8896875319784944
+Fibroblast,eFibro_COL1A1_pan,proportion_age_pp_per10y,434,39,434,estimated,-0.4275008178004801,-1.6164049699223453,0.7614033343213852,0.4711228042689355,39.0,stratum;Disease_Status,GSE-clustered,392.0,18.0,100.0,,,multi-study association,0.8788552474922735
+Fibroblast,eFibro_COL1A1_pan,proportion_old_minus_young_pp,117,16,117,estimated,-1.7101649287542002,-9.345932657807918,5.925602800299518,0.6399758095514664,16.0,stratum;,GSE-clustered,100.0,20.0,86.0,56.0,61.0,multi-study association,0.9965074245274851
+Fibroblast,eFibro_COL1A1_pan,hUSI_old_minus_young,83,11,83,estimated,-0.0010964785587611733,-0.013085751996332773,0.010892794878810428,0.8426169075186241,11.0,stratum;log_depth;pct_counts_mt,GSE-clustered,69.0,20.0,86.0,46.0,37.0,multi-study association,0.962990751449856
+Fibroblast,eFibro_COL1A1_pan,SSE_old_minus_young_pp,83,11,83,estimated,1.308601118891238,-1.3503411227018725,3.9675433604843486,0.29852913770004946,11.0,stratum;log_depth;pct_counts_mt,GSE-clustered,69.0,20.0,86.0,46.0,37.0,multi-study association,0.7933370998860722
+Fibroblast,eFibro_COL1A2_pan,relative_hUSI,185,45,185,estimated,0.031462169322319516,0.021574328820604526,0.04135000982403451,8.338331930866208e-08,49.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,184.0,18.0,95.0,,,multi-study association,1.2924414492842624e-06
+Fibroblast,eFibro_COL1A2_pan,hUSI_age_per10y,150,21,150,estimated,-0.0040751000725989615,-0.009462286358510565,0.0013120862133126432,0.1302721624966351,21.0,stratum;sex;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,122.0,18.0,95.0,,,multi-study association,0.8896875319784944
+Fibroblast,eFibro_COL1A2_pan,proportion_age_pp_per10y,296,29,296,estimated,0.2643044095837318,-1.7161739163917837,2.2447827355592476,0.7865752891641109,29.0,stratum;sex;Disease_Status,GSE-clustered,262.0,18.0,95.0,,,multi-study association,0.8788552474922735
+Fibroblast,eFibro_COL1A2_pan,proportion_old_minus_young_pp,96,14,96,estimated,1.8360995271564953,-9.50270285338793,13.17490190770092,0.732068784159297,14.0,stratum;,GSE-clustered,81.0,20.0,86.0,54.0,42.0,multi-study association,0.9965074245274851
+Fibroblast,eFibro_COL1A2_pan,hUSI_old_minus_young,53,9,53,estimated,-0.004908013618602044,-0.035060508368769956,0.02524448113156587,0.717152876021828,9.0,stratum;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,40.0,21.0,75.0,32.0,21.0,multi-study association,0.962990751449856
+Fibroblast,eFibro_COL1A2_pan,SSE_old_minus_young_pp,53,9,53,estimated,0.44219604949365143,-2.5335333021759117,3.4179254011632145,0.7406733112683229,9.0,stratum;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,40.0,21.0,75.0,32.0,21.0,multi-study association,0.8190455831125653
+Fibroblast,eFibro_COL3A1_lung,relative_hUSI,1,1,1,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_COL3A1_lung,hUSI_age_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_COL3A1_lung,proportion_age_pp_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_COL3A1_lung,proportion_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_COL3A1_lung,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_COL3A1_lung,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_COL3A1_pan,relative_hUSI,15,8,15,estimated,-0.045688081132297595,-0.07073616849241772,-0.020639993772177467,0.0035096971228470437,8.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,14.0,31.0,71.0,,,multi-study association,0.009890964618932577
+Fibroblast,eFibro_COL3A1_pan,hUSI_age_per10y,6,1,6,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_COL3A1_pan,proportion_age_pp_per10y,57,7,57,estimated,-0.0377340301022122,-0.29851750359721013,0.2230494433927857,0.7354072481168138,7.0,stratum;Disease_Status,GSE-clustered,47.0,18.0,70.0,,,multi-study association,0.8788552474922735
+Fibroblast,eFibro_COL3A1_pan,proportion_old_minus_young_pp,19,4,19,estimated,0.05426468543138548,-0.3808269563803962,0.48935632724316713,0.7918192878870198,4.0,stratum;Disease_Status,HC3; limited-study exploratory,13.0,20.0,70.0,12.0,7.0,limited-study exploratory,0.9965074245274851
+Fibroblast,eFibro_COL3A1_pan,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_COL3A1_pan,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_DCN_heart,relative_hUSI,68,18,68,estimated,0.0043331976330993165,-0.011284553542301134,0.019950948808499767,0.5659855309826811,20.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,67.0,18.0,99.0,,,multi-study association,0.6498352392764116
+Fibroblast,eFibro_DCN_heart,hUSI_age_per10y,50,6,50,estimated,-0.0011150167339971755,-0.008223809685645959,0.005993776217651607,0.7034666287306945,6.0,stratum;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,40.0,18.0,99.0,,,multi-study association,0.9392381546764021
+Fibroblast,eFibro_DCN_heart,proportion_age_pp_per10y,175,16,175,estimated,0.1915946854317767,-0.5605700790384333,0.9437594499019867,0.595152815653886,16.0,stratum;Disease_Status,GSE-clustered,156.0,18.0,99.0,,,multi-study association,0.8788552474922735
+Fibroblast,eFibro_DCN_heart,proportion_old_minus_young_pp,61,8,61,estimated,0.01580908274588147,-0.77476276725712,0.8063809327488829,0.9636065158346001,8.0,stratum;,GSE-clustered,52.0,20.0,86.0,31.0,30.0,multi-study association,0.9997008192368281
+Fibroblast,eFibro_DCN_heart,hUSI_old_minus_young,9,1,9,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_DCN_heart,SSE_old_minus_young_pp,9,1,9,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_DCN_pan,relative_hUSI,133,36,133,estimated,-0.004065124543019756,-0.021285060860397068,0.013154811774357554,0.6347422900289661,37.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,132.0,18.0,89.0,,,multi-study association,0.6785176203757913
+Fibroblast,eFibro_DCN_pan,hUSI_age_per10y,110,18,110,estimated,-0.0006678107724549828,-0.003654383191098533,0.0023187616461885674,0.6430935823204329,18.0,stratum;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,87.0,18.0,89.0,,,multi-study association,0.9392381546764021
+Fibroblast,eFibro_DCN_pan,proportion_age_pp_per10y,325,30,325,estimated,1.2225952898317765,-0.6156442494010306,3.0608348290645835,0.18422755629141838,30.0,stratum;sex;Disease_Status,GSE-clustered,290.0,18.0,99.0,,,multi-study association,0.8788552474922735
+Fibroblast,eFibro_DCN_pan,proportion_old_minus_young_pp,105,13,105,estimated,0.3465179491297508,-4.7493441150133835,5.442380013272886,0.884677770650941,13.0,stratum;,GSE-clustered,91.0,20.0,86.0,49.0,56.0,multi-study association,0.9965074245274851
+Fibroblast,eFibro_DCN_pan,hUSI_old_minus_young,22,4,22,estimated,-0.002126731600496,-0.02464103757014876,0.02038757436915676,0.8423629091390732,4.0,stratum;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,14.0,21.0,78.0,9.0,13.0,limited-study exploratory,0.962990751449856
+Fibroblast,eFibro_DCN_pan,SSE_old_minus_young_pp,22,4,22,estimated,0.6605803253373779,-4.046759685569885,5.367920336244641,0.7678552341680299,4.0,stratum;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,14.0,21.0,78.0,9.0,13.0,limited-study exploratory,0.8190455831125653
+Fibroblast,eFibro_DCN_uterus,relative_hUSI,10,4,10,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_DCN_uterus,hUSI_age_per10y,6,1,6,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_DCN_uterus,proportion_age_pp_per10y,17,2,17,estimated,1.7040065113764442,-5.936574994567253,9.344588017320142,0.6379531778891567,2.0,stratum;Disease_Status,HC3; limited-study exploratory,13.0,30.0,52.0,,,limited-study exploratory,0.8788552474922735
+Fibroblast,eFibro_DCN_uterus,proportion_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_DCN_uterus,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_DCN_uterus,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_HNRNPA1_pan,relative_hUSI,2,2,2,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_HNRNPA1_pan,hUSI_age_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_HNRNPA1_pan,proportion_age_pp_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_HNRNPA1_pan,proportion_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_HNRNPA1_pan,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_HNRNPA1_pan,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_IGFBP7_pan,relative_hUSI,27,10,27,estimated,0.005603782813455117,-0.023696787341564062,0.0349043529684743,0.6754574058238324,10.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,26.0,18.0,99.0,,,multi-study association,0.6979726526846268
+Fibroblast,eFibro_IGFBP7_pan,hUSI_age_per10y,28,3,28,estimated,-0.023227836801442747,-0.05004150231362778,0.003585828710742287,0.08615554552454509,3.0,stratum;log_depth;pct_counts_mt,HC3; limited-study exploratory,22.0,22.0,99.0,,,limited-study exploratory,0.8896875319784944
+Fibroblast,eFibro_IGFBP7_pan,proportion_age_pp_per10y,103,8,103,estimated,-2.7788173983510553,-8.195311052578617,2.6376762558765066,0.26442726074950057,8.0,stratum;Disease_Status,GSE-clustered,92.0,21.0,99.0,,,multi-study association,0.8788552474922735
+Fibroblast,eFibro_IGFBP7_pan,proportion_old_minus_young_pp,15,1,15,estimated,0.31584768880060043,-2.039748520615541,2.6714438982167414,0.7734002580411077,1.0,stratum;sex;Disease_Status,HC3; limited-study exploratory,11.0,26.0,66.0,10.0,5.0,limited-study exploratory,0.9965074245274851
+Fibroblast,eFibro_IGFBP7_pan,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_IGFBP7_pan,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_SPARC_pan,relative_hUSI,33,12,33,estimated,0.015536273758145442,-0.014553906656286766,0.04562645417257765,0.2799322906312135,12.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,32.0,23.0,99.0,,,multi-study association,0.379496194034706
+Fibroblast,eFibro_SPARC_pan,hUSI_age_per10y,22,3,22,estimated,-0.009208006784060509,-0.04447854475856984,0.026062531190448823,0.5861075245348825,3.0,stratum;sex;log_depth;pct_counts_mt,HC3; limited-study exploratory,15.0,23.0,99.0,,,limited-study exploratory,0.9392381546764021
+Fibroblast,eFibro_SPARC_pan,proportion_age_pp_per10y,110,10,110,estimated,-0.7258146245315118,-3.544783424914729,2.093154175851706,0.5745637462616847,10.0,stratum;,GSE-clustered,99.0,18.0,99.0,,,multi-study association,0.8788552474922735
+Fibroblast,eFibro_SPARC_pan,proportion_old_minus_young_pp,31,5,31,estimated,-10.267801117368327,-45.9179477521736,25.382345517436946,0.46870326047626193,5.0,stratum;,GSE-clustered,25.0,20.0,86.0,19.0,12.0,multi-study association,0.9965074245274851
+Fibroblast,eFibro_SPARC_pan,hUSI_old_minus_young,5,1,5,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,eFibro_SPARC_pan,SSE_old_minus_young_pp,5,1,5,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,iFibro_ARHGDIB_pan,relative_hUSI,10,7,10,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,iFibro_ARHGDIB_pan,hUSI_age_per10y,3,1,3,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,iFibro_ARHGDIB_pan,proportion_age_pp_per10y,60,5,60,estimated,-1.5037463764493975,-4.737745906319274,1.7302531534204797,0.26626522736239133,5.0,stratum;Disease_Status,GSE-clustered,52.0,20.0,99.0,,,multi-study association,0.8788552474922735
+Fibroblast,iFibro_ARHGDIB_pan,proportion_old_minus_young_pp,12,2,12,estimated,-10.594850781434063,-37.622276881733,16.43257531886487,0.39242243189170245,2.0,stratum;sex,HC3; limited-study exploratory,8.0,29.0,80.0,4.0,8.0,limited-study exploratory,0.9965074245274851
+Fibroblast,iFibro_ARHGDIB_pan,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,iFibro_ARHGDIB_pan,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,iFibro_CD74_bone marrow,relative_hUSI,9,6,9,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,iFibro_CD74_bone marrow,hUSI_age_per10y,6,1,6,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,iFibro_CD74_bone marrow,proportion_age_pp_per10y,100,8,100,estimated,-0.23336575681741478,-3.1737470025529317,2.7070154889181017,0.8564592008240096,8.0,stratum;Disease_Status,GSE-clustered,89.0,20.0,99.0,,,multi-study association,0.9206936408858103
+Fibroblast,iFibro_CD74_bone marrow,proportion_old_minus_young_pp,17,3,17,estimated,-9.92478481654326,-35.019936420086516,15.170366786999997,0.4057479865649811,3.0,stratum;sex,HC3; limited-study exploratory,12.0,23.0,80.0,7.0,10.0,limited-study exploratory,0.9965074245274851
+Fibroblast,iFibro_CD74_bone marrow,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,iFibro_CD74_bone marrow,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,iFibro_CD74_pan,relative_hUSI,40,21,40,estimated,0.044976833040599754,0.01220133932821417,0.07775232675298534,0.009625612696393069,21.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,39.0,20.0,86.0,,,multi-study association,0.022953384122168085
+Fibroblast,iFibro_CD74_pan,hUSI_age_per10y,21,5,21,estimated,0.0009617653281127239,-0.011718780739490947,0.013642311395716396,0.8435061622360801,5.0,stratum;sex;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,11.0,20.0,86.0,,,multi-study association,0.9392381546764021
+Fibroblast,iFibro_CD74_pan,proportion_age_pp_per10y,176,19,176,estimated,0.49275353408781586,-1.79902611882902,2.7845331870046515,0.6568681986235991,19.0,stratum;Disease_Status,GSE-clustered,154.0,20.0,99.0,,,multi-study association,0.8788552474922735
+Fibroblast,iFibro_CD74_pan,proportion_old_minus_young_pp,55,9,55,estimated,0.8084686526396799,-8.249456073914617,9.866393379193978,0.8420701069080542,9.0,stratum;,GSE-clustered,45.0,20.0,86.0,27.0,28.0,multi-study association,0.9965074245274851
+Fibroblast,iFibro_CD74_pan,hUSI_old_minus_young,11,3,11,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,iFibro_CD74_pan,SSE_old_minus_young_pp,11,3,11,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,iFibro_CD74_skin,relative_hUSI,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,iFibro_CD74_skin,hUSI_age_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,iFibro_CD74_skin,proportion_age_pp_per10y,36,1,36,estimated,0.45186748835108004,-0.3990692785619605,1.3028042552641206,0.28748804522016963,1.0,stratum;sex;Disease_Status,HC3; limited-study exploratory,32.0,26.0,66.0,,,limited-study exploratory,0.8788552474922735
+Fibroblast,iFibro_CD74_skin,proportion_old_minus_young_pp,15,1,15,estimated,0.2971631272473835,-0.9491176861137275,1.5434439406084945,0.6101339242122361,1.0,stratum;sex;Disease_Status,HC3; limited-study exploratory,11.0,26.0,66.0,10.0,5.0,limited-study exploratory,0.9965074245274851
+Fibroblast,iFibro_CD74_skin,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,iFibro_CD74_skin,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Fibroblast,qFibro_APOD_breast,relative_hUSI,69,20,69,estimated,-0.0033122077577577907,-0.0095672634698304,0.0029428479543148183,0.2815616923483303,23.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,68.0,20.0,86.0,,,multi-study association,0.379496194034706
+Fibroblast,qFibro_APOD_breast,hUSI_age_per10y,51,7,51,estimated,0.0016355438578641128,-0.004194264829577817,0.007465352545306042,0.5180477455185982,7.0,stratum;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,40.0,20.0,86.0,,,multi-study association,0.9392381546764021
+Fibroblast,qFibro_APOD_breast,proportion_age_pp_per10y,164,15,164,estimated,1.3442845422348582,-0.14784263220076577,2.836411716670482,0.07381741051620154,15.0,stratum;Disease_Status,GSE-clustered,146.0,18.0,99.0,,,multi-study association,0.8788552474922735
+Fibroblast,qFibro_APOD_breast,proportion_old_minus_young_pp,50,8,50,estimated,6.558950476477894,-3.7121531020868117,16.8300540550426,0.17478744343579702,8.0,stratum;,GSE-clustered,41.0,20.0,86.0,24.0,26.0,multi-study association,0.9965074245274851
+Fibroblast,qFibro_APOD_breast,hUSI_old_minus_young,18,4,18,estimated,0.025766542735315145,-0.021247570888385248,0.07278065635901554,0.2464020746297539,4.0,stratum;sex;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,9.0,20.0,86.0,9.0,9.0,limited-study exploratory,0.962990751449856
+Fibroblast,qFibro_APOD_breast,SSE_old_minus_young_pp,18,4,18,estimated,7.640287414804298,-5.746634243942573,21.02720907355117,0.2288517980143239,4.0,stratum;sex;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,9.0,20.0,86.0,9.0,9.0,limited-study exploratory,0.7933370998860722
+Fibroblast,qFibro_CFD_pan,relative_hUSI,132,31,132,estimated,-0.009957775197054966,-0.017726327631136428,-0.002189222762973504,0.01373538624676563,39.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,131.0,18.0,89.0,,,multi-study association,0.030414069546409607
+Fibroblast,qFibro_CFD_pan,hUSI_age_per10y,105,14,105,estimated,0.0003335312824059788,-0.001647328135042199,0.0023143906998541568,0.721887210529464,14.0,stratum;log_depth;pct_counts_mt,GSE-clustered,88.0,18.0,87.0,,,multi-study association,0.9392381546764021
+Fibroblast,qFibro_CFD_pan,proportion_age_pp_per10y,193,21,193,estimated,-0.21014842677527568,-1.4359049662823296,1.0156081127317784,0.7243698470810984,21.0,stratum;Disease_Status,GSE-clustered,169.0,18.0,99.0,,,multi-study association,0.8788552474922735
+Fibroblast,qFibro_CFD_pan,proportion_old_minus_young_pp,60,10,60,estimated,-2.8304073572889985,-10.757658638408923,5.096843923830925,0.4400889900951148,10.0,stratum;,GSE-clustered,49.0,20.0,86.0,29.0,31.0,multi-study association,0.9965074245274851
+Fibroblast,qFibro_CFD_pan,hUSI_old_minus_young,48,8,48,estimated,0.0032203271529459843,-0.013977874590065196,0.020418528895957164,0.6712906452396299,8.0,stratum;log_depth;pct_counts_mt,GSE-clustered,37.0,20.0,86.0,21.0,27.0,multi-study association,0.962990751449856
+Fibroblast,qFibro_CFD_pan,SSE_old_minus_young_pp,48,8,48,estimated,-0.3132617391835506,-4.396807975423623,3.7702844970565215,0.8611960864740341,8.0,stratum;log_depth;pct_counts_mt,GSE-clustered,37.0,20.0,86.0,21.0,27.0,multi-study association,0.8611960864740341
+Fibroblast,qFibro_CLU_pan,relative_hUSI,84,25,84,estimated,0.008389301749250596,-0.005108853672092023,0.021887457170593212,0.21183262046179047,30.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,83.0,20.0,99.0,,,multi-study association,0.3127052968721669
+Fibroblast,qFibro_CLU_pan,hUSI_age_per10y,55,7,55,estimated,0.0006532691271393803,-0.006276116144617495,0.007582654398896256,0.8252255474174607,7.0,stratum;log_depth;pct_counts_mt,GSE-clustered,45.0,20.0,99.0,,,multi-study association,0.9392381546764021
+Fibroblast,qFibro_CLU_pan,proportion_age_pp_per10y,156,18,156,estimated,-1.0532695065780613,-4.258027782298345,2.1514887691422233,0.497419175803093,18.0,stratum;,GSE-clustered,137.0,18.0,99.0,,,multi-study association,0.8788552474922735
+Fibroblast,qFibro_CLU_pan,proportion_old_minus_young_pp,43,8,43,estimated,-12.363965424508121,-37.162307937682414,12.434377088666173,0.2769315180571038,8.0,stratum;,GSE-clustered,34.0,20.0,86.0,25.0,18.0,multi-study association,0.9965074245274851
+Fibroblast,qFibro_CLU_pan,hUSI_old_minus_young,13,2,13,estimated,0.04120286081277643,-0.02939750989139859,0.11180323151695146,0.20319890552295267,2.0,stratum;sex;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,6.0,20.0,86.0,8.0,5.0,limited-study exploratory,0.962990751449856
+Fibroblast,qFibro_CLU_pan,SSE_old_minus_young_pp,13,2,13,estimated,13.866332208303165,-20.611217671054327,48.34388208766065,0.363065689263699,2.0,stratum;sex;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,6.0,20.0,86.0,8.0,5.0,limited-study exploratory,0.7933370998860722
+Endothelial,ArtEC_CXCL12_pan,relative_hUSI,101,35,101,estimated,0.0056460756569027505,-0.0005097942635514845,0.011801945577356986,0.07098359047067554,37.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,100.0,18.0,99.0,,,multi-study association,0.12944066497593776
+Endothelial,ArtEC_CXCL12_pan,hUSI_age_per10y,77,14,77,estimated,-0.0014696842167264015,-0.004687156542106845,0.0017477881086540423,0.3417434137230805,14.0,stratum;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,58.0,18.0,99.0,,,multi-study association,0.9392381546764021
+Endothelial,ArtEC_CXCL12_pan,proportion_age_pp_per10y,175,19,175,estimated,0.029413188941030954,-0.7576486805546928,0.8164750584367547,0.9382859942128123,19.0,stratum;Disease_Status,GSE-clustered,153.0,18.0,99.0,,,multi-study association,0.960626136932165
+Endothelial,ArtEC_CXCL12_pan,proportion_old_minus_young_pp,61,9,61,estimated,-0.6557658122443804,-4.669243138042029,3.357711513553268,0.7161344692480215,9.0,stratum;,GSE-clustered,51.0,20.0,86.3,25.0,36.0,multi-study association,0.9965074245274851
+Endothelial,ArtEC_CXCL12_pan,hUSI_old_minus_young,19,4,19,estimated,-0.002109653043478238,-0.02274801313657676,0.018528707049620285,0.8244218739581757,4.0,stratum;sex;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,10.0,23.0,69.0,11.0,8.0,limited-study exploratory,0.962990751449856
+Endothelial,ArtEC_CXCL12_pan,SSE_old_minus_young_pp,19,4,19,estimated,-1.4683223757945463,-5.129794158286632,2.193149406697539,0.3925708772630071,4.0,stratum;sex;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,10.0,23.0,69.0,11.0,8.0,limited-study exploratory,0.7933370998860722
+Endothelial,ArtEC_FLT1_brain,relative_hUSI,17,3,17,estimated,0.06550628258734657,0.036784651420128614,0.09422791375456453,0.0001828431494964951,3.0,Within-sample paired difference; intercept-only across sample proxies,HC3; limited-study exploratory,16.0,35.0,95.0,,,limited-study exploratory,0.0009446896057318914
+Endothelial,ArtEC_FLT1_brain,hUSI_age_per10y,36,2,36,estimated,0.0014249421556263887,-0.016891024297072416,0.019740908608325194,0.8748247998947873,2.0,stratum;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,30.0,35.0,95.0,,,limited-study exploratory,0.9392381546764021
+Endothelial,ArtEC_FLT1_brain,proportion_age_pp_per10y,45,3,45,estimated,0.7749713199537211,-10.083802778252155,11.633745418159597,0.8860348170380051,3.0,stratum;Disease_Status,HC3; limited-study exploratory,40.0,35.0,100.0,,,limited-study exploratory,0.9292560276252249
+Endothelial,ArtEC_FLT1_brain,proportion_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,ArtEC_FLT1_brain,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,ArtEC_FLT1_brain,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,ArtEC_FLT1_pan,relative_hUSI,26,10,26,estimated,-0.021720449690626576,-0.04885734169533483,0.005416442314081674,0.10363013499118084,10.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,25.0,28.0,95.0,,,multi-study association,0.17847412137370033
+Endothelial,ArtEC_FLT1_pan,hUSI_age_per10y,70,8,70,estimated,0.00013331046959174676,-0.01065502672678557,0.010921647665969064,0.9775051890739218,8.0,stratum;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,58.0,23.0,95.0,,,multi-study association,0.9775051890739218
+Endothelial,ArtEC_FLT1_pan,proportion_age_pp_per10y,98,9,98,estimated,0.9577848125094506,-0.6777242958514509,2.593293920870352,0.21383182237917062,9.0,stratum;Disease_Status,GSE-clustered,87.0,23.0,100.0,,,multi-study association,0.8788552474922735
+Endothelial,ArtEC_FLT1_pan,proportion_old_minus_young_pp,13,2,13,estimated,0.35808997346483995,-6.225775780389438,6.941955727319118,0.9047819534681096,2.0,stratum;sex,HC3; limited-study exploratory,9.0,24.0,73.0,8.0,5.0,limited-study exploratory,0.9965074245274851
+Endothelial,ArtEC_FLT1_pan,hUSI_old_minus_young,14,2,14,estimated,0.010759202732092047,-0.02546828380716435,0.04698668927134845,0.5127819461839394,2.0,stratum;sex;log_depth;pct_counts_mt,HC3; limited-study exploratory,8.0,24.0,73.0,8.0,6.0,limited-study exploratory,0.962990751449856
+Endothelial,ArtEC_FLT1_pan,SSE_old_minus_young_pp,14,2,14,estimated,0.8744483506651604,-0.9433901128475548,2.6922868141778755,0.2995411137127913,2.0,stratum;sex;log_depth;pct_counts_mt,HC3; limited-study exploratory,8.0,24.0,73.0,8.0,6.0,limited-study exploratory,0.7933370998860722
+Endothelial,ArtEC_THY1_pan,relative_hUSI,29,6,29,estimated,-0.03896460528703628,-0.10788239425913736,0.02995318368506479,0.20586256466898392,6.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,28.0,46.0,95.0,,,multi-study association,0.3127052968721669
+Endothelial,ArtEC_THY1_pan,hUSI_age_per10y,37,6,37,estimated,0.005216652190954248,-0.0015822180119639973,0.012015522393872493,0.10560452669591955,6.0,stratum;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,27.0,53.0,95.0,,,multi-study association,0.8896875319784944
+Endothelial,ArtEC_THY1_pan,proportion_age_pp_per10y,65,4,65,estimated,-1.6892004479333202,-8.072691307817916,4.694290411951276,0.5984428964590085,4.0,stratum;Disease_Status,HC3; limited-study exploratory,59.0,53.0,100.0,,,limited-study exploratory,0.8788552474922735
+Endothelial,ArtEC_THY1_pan,proportion_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,ArtEC_THY1_pan,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,ArtEC_THY1_pan,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_FLT1_uterus,relative_hUSI,6,2,6,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_FLT1_uterus,hUSI_age_per10y,5,1,5,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_FLT1_uterus,proportion_age_pp_per10y,25,2,25,estimated,0.19200382448650846,-1.3451628108232725,1.7291704597962896,0.7971012709813643,2.0,stratum;sex;Disease_Status,HC3; limited-study exploratory,20.0,23.0,73.0,,,limited-study exploratory,0.8788552474922735
+Endothelial,CapEC_FLT1_uterus,proportion_old_minus_young_pp,10,1,10,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_FLT1_uterus,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_FLT1_uterus,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_GNG11_pan,relative_hUSI,1,1,1,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_GNG11_pan,hUSI_age_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_GNG11_pan,proportion_age_pp_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_GNG11_pan,proportion_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_GNG11_pan,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_GNG11_pan,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_TAGLN_prostate,relative_hUSI,13,8,13,estimated,-0.0013904087078286265,-0.007384306148468435,0.004603488732811182,0.6003812794701135,8.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,12.0,29.0,83.0,,,multi-study association,0.6647078451276257
+Endothelial,CapEC_TAGLN_prostate,hUSI_age_per10y,3,1,3,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_TAGLN_prostate,proportion_age_pp_per10y,79,5,79,estimated,0.329279677307891,-0.7437606669277792,1.4023200215435612,0.4422216058919962,5.0,stratum;Disease_Status,GSE-clustered,71.0,20.0,83.0,,,multi-study association,0.8788552474922735
+Endothelial,CapEC_TAGLN_prostate,proportion_old_minus_young_pp,19,2,19,estimated,0.3162127422264279,-1.1485636961992758,1.7809891806521319,0.6504711368169125,2.0,stratum;sex;Disease_Status,HC3; limited-study exploratory,14.0,20.0,66.0,13.0,6.0,limited-study exploratory,0.9965074245274851
+Endothelial,CapEC_TAGLN_prostate,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_TAGLN_prostate,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_TM4SF1_breast,relative_hUSI,11,4,11,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_TM4SF1_breast,hUSI_age_per10y,9,2,9,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_TM4SF1_breast,proportion_age_pp_per10y,58,4,58,estimated,0.39563074617574484,-0.7356010194841645,1.5268625118356542,0.48593724789749215,4.0,stratum;Disease_Status,HC3; limited-study exploratory,52.0,20.0,83.0,,,limited-study exploratory,0.8788552474922735
+Endothelial,CapEC_TM4SF1_breast,proportion_old_minus_young_pp,19,2,19,estimated,-1.1167495293298684,-4.040903194294359,1.8074041356346227,0.4264507053573189,2.0,stratum;sex;Disease_Status,HC3; limited-study exploratory,14.0,20.0,66.0,13.0,6.0,limited-study exploratory,0.9965074245274851
+Endothelial,CapEC_TM4SF1_breast,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_TM4SF1_breast,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,CapEC_TM4SF1_pan,relative_hUSI,208,43,208,estimated,-0.0027252340715020074,-0.010244221388321439,0.004793753245317424,0.46856740681970466,49.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,207.0,18.0,99.0,,,multi-study association,0.5810235844564338
+Endothelial,CapEC_TM4SF1_pan,hUSI_age_per10y,179,21,179,estimated,0.0005138877149880117,-0.001750652328171974,0.0027784277581479975,0.6410795633398636,21.0,stratum;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,153.0,18.0,86.3,,,multi-study association,0.9392381546764021
+Endothelial,CapEC_TM4SF1_pan,proportion_age_pp_per10y,214,22,214,estimated,0.7522971756053731,-3.1784065930424488,4.683000944253195,0.6946348884703082,22.0,stratum;Disease_Status,GSE-clustered,189.0,18.0,99.0,,,multi-study association,0.8788552474922735
+Endothelial,CapEC_TM4SF1_pan,proportion_old_minus_young_pp,74,10,74,estimated,-3.0004779441364895,-14.643002037170756,8.642046148897776,0.5742108427187014,10.0,stratum;,GSE-clustered,63.0,20.0,86.3,33.0,41.0,multi-study association,0.9965074245274851
+Endothelial,CapEC_TM4SF1_pan,hUSI_old_minus_young,64,9,64,estimated,0.002441225211564063,-0.0123393550161985,0.017221805439326627,0.7132148177526878,9.0,stratum;log_depth;pct_counts_mt,GSE-clustered,52.0,20.0,86.3,28.0,36.0,multi-study association,0.962990751449856
+Endothelial,CapEC_TM4SF1_pan,SSE_old_minus_young_pp,64,9,64,estimated,0.7256838530989818,-1.7196961385205656,3.171063844718529,0.5131035076782358,9.0,stratum;log_depth;pct_counts_mt,GSE-clustered,52.0,20.0,86.3,28.0,36.0,multi-study association,0.7933370998860722
+Endothelial,EndoMT_CD3D_pan,relative_hUSI,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_CD3D_pan,hUSI_age_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_CD3D_pan,proportion_age_pp_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_CD3D_pan,proportion_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_CD3D_pan,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_CD3D_pan,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_CFD_bone marrow,relative_hUSI,4,4,4,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_CFD_bone marrow,hUSI_age_per10y,3,1,3,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_CFD_bone marrow,proportion_age_pp_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_CFD_bone marrow,proportion_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_CFD_bone marrow,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_CFD_bone marrow,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_CFD_pan,relative_hUSI,65,21,65,estimated,0.020020347158365488,0.007885874018009777,0.0321548202987212,0.0025813735024854934,22.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,64.0,18.0,86.0,,,multi-study association,0.009666757768355527
+Endothelial,EndoMT_CFD_pan,hUSI_age_per10y,43,8,43,estimated,-0.0021304654260629746,-0.007886243838098932,0.0036253129859729833,0.41046167749816787,8.0,stratum;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,31.0,20.0,72.0,,,multi-study association,0.9392381546764021
+Endothelial,EndoMT_CFD_pan,proportion_age_pp_per10y,144,17,144,estimated,-0.6255433715873404,-1.3576612667153656,0.10657452354068464,0.08890667476513672,17.0,stratum;Disease_Status,GSE-clustered,124.0,18.0,99.0,,,multi-study association,0.8788552474922735
+Endothelial,EndoMT_CFD_pan,proportion_old_minus_young_pp,42,7,42,estimated,-2.5856417588558163,-6.459046146319126,1.2877626286074944,0.15350288560895853,7.0,stratum;sex;Disease_Status,GSE-clustered,32.0,20.0,76.0,21.0,21.0,multi-study association,0.9965074245274851
+Endothelial,EndoMT_CFD_pan,hUSI_old_minus_young,14,3,14,estimated,-0.024909827352828512,-0.1910057650810927,0.14118611037543569,0.726236435661135,3.0,stratum;sex;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,6.0,20.0,71.0,9.0,5.0,limited-study exploratory,0.962990751449856
+Endothelial,EndoMT_CFD_pan,SSE_old_minus_young_pp,14,3,14,estimated,-3.514604589886254,-28.676969057982532,21.647759878210024,0.7441711350808617,3.0,stratum;sex;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,6.0,20.0,71.0,9.0,5.0,limited-study exploratory,0.8190455831125653
+Endothelial,EndoMT_CLU_eye,relative_hUSI,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_CLU_eye,hUSI_age_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_CLU_eye,proportion_age_pp_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_CLU_eye,proportion_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_CLU_eye,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_CLU_eye,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_GNG11_vessel,relative_hUSI,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_GNG11_vessel,hUSI_age_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_GNG11_vessel,proportion_age_pp_per10y,33,1,33,estimated,-0.06572894189482588,-0.2558776913736768,0.12441980758402503,0.485223331238142,1.0,stratum;sex;Disease_Status,HC3; limited-study exploratory,29.0,26.0,66.0,,,limited-study exploratory,0.8788552474922735
+Endothelial,EndoMT_GNG11_vessel,proportion_old_minus_young_pp,13,1,13,estimated,-0.20051359622893733,-0.72999373418284,0.32896654172496526,0.41385132369103694,1.0,stratum;sex;Disease_Status,HC3; limited-study exploratory,9.0,26.0,66.0,8.0,5.0,limited-study exploratory,0.9965074245274851
+Endothelial,EndoMT_GNG11_vessel,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_GNG11_vessel,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_PTN_pan,relative_hUSI,15,2,15,estimated,0.0944961464150143,0.07213100852725937,0.11686128430276924,3.118594073161735e-07,2.0,Within-sample paired difference; intercept-only across sample proxies,HC3; limited-study exploratory,14.0,57.0,89.0,,,limited-study exploratory,3.2225472089337926e-06
+Endothelial,EndoMT_PTN_pan,hUSI_age_per10y,13,1,13,estimated,-0.005611064619861126,-0.010338028736222702,-0.0008841005034995499,0.02555552382708816,1.0,stratum;sex;log_depth;pct_counts_mt,HC3; limited-study exploratory,8.0,65.0,89.0,,,limited-study exploratory,0.7411101909855566
+Endothelial,EndoMT_PTN_pan,proportion_age_pp_per10y,37,2,37,estimated,1.4852390012391814,-2.7630717746821096,5.733549777160472,0.48154685399234676,2.0,stratum;sex;Disease_Status,HC3; limited-study exploratory,32.0,53.0,99.0,,,limited-study exploratory,0.8788552474922735
+Endothelial,EndoMT_PTN_pan,proportion_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_PTN_pan,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_PTN_pan,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_TAGLN_pan,relative_hUSI,1,1,1,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_TAGLN_pan,hUSI_age_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_TAGLN_pan,proportion_age_pp_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_TAGLN_pan,proportion_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_TAGLN_pan,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_TAGLN_pan,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_TM4SF1_pan,relative_hUSI,26,11,26,estimated,0.018555916720363937,0.00784618616541022,0.029265647275317656,0.003157559499058094,11.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,25.0,18.0,76.0,,,multi-study association,0.009788434447080092
+Endothelial,EndoMT_TM4SF1_pan,hUSI_age_per10y,18,4,18,estimated,0.0010594207482678454,-0.014096530641922192,0.016215372138457883,0.8805129271974206,4.0,stratum;log_depth;pct_counts_mt,HC3; limited-study exploratory,11.0,20.0,76.0,,,limited-study exploratory,0.9392381546764021
+Endothelial,EndoMT_TM4SF1_pan,proportion_age_pp_per10y,122,11,122,estimated,0.3351526994534709,-0.8775467915273009,1.5478521904342428,0.5517911815164749,11.0,stratum;Disease_Status,GSE-clustered,108.0,20.0,80.0,,,multi-study association,0.8788552474922735
+Endothelial,EndoMT_TM4SF1_pan,proportion_old_minus_young_pp,48,6,48,estimated,1.565775143316336,-3.2518017813750326,6.383352068007705,0.4415334758502895,6.0,stratum;sex,GSE-clustered,40.0,20.0,80.0,17.0,31.0,multi-study association,0.9965074245274851
+Endothelial,EndoMT_TM4SF1_pan,hUSI_old_minus_young,9,2,9,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_TM4SF1_pan,SSE_old_minus_young_pp,9,2,9,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_TPM2_pan,relative_hUSI,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_TPM2_pan,hUSI_age_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_TPM2_pan,proportion_age_pp_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_TPM2_pan,proportion_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_TPM2_pan,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_TPM2_pan,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_VIM_pan,relative_hUSI,8,5,8,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_VIM_pan,hUSI_age_per10y,11,3,11,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_VIM_pan,proportion_age_pp_per10y,44,3,44,estimated,1.0056462020758588,-6.669101681980502,8.68039408613222,0.7923748909253254,3.0,stratum;sex,HC3; limited-study exploratory,39.0,23.0,80.0,,,limited-study exploratory,0.8788552474922735
+Endothelial,EndoMT_VIM_pan,proportion_old_minus_young_pp,28,2,28,estimated,-2.1463030502251055,-42.48271995599148,38.19011385554126,0.9134651391501947,2.0,stratum;sex,HC3; limited-study exploratory,24.0,23.0,80.0,7.0,21.0,limited-study exploratory,0.9965074245274851
+Endothelial,EndoMT_VIM_pan,hUSI_old_minus_young,7,2,7,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,EndoMT_VIM_pan,SSE_old_minus_young_pp,7,2,7,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,LEC_EFEMP1_pan,relative_hUSI,66,19,66,estimated,-0.011769379941126139,-0.021465073910380578,-0.002073685971871698,0.020088804085020447,19.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,65.0,18.0,72.0,,,multi-study association,0.04151686177570892
+Endothelial,LEC_EFEMP1_pan,hUSI_age_per10y,55,9,55,estimated,-0.002348349049021178,-0.007639692925344667,0.002942994827302311,0.33605400263830587,9.0,stratum;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,42.0,18.0,72.0,,,multi-study association,0.9392381546764021
+Endothelial,LEC_EFEMP1_pan,proportion_age_pp_per10y,113,12,113,estimated,-0.6454794215197366,-4.604915161069133,3.3139563180296596,0.7265281415093043,12.0,stratum;Disease_Status,GSE-clustered,98.0,18.0,80.0,,,multi-study association,0.8788552474922735
+Endothelial,LEC_EFEMP1_pan,proportion_old_minus_young_pp,49,6,49,estimated,-0.0011192660336987181,-7.3023308288539095,7.300092296786511,0.9997008192368281,6.0,stratum;sex,GSE-clustered,41.0,20.0,80.0,20.0,29.0,multi-study association,0.9997008192368281
+Endothelial,LEC_EFEMP1_pan,hUSI_old_minus_young,16,3,16,estimated,0.0006523556574928313,-0.04181493984133498,0.043119651156320646,0.9726100768670826,3.0,stratum;sex;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,8.0,20.0,69.0,10.0,6.0,limited-study exploratory,0.9726100768670826
+Endothelial,LEC_EFEMP1_pan,SSE_old_minus_young_pp,16,3,16,estimated,4.374015548675182,-11.125671777662065,19.873702875012427,0.5334451997038266,3.0,stratum;sex;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,8.0,20.0,69.0,10.0,6.0,limited-study exploratory,0.7933370998860722
+Endothelial,VenEC_CLU_eye,relative_hUSI,37,10,37,estimated,-0.0384848581347166,-0.0647659354331597,-0.012203780836273506,0.009046292619593154,10.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,36.0,41.0,93.0,,,multi-study association,0.022953384122168085
+Endothelial,VenEC_CLU_eye,hUSI_age_per10y,72,6,72,estimated,0.002986508091746852,-0.004034940685389536,0.01000795686888324,0.3240861548417326,6.0,stratum;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,62.0,25.0,100.0,,,multi-study association,0.9392381546764021
+Endothelial,VenEC_CLU_eye,proportion_age_pp_per10y,111,9,111,estimated,0.03459423049496335,-2.1178260578753227,2.1870145188652494,0.9713431857258777,9.0,stratum;Disease_Status,GSE-clustered,100.0,24.0,100.0,,,multi-study association,0.9713431857258777
+Endothelial,VenEC_CLU_eye,proportion_old_minus_young_pp,13,2,13,estimated,0.13196413325974735,-0.434050130843033,0.6979783973625276,0.6106592818568816,2.0,stratum;sex,HC3; limited-study exploratory,9.0,24.0,73.0,8.0,5.0,limited-study exploratory,0.9965074245274851
+Endothelial,VenEC_CLU_eye,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,VenEC_CLU_eye,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,VenEC_CLU_pan,relative_hUSI,125,34,125,estimated,-0.016628090298125432,-0.02370547887792336,-0.009550701718327505,3.522050706693999e-05,36.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,124.0,18.0,86.3,,,multi-study association,0.00021836714381502794
+Endothelial,VenEC_CLU_pan,hUSI_age_per10y,107,17,107,estimated,-0.0011458792721961448,-0.003993274198929181,0.0017015156545368915,0.4061861388367247,17.0,stratum;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,85.0,18.0,84.0,,,multi-study association,0.9392381546764021
+Endothelial,VenEC_CLU_pan,proportion_age_pp_per10y,172,18,172,estimated,-0.8121043103341339,-2.133464925712132,0.5092563050438641,0.21206435410302277,18.0,stratum;Disease_Status,GSE-clustered,151.0,18.0,99.0,,,multi-study association,0.8788552474922735
+Endothelial,VenEC_CLU_pan,proportion_old_minus_young_pp,58,8,58,estimated,0.7541952300980883,-7.590496353262783,9.09888681345896,0.836860607784,8.0,stratum;sex,GSE-clustered,48.0,20.0,80.0,24.0,34.0,multi-study association,0.9965074245274851
+Endothelial,VenEC_CLU_pan,hUSI_old_minus_young,38,7,38,estimated,-0.005395902426210228,-0.021235366780285005,0.01044356192786455,0.4364434324866858,7.0,stratum;sex;log_depth;pct_counts_mt,GSE-clustered,27.0,20.0,76.0,16.0,22.0,multi-study association,0.962990751449856
+Endothelial,VenEC_CLU_pan,SSE_old_minus_young_pp,38,7,38,estimated,-1.2303147843940536,-5.41773372599622,2.9571041572081125,0.4992117717281431,7.0,stratum;sex;log_depth;pct_counts_mt,GSE-clustered,27.0,20.0,76.0,16.0,22.0,multi-study association,0.7933370998860722
+Endothelial,VenEC_EPCAM_pan,relative_hUSI,3,1,3,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,VenEC_EPCAM_pan,hUSI_age_per10y,3,1,3,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,VenEC_EPCAM_pan,proportion_age_pp_per10y,33,1,33,estimated,-1.1506103912357597,-4.804115338500566,2.5028945560290463,0.5245656435293709,1.0,stratum;sex;Disease_Status,HC3; limited-study exploratory,29.0,26.0,66.0,,,limited-study exploratory,0.8788552474922735
+Endothelial,VenEC_EPCAM_pan,proportion_old_minus_young_pp,13,1,13,estimated,0.10162790844323205,-10.124188778853464,10.327444595739928,0.9825539182205025,1.0,stratum;sex;Disease_Status,HC3; limited-study exploratory,9.0,26.0,66.0,8.0,5.0,limited-study exploratory,0.9997008192368281
+Endothelial,VenEC_EPCAM_pan,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,VenEC_EPCAM_pan,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,VenEC_FLT1_pan,relative_hUSI,118,30,118,estimated,0.0002784071408362789,-0.004249599314618834,0.004806413596291392,0.9007958859535238,35.0,Within-sample paired difference; intercept-only across sample proxies,GSE-clustered,117.0,18.0,86.3,,,multi-study association,0.9007958859535238
+Endothelial,VenEC_FLT1_pan,hUSI_age_per10y,92,12,92,estimated,0.0018874877668536138,-0.0008732632506478783,0.004648238784355106,0.16054049164333453,12.0,stratum;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,75.0,20.0,75.0,,,multi-study association,0.8896875319784944
+Endothelial,VenEC_FLT1_pan,proportion_age_pp_per10y,173,19,173,estimated,-1.3433279955503679,-3.3095843836854404,0.6229283925847047,0.16834244321370115,19.0,stratum;Disease_Status,GSE-clustered,151.0,18.0,99.0,,,multi-study association,0.8788552474922735
+Endothelial,VenEC_FLT1_pan,proportion_old_minus_young_pp,61,9,61,estimated,-2.1297950666476,-10.37045196718677,6.110861833891572,0.5676599274867968,9.0,stratum;,GSE-clustered,51.0,20.0,86.3,25.0,36.0,multi-study association,0.9965074245274851
+Endothelial,VenEC_FLT1_pan,hUSI_old_minus_young,22,5,22,estimated,0.001478495945533398,-0.012320219716319258,0.015277211607386054,0.7809037677447067,5.0,stratum;sex;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,12.0,20.0,70.0,13.0,9.0,multi-study association,0.962990751449856
+Endothelial,VenEC_FLT1_pan,SSE_old_minus_young_pp,22,5,22,estimated,0.3801293492843847,-2.2247547787379625,2.985013477306732,0.7060895837220416,5.0,stratum;sex;Disease_Status;log_depth;pct_counts_mt,GSE-clustered,12.0,20.0,70.0,13.0,9.0,multi-study association,0.8190455831125653
+Endothelial,VenEC_TAGLN_pan,relative_hUSI,3,3,3,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,VenEC_TAGLN_pan,hUSI_age_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,VenEC_TAGLN_pan,proportion_age_pp_per10y,33,2,33,estimated,-0.3628593169916689,-1.1903910002374831,0.46467236625414526,0.37674144774092233,2.0,stratum;Disease_Status,HC3; limited-study exploratory,28.0,23.0,76.0,,,limited-study exploratory,0.8788552474922735
+Endothelial,VenEC_TAGLN_pan,proportion_old_minus_young_pp,12,1,12,estimated,-2.628114379742162,-9.381414956241201,4.125186196756878,0.39570631413667656,1.0,stratum;sex;Disease_Status,HC3; limited-study exploratory,8.0,23.0,76.0,4.0,8.0,limited-study exploratory,0.9965074245274851
+Endothelial,VenEC_TAGLN_pan,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,VenEC_TAGLN_pan,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,VenEC_TAGLN_pancreas,relative_hUSI,23,3,23,estimated,0.019566508281609687,0.007501404401633546,0.03163161216158583,0.002806478061780637,3.0,Within-sample paired difference; intercept-only across sample proxies,HC3; limited-study exploratory,22.0,29.0,61.0,,,limited-study exploratory,0.009666757768355527
+Endothelial,VenEC_TAGLN_pancreas,hUSI_age_per10y,33,1,33,estimated,-0.0005212671612343625,-0.009533702092220682,0.008491167769751956,0.9064112898234683,1.0,stratum;sex;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,27.0,26.0,66.0,,,limited-study exploratory,0.9392381546764021
+Endothelial,VenEC_TAGLN_pancreas,proportion_age_pp_per10y,33,1,33,estimated,1.8286127059895623,-3.775237884421684,7.432463296400809,0.5098017093833664,1.0,stratum;sex;Disease_Status,HC3; limited-study exploratory,29.0,26.0,66.0,,,limited-study exploratory,0.8788552474922735
+Endothelial,VenEC_TAGLN_pancreas,proportion_old_minus_young_pp,13,1,13,estimated,5.228978787862182,-27.030983560228464,37.48894113595283,0.7223372427075094,1.0,stratum;sex;Disease_Status,HC3; limited-study exploratory,9.0,26.0,66.0,8.0,5.0,limited-study exploratory,0.9965074245274851
+Endothelial,VenEC_TAGLN_pancreas,hUSI_old_minus_young,13,1,13,estimated,-0.008430288258044233,-0.07368556213344594,0.05682498561735748,0.7688813190350973,1.0,stratum;sex;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,7.0,26.0,66.0,8.0,5.0,limited-study exploratory,0.962990751449856
+Endothelial,VenEC_TAGLN_pancreas,SSE_old_minus_young_pp,13,1,13,estimated,0.17041266199150165,-0.1287223445158653,0.46954766849886864,0.21992698035229044,1.0,stratum;sex;Disease_Status;log_depth;pct_counts_mt,HC3; limited-study exploratory,7.0,26.0,66.0,8.0,5.0,limited-study exploratory,0.7933370998860722
+Endothelial,VenEC_TM4SF1_breast,relative_hUSI,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,VenEC_TM4SF1_breast,hUSI_age_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,VenEC_TM4SF1_breast,proportion_age_pp_per10y,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,VenEC_TM4SF1_breast,proportion_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,VenEC_TM4SF1_breast,hUSI_old_minus_young,0,0,0,insufficient_coverage,,,,,,,,,,,,,,
+Endothelial,VenEC_TM4SF1_breast,SSE_old_minus_young_pp,0,0,0,insufficient_coverage,,,,,,,,,,,,,,

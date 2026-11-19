@@ -1,0 +1,3 @@
+lineage,n,R2,MAE,MAD,prediction_scope,MAD_definition
+Fibroblast,93,0.3770758058789957,8.706527794656495,4.6938841263396895,selected_external_ALL100,median_absolute_prediction_error
+Endothelial,77,0.390789118720121,9.275414608206686,6.416715060684041,selected_external_ALL100,median_absolute_prediction_error

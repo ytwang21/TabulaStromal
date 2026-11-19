@@ -1,51 +1,70 @@
 # TabulaStromal
 
-**Human stromal cell atlases, transcriptomic age prediction, and senescence-associated analyses.**
+**Human stromal atlases, celltype-resolved chronological-age prediction and downstream molecular associations.**
 
-TabulaStromal brings together fibroblast and endothelial atlas analysis, a 13-model age-prediction benchmark, an interpretable ElasticNet clock branch, bootstrap feature stability, pathway analysis, and integration with existing hUSI and SenCID outputs. This repository is a curated source release of the research project, with portable configuration examples, aggregate results, and synthetic verification.
+TabulaStromal integrates fibroblast- and endothelial-lineage references containing **5,916,760** and **2,239,277 cells**. Clock development uses separately filtered sets of **640/437 samples**, grouped into **634/431 GSE/GSM proxies**. These labels are not independently verified donor counts, and the full atlas is not uniformly healthy.
 
-The atlas contains **5,916,760 fibroblast cells** and **2,239,277 endothelial cells**. Clock development uses separate, filtered age-labelled cohorts of **640** and **437 sample units**, respectively. Sample labels and GSE/GSM groups should not be equated with independently verified donors. The full atlas includes heterogeneous disease annotations; it is not a uniformly healthy cohort.
+This release updates all five result modules from the source-verified 19 November snapshot, including the downstream presentation, original figures, aggregate tables, evidence records and three English Results sections.
 
 ## Model Overview
 
 ![TabulaStromal model overview](docs/assets/TabulaStromal_Workflow_V6.png)
 
-*Project workflow overview (schematic).*
+*Original workflow schematic. Illustrative numbers, healthy-only/donor labels and GWAS drawings are not additional empirical findings. See the current complete Figure 2 and source-specific definitions in [F2_ModelPerformance](F2_ModelPerformance/).*
 
 ## Model Performance
 
 <p align="center">
-  <a href="docs/assets/Fig2B_R2_heatmap.png"><img src="docs/assets/Fig2B_R2_heatmap.png" width="32%" alt="Figure 2B: model R²" /></a>
-  <a href="docs/assets/Fig2C_MAE_heatmap.png"><img src="docs/assets/Fig2C_MAE_heatmap.png" width="32%" alt="Figure 2C: model MAE (years)" /></a>
-  <a href="docs/assets/Fig2D_MAD_heatmap.png"><img src="docs/assets/Fig2D_MAD_heatmap.png" width="32%" alt="Figure 2D: age-label MAD (years)" /></a>
+  <a href="docs/assets/Fig2B_R2_heatmap.png"><img src="docs/assets/Fig2B_R2_heatmap.png" width="32%" alt="Source-fold-4 R squared" /></a>
+  <a href="docs/assets/Fig2C_MAE_heatmap.png"><img src="docs/assets/Fig2C_MAE_heatmap.png" width="32%" alt="Source-fold-4 MAE" /></a>
+  <a href="docs/assets/Fig2D_MAD_heatmap.png"><img src="docs/assets/Fig2D_MAD_heatmap.png" width="32%" alt="Source-fold-4 age-label MAD" /></a>
 </p>
 
-*Original Figure 2 panels B–D, shown using the corresponding standalone panel exports. Source fold: 4. External values use FT30 ALL100, including adaptation samples. MAD describes age-label dispersion; the final-clock evaluation scopes are reported separately below.*
+*Original Figure 2 B–D exports. Each model's K is selected using source fold 4. External heatmap values use FT30→ALL100, including adaptation samples. Panel D MAD is mean absolute age-label deviation, not prediction error. These heatmaps are not five-fold means or compact-model validation.*
 
-## Start here
+The current Figure 2 E/F instead shows **development-set in-sample fits** of performance-first ElasticNet models with **750 fibroblast / 350 endothelial Celltype_Gene features**. The current external panels use models selected using **ALL100 outcomes**:
 
-The four result directories now include original figures, aggregate tables, file/figure inventories and source-linked evidence:
+| Current compact-model evaluation | Fibroblast n | Fibroblast R² | MAE, years | Endothelial n | Endothelial R² | MAE, years |
+|---|---:|---:|---:|---:|---:|---:|
+| Development, in-sample source-model fit | 640 | 0.950 | 4.98 | 437 | 0.950 | 5.03 |
+| Adapted ALL100, used in model selection | 93 | 0.377 | 8.71 | 77 | 0.391 | 9.28 |
+| Adapted reused 70% subset | 65 | 0.032 | 12.02 | 54 | 0.043 | 11.67 |
 
-| Result directory | Gallery and audited content |
-| --- | --- |
-| [F1_StromalAtlas](F1_StromalAtlas/) | Figure 1, detailed subtypes, signature agreement and filtering figures |
-| [F2_ModelPerformance](F2_ModelPerformance/) | Original overview, complete Figure 2 and individual performance panels |
-| [TabulaStromal_Rebenchmark_2026](TabulaStromal_Rebenchmark_2026/) | Final EN protocols, bootstrap stability, enrichment and shared genes |
-| [CellAge_Exploration](CellAge_Exploration/) | Original CellAge figure, score/age analyses and historical clock context |
+**Neither the development fits nor the outcome-selected external estimates establish independent generalization of the current compact models.** The reused 70% outcomes also participated in ALL100 selection. MAD in these current fit/external panels means median absolute prediction error (MedAE), unlike panel D. Exact values and evaluation scopes are linked in [Results Part 2](docs/results/Results_Part2_ClockPerformance_CellAge.md).
 
-Read the English Results sections or download editable Word files:
+The full grouped five-fold benchmark ranked XGBoost first for fibroblasts (mean validation R² 0.803) and ExtraTrees first for endothelial cells (0.716). These are different configurations from the compact ElasticNet fits. The [earlier unreduced EN branch](TabulaStromal_Rebenchmark_2026/) retains its original unadapted and held-out adaptation metrics as historical protocol evidence.
 
-| Section | English text | Editable Word | PDF reading copy |
-| --- | --- | --- | --- |
-| Results Part 1 — Stromal Atlas | [Read](docs/results/Results_Part1_StromalAtlas.md) | [Download](docs/results/Results_Part1_StromalAtlas.docx) | [Preview](docs/results/Results_Part1_StromalAtlas.pdf) |
-| Results Part 2 — Clock Overview, Performance and CellAge | [Read](docs/results/Results_Part2_ClockPerformance_CellAge.md) | [Download](docs/results/Results_Part2_ClockPerformance_CellAge.docx) | [Preview](docs/results/Results_Part2_ClockPerformance_CellAge.pdf) |
-| Results Part 3 — Stable Features and Molecular Associations | [Read](docs/results/Results_Part3_StableFeatures_Mechanisms.md) | [Download](docs/results/Results_Part3_StableFeatures_Mechanisms.docx) | [Preview](docs/results/Results_Part3_StableFeatures_Mechanisms.pdf) |
+## Explore the five result modules
 
-[Combined Results Word](docs/results/TabulaStromal_Results_Combined.docx) · [Combined PDF](docs/results/TabulaStromal_Results_Combined.pdf) · [Figure legends](docs/results/Figure_Legends.md) · [Audit scope](audit/README.md) · [Evidence registry](evidence/evidence_registry.csv)
+| Module | Current content |
+|---|---|
+| [F1_StromalAtlas](F1_StromalAtlas/) | Atlas overview, detailed states, metadata coverage, retrospective annotation agreement and filtering figures |
+| [F2_ModelPerformance](F2_ModelPerformance/) | Current complete Figure 2, original overview, B–F panels and exact aggregate metric tables |
+| [F3_ds_analysis](F3_ds_analysis/) | Selected features, functional annotation, LISA2, RNA networks, adult raw-count ECM, current CellAge, and the **40-slide PPTX** |
+| [TabulaStromal_Rebenchmark_2026](TabulaStromal_Rebenchmark_2026/) | Current 750/350-feature definitions and optimization protocol, with the earlier unreduced EN branch labeled separately |
+| [CellAge_Exploration](CellAge_Exploration/) | Historical score provenance and its distinction from the current selected-state CellAge analysis |
 
-Word and PDF copies retain clickable figure/evidence links. PDF reading copies are actual renders of the released Word files, with [page checks and hash receipts](audit/docx_rendering_report.md).
+Current selected features span **27 states per lineage**, encode **678/337 unique genes**, and share **45 genes**. Functional and regulatory results are exploratory annotations of the selected representation. Relative hUSI state differences are distinct from age slopes; no current primary adjusted hUSI–age or composition–age test survives its applicable correction. Read [Results Part 3](docs/results/Results_Part3_StableFeatures_Mechanisms.md) for complete correction families and coverage limits.
 
-Use Python **3.11** and run commands from the repository root. No research data or pretrained weights are downloaded automatically.
+## Read or download the updated Results
+
+| Section | English text | Editable Word | Actual Word-rendered PDF |
+|---|---|---|---|
+| Stromal atlas | [Part 1](docs/results/Results_Part1_StromalAtlas.md) | [DOCX](docs/results/Results_Part1_StromalAtlas.docx) | [PDF](docs/results/Results_Part1_StromalAtlas.pdf) |
+| Clock overview, performance and CellAge context | [Part 2](docs/results/Results_Part2_ClockPerformance_CellAge.md) | [DOCX](docs/results/Results_Part2_ClockPerformance_CellAge.docx) | [PDF](docs/results/Results_Part2_ClockPerformance_CellAge.pdf) |
+| Features and molecular associations | [Part 3](docs/results/Results_Part3_StableFeatures_Mechanisms.md) | [DOCX](docs/results/Results_Part3_StableFeatures_Mechanisms.docx) | [PDF](docs/results/Results_Part3_StableFeatures_Mechanisms.pdf) |
+
+[Combined Results Word](docs/results/TabulaStromal_Results_Combined.docx) · [Combined PDF](docs/results/TabulaStromal_Results_Combined.pdf) · [Figure legends](docs/results/Figure_Legends.md) · [Verified references](docs/results/References.md) · [Panel/source manifest](audit/figure_manifest.csv)
+
+## Audit and provenance
+
+The complete five-root metadata discovery contains **1,469,578 file entries**, including historical and environment files; it does not imply reading all file contents. The public release contains **229 original scientific image/PDF files**, **201 aggregate/evidence tables** and the downstream PPTX. Core content hashes were rechecked for **432 audited source files** before export. See [audit scope and inventories](audit/README.md), [evidence registry](evidence/evidence_registry.csv), [release checks](audit/results_release_validation.json) and [Word rendering receipts](audit/docx_rendering_report.md).
+
+All descendants of the F3 audit directory named `VenEC_CLU_eye_audit` and `F3_features/Age10_20_audit_20261117` are excluded. A legitimate Celltype named `VenEC_CLU_eye` in current aggregate results is not that excluded audit directory. Source images are unaltered. The PPTX retains all 40 slides and embedded image bytes; personal server paths in its XML text are generalized. Full cache-path inventories remain local under ignored `outputs/`.
+
+## Run the source workflows
+
+Use Python **3.11**. No private inputs or pretrained weights are downloaded automatically.
 
 ```bash
 python -m venv .venv
@@ -53,71 +72,15 @@ source .venv/bin/activate
 python -m pip install -r requirements/benchmark.txt
 python scripts/run_workflow.py benchmark --help
 python scripts/run_workflow.py benchmark --dry-run --lineage both
+python scripts/validate_repository.py --verify-checksums
+python scripts/validate_results_release.py
+python -m unittest discover -s tests -v
 ```
 
-The dry run reports configured input existence and task counts; it does not prove that data are available. The default configuration points to untracked `data/` inputs. Read the [data contract](docs/data.md) before running real analyses.
+The source benchmark and inference workflows retain their documented data contracts. The historical final-EN continuation requires its validated checkpoint archive. Current F3 is a curated result release, not a claim that private raw inputs or all execution environments are distributed. See [data requirements](docs/data.md), [reproduction](docs/reproducing.md) and [testing](docs/testing.md). Synthetic checks are software verification, not biological evidence.
 
-Verify the source release and exercise all 13 models on synthetic data:
+## Citation and permissions
 
-```bash
-python scripts/validate_repository.py
-python -m unittest discover -s workflows/benchmark/tests -p 'test_*.py' -v
-```
+[CITATION.cff](CITATION.cff) provides software attribution; no manuscript DOI or published-paper status is asserted. A project-wide license has not yet been selected; see [NOTICE](NOTICE). Third-party resources retain their terms. Contributions should preserve explicit protocol and inference-unit distinctions: [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The integration test creates small synthetic H5AD inputs, runs all seven benchmark stages, checks split isolation and metrics, reloads models, and verifies checkpoint resume. Synthetic results are never evidence for biological claims. For CellAge, install `requirements/cellage.txt` and use the separate tests described in [testing](docs/testing.md).
-
-## Analysis modules
-
-| Module | Entry point | Purpose |
-| --- | --- | --- |
-| Stromal atlas | `python scripts/run_workflow.py atlas --help` | Metadata audit, atlas summaries, marker signatures, trajectory exploration, figures |
-| Clock benchmark | `python scripts/run_workflow.py benchmark --help` | Sample pseudobulk, 13 models, grouped CV, external evaluation, bootstrap and enrichment |
-| Final ElasticNet | `python scripts/run_workflow.py final-clock --help` | Final-EN audit/refit using the original validated checkpoint archive; see prerequisites below |
-| Clock inference | `python scripts/predict_age.py --help` | Apply a trusted final-EN bundle to H5AD or named pseudobulk CSV inputs |
-| CellAge | `python scripts/run_workflow.py cellage --help` | Audit and join existing scores, sample aggregation, associations and historical clock integration |
-| Figure 2 archive | `workflows/model_performance/` | Historical figure builder and its source-scope documentation |
-| Annotation and integration | `legacy/` | Historical notebooks with outputs removed, plus integration scripts |
-
-The benchmark can start from user-supplied H5AD inputs. The final-EN pipeline is an **archive-dependent** continuation: it requires validated benchmark and bootstrap objects, source manifests, and historical figure assets. These private artifacts are not part of this release. Its original audit intentionally refuses incomplete archives. The standalone inference API and its synthetic tests do not require that archive. See [reproduction instructions](docs/reproducing.md).
-
-## Results and evaluation scope
-
-The following values come from [`results/final_clock_results_summary.csv`](results/final_clock_results_summary.csv), with model paths generalized and numerical values retained.
-
-| Final ElasticNet evaluation | Fibroblast R² | Fibroblast MAE (years) | Endothelial R² | Endothelial MAE (years) |
-| --- | ---: | ---: | ---: | ---: |
-| Internal CV, conditional on selected K | 0.7423 | 11.8642 | 0.6326 | 14.1753 |
-| External, no adaptation | −2.9433 | 29.3226 | −1.7196 | 24.8899 |
-| External, after 30% adaptation, held-out 70% | −0.0008 | 13.1406 | −0.3551 | 13.1758 |
-
-The benchmark-wide internal winners were XGBoost (fibroblast) and ExtraTrees (endothelial). They are distinct from the final interpretable ElasticNet branch. The final EN uses K=20,000/10,000 features and retains the original feature sets; stable-feature refits performed worse internally. Full-development bootstrap stability identified 438/23 Celltype_Gene pairs at a 0.70 selection-frequency threshold.
-
-External cohorts contain 93/77 sample units; adaptation used 28/23, leaving 65/54 for held-out evaluation. The separate `FT30_all100_*` columns include adaptation samples and must not be described as independent validation. Negative external R² values are retained. `MAD` in the source code means mean absolute deviation of **chronological-age labels from their mean**, not median absolute prediction error; `MedAE` is a separate metric.
-
-The CellAge snapshot uses historical K=8,000 ElasticNet predictions, not the final clocks. hUSI is a senescence-associated score, not an age estimate in years. Inspected `SenCID_rec_SID*` columns are recommendation outputs, not verified senescence intensities. See [results and limitations](docs/results.md) for the full provenance and interpretation boundaries.
-
-## Repository contents
-
-```text
-workflows/       Primary source workflows and historical acceleration variants
-legacy/          Annotation/integration notebooks and scripts
-requirements/    Module dependencies and separate historical environment locks
-scripts/         Workflow launcher, configuration helper, inference and validation
-resources/       Supplied unverified gene lists and resource acquisition instructions
-results/         Aggregate metrics and feature tables, with provenance
-provenance/      Original-source hashes and exported-file checksums
-docs/            Data contracts, reproduction, scientific scope and project map
-.github/         Continuous integration and contribution templates
-```
-
-Large expression matrices, individual-level predictions, fitted models, caches, credentials, and unreleased manuscript sections are excluded. This release includes three evidence-linked Results drafts and their editable Word versions. [Source provenance](provenance/source_manifest.csv) links the exported modules to the original project tree. The [portability notes](docs/portability.md) describe modifications made for this release.
-
-## Citation, contribution, and permissions
-
-Use [CITATION.cff](CITATION.cff) for software attribution. No manuscript DOI or publication status is asserted. Contributions should include a reproducible example and maintain explicit separation of training, adaptation, and held-out evaluation; see [CONTRIBUTING.md](CONTRIBUTING.md).
-
-A project-wide open-source license has not yet been selected by the authors. See [NOTICE](NOTICE). External data, gene-set resources, and dependencies retain their own terms.
-
-中文说明见 [README.zh-CN.md](README.zh-CN.md).
-
-Repository publication and remote-commit verification are described in [docs/publication.md](docs/publication.md).
+[中文说明](README.zh-CN.md) · [Publication procedure](docs/publication.md)

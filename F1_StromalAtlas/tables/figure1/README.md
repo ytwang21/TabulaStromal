@@ -1,10 +1,8 @@
-# F1_StromalAtlas — figure1
+# figure1
 
-[Analysis overview and protocol](../../README.md)
+Current snapshot: **19 November 2026**. Counts refer to sample/proxy units unless stated otherwise. Selected expression features are not explicit cell-type proportions; predictive weights and regulatory annotations are not causal evidence.
 
-![Related result figure](../../figures/ExtendFig1_subtype_umap_composition_preview.png)
-
-## Files
+[Module overview](../../README.md) · [Results and legends](../../../docs/results)
 
 - [endo_Age_group_summary.csv](endo_Age_group_summary.csv)
 - [endo_Celltype_to_Tissue_mapping.csv](endo_Celltype_to_Tissue_mapping.csv)
@@ -12,5 +10,3 @@
 - [fibro_Age_group_summary.csv](fibro_Age_group_summary.csv)
 - [fibro_Celltype_to_Tissue_mapping.csv](fibro_Celltype_to_Tissue_mapping.csv)
 - [fibro_Tissue_from_Celltype_summary.csv](fibro_Tissue_from_Celltype_summary.csv)
-
-Figure and data provenance are recorded in the analysis directory audit and evidence registries.

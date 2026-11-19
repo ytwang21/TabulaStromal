@@ -1,0 +1,3 @@
+status,lineage,included_celltypes,requested_celltypes,skipped_celltypes,tested_edges,supported_edges,stable_target_edges,scored_TF_celltype_pairs,analysis
+complete,Fibroblast,21,27,6,352675,13994,65,7362,RNA_prior_constrained_GRN; not enhancer_motif_grammar
+complete,Endothelial,15,27,12,241986,4747,7,5103,RNA_prior_constrained_GRN; not enhancer_motif_grammar

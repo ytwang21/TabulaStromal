@@ -1,11 +1,7 @@
-# F2_ModelPerformance — evidence
+# evidence
 
-[Analysis overview and protocol](../README.md)
+Current snapshot: **19 November 2026**. Counts refer to sample/proxy units unless stated otherwise. Selected expression features are not explicit cell-type proportions; predictive weights and regulatory annotations are not causal evidence.
 
-![Related result figure](../figures/TabulaStromal_Workflow_V6.png)
-
-## Files
+[Module overview](../README.md) · [Results and legends](../../docs/results)
 
 - [evidence_registry.csv](evidence_registry.csv)
-
-Figure and data provenance are recorded in the analysis directory audit and evidence registries.

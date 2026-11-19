@@ -1,23 +1,21 @@
-# Result audit and release scope
+# Current result audit and public release
 
-The four original result trees were actually scanned: **1,413,618 file entries**. Discovery read file metadata; it did not imply that every model, cache or expression matrix was loaded. Excluding vendor/runtime/test/backup/source-snapshot copies left **847 figure candidates**. The release selects **117 original PNG/PDF files and 81 aggregate tables**, with explicit versions and evaluation scopes.
+The completed five-root metadata discovery contains **1,469,578 entries**, including dependencies, historical runs and caches. This is metadata discovery, not a claim to read every file. The full path-level inventory remains local in ignored `outputs/source_audit/full_file_inventory.csv.gz`; the public summary accounts for every entry.
 
-| Record | Scope |
-| --- | --- |
-| [source_tree_summary.csv](source_tree_summary.csv) | Counts and bytes for every scanned file, grouped by module/category/extension |
-| [scan_summary.json](scan_summary.json) | Actual scan receipt, roots and local full-inventory location |
-| [file_inventory.csv](file_inventory.csv) | Core figure/table files and additional sources actually read for evidence verification |
-| [figure_inventory.csv](figure_inventory.csv) | All 847 result-figure candidates; published state, version/protocol, source tables and hashes where read |
-| [released_assets.csv](released_assets.csv) | Every selected asset, source SHA256, exported SHA256, transformation and protocol |
-| [numeric_and_statistical_checks.csv](numeric_and_statistical_checks.csv) | Fresh numerical checks, including direct metric recomputation and split isolation |
-| [claim_to_evidence_report.csv](claim_to_evidence_report.csv) | Results paragraphs mapped to exact evidence IDs and source files |
-| [docx_validation_report.md](docx_validation_report.md) | Editable Word text/table/package checks |
-| [docx_rendering_report.md](docx_rendering_report.md) | Actual Word-to-PDF rendering, text/link/page checks and hash receipts |
-| [analysis_status.md](analysis_status.md) | Completed analyses and limits |
-| [inconsistency_report.md](inconsistency_report.md) | Source-version and interpretation differences |
+Immediately before export, **432 audited content files** were rechecked against their stored SHA256 and modification times. The public payload contains 229 original image/PDF assets, 201 aggregate/evidence tables and the portable-text version of the 40-slide PPTX. No cell/sample-level observations, predictions, model bundles or matrices are published.
 
-The **complete path-level** inventory is kept locally at `outputs/source_audit/full_file_inventory.csv.gz` and is ignored by Git. It can contain sample-like cache paths. Its public summary accounts for every scanned file. The public file inventory deliberately distinguishes content read, metadata read, and exported assets; it is not falsely labeled as every private cache path.
+| Record | Meaning |
+|---|---|
+| [scan_summary.json](scan_summary.json), [source_tree_summary.csv](source_tree_summary.csv) | Five-root complete metadata counts and categories |
+| [file_inventory.csv](file_inventory.csv) | Actually read core content, hashes and source-read scope |
+| [figure_inventory.csv](figure_inventory.csv) | Result figure candidates after dependency/private-path filtering; published status is separate |
+| [released_assets.csv](released_assets.csv) | Reviewed source/export hashes, transformations and protocol scope |
+| [figure_manifest.csv](figure_manifest.csv) | Current manuscript Figure 1–6 / Extended Data / supplementary panel assignments |
+| [claim_to_evidence_report.csv](claim_to_evidence_report.csv) | 32 current Results paragraph/table mappings |
+| [Evidence registry](../evidence/evidence_registry.csv) | 46,088 source-verified aggregate evidence entries; current and historical branches retained separately |
+| [numeric_and_statistical_checks.csv](numeric_and_statistical_checks.csv) | 3,749 distinct saved-output checks, zero failures |
+| [manuscript_numeric_consistency.csv](manuscript_numeric_consistency.csv) | 121 current main-text rounded-value checks |
+| [references_verified.csv](references_verified.csv) | Twenty verified bibliography records |
+| [docx_validation_report.md](docx_validation_report.md), [docx_rendering_report.md](docx_rendering_report.md) | Current Results Word content, actual PDF rendering and hash receipts |
 
-No expression matrix was densified. H5AD verification read observation metadata in bounded chunks. Existing individual-level predictions were read only to recompute metrics and test split membership; their rows were not released. Figures are unaltered copies of the selected original files. The full-resolution Figure 1 composite is available as PNG/PDF, while its smaller original panels and existing extended-figure previews are used for web navigation.
-
-See the [evidence registry](../evidence/evidence_registry.csv), [three Results sections](../docs/results/), and [four-module gallery navigation](../README.md).
+Both excluded F3 audit subtrees and all descendants are absent from published paths. Original scientific images are unchanged. Presentation XML paths are generalized, with all embedded image bytes retained. PPT summaries are not replacements for statistical source tables. Counts do not equate sample proxies with independently verified donors.

@@ -1,0 +1,128 @@
+Gene,Theme,Edge_weight,Pathway_count,Direction
+ACVR2A,Inflammation and immunity,1.7339507838036572,1,Positive
+ACVR2A,Other biological processes,1.5429139507996774,1,Positive
+ADM,Inflammation and immunity,1.7339507838036572,1,Positive
+AGRN,Collagen and extracellular matrix,1.570115263481708,1,Negative
+AGRN,Other biological processes,1.5429139507996774,1,Negative
+AIFM2,Collagen and extracellular matrix,1.570115263481708,1,Positive
+APOE,Collagen and extracellular matrix,1.570115263481708,1,Negative
+ARID5B,Other biological processes,1.3541366204591145,1,Positive
+ATP2B1,Inflammation and immunity,3.203868316440649,2,Positive
+ATP2B1,Other biological processes,1.5429139507996774,1,Positive
+BASP1,Mesenchymal and wound programs,1.5429139507996774,1,Negative
+BGN,Collagen and extracellular matrix,1.570115263481708,1,Negative
+BGN,Mesenchymal and wound programs,1.5429139507996774,1,Negative
+BHLHE40,Other biological processes,3.085827901599355,2,Positive
+BHLHE40,Inflammation and immunity,1.469917532636992,1,Positive
+C1R,Other biological processes,1.3541366204591145,1,Positive
+C1S,Other biological processes,1.3541366204591145,1,Mixed
+C3,Other biological processes,1.3541366204591145,1,Positive
+CALU,Mesenchymal and wound programs,1.5429139507996774,1,Negative
+CCN2,Collagen and extracellular matrix,1.570115263481708,1,Positive
+CCN2,Mesenchymal and wound programs,1.5429139507996774,1,Positive
+CD40,Inflammation and immunity,1.7339507838036572,1,Positive
+CKB,Other biological processes,1.5429139507996774,1,Negative
+CLU,Other biological processes,2.897050571258792,2,Positive
+CLU,Collagen and extracellular matrix,1.570115263481708,1,Positive
+COL3A1,Other biological processes,3.085827901599355,2,Negative
+COL3A1,Collagen and extracellular matrix,1.570115263481708,1,Negative
+COL3A1,Mesenchymal and wound programs,1.5429139507996774,1,Negative
+COL9A3,Collagen and extracellular matrix,1.570115263481708,1,Positive
+COLEC12,Collagen and extracellular matrix,1.570115263481708,1,Positive
+CPQ,Other biological processes,1.3541366204591145,1,Positive
+CRYAB,Other biological processes,1.5429139507996774,1,Positive
+CTHRC1,Collagen and extracellular matrix,1.570115263481708,1,Positive
+CTHRC1,Mesenchymal and wound programs,1.5429139507996774,1,Positive
+CTSF,Collagen and extracellular matrix,1.570115263481708,1,Positive
+CXCL2,Inflammation and immunity,1.469917532636992,1,Positive
+DBP,Other biological processes,1.5429139507996774,1,Positive
+DNAJB9,Other biological processes,1.3541366204591145,1,Positive
+DTNA,Other biological processes,1.5429139507996774,1,Positive
+EFNA1,Inflammation and immunity,1.469917532636992,1,Positive
+ELL2,Other biological processes,1.3541366204591145,1,Positive
+F3,Inflammation and immunity,3.203868316440649,2,Positive
+F3,Other biological processes,2.897050571258792,2,Positive
+F3,Collagen and extracellular matrix,1.570115263481708,1,Positive
+FADS1,Other biological processes,1.3541366204591145,1,Negative
+FBN1,Collagen and extracellular matrix,1.570115263481708,1,Negative
+FBN1,Mesenchymal and wound programs,1.5429139507996774,1,Negative
+FBN1,Other biological processes,1.3541366204591145,1,Negative
+FKBP5,Other biological processes,1.3541366204591145,1,Positive
+FYN,Other biological processes,2.897050571258792,2,Mixed
+FZD5,Inflammation and immunity,1.7339507838036572,1,Positive
+GCH1,Inflammation and immunity,3.203868316440649,2,Positive
+GFPT2,Inflammation and immunity,1.469917532636992,1,Positive
+GPX3,Other biological processes,1.5429139507996774,1,Positive
+GSN,Other biological processes,2.897050571258792,2,Negative
+HERC3,Other biological processes,1.3541366204591145,1,Mixed
+HSPB8,Other biological processes,1.5429139507996774,1,Positive
+IL15,Inflammation and immunity,1.7339507838036572,1,Negative
+IL15,Mesenchymal and wound programs,1.5429139507996774,1,Negative
+IL6ST,Inflammation and immunity,1.469917532636992,1,Negative
+INHBA,Inflammation and immunity,3.203868316440649,2,Positive
+INHBA,Mesenchymal and wound programs,1.5429139507996774,1,Positive
+IQGAP2,Other biological processes,1.3541366204591145,1,Negative
+ITGB5,Mesenchymal and wound programs,1.5429139507996774,1,Positive
+ITGB5,Other biological processes,1.5429139507996774,1,Positive
+ITIH5,Collagen and extracellular matrix,1.570115263481708,1,Positive
+KALRN,Other biological processes,1.5429139507996774,1,Positive
+KCNJ2,Inflammation and immunity,1.7339507838036572,1,Positive
+KCNMA1,Other biological processes,1.5429139507996774,1,Positive
+KLF9,Inflammation and immunity,1.469917532636992,1,Negative
+KRT19,Other biological processes,1.3541366204591145,1,Negative
+LCP2,Inflammation and immunity,1.7339507838036572,1,Positive
+MAGI2,Other biological processes,1.5429139507996774,1,Positive
+MAP1B,Other biological processes,1.5429139507996774,1,Negative
+MAP7,Other biological processes,1.3541366204591145,1,Positive
+MARCKS,Inflammation and immunity,1.469917532636992,1,Negative
+MDK,Collagen and extracellular matrix,1.570115263481708,1,Negative
+MEF2D,Other biological processes,1.5429139507996774,1,Positive
+MERTK,Other biological processes,1.3541366204591145,1,Positive
+MEST,Mesenchymal and wound programs,1.5429139507996774,1,Negative
+MFAP2,Collagen and extracellular matrix,1.570115263481708,1,Mixed
+MFGE8,Collagen and extracellular matrix,1.570115263481708,1,Negative
+MYH9,Other biological processes,1.5429139507996774,1,Negative
+NAMPT,Inflammation and immunity,3.203868316440649,2,Positive
+NID1,Collagen and extracellular matrix,1.570115263481708,1,Positive
+NNMT,Mesenchymal and wound programs,1.5429139507996774,1,Negative
+OSMR,Inflammation and immunity,1.7339507838036572,1,Positive
+PDE4DIP,Other biological processes,1.5429139507996774,1,Positive
+PDLIM5,Other biological processes,2.897050571258792,2,Negative
+PDLIM5,Inflammation and immunity,1.469917532636992,1,Negative
+PDLIM7,Other biological processes,1.5429139507996774,1,Negative
+PFKFB3,Inflammation and immunity,1.469917532636992,1,Positive
+PFN2,Mesenchymal and wound programs,1.5429139507996774,1,Negative
+PIK3R3,Other biological processes,1.5429139507996774,1,Positive
+PKM,Collagen and extracellular matrix,1.570115263481708,1,Negative
+PLCB4,Other biological processes,1.5429139507996774,1,Negative
+PLPP3,Other biological processes,1.5429139507996774,1,Negative
+PLPP3,Inflammation and immunity,1.469917532636992,1,Negative
+PPIB,Mesenchymal and wound programs,1.5429139507996774,1,Negative
+PTEN,Other biological processes,1.5429139507996774,1,Positive
+PTGER2,Inflammation and immunity,1.7339507838036572,1,Positive
+PXDN,Collagen and extracellular matrix,1.570115263481708,1,Negative
+RAC1,Other biological processes,1.3541366204591145,1,Negative
+RARRES2,Collagen and extracellular matrix,1.570115263481708,1,Negative
+RASGRP1,Inflammation and immunity,1.7339507838036572,1,Positive
+RHOG,Inflammation and immunity,1.7339507838036572,1,Positive
+RNF144B,Inflammation and immunity,1.7339507838036572,1,Positive
+S100A6,Collagen and extracellular matrix,1.570115263481708,1,Positive
+SCN1B,Inflammation and immunity,1.7339507838036572,1,Negative
+SDC3,Collagen and extracellular matrix,1.570115263481708,1,Negative
+SDC4,Mesenchymal and wound programs,1.5429139507996774,1,Positive
+SDC4,Inflammation and immunity,1.469917532636992,1,Positive
+SERPINE2,Collagen and extracellular matrix,1.570115263481708,1,Negative
+SERPINE2,Mesenchymal and wound programs,1.5429139507996774,1,Negative
+SERPING1,Collagen and extracellular matrix,1.570115263481708,1,Negative
+SERPING1,Other biological processes,1.3541366204591145,1,Negative
+SERPINH1,Collagen and extracellular matrix,1.570115263481708,1,Negative
+SERPINH1,Mesenchymal and wound programs,1.5429139507996774,1,Negative
+SNTB1,Mesenchymal and wound programs,1.5429139507996774,1,Positive
+SOD2,Inflammation and immunity,1.469917532636992,1,Positive
+SPSB1,Inflammation and immunity,1.469917532636992,1,Positive
+SSPN,Other biological processes,1.5429139507996774,1,Positive
+STK39,Other biological processes,1.3541366204591145,1,Negative
+SYNE1,Other biological processes,1.5429139507996774,1,Positive
+TANK,Inflammation and immunity,1.469917532636992,1,Positive
+THY1,Mesenchymal and wound programs,1.5429139507996774,1,Negative
+TNIP2,Inflammation and immunity,1.469917532636992,1,Positive

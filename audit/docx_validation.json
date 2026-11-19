@@ -3,27 +3,7 @@
   "documents": [
     {
       "file": "docs/results/Results_Part1_StromalAtlas.docx",
-      "text_paragraphs": 11,
-      "tables": 0,
-      "zip_and_xml": "passed",
-      "source_text_and_tables": "identical",
-      "editable_text": true,
-      "hyperlinks": 5,
-      "pagination_rendering": "See separate docx_rendering_report.json; re-render after rebuilding."
-    },
-    {
-      "file": "docs/results/Results_Part2_ClockPerformance_CellAge.docx",
-      "text_paragraphs": 19,
-      "tables": 1,
-      "zip_and_xml": "passed",
-      "source_text_and_tables": "identical",
-      "editable_text": true,
-      "hyperlinks": 6,
-      "pagination_rendering": "See separate docx_rendering_report.json; re-render after rebuilding."
-    },
-    {
-      "file": "docs/results/Results_Part3_StableFeatures_Mechanisms.docx",
-      "text_paragraphs": 15,
+      "text_paragraphs": 17,
       "tables": 0,
       "zip_and_xml": "passed",
       "source_text_and_tables": "identical",
@@ -32,23 +12,43 @@
       "pagination_rendering": "See separate docx_rendering_report.json; re-render after rebuilding."
     },
     {
-      "file": "docs/results/TabulaStromal_Results_Combined.docx",
-      "text_paragraphs": 45,
+      "file": "docs/results/Results_Part2_ClockPerformance_CellAge.docx",
+      "text_paragraphs": 28,
       "tables": 1,
       "zip_and_xml": "passed",
       "source_text_and_tables": "identical",
       "editable_text": true,
-      "hyperlinks": 10,
+      "hyperlinks": 4,
+      "pagination_rendering": "See separate docx_rendering_report.json; re-render after rebuilding."
+    },
+    {
+      "file": "docs/results/Results_Part3_StableFeatures_Mechanisms.docx",
+      "text_paragraphs": 37,
+      "tables": 1,
+      "zip_and_xml": "passed",
+      "source_text_and_tables": "identical",
+      "editable_text": true,
+      "hyperlinks": 4,
+      "pagination_rendering": "See separate docx_rendering_report.json; re-render after rebuilding."
+    },
+    {
+      "file": "docs/results/TabulaStromal_Results_Combined.docx",
+      "text_paragraphs": 82,
+      "tables": 2,
+      "zip_and_xml": "passed",
+      "source_text_and_tables": "identical",
+      "editable_text": true,
+      "hyperlinks": 4,
       "pagination_rendering": "See separate docx_rendering_report.json; re-render after rebuilding."
     },
     {
       "file": "docs/results/Figure_Legends.docx",
-      "text_paragraphs": 16,
+      "text_paragraphs": 26,
       "tables": 0,
       "zip_and_xml": "passed",
       "source_text_and_tables": "identical",
       "editable_text": true,
-      "hyperlinks": 1,
+      "hyperlinks": 0,
       "pagination_rendering": "See separate docx_rendering_report.json; re-render after rebuilding."
     }
   ],

@@ -1,10 +1,3 @@
-# Compact aggregate results
+# Aggregate result tables
 
-These tables preserve the original compact release. The expanded galleries contain additional source tables and figures:
-
-- [Stromal Atlas](../F1_StromalAtlas/)
-- [Figure 2](../F2_ModelPerformance/)
-- [Final EN and stable features](../TabulaStromal_Rebenchmark_2026/)
-- [CellAge](../CellAge_Exploration/)
-
-![Final EN scope comparison](../docs/assets/clock_performance.png)
+These existing tables preserve the earlier benchmark, original-EN and CellAge branches for reproducibility. Their `final_clock` names refer to that historical branch. Current compact-model and downstream results are in [F2](../F2_ModelPerformance/), [current Rebenchmark definitions](../TabulaStromal_Rebenchmark_2026/), and [F3](../F3_ds_analysis/). See [the current Results](../docs/results/) for protocol-specific comparisons.

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "slides": 40,
+  "picture_placements": 54,
+  "unique_source_images": 52,
+  "external_image_links": 0,
+  "out_of_bounds_shapes": [],
+  "all_images_original_files": true,
+  "excluded_directories_used": false,
+  "note": "Geometric/package checks and source-based layout previews; no native Office renderer installed."
+}

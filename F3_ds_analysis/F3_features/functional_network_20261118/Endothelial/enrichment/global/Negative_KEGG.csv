@@ -1,0 +1,321 @@
+Term,Overlap_Count,Pathway_Size,Query_Size,Background_Size,Genes,P_value,FDR,Gene_ratio,Fold_enrichment,Database,Direction,Lineage
+Regulation of lipolysis in adipocytes,3,32,153,11521,AKT3;PLAAT3;PRKG1,0.008591435728925853,1.0,0.0196078431372549,7.059436274509804,KEGG,Negative,Endothelial
+Protein digestion and absorption,3,35,153,11521,COL5A2;COL6A2;SLC3A2,0.011013911558413188,1.0,0.0196078431372549,6.454341736694677,KEGG,Negative,Endothelial
+ECM-receptor interaction,3,45,153,11521,AGRN;COL6A2;LAMC1,0.021694673895198333,1.0,0.0196078431372549,5.020043572984749,KEGG,Negative,Endothelial
+TNF signaling pathway,4,96,153,11521,AKT3;CCL2;CXCL1;MAP3K8,0.03882873358212369,1.0,0.026143790849673203,3.137527233115468,KEGG,Negative,Endothelial
+Neutrophil extracellular trap formation,4,100,153,11521,AKT3;CYBA;HDAC7;SLC25A5,0.044036973038552314,1.0,0.026143790849673203,3.01202614379085,KEGG,Negative,Endothelial
+Ether lipid metabolism,2,26,153,11521,LPCAT1;PLAAT3,0.046248696768908776,1.0,0.013071895424836602,5.792357968828558,KEGG,Negative,Endothelial
+Cholesterol metabolism,2,28,153,11521,NPC2;SORT1,0.052879003553794754,1.0,0.013071895424836602,5.378618113912232,KEGG,Negative,Endothelial
+Staphylococcus aureus infection,2,28,153,11521,KRT18;KRT19,0.052879003553794754,1.0,0.013071895424836602,5.378618113912232,KEGG,Negative,Endothelial
+Linoleic acid metabolism,1,5,153,11521,PLAAT3,0.06467107149703409,1.0,0.006535947712418301,15.060130718954248,KEGG,Negative,Endothelial
+Viral protein interaction with cytokine and cytokine receptor,2,32,153,11521,CCL2;CXCL1,0.06706161382034068,1.0,0.013071895424836602,4.706290849673203,KEGG,Negative,Endothelial
+Ferroptosis,2,35,153,11521,FTL;SLC3A2,0.07842492635508291,1.0,0.013071895424836602,4.302894491129785,KEGG,Negative,Endothelial
+Chemokine signaling pathway,4,122,153,11521,AKT3;CCL2;CXCL1;PARD3,0.07928507327274711,1.0,0.026143790849673203,2.468873888353156,KEGG,Negative,Endothelial
+Small cell lung cancer,3,78,153,11521,AKT3;FHIT;LAMC1,0.08514727222614059,1.0,0.0196078431372549,2.8961789844142785,KEGG,Negative,Endothelial
+Chagas disease,3,79,153,11521,AKT3;CALR;CCL2,0.08768600474766955,1.0,0.0196078431372549,2.85951849094068,KEGG,Negative,Endothelial
+Estrogen signaling pathway,3,82,153,11521,AKT3;KRT18;KRT19,0.09549116860713673,1.0,0.0196078431372549,2.7549019607843137,KEGG,Negative,Endothelial
+Glycosaminoglycan biosynthesis,2,40,153,11521,CHST3;CHST7,0.09855785795986366,1.0,0.013071895424836602,3.765032679738562,KEGG,Negative,Endothelial
+Fc gamma R-mediated phagocytosis,3,84,153,11521,AKT3;MARCKSL1;MYO10,0.10084753101058767,1.0,0.0196078431372549,2.689309056956116,KEGG,Negative,Endothelial
+NOD-like receptor signaling pathway,4,134,153,11521,ATG12;CCL2;CXCL1;CYBA,0.10300048934487537,1.0,0.026143790849673203,2.2477807043215297,KEGG,Negative,Endothelial
+AGE-RAGE signaling pathway in diabetic complications,3,85,153,11521,AKT3;CCL2;PLCD1,0.10357020089631218,1.0,0.0196078431372549,2.657670126874279,KEGG,Negative,Endothelial
+Signaling pathways regulating pluripotency of stem cells,3,87,153,11521,AKT3;KLF4;PCGF5,0.10910217049022428,1.0,0.0196078431372549,2.5965742618886636,KEGG,Negative,Endothelial
+alpha-Linolenic acid metabolism,1,9,153,11521,PLAAT3,0.11340205310920361,1.0,0.006535947712418301,8.366739288307917,KEGG,Negative,Endothelial
+cGMP-PKG signaling pathway,3,96,153,11521,AKT3;PRKG1;SLC25A5,0.13533069952905286,1.0,0.0196078431372549,2.353145424836601,KEGG,Negative,Endothelial
+Rap1 signaling pathway,4,149,153,11521,AKT3;DOCK4;PARD3;SIPA1L1,0.1366268599773778,1.0,0.026143790849673203,2.0214940562354697,KEGG,Negative,Endothelial
+Prion disease,5,205,153,11521,ATP5MC1;CYBA;LAMC1;SLC25A5;TUBA1A,0.13740442111572287,1.0,0.032679738562091505,1.8366013071895424,KEGG,Negative,Endothelial
+Hematopoietic cell lineage,2,49,153,11521,CD24;CD9,0.1378036931037011,1.0,0.013071895424836602,3.073496065092704,KEGG,Negative,Endothelial
+Antigen processing and presentation,2,51,153,11521,CALR;PSME1,0.146938300551468,1.0,0.013071895424836602,2.9529668076380884,KEGG,Negative,Endothelial
+Neurotrophin signaling pathway,3,100,153,11521,AKT3;MAGED1;SORT1,0.14762583732175008,1.0,0.0196078431372549,2.2590196078431375,KEGG,Negative,Endothelial
+Phagosome,3,103,153,11521,CALR;CYBA;TUBA1A,0.15707752659147806,1.0,0.0196078431372549,2.1932229202360554,KEGG,Negative,Endothelial
+Lipid and atherosclerosis,4,162,153,11521,AKT3;CCL2;CXCL1;CYBA,0.168882689575599,1.0,0.026143790849673203,1.859275397401759,KEGG,Negative,Endothelial
+Pantothenate and CoA biosynthesis,1,14,153,11521,PANK1,0.17078293414983303,1.0,0.006535947712418301,5.378618113912232,KEGG,Negative,Endothelial
+Diabetic cardiomyopathy,4,163,153,11521,AKT3;ATP5MC1;CYBA;SLC25A5,0.17146922909469978,1.0,0.026143790849673203,1.847868799871687,KEGG,Negative,Endothelial
+FoxO signaling pathway,3,108,153,11521,AKT3;ATG12;PLK2,0.17323015283712323,1.0,0.0196078431372549,2.091684822076979,KEGG,Negative,Endothelial
+Gap junction,2,58,153,11521,PRKG1;TUBA1A,0.17977724214147328,1.0,0.013071895424836602,2.5965742618886636,KEGG,Negative,Endothelial
+Leishmaniasis,2,58,153,11521,CYBA;MARCKSL1,0.17977724214147328,1.0,0.013071895424836602,2.5965742618886636,KEGG,Negative,Endothelial
+Rheumatoid arthritis,2,58,153,11521,CCL2;CXCL1,0.17977724214147328,1.0,0.013071895424836602,2.5965742618886636,KEGG,Negative,Endothelial
+Fluid shear stress and atherosclerosis,3,110,153,11521,AKT3;CCL2;CYBA,0.17981987311034905,1.0,0.0196078431372549,2.0536541889483066,KEGG,Negative,Endothelial
+Lysosome,3,112,153,11521,CD63;NPC2;SORT1,0.18647738311263412,1.0,0.0196078431372549,2.0169817927170866,KEGG,Negative,Endothelial
+IL-17 signaling pathway,2,60,153,11521,CCL2;CXCL1,0.18935868430873648,1.0,0.013071895424836602,2.510021786492375,KEGG,Negative,Endothelial
+Steroid biosynthesis,1,16,153,11521,FDFT1,0.19268824425412495,1.0,0.006535947712418301,4.706290849673203,KEGG,Negative,Endothelial
+Inositol phosphate metabolism,2,62,153,11521,INPP4B;PLCD1,0.19900833047164945,1.0,0.013071895424836602,2.4290533417668145,KEGG,Negative,Endothelial
+Steroid hormone biosynthesis,1,17,153,11521,CYP1B1,0.20342433279207514,1.0,0.006535947712418301,4.429450211457132,KEGG,Negative,Endothelial
+Amoebiasis,2,63,153,11521,CXCL1;LAMC1,0.2038555293012807,1.0,0.013071895424836602,2.3904969395165474,KEGG,Negative,Endothelial
+Non-small cell lung cancer,2,63,153,11521,AKT3;FHIT,0.2038555293012807,1.0,0.013071895424836602,2.3904969395165474,KEGG,Negative,Endothelial
+Human papillomavirus infection,5,239,153,11521,AKT3;COL6A2;HES4;LAMC1;PARD3,0.21220240276436073,1.0,0.032679738562091505,1.57532748106216,KEGG,Negative,Endothelial
+Olfactory transduction,1,19,153,11521,PRKG1,0.22447281075497025,1.0,0.006535947712418301,3.9631922944616442,KEGG,Negative,Endothelial
+mTOR signaling pathway,3,124,153,11521,AKT3;LAMTOR1;SLC3A2,0.22763708858562084,1.0,0.0196078431372549,1.8217900063251107,KEGG,Negative,Endothelial
+Glycerophospholipid metabolism,2,68,153,11521,LPCAT1;PLAAT3,0.22826707787669198,1.0,0.013071895424836602,2.214725105728566,KEGG,Negative,Endothelial
+Chemical carcinogenesis,3,125,153,11521,AKT3;CYP1B1;KLF4,0.23114626958770387,1.0,0.0196078431372549,1.8072156862745097,KEGG,Negative,Endothelial
+Influenza A,3,125,153,11521,AKT3;CCL2;SLC25A5,0.23114626958770387,1.0,0.0196078431372549,1.8072156862745097,KEGG,Negative,Endothelial
+Axon guidance,3,127,153,11521,ABLIM1;PARD3;SEMA6B,0.23819455871273051,1.0,0.0196078431372549,1.7787555967268796,KEGG,Negative,Endothelial
+Carbohydrate digestion and absorption,1,21,153,11521,AKT3,0.2449686495642669,1.0,0.006535947712418301,3.5857454092748213,KEGG,Negative,Endothelial
+Metabolism of xenobiotics by cytochrome P450,1,21,153,11521,CYP1B1,0.2449686495642669,1.0,0.006535947712418301,3.5857454092748213,KEGG,Negative,Endothelial
+Ovarian steroidogenesis,1,21,153,11521,CYP1B1,0.2449686495642669,1.0,0.006535947712418301,3.5857454092748213,KEGG,Negative,Endothelial
+Toll-like receptor signaling pathway,2,72,153,11521,AKT3;MAP3K8,0.247939811975359,1.0,0.013071895424836602,2.0916848220769793,KEGG,Negative,Endothelial
+MicroRNAs in cancer,3,131,153,11521,CYP1B1;FSCN1;SOX4,0.25239892026241406,1.0,0.0196078431372549,1.7244424487352195,KEGG,Negative,Endothelial
+Arachidonic acid metabolism,1,23,153,11521,PLAAT3,0.26492626609428166,1.0,0.006535947712418301,3.2739414606422277,KEGG,Negative,Endothelial
+Pentose phosphate pathway,1,23,153,11521,PGD,0.26492626609428166,1.0,0.006535947712418301,3.2739414606422277,KEGG,Negative,Endothelial
+Tryptophan metabolism,1,24,153,11521,CYP1B1,0.2747076438371566,1.0,0.006535947712418301,3.137527233115468,KEGG,Negative,Endothelial
+Phosphatidylinositol signaling system,2,81,153,11521,INPP4B;PLCD1,0.2923207711432031,1.0,0.013071895424836602,1.859275397401759,KEGG,Negative,Endothelial
+T cell receptor signaling pathway,2,81,153,11521,AKT3;MAP3K8,0.2923207711432031,1.0,0.013071895424836602,1.859275397401759,KEGG,Negative,Endothelial
+Malaria,1,28,153,11521,CCL2,0.3125568498754293,1.0,0.006535947712418301,2.689309056956116,KEGG,Negative,Endothelial
+Focal adhesion,3,149,153,11521,AKT3;COL6A2;LAMC1,0.3174599387519314,1.0,0.0196078431372549,1.5161205421766022,KEGG,Negative,Endothelial
+Platelet activation,2,88,153,11521,AKT3;PRKG1,0.32663589149586786,1.0,0.013071895424836602,1.7113784907902556,KEGG,Negative,Endothelial
+Proteoglycans in cancer,3,153,153,11521,AKT3;ANK2;CD63,0.33202893479495743,1.0,0.0196078431372549,1.476483403819044,KEGG,Negative,Endothelial
+Mineral absorption,1,31,153,11521,FTL,0.33964996875474107,1.0,0.006535947712418301,2.4290533417668145,KEGG,Negative,Endothelial
+Toxoplasmosis,2,91,153,11521,AKT3;LAMC1,0.34121920238057557,1.0,0.013071895424836602,1.6549594196653021,KEGG,Negative,Endothelial
+Cytokine-cytokine receptor interaction,2,93,153,11521,CCL2;CXCL1,0.3508879179647413,1.0,0.013071895424836602,1.6193688945112097,KEGG,Negative,Endothelial
+Homologous recombination,1,33,153,11521,XRCC3,0.3571199801533934,1.0,0.006535947712418301,2.2818379877203405,KEGG,Negative,Endothelial
+Pyruvate metabolism,1,33,153,11521,ME1,0.3571199801533934,1.0,0.006535947712418301,2.2818379877203405,KEGG,Negative,Endothelial
+GnRH secretion,1,34,153,11521,AKT3,0.3656820138438993,1.0,0.006535947712418301,2.214725105728566,KEGG,Negative,Endothelial
+Thyroid hormone signaling pathway,2,97,153,11521,AKT3;PLCD1,0.37007709342980627,1.0,0.013071895424836602,1.5525907957684792,KEGG,Negative,Endothelial
+Osteoclast differentiation,2,98,153,11521,AKT3;CYBA,0.3748405168894221,1.0,0.013071895424836602,1.536748032546352,KEGG,Negative,Endothelial
+Glutathione metabolism,1,36,153,11521,PGD,0.38246768319199265,1.0,0.006535947712418301,2.0916848220769793,KEGG,Negative,Endothelial
+Neuroactive ligand-receptor interaction,1,37,153,11521,PARD3,0.3906942782700617,1.0,0.006535947712418301,2.0351527998586825,KEGG,Negative,Endothelial
+Calcium signaling pathway,2,102,153,11521,PLCD1;SLC25A5,0.39374464825373323,1.0,0.013071895424836602,1.4764834038190442,KEGG,Negative,Endothelial
+Basal transcription factors,1,39,153,11521,TAF15,0.40682224340048967,1.0,0.006535947712418301,1.930785989609519,KEGG,Negative,Endothelial
+Synaptic vesicle cycle,1,39,153,11521,STXBP1,0.40682224340048967,1.0,0.006535947712418301,1.930785989609519,KEGG,Negative,Endothelial
+Human cytomegalovirus infection,3,174,153,11521,AKT3;CALR;CCL2,0.40795624622133464,1.0,0.0196078431372549,1.2982871309443318,KEGG,Negative,Endothelial
+Herpes simplex virus 1 infection,6,388,153,11521,AKT3;CALR;CCL2;ZNF736;ZNF841;ZNF90,0.41139371644971345,1.0,0.0392156862745098,1.1644430968263595,KEGG,Negative,Endothelial
+Long-term depression,1,40,153,11521,PRKG1,0.4147264584117883,1.0,0.006535947712418301,1.882516339869281,KEGG,Negative,Endothelial
+PPAR signaling pathway,1,40,153,11521,ME1,0.4147264584117883,1.0,0.006535947712418301,1.882516339869281,KEGG,Negative,Endothelial
+Salivary secretion,1,40,153,11521,PRKG1,0.4147264584117883,1.0,0.006535947712418301,1.882516339869281,KEGG,Negative,Endothelial
+Necroptosis,2,109,153,11521,FTL;SLC25A5,0.4261875437539278,1.0,0.013071895424836602,1.381663368711399,KEGG,Negative,Endothelial
+Spinocerebellar ataxia,2,111,153,11521,AKT3;SLC25A5,0.4352932019064157,1.0,0.013071895424836602,1.3567685332391215,KEGG,Negative,Endothelial
+Proteasome,1,43,153,11521,PSME1,0.43781671524735255,1.0,0.006535947712418301,1.7511779905760754,KEGG,Negative,Endothelial
+Human T-cell leukemia virus 1 infection,3,186,153,11521,AKT3;CALR;SLC25A5,0.45026905033405357,1.0,0.0196078431372549,1.2145266708834073,KEGG,Negative,Endothelial
+Fanconi anemia pathway,1,46,153,11521,FAAP24,0.4600017333612198,1.0,0.006535947712418301,1.6369707303211138,KEGG,Negative,Endothelial
+Circadian entrainment,1,47,153,11521,PRKG1,0.4672017102497369,1.0,0.006535947712418301,1.6021415658461966,KEGG,Negative,Endothelial
+Parkinson disease,3,195,153,11521,ATP5MC1;SLC25A5;TUBA1A,0.4811992886460205,1.0,0.0196078431372549,1.1584715937657115,KEGG,Negative,Endothelial
+Legionellosis,1,49,153,11521,CXCL1,0.48131677769750175,1.0,0.006535947712418301,1.536748032546352,KEGG,Negative,Endothelial
+Apoptosis,2,123,153,11521,AKT3;TUBA1A,0.4882269506583775,1.0,0.013071895424836602,1.224400871459695,KEGG,Negative,Endothelial
+Tight junction,2,123,153,11521,PARD3;TUBA1A,0.4882269506583775,1.0,0.013071895424836602,1.224400871459695,KEGG,Negative,Endothelial
+Transcriptional misregulation in cancer,2,123,153,11521,LYL1;TAF15,0.4882269506583775,1.0,0.013071895424836602,1.224400871459695,KEGG,Negative,Endothelial
+Yersinia infection,2,123,153,11521,AKT3;CCL2,0.4882269506583775,1.0,0.013071895424836602,1.224400871459695,KEGG,Negative,Endothelial
+RIG-I-like receptor signaling pathway,1,50,153,11521,ATG12,0.48823436251377467,1.0,0.006535947712418301,1.506013071895425,KEGG,Negative,Endothelial
+VEGF signaling pathway,1,50,153,11521,AKT3,0.48823436251377467,1.0,0.006535947712418301,1.506013071895425,KEGG,Negative,Endothelial
+Alzheimer disease,4,273,153,11521,AKT3;ATP5MC1;SLC25A5;TUBA1A,0.4926311269877515,1.0,0.026143790849673203,1.103306279776868,KEGG,Negative,Endothelial
+Adipocytokine signaling pathway,1,52,153,11521,AKT3,0.501795748145853,1.0,0.006535947712418301,1.4480894922071395,KEGG,Negative,Endothelial
+Central carbon metabolism in cancer,1,52,153,11521,AKT3,0.501795748145853,1.0,0.006535947712418301,1.4480894922071395,KEGG,Negative,Endothelial
+Prolactin signaling pathway,1,52,153,11521,AKT3,0.501795748145853,1.0,0.006535947712418301,1.4480894922071395,KEGG,Negative,Endothelial
+Melanoma,1,53,153,11521,AKT3,0.5084419466403758,1.0,0.006535947712418301,1.420767048957948,KEGG,Negative,Endothelial
+Endometrial cancer,1,54,153,11521,AKT3,0.5150000546072423,1.0,0.006535947712418301,1.3944565480513194,KEGG,Negative,Endothelial
+Autophagy,2,130,153,11521,AKT3;ATG12,0.5176563786529493,1.0,0.013071895424836602,1.1584715937657115,KEGG,Negative,Endothelial
+Fc epsilon RI signaling pathway,1,55,153,11521,AKT3,0.5214712320420631,1.0,0.006535947712418301,1.3691027926322044,KEGG,Negative,Endothelial
+Shigellosis,3,211,153,11521,AKT3;ATG12;PLCD1,0.534074378704485,1.0,0.0196078431372549,1.0706254065607286,KEGG,Negative,Endothelial
+Cellular senescence,2,135,153,11521,AKT3;SLC25A5,0.537984857423716,1.0,0.013071895424836602,1.1155652384410555,KEGG,Negative,Endothelial
+Epithelial cell signaling in Helicobacter pylori infection,1,59,153,11521,CXCL1,0.546509309363401,1.0,0.006535947712418301,1.2762822643181566,KEGG,Negative,Endothelial
+Endocytosis,3,216,153,11521,PARD3;SNX3;VPS37B,0.5499749348153007,1.0,0.0196078431372549,1.0458424110384894,KEGG,Negative,Endothelial
+Acute myeloid leukemia,1,60,153,11521,AKT3,0.5525627097880565,1.0,0.006535947712418301,1.2550108932461874,KEGG,Negative,Endothelial
+Glioma,1,61,153,11521,AKT3,0.5585358277884432,1.0,0.006535947712418301,1.234436944176578,KEGG,Negative,Endothelial
+PI3K-Akt signaling pathway,3,222,153,11521,AKT3;COL6A2;LAMC1,0.568633546360652,1.0,0.0196078431372549,1.0175763999293412,KEGG,Negative,Endothelial
+Mitophagy,1,63,153,11521,BNIP3L,0.5702454339594301,1.0,0.006535947712418301,1.1952484697582737,KEGG,Negative,Endothelial
+Renal cell carcinoma,1,63,153,11521,AKT3,0.5702454339594301,1.0,0.006535947712418301,1.1952484697582737,KEGG,Negative,Endothelial
+B cell receptor signaling pathway,1,64,153,11521,AKT3,0.575983996413978,1.0,0.006535947712418301,1.1765727124183007,KEGG,Negative,Endothelial
+Cholinergic synapse,1,64,153,11521,AKT3,0.575983996413978,1.0,0.006535947712418301,1.1765727124183007,KEGG,Negative,Endothelial
+Ras signaling pathway,2,147,153,11521,AKT3;PLAAT3,0.5843406962192763,1.0,0.013071895424836602,1.0244986883642346,KEGG,Negative,Endothelial
+Adherens junction,1,66,153,11521,PARD3,0.5872337243328069,1.0,0.006535947712418301,1.1409189938601703,KEGG,Negative,Endothelial
+ErbB signaling pathway,1,68,153,11521,AKT3,0.5981868807686934,1.0,0.006535947712418301,1.107362552864283,KEGG,Negative,Endothelial
+Progesterone-mediated oocyte maturation,1,68,153,11521,AKT3,0.5981868807686934,1.0,0.006535947712418301,1.107362552864283,KEGG,Negative,Endothelial
+Kaposi sarcoma-associated herpesvirus infection,2,154,153,11521,AKT3;CXCL1,0.609770013615871,1.0,0.013071895424836602,0.9779305661658603,KEGG,Negative,Endothelial
+Huntington disease,3,237,153,11521,ATP5MC1;SLC25A5;TUBA1A,0.6131649494531476,1.0,0.0196078431372549,0.9531728303135599,KEGG,Negative,Endothelial
+Pathogenic Escherichia coli infection,2,156,153,11521,MYO10;TUBA1A,0.6168164946342128,1.0,0.013071895424836602,0.9653929948047595,KEGG,Negative,Endothelial
+Pancreatic cancer,1,72,153,11521,AKT3,0.6192343501943094,1.0,0.006535947712418301,1.0458424110384896,KEGG,Negative,Endothelial
+Protein processing in endoplasmic reticulum,2,158,153,11521,CALR;SSR4,0.6237657855016681,1.0,0.013071895424836602,0.95317283031356,KEGG,Negative,Endothelial
+Chronic myeloid leukemia,1,73,153,11521,AKT3,0.6243227548078365,1.0,0.006535947712418301,1.0315158026680993,KEGG,Negative,Endothelial
+Glucagon signaling pathway,1,73,153,11521,AKT3,0.6243227548078365,1.0,0.006535947712418301,1.0315158026680993,KEGG,Negative,Endothelial
+Natural killer cell mediated cytotoxicity,1,74,153,11521,CD48,0.6293435984935816,1.0,0.006535947712418301,1.0175763999293412,KEGG,Negative,Endothelial
+"Parathyroid hormone synthesis, secretion and action",1,74,153,11521,MMP15,0.6293435984935816,1.0,0.006535947712418301,1.0175763999293412,KEGG,Negative,Endothelial
+Vascular smooth muscle contraction,1,74,153,11521,PRKG1,0.6293435984935816,1.0,0.006535947712418301,1.0175763999293412,KEGG,Negative,Endothelial
+Cell adhesion molecules,1,75,153,11521,CADM1,0.6342977724632227,1.0,0.006535947712418301,1.0040087145969498,KEGG,Negative,Endothelial
+PD-L1 expression and PD-1 checkpoint pathway in cancer,1,76,153,11521,AKT3,0.6391861562490979,1.0,0.006535947712418301,0.9907980736154111,KEGG,Negative,Endothelial
+Choline metabolism in cancer,1,79,153,11521,AKT3,0.6534651898166937,1.0,0.006535947712418301,0.95317283031356,KEGG,Negative,Endothelial
+Human immunodeficiency virus 1 infection,2,167,153,11521,AKT3;CALR,0.6538412365046204,1.0,0.013071895424836602,0.901804234667919,KEGG,Negative,Endothelial
+Coronavirus disease,2,168,153,11521,CCL2;RPL31,0.6570629367954165,1.0,0.013071895424836602,0.8964363523187053,KEGG,Negative,Endothelial
+Colorectal cancer,1,81,153,11521,AKT3,0.6626712074939607,1.0,0.006535947712418301,0.9296376987008795,KEGG,Negative,Endothelial
+Epstein-Barr virus infection,2,171,153,11521,AKT3;CALR,0.6665853893226644,1.0,0.013071895424836602,0.8807093987692542,KEGG,Negative,Endothelial
+C-type lectin receptor signaling pathway,1,82,153,11521,AKT3,0.6671826852259035,1.0,0.006535947712418301,0.9183006535947713,KEGG,Negative,Endothelial
+Prostate cancer,1,82,153,11521,AKT3,0.6671826852259035,1.0,0.006535947712418301,0.9183006535947713,KEGG,Negative,Endothelial
+mRNA surveillance pathway,1,82,153,11521,SSU72,0.6671826852259035,1.0,0.006535947712418301,0.9183006535947713,KEGG,Negative,Endothelial
+Adrenergic signaling in cardiomyocytes,1,83,153,11521,AKT3,0.6716342150065167,1.0,0.006535947712418301,0.9072367902984487,KEGG,Negative,Endothelial
+HIF-1 signaling pathway,1,84,153,11521,AKT3,0.6760265882451952,1.0,0.006535947712418301,0.8964363523187053,KEGG,Negative,Endothelial
+JAK-STAT signaling pathway,1,84,153,11521,AKT3,0.6760265882451952,1.0,0.006535947712418301,0.8964363523187053,KEGG,Negative,Endothelial
+Leukocyte transendothelial migration,1,84,153,11521,CYBA,0.6760265882451952,1.0,0.006535947712418301,0.8964363523187053,KEGG,Negative,Endothelial
+NF-kappa B signaling pathway,1,85,153,11521,CXCL1,0.6803605859717394,1.0,0.006535947712418301,0.8858900422914264,KEGG,Negative,Endothelial
+Purine metabolism,1,85,153,11521,FHIT,0.6803605859717394,1.0,0.006535947712418301,0.8858900422914264,KEGG,Negative,Endothelial
+Dopaminergic synapse,1,86,153,11521,AKT3,0.6846369789715927,1.0,0.006535947712418301,0.8755889952880377,KEGG,Negative,Endothelial
+Longevity regulating pathway,1,86,153,11521,AKT3,0.6846369789715927,1.0,0.006535947712418301,0.8755889952880377,KEGG,Negative,Endothelial
+"Growth hormone synthesis, secretion and action",1,87,153,11521,AKT3,0.6888565279193275,1.0,0.006535947712418301,0.8655247539628879,KEGG,Negative,Endothelial
+Insulin resistance,1,87,153,11521,AKT3,0.6888565279193275,1.0,0.006535947712418301,0.8655247539628879,KEGG,Negative,Endothelial
+Alcoholism,1,89,153,11521,HDAC7,0.6971280865912124,1.0,0.006535947712418301,0.8460747594918117,KEGG,Negative,Endothelial
+Thermogenesis,2,182,153,11521,ATP5MC1;PRKG1,0.6996967026968738,1.0,0.013071895424836602,0.8274797098326511,KEGG,Negative,Endothelial
+Relaxin signaling pathway,1,91,153,11521,AKT3,0.7051811501308736,1.0,0.006535947712418301,0.8274797098326511,KEGG,Negative,Endothelial
+Apelin signaling pathway,1,93,153,11521,AKT3,0.7130214531648866,1.0,0.006535947712418301,0.8096844472556048,KEGG,Negative,Endothelial
+Breast cancer,1,94,153,11521,AKT3,0.7168635705665116,1.0,0.006535947712418301,0.8010707829230983,KEGG,Negative,Endothelial
+Gastric cancer,1,95,153,11521,AKT3,0.7206545807794568,1.0,0.006535947712418301,0.7926384588923289,KEGG,Negative,Endothelial
+AMPK signaling pathway,1,99,153,11521,AKT3,0.7353209255387452,1.0,0.006535947712418301,0.760612662573447,KEGG,Negative,Endothelial
+Phospholipase D signaling pathway,1,103,153,11521,AKT3,0.7492220190381762,1.0,0.006535947712418301,0.7310743067453519,KEGG,Negative,Endothelial
+Sphingolipid signaling pathway,1,103,153,11521,AKT3,0.7492220190381762,1.0,0.006535947712418301,0.7310743067453519,KEGG,Negative,Endothelial
+cAMP signaling pathway,1,103,153,11521,AKT3,0.7492220190381762,1.0,0.006535947712418301,0.7310743067453519,KEGG,Negative,Endothelial
+Oxidative phosphorylation,1,104,153,11521,ATP5MC1,0.7525824176269971,1.0,0.006535947712418301,0.7240447461035697,KEGG,Negative,Endothelial
+Measles,1,105,153,11521,AKT3,0.7558980776167554,1.0,0.006535947712418301,0.7171490818549642,KEGG,Negative,Endothelial
+Wnt signaling pathway,1,105,153,11521,ZNRF3,0.7558980776167554,1.0,0.006535947712418301,0.7171490818549642,KEGG,Negative,Endothelial
+Hippo signaling pathway,1,111,153,11521,PARD3,0.7748851268390796,1.0,0.006535947712418301,0.6783842666195607,KEGG,Negative,Endothelial
+MAPK signaling pathway,2,212,153,11521,AKT3;MAP3K8,0.7763933892379042,1.0,0.013071895424836602,0.710383524478974,KEGG,Negative,Endothelial
+Insulin signaling pathway,1,112,153,11521,AKT3,0.7779037574783102,1.0,0.006535947712418301,0.672327264239029,KEGG,Negative,Endothelial
+Salmonella infection,2,218,153,11521,AKT3;TUBA1A,0.789521271955936,1.0,0.013071895424836602,0.6908316843556995,KEGG,Negative,Endothelial
+Hepatitis C,1,117,153,11521,AKT3,0.7924042027607124,1.0,0.006535947712418301,0.6435953298698397,KEGG,Negative,Endothelial
+Hepatocellular carcinoma,1,125,153,11521,AKT3,0.8136731772584519,1.0,0.006535947712418301,0.6024052287581699,KEGG,Negative,Endothelial
+Tuberculosis,1,125,153,11521,AKT3,0.8136731772584519,1.0,0.006535947712418301,0.6024052287581699,KEGG,Negative,Endothelial
+Ribosome,1,127,153,11521,RPL31,0.8186429679090218,1.0,0.006535947712418301,0.5929185322422932,KEGG,Negative,Endothelial
+Pathways of neurodegeneration,3,339,153,11521,ATP5MC1;SLC25A5;TUBA1A,0.8326743179753201,1.0,0.0196078431372549,0.6663774654404534,KEGG,Negative,Endothelial
+Non-alcoholic fatty liver disease,1,135,153,11521,AKT3,0.8372392325973858,1.0,0.006535947712418301,0.5577826192205277,KEGG,Negative,Endothelial
+Hepatitis B,1,138,153,11521,AKT3,0.8437133406171536,1.0,0.006535947712418301,0.545656910107038,KEGG,Negative,Endothelial
+Viral carcinogenesis,1,159,153,11521,HDAC7,0.8824030532457812,1.0,0.006535947712418301,0.473589016319316,KEGG,Negative,Endothelial
+Amyotrophic lateral sclerosis,2,282,153,11521,ATP5MC1;TUBA1A,0.8924305841296363,1.0,0.013071895424836602,0.5340471886153989,KEGG,Negative,Endothelial
+Pathways in cancer,2,365,153,11521,AKT3;LAMC1,0.9573540694151007,1.0,0.013071895424836602,0.4126063210672397,KEGG,Negative,Endothelial
+ABC transporters,0,22,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+African trypanosomiasis,0,17,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+"Alanine, aspartate and glutamate metabolism",0,22,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Aldosterone synthesis and secretion,0,52,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Aldosterone-regulated sodium reabsorption,0,22,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Allograft rejection,0,19,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Amino sugar and nucleotide sugar metabolism,0,42,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Aminoacyl-tRNA biosynthesis,0,43,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Amphetamine addiction,0,36,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Arginine and proline metabolism,0,32,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Arginine biosynthesis,0,9,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Arrhythmogenic right ventricular cardiomyopathy,0,39,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Ascorbate and aldarate metabolism,0,8,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Asthma,0,13,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Autoimmune thyroid disease,0,18,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Bacterial invasion of epithelial cells,0,69,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Basal cell carcinoma,0,35,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Base excision repair,0,32,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Bile secretion,0,27,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Biosynthesis of unsaturated fatty acids,0,21,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Bladder cancer,0,35,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Butanoate metabolism,0,17,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Caffeine metabolism,0,1,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Cardiac muscle contraction,0,40,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Cell cycle,0,107,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Circadian rhythm,0,27,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Citrate cycle (TCA cycle),0,27,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Cocaine addiction,0,26,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Collecting duct acid secretion,0,16,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Complement and coagulation cascades,0,29,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Cortisol synthesis and secretion,0,34,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Cushing syndrome,0,95,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Cysteine and methionine metabolism,0,35,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Cytosolic DNA-sensing pathway,0,41,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+D-Glutamine and D-glutamate metabolism,0,3,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+DNA replication,0,35,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Dilated cardiomyopathy,0,44,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Drug metabolism,0,49,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Endocrine and other factor-regulated calcium reabsorption,0,31,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Fat digestion and absorption,0,15,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Fatty acid biosynthesis,0,13,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Fatty acid degradation,0,31,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Fatty acid elongation,0,21,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Folate biosynthesis,0,16,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Fructose and mannose metabolism,0,27,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+GABAergic synapse,0,37,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Galactose metabolism,0,20,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Gastric acid secretion,0,38,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Glutamatergic synapse,0,53,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Glycerolipid metabolism,0,39,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+"Glycine, serine and threonine metabolism",0,23,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Glycolysis / Gluconeogenesis,0,41,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Glycosaminoglycan degradation,0,15,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Glycosphingolipid biosynthesis,0,27,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,0,24,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Glyoxylate and dicarboxylate metabolism,0,25,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+GnRH signaling pathway,0,66,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Graft-versus-host disease,0,20,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Hedgehog signaling pathway,0,39,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Histidine metabolism,0,11,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Hypertrophic cardiomyopathy,0,45,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Inflammatory bowel disease,0,37,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Inflammatory mediator regulation of TRP channels,0,58,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Insulin secretion,0,42,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Intestinal immune network for IgA production,0,25,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Long-term potentiation,0,44,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Lysine degradation,0,54,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Mannose type O-glycan biosynthesis,0,18,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Maturity onset diabetes of the young,0,2,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Melanogenesis,0,60,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Mismatch repair,0,21,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Morphine addiction,0,38,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Mucin type O-glycan biosynthesis,0,16,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+N-Glycan biosynthesis,0,45,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+"Neomycin, kanamycin and gentamicin biosynthesis",0,2,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Nicotinate and nicotinamide metabolism,0,25,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Nicotine addiction,0,1,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Nitrogen metabolism,0,6,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Non-homologous end-joining,0,11,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Notch signaling pathway,0,49,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Nucleotide excision repair,0,43,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+One carbon pool by folate,0,16,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Oocyte meiosis,0,87,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Other glycan degradation,0,16,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Other types of O-glycan biosynthesis,0,31,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Oxytocin signaling pathway,0,93,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Pancreatic secretion,0,42,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Pentose and glucuronate interconversions,0,11,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Peroxisome,0,67,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Pertussis,0,51,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Phenylalanine metabolism,0,6,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+"Phenylalanine, tyrosine and tryptophan biosynthesis",0,2,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Phosphonate and phosphinate metabolism,0,5,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Phototransduction,0,7,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Porphyrin and chlorophyll metabolism,0,20,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Primary bile acid biosynthesis,0,8,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Primary immunodeficiency,0,22,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Propanoate metabolism,0,30,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Protein export,0,23,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Proximal tubule bicarbonate reclamation,0,11,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Pyrimidine metabolism,0,45,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+RNA degradation,0,70,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+RNA polymerase,0,31,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+RNA transport,0,149,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Regulation of actin cytoskeleton,0,158,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Renin secretion,0,36,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Renin-angiotensin system,0,9,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Retinol metabolism,0,13,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Retrograde endocannabinoid signaling,0,84,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Riboflavin metabolism,0,7,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Ribosome biogenesis in eukaryotes,0,70,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+SNARE interactions in vesicular transport,0,31,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Selenocompound metabolism,0,16,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Serotonergic synapse,0,48,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Sphingolipid metabolism,0,37,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Spliceosome,0,129,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Starch and sucrose metabolism,0,17,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Sulfur metabolism,0,10,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Sulfur relay system,0,8,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Synthesis and degradation of ketone bodies,0,7,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Systemic lupus erythematosus,0,47,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+TGF-beta signaling pathway,0,64,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Taste transduction,0,13,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Taurine and hypotaurine metabolism,0,3,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Terpenoid backbone biosynthesis,0,20,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Th1 and Th2 cell differentiation,0,70,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Th17 cell differentiation,0,80,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Thiamine metabolism,0,8,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Thyroid cancer,0,33,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Thyroid hormone synthesis,0,41,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Type I diabetes mellitus,0,23,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Type II diabetes mellitus,0,28,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Tyrosine metabolism,0,12,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Ubiquinone and other terpenoid-quinone biosynthesis,0,9,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Ubiquitin mediated proteolysis,0,132,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+"Valine, leucine and isoleucine degradation",0,41,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Various types of N-glycan biosynthesis,0,33,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Vasopressin-regulated water reabsorption,0,36,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Vibrio cholerae infection,0,41,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Viral myocarditis,0,43,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Vitamin B6 metabolism,0,4,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+Vitamin digestion and absorption,0,10,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+beta-Alanine metabolism,0,19,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial
+p53 signaling pathway,0,66,153,11521,,1.0,1.0,0.0,0.0,KEGG,Negative,Endothelial

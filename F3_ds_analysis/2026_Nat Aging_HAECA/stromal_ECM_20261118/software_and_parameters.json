@@ -1,0 +1,38 @@
+{
+  "started": "2026-11-18T18:49:05.452364",
+  "phase": "update",
+  "parameters": {
+    "phase": "update",
+    "dpi": 600,
+    "seed": 2556,
+    "min_cells": 20,
+    "lisa_python": "/mnt/Mercury/home/wangyuting/miniconda3/envs/lisa_env/bin/python",
+    "lisa_data": "/mnt/Mercury/home/wangyuting/miniconda3/envs/lisa_env/lib/python3.7/site-packages/lisa/data",
+    "n_cpus": 4,
+    "lisa_jobs": 4,
+    "min_proxy_groups": 8,
+    "raw_chunk_rows": 8192,
+    "age_contrast": "median",
+    "force_counts": false,
+    "force_models": false
+  },
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "1.5.3",
+    "scipy": "1.11.4",
+    "statsmodels": "0.14.0",
+    "matplotlib": "3.6.3",
+    "seaborn": "0.13.2",
+    "networkx": "2.8",
+    "h5py": "3.14.0",
+    "anndata": "0.8.0",
+    "decoupler": "2.1.6",
+    "nbformat": "5.9.2",
+    "pydeseq2": "0.4.0"
+  },
+  "script_sha256": "4fd82e6a07c3c3a8c05312b3f48b612612a681899c14b1132dac815943e14283",
+  "status": "complete_with_documented_limitations",
+  "original_results_policy": "new subdirectories; original inputs preserved; same-run outputs overwritten as explicitly authorized",
+  "finished": "2026-11-18T18:50:35.761283",
+  "validation_status": "passed"
+}

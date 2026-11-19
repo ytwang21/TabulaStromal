@@ -1,0 +1,28 @@
+Celltype,n_stable_features,mean_selection_frequency,model_abs_coefficient,model_signed_coefficient,n_positive_model_features,n_negative_model_features,Lineage,coefficient_interpretation
+Myfibro_CALD1_kidney,28,0.8437380952380952,0.0,0.0,0,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+Myfibro_CALD1_pan,65,0.8175794871794873,8.91022948940445,-0.8862375052403969,18,14,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+Myfibro_KRT8_pan,19,0.9127719298245613,0.0,0.0,0,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+Myfibro_MYH11_uterus,15,0.8601777777777778,0.0,0.0,0,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+Myfibro_QKI_brain,37,0.853009009009009,0.0859703400358278,0.0859703400358278,3,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+Myfibro_QKI_eye,58,0.8458275862068966,0.0,0.0,0,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+Myfibro_TAGLN_pan,59,0.8936949152542373,15.495027369604703,-9.874804824405727,7,44,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+Myfibro_TPM1_pan,9,0.8152592592592592,3.920061269580739,-3.920061269580739,0,7,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+Myfibro_TUBB2B_pan,42,0.8972698412698412,6.239518827891303,6.239518827891303,36,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+eFibro_COL1A1_lung,27,0.9210617283950617,0.0,0.0,0,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+eFibro_COL1A1_pan,70,0.8309142857142857,6.909817288122569,-3.5055642167389682,15,20,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+eFibro_COL1A2_pan,22,0.8378484848484848,5.8114327137331765,-4.174211697336154,3,13,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+eFibro_COL3A1_lung,2,0.7726666666666666,0.0,0.0,0,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+eFibro_COL3A1_pan,3,0.7062222222222222,0.0,0.0,0,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+eFibro_DCN_heart,16,0.9007083333333333,0.0,0.0,0,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+eFibro_DCN_pan,44,0.9370757575757576,7.441069108329587,1.488811695865507,16,17,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+eFibro_DCN_uterus,3,0.8268888888888889,0.0,0.0,0,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+eFibro_HNRNPA1_pan,38,0.8641228070175438,0.0,0.0,0,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+eFibro_IGFBP7_pan,13,0.8988717948717949,0.0,0.0,0,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+eFibro_SPARC_pan,16,0.924,2.2411964784653406,-0.6114591445576714,8,5,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+iFibro_ARHGDIB_pan,29,0.9051494252873563,0.0,0.0,0,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+iFibro_CD74_bone marrow,18,0.892037037037037,0.0,0.0,0,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+iFibro_CD74_pan,21,0.9444126984126985,0.0,0.0,0,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+iFibro_CD74_skin,4,0.8456666666666667,0.0,0.0,0,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+qFibro_APOD_breast,21,0.9096825396825396,0.0,0.0,0,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+qFibro_CFD_pan,9,0.9091111111111112,0.0,0.0,0,0,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging
+qFibro_CLU_pan,62,0.9277741935483871,2.5668821441181326,0.9012593583464633,13,10,Fibroblast,Conditional standardized-model contribution; not biological pro/anti-aging

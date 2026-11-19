@@ -1,0 +1,1346 @@
+[
+  {
+    "slide": 1,
+    "section": "TabulaStromal · Downstream analysis",
+    "title": "稳定年龄预测特征的基质细胞生物学解读",
+    "takeaway": "Fibroblast × Endothelial | Stable features → Function / TF → ECM → Senescence state",
+    "images": [],
+    "evidence_notes": [
+      "Scope: ds_analysis.md, F3_features README and workflow, TF interpretation, and ModelFeature_cellAge key_findings.",
+      "Excluded: VenEC_CLU_eye_audit and F3_features/Age10_20_audit_20261117, including descendants."
+    ]
+  },
+  {
+    "slide": 2,
+    "section": "研究设计",
+    "title": "先区分预测、功能关联与细胞衰老状态",
+    "takeaway": "证据分层：描述性模式 → 经校正的统计关联 → 待实验验证的机制假说",
+    "images": [],
+    "evidence_notes": [
+      "Use only actual results. Single-cell counts are not biological replicate counts. Proxy units and limited coverage are explicitly documented."
+    ]
+  },
+  {
+    "slide": 3,
+    "section": "01 · 稳定特征",
+    "title": "两类细胞各27个 stable celltypes，特征分布不均",
+    "takeaway": "Fibroblast：750 features / 678 genes；Endothelial：350 features / 337 genes。柱长不是细胞丰度。",
+    "images": [
+      {
+        "path": "F3_features/results/Fibroblast/figures/stable_features_subtype_barplot.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "68a116c59ca259f027ed3b2a5c0c73561d8a6bee718a1196730fa3bae9915c79",
+        "display_box_inches": [
+          0.67,
+          2.771372257344738,
+          7.15,
+          3.7172554853105244
+        ]
+      },
+      {
+        "path": "F3_features/results/Endothelial/figures/stable_features_subtype_barplot.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "8cdf7fecdbaed5a059661e9964d23407963fa7ddebfe9ed0d530ae65cf2adf84",
+        "display_box_inches": [
+          8.17,
+          2.800625915080527,
+          7.15,
+          3.658748169838946
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "Y = exact Celltype; colors = Celltype_general; legend title = subtype.",
+      "Evidence: performance_first_features.csv / performance_first_celltypes.csv; current exact model identities."
+    ]
+  },
+  {
+    "slide": 4,
+    "section": "01 · 稳定特征",
+    "title": "Fibroblast：存在年轻、中年和老年相对高表达模式",
+    "takeaway": "保留原始 Age_group A–H；Young-high=A–C，Middle-high=D–F，Old-high=G–H，仅为展示分组。",
+    "images": [
+      {
+        "path": "F3_features/results/Fibroblast/figures/top_dynamic_stable_features.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "fff5f46a39070a74a1687d6ac63d0d27ade6bcbd84e5df082a7e7fb2c7d12ba6",
+        "display_box_inches": [
+          2.665652687536917,
+          1.48,
+          10.668694624926166,
+          6.3
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "Original source age labels not comprehensively cleaned in this exploratory display.",
+      "Display filtering: 520/750 features retained: Young-high183, Middle-high43, Old-high294; top30 shown.",
+      "Expression pattern is not a differential-expression P-value or a pro/anti-aging direction."
+    ]
+  },
+  {
+    "slide": 5,
+    "section": "01 · 稳定特征",
+    "title": "Endothelial：年龄组模式具有异质性",
+    "takeaway": "161 / 350 个特征通过展示筛选；全部特征仍保留。热图模式不代表独立复现或显著年龄效应。",
+    "images": [
+      {
+        "path": "F3_features/results/Endothelial/figures/top_dynamic_stable_features.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "ef41f92f226100ecf020d07b4a4194e4898c395da58a860ef5d8e2bc3fad66a4",
+        "display_box_inches": [
+          2.68984051978736,
+          1.48,
+          10.62031896042528,
+          6.3
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "Display groups: Young-high34, Middle-high21, Old-high106; original A-H labels unchanged.",
+      "At least one proxy group per Age_group can provide an observed mean; NA remains missing."
+    ]
+  },
+  {
+    "slide": 6,
+    "section": "02 · 功能富集",
+    "title": "Fibroblast：炎症与胶原相关基质功能富集",
+    "takeaway": "稳定年龄预测基因携带炎症与基质功能信息；ORA不提供通路激活方向。",
+    "images": [
+      {
+        "path": "F3_features/functional_network_20261118/Fibroblast/figures/All_Hallmark_dotplot.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "22cda2fc2aa239155d6e2dc8e1b526f22b213aa52fbee12135c5b6e2198fa452",
+        "display_box_inches": [
+          2.216723350253808,
+          1.48,
+          7.516553299492385,
+          3.03
+        ]
+      },
+      {
+        "path": "F3_features/functional_network_20261118/Fibroblast/figures/All_GO_CC_dotplot.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "fc0f4068d12e0e5a5af72caf7694affeefc4f65c53751ff70bb1b98228ef64e9",
+        "display_box_inches": [
+          1.842002141327623,
+          4.65,
+          8.265995717344754,
+          3.03
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "F3_features/functional_network_20261118/Fibroblast/tables/global_significant_pathways.csv",
+      "All unique stable genes; measured-gene universe11700; BH separately within each database.",
+      "EMT hallmark enrichment does not prove an epithelial-to-mesenchymal transition in fibroblasts."
+    ]
+  },
+  {
+    "slide": 7,
+    "section": "02 · 功能富集",
+    "title": "Endothelial：金属稳态与细胞骨架信号集中",
+    "takeaway": "可支持金属稳态 / 骨架相关功能富集；不推断实际金属暴露。",
+    "images": [
+      {
+        "path": "F3_features/functional_network_20261118/Endothelial/figures/All_Reactome_2022_dotplot.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "aec2092ac747668600baff9d7df38dd62bea5b94fe3fc389de5e8ae1ba6cffc6",
+        "display_box_inches": [
+          1.7122376873661673,
+          1.48,
+          8.525524625267666,
+          3.03
+        ]
+      },
+      {
+        "path": "F3_features/functional_network_20261118/Endothelial/figures/All_GO_CC_dotplot.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "6659eb1e4553d9a848081888c147747cbc7a4f84f060ae756e39456986ee0b22",
+        "display_box_inches": [
+          2.17938972162741,
+          4.65,
+          7.591220556745181,
+          3.03
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "F3_features/functional_network_20261118/Endothelial/tables/global_significant_pathways.csv",
+      "KEGG Mineral absorption q=0.007905; repeated MT genes are not independent replication."
+    ]
+  },
+  {
+    "slide": 8,
+    "section": "02 · 功能网络",
+    "title": "Fibroblast：将显著功能连接到具体稳定基因",
+    "takeaway": "功能网络用于解释富集由哪些基因贡献，不新增独立的机制证据。",
+    "images": [
+      {
+        "path": "F3_features/functional_network_20261118/Fibroblast/figures/age_associated_gene_functional_theme_network.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "2e63eb6b2ab7040f25e17657972840741602ff9bd04a302e9ae1cb9d7f30456e",
+        "display_box_inches": [
+          1.4910180412371141,
+          1.48,
+          9.127963917525772,
+          6.3
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "F3_features/functional_network_20261118/Fibroblast/tables/gene_theme_displayed_edges.csv",
+      "No comparable longevity cohort; not a longevity-reversal network."
+    ]
+  },
+  {
+    "slide": 9,
+    "section": "02 · 功能网络",
+    "title": "Endothelial：金属稳态与黏附 / 骨架两个主题",
+    "takeaway": "同一个功能主题中可出现不同模型贡献方向，不能整体命名为“促进衰老”。",
+    "images": [
+      {
+        "path": "F3_features/functional_network_20261118/Endothelial/figures/age_associated_gene_functional_theme_network.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "eae96b342ea9425103de52ba83127dc281bfbbfe5f995cbf80966ea1d7e5db4d",
+        "display_box_inches": [
+          2.985509020618557,
+          1.48,
+          6.138981958762886,
+          6.3
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "F3_features/functional_network_20261118/Endothelial/tables/gene_theme_displayed_edges.csv"
+    ]
+  },
+  {
+    "slide": 10,
+    "section": "02 · KEGG上下文",
+    "title": "Fibroblast：KEGG成员图扩展功能覆盖",
+    "takeaway": "132 个基因 / 28 条上下文通路；该图展示成员关系，Fibroblast全局KEGG无FDR显著通路。",
+    "images": [
+      {
+        "path": "F3_features/results/Fibroblast/figures/KEGG_pathway_gene_heatmap.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "55bde5cc22a310442410b27100115cce698cbc9c9519b43a791763785ebf33ca",
+        "display_box_inches": [
+          0.7,
+          1.6876425962348978,
+          14.6,
+          5.884714807530204
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "Source F3_features main workflow, KEGG_2021_Human. Context choice does not reduce the BH denominator.",
+      "Non-significant pathway rows remain in this contextual view; right side reports complete-library q values."
+    ]
+  },
+  {
+    "slide": 11,
+    "section": "02 · KEGG上下文",
+    "title": "Endothelial：成员覆盖与显著富集是两件事",
+    "takeaway": "“富集图基因少”源于显著性 / 显示筛选，不代表 stable genes 在读取时丢失。",
+    "images": [
+      {
+        "path": "F3_features/results/Endothelial/figures/KEGG_pathway_gene_heatmap.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "c494ff22bb763f1efeeb76959f75fe237b8464f96a1b3260f1788fa9e10c129e",
+        "display_box_inches": [
+          0.9369977212305359,
+          1.48,
+          10.236004557538928,
+          6.3
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "350 exact features/337 unique genes;150 genes annotated in any KEGG. Context display and strict FDR view are separate."
+    ]
+  },
+  {
+    "slide": 12,
+    "section": "03 · LISA2",
+    "title": "LISA输入门槛决定实际可分析的细胞类型",
+    "takeaway": "Fibroblast 14 / 27、Endothelial 5 / 27 完成三类assay；其余映射基因不足20个，明确跳过。",
+    "images": [
+      {
+        "path": "TF_analysis/stable_celltype_LISA2_20261118/figures/LISA2_celltype_eligibility.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "097a3e24584e1466617cee45b2fc9595c83d47aa7904426ec68fbf0f134475e8",
+        "display_box_inches": [
+          2.9584308841843088,
+          1.48,
+          10.083138231631382,
+          6.3
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "TF_analysis/stable_celltype_LISA2_20261118/celltype_run_status.csv",
+      "Mercury lisa_env LISA2 2.2.6; hg38; Direct, DNase, H3K27ac; regulatory background3000; seed2556."
+    ]
+  },
+  {
+    "slide": 13,
+    "section": "03 · LISA2",
+    "title": "Fibroblast：多个celltype具有候选调控关联",
+    "takeaway": "q为lineage内全部celltype×factor校正；关联不证明TF随年龄激活或驱动衰老。",
+    "images": [
+      {
+        "path": "TF_analysis/stable_celltype_LISA2_20261118/Fibroblast/figures/celltype_TF_heatmap.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "ebd39390ab62d82905141836e029a8c79a04ffa6812358b5521315abe9609fc9",
+        "display_box_inches": [
+          0.68,
+          1.5616626409017713,
+          10.75,
+          6.136674718196457
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "TF_analysis/stable_celltype_LISA2_20261118/all_celltype_TF_rankings.csv",
+      "Catalog includes chromatin-associated factors, marks, and fusion proteins; not every label is a canonical TF."
+    ]
+  },
+  {
+    "slide": 14,
+    "section": "03 · LISA2",
+    "title": "Endothelial：调控关联在celltype之间不同",
+    "takeaway": "候选因子适合后续验证；当前未检验出两lineage之间正式的调控差异。",
+    "images": [
+      {
+        "path": "TF_analysis/stable_celltype_LISA2_20261118/Endothelial/figures/celltype_TF_heatmap.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "90b9f098ced9b0d0e27d0ee6e36c7104a37af29d1b4c83b93d1ffd2c63d711c5",
+        "display_box_inches": [
+          0.68,
+          2.0596907756813416,
+          10.75,
+          5.1406184486373165
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "TF_analysis/stable_celltype_LISA2_20261118/all_celltype_TF_rankings.csv",
+      "A factor significant in only one lineage is not a formal lineage-difference test."
+    ]
+  },
+  {
+    "slide": 15,
+    "section": "03 · 先验约束GRN",
+    "title": "表达网络补充了TF与stable targets的联系",
+    "takeaway": "Fibroblast：21个可分析celltypes / 65条stable-target边；Endothelial：15个 / 7条。边数不是年龄效应。",
+    "images": [
+      {
+        "path": "TF_analysis/results/Fibroblast/figures/Fibroblast_stable_target_heatmap.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "3da5ce7352f58fd8ecac19c2dc065cfd3f08f695a01ceb41dc223cdb596750fa",
+        "display_box_inches": [
+          0.67,
+          2.5517181124711725,
+          7.15,
+          4.156563775057655
+        ]
+      },
+      {
+        "path": "TF_analysis/results/Endothelial/figures/Endothelial_stable_target_heatmap.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "2cc8053e4405bad987314b457f327c3841f74a5c7e5129c219ca68303dc04dcf",
+        "display_box_inches": [
+          8.17,
+          3.0074804756833506,
+          7.15,
+          3.245039048633298
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "Earlier prior-constrained RNA network; formal results, not validation_run.",
+      "CollecTRI prior + adjusted correlation + bootstrap; counts are celltype-specific edges, not unique genes.",
+      "Interpretation/README.md: strict adult TF-footprint sensitivity has no FDR<0.05 findings."
+    ]
+  },
+  {
+    "slide": 16,
+    "section": "03 · 先验约束GRN",
+    "title": "应激与炎症相关靶基因：可检验的网络候选",
+    "takeaway": "Fibro：HIF1A—NAMPT、CEBPB / STAT3—SOD2；Endo：PPARD—CCL2。均为候选关联。",
+    "images": [
+      {
+        "path": "TF_analysis/results/Fibroblast/celltypes/eFibro_COL1A1_pan/TF_target_network.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "214a168b647e5d5e788d2404d029ce21f6ed55e65564f7d54e853f0199f5a8c4",
+        "display_box_inches": [
+          0.67,
+          1.7331141868512105,
+          7.15,
+          5.793771626297579
+        ]
+      },
+      {
+        "path": "TF_analysis/results/Endothelial/celltypes/EndoMT_VIM_pan/TF_target_network.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "70007ac879f2de1f17e6cdd70d40059e058e7cd5ca3738ce59a88ec5073fe37e",
+        "display_box_inches": [
+          8.17,
+          1.7331141868512105,
+          7.15,
+          5.793771626297579
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "TF_analysis/interpretation/README.md",
+      "No matched ATAC/chromatin data; not direct binding, motif grammar, or experimentally established TF synergy.",
+      "Adult sensitivity: Fibro min q0.0640; Endo min q0.1706; do not use historical whole-age stars as adult-aging evidence."
+    ]
+  },
+  {
+    "slide": 17,
+    "section": "04 · ECM",
+    "title": "稳定时钟基因覆盖多类ECM功能成员",
+    "takeaway": "这是stable gene成员计数，不是年龄斜率，也不是物理ECM重塑活性。",
+    "images": [
+      {
+        "path": "2026_Nat Aging_HAECA/stromal_ECM_20261118/Fibroblast/figures/celltype_ECM_membership.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "7023d8a2e0b4c5d4342a77790efd2850faccb5f7b02eb3bfca98d06d88a9d406",
+        "display_box_inches": [
+          2.111292134831461,
+          1.48,
+          4.2674157303370785,
+          6.3
+        ]
+      },
+      {
+        "path": "2026_Nat Aging_HAECA/stromal_ECM_20261118/Endothelial/figures/celltype_ECM_membership.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "54827f1e5e38cf61b664accf1dbc755bc689e4cca9e248dcf58f6026263200a8",
+        "display_box_inches": [
+          9.574887640449438,
+          1.48,
+          4.340224719101124,
+          6.3
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "2026_Nat Aging_HAECA/stromal_ECM_20261118/ECM_stable_gene_overlap_comparison.csv",
+      "Shared stable ECM member AGRN is a membership overlap, not a validated shared age biomarker."
+    ]
+  },
+  {
+    "slide": 18,
+    "section": "04 · ECM年龄关联",
+    "title": "Fibroblast：ECM年龄关联方向依赖组织背景",
+    "takeaway": "eFibro_COL1A1_pan：ovary的collagen formation负向（q=1.03×10⁻⁶）；colon的ECM organization正向（q=1.16×10⁻⁴）。",
+    "images": [
+      {
+        "path": "2026_Nat Aging_HAECA/stromal_ECM_20261118/Fibroblast/figures/ECM_signature_age_contrasts.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "755c0585e129f0a8c59b132f55f2bee7cc12060bef2cfeae5be2073575582357",
+        "display_box_inches": [
+          1.8338479809976247,
+          1.48,
+          12.33230403800475,
+          6.3
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "2026_Nat Aging_HAECA/stromal_ECM_20261118/all_ECM_ULM_age_contrasts.csv",
+      "Raw count sum → PyDESeq2 aged-vs-young Wald → gene-set ULM; full ECM family across both lineages BH.",
+      "Ovary8 proxies (4young/4aged), colon11 (5/6); each focal tissue result from one GSE, exploratory proxy inference.",
+      "Separate directions do not constitute a formal age×tissue interaction test."
+    ]
+  },
+  {
+    "slide": 19,
+    "section": "04 · ECM年龄关联",
+    "title": "Endothelial：特定组织中出现ECM程序年龄关联",
+    "takeaway": "两lineage合计312项ECM对比中67项显著；对比含重叠组织 / 基因集，不是67次独立复现。",
+    "images": [
+      {
+        "path": "2026_Nat Aging_HAECA/stromal_ECM_20261118/Endothelial/figures/ECM_signature_age_contrasts.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "144260921fbce9ba920a1cca413421c63237f4046f4c5379ccf84f2cf892a2a1",
+        "display_box_inches": [
+          0.8725862068965519,
+          1.48,
+          10.364827586206896,
+          6.3
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "2026_Nat Aging_HAECA/stromal_ECM_20261118/all_ECM_ULM_age_contrasts.csv",
+      "Fibroblast41 significant contrasts; Endothelial26. Exact source supports sample proxies, not verified donor independence."
+    ]
+  },
+  {
+    "slide": 20,
+    "section": "04 · 机械敏感TF",
+    "title": "TEAD4：具有局部支持的机械敏感调控线索",
+    "takeaway": "142项可测机械敏感TF对比仅1项显著；不支持YAP / TAZ / TEAD在所有基质细胞普遍激活。",
+    "images": [
+      {
+        "path": "2026_Nat Aging_HAECA/stromal_ECM_20261118/Endothelial/figures/HAECA_Fig3b_mechanosensitive_TF_adaptation.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "6154ab31333fab05d97e2d56da833848e2c4780602e93115aee4fe2de0c9b310",
+        "display_box_inches": [
+          1.2186363636363642,
+          1.48,
+          9.672727272727272,
+          6.3
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "2026_Nat Aging_HAECA/stromal_ECM_20261118/all_TF_ULM_age_contrasts.csv",
+      "FDR is across full TF×profile family, not only the six displayed mechanosensitive factors.",
+      "TEAD2/3 unavailable/<5 targets is not evidence of no biology."
+    ]
+  },
+  {
+    "slide": 21,
+    "section": "05 · CellAge交叉分析",
+    "title": "stable celltypes的hUSI分布不等于真实细胞年龄",
+    "takeaway": "年龄来源一致的成年样本：Fibro 731个代理 / 87 GSE，Endo 529个 / 80 GSE；热图为描述性模式。",
+    "images": [
+      {
+        "path": "F3_features/ModelFeature_cellAge/Fibroblast/figures/hUSI_Age_group.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "506a16f7e3f7609c58d84230b91ab44dc7f4d85b3e3a6f5dea3769faa6ece7ef",
+        "display_box_inches": [
+          0.67,
+          1.6003020134228185,
+          7.15,
+          6.059395973154363
+        ]
+      },
+      {
+        "path": "F3_features/ModelFeature_cellAge/Endothelial/figures/hUSI_Age_group.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "68c227d53e64db7c601d44b434040a94ce16610c182de37bb3f5fb35935872c8",
+        "display_box_inches": [
+          8.17,
+          1.6217154684975768,
+          7.15,
+          6.016569063004846
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "F3_features/ModelFeature_cellAge/results/key_findings.md",
+      "Adult18-100 with age-source agreement≤1y; A in this analysis contains eligible adult records only, not the full child-containing A group.",
+      "Row z scores describe sample-mean hUSI patterns; not significance and not cross-lineage calibration."
+    ]
+  },
+  {
+    "slide": 22,
+    "section": "05 · CellAge交叉分析",
+    "title": "Fibroblast：部分stable celltypes的相对hUSI较高或较低",
+    "takeaway": "上述两项在健康、训练 / 非训练与10 / 50细胞阈值检查中方向一致；这是状态差异，不是年龄加速。",
+    "images": [
+      {
+        "path": "F3_features/ModelFeature_cellAge/Fibroblast/figures/relative_hUSI.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "6e75f5d6b5c8c8d2ed2826c4777ff03ed0643048fe978178fe0a275e4224d976",
+        "display_box_inches": [
+          1.6982100469224402,
+          1.48,
+          8.71357990615512,
+          6.3
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "F3_features/ModelFeature_cellAge/tables/all_stable_celltype_associations.csv",
+      "F3_features/ModelFeature_cellAge/tables/all_sensitivity_results.csv",
+      "eFibro_COL1A2_pan185 proxies/45GSE; Myfibro_CALD1_pan134/34.",
+      "Paired within-sample score difference; intercept-only across proxy units, GSE-clustered CI when≥5GSE."
+    ]
+  },
+  {
+    "slide": 23,
+    "section": "05 · CellAge交叉分析",
+    "title": "Endothelial：同一时钟中包含高分与低分celltypes",
+    "takeaway": "EndoMT_CFD_pan在健康子集中未通过FDR；不能把某个状态标签整体命名为促衰老。",
+    "images": [
+      {
+        "path": "F3_features/ModelFeature_cellAge/Endothelial/figures/relative_hUSI.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "ad8d90813f6a3870d9eb5bac2dd0759ff584f094cf7a9828b43081f11d6398aa",
+        "display_box_inches": [
+          1.6677794645321558,
+          1.48,
+          8.774441070935689,
+          6.3
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "F3_features/ModelFeature_cellAge/tables/all_stable_celltype_associations.csv",
+      "EndoMT_PTN_pan only15 proxies/2GSE despite high relative score; do not treat as robust pan-tissue finding.",
+      "EndoMT_CFD_pan healthy-only FDR0.0926; VenEC_CLU_pan direction/significance retained in reported sensitivities."
+    ]
+  },
+  {
+    "slide": 24,
+    "section": "05 · CellAge年龄关联",
+    "title": "目前没有hUSI年龄斜率通过主分析FDR",
+    "takeaway": "Fibro 16 / 27、Endo 13 / 27可估；全部主年龄斜率FDR>0.05。未显著不等于效应必然不存在。",
+    "images": [
+      {
+        "path": "F3_features/ModelFeature_cellAge/Fibroblast/figures/hUSI_age_per10y.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "4a6eb01bbb5816d0b245cfb988bca87a2ecf949b8344e5f581190d53c41bf3df",
+        "display_box_inches": [
+          0.67,
+          2.0452414687687086,
+          7.15,
+          5.169517062462583
+        ]
+      },
+      {
+        "path": "F3_features/ModelFeature_cellAge/Endothelial/figures/hUSI_age_per10y.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "9b78f302655e98710a5dae10be85cc4feec94232e803c792ea01c269c7dbf0f6",
+        "display_box_inches": [
+          8.17,
+          2.063169837495045,
+          7.15,
+          5.1336603250099095
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "F3_features/ModelFeature_cellAge/tables/all_stable_celltype_associations.csv",
+      "Sample-proxy OLS; age-informative study×tissue×sampling strata, available covariates; cluster-GSE uncertainty when≥5GSE.",
+      "NA means coverage/non-estimability, not zero."
+    ]
+  },
+  {
+    "slide": 25,
+    "section": "05 · Celltype丰度",
+    "title": "年龄组间可见分布差异，但热图不是显著性证据",
+    "takeaway": "分母为同sample×tissue中该lineage全部细胞；各sample等权，不把细胞数当生物学重复。",
+    "images": [
+      {
+        "path": "F3_features/ModelFeature_cellAge/Fibroblast/figures/composition_Age_group.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "793d6bd5e33833d23815282a0acb8a847c9cfb7b8e1702a9ac949749971fa6ea",
+        "display_box_inches": [
+          0.67,
+          1.5457298136645963,
+          7.15,
+          6.168540372670807
+        ]
+      },
+      {
+        "path": "F3_features/ModelFeature_cellAge/Endothelial/figures/composition_Age_group.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "9de66e0f3ab1af02e688e5ceae1a95210217bbf0619a20381fb179bc3f4779d6",
+        "display_box_inches": [
+          8.17,
+          1.5679188078108939,
+          7.15,
+          6.124162384378212
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "F3_features/ModelFeature_cellAge/Fibroblast/source_data/composition_Age_group_mean.csv",
+      "F3_features/ModelFeature_cellAge/Endothelial/source_data/composition_Age_group_mean.csv",
+      "Relative proportions; not absolute cell counts; observed zeroes only within supported sampling strata."
+    ]
+  },
+  {
+    "slide": 26,
+    "section": "05 · Celltype丰度",
+    "title": "年轻 / 年老组的比例差异尚未获得校正后支持",
+    "takeaway": "原始B/C vs F/G/H：Fibro 20个、Endo 16个celltypes可估；主对比均无FDR≤0.05。",
+    "images": [
+      {
+        "path": "F3_features/ModelFeature_cellAge/Fibroblast/figures/proportion_old_minus_young_pp.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "ad6ca64160ca29f35d51dc50f2d64218bf368a8f64d7eff34e2f00eaccc1a836",
+        "display_box_inches": [
+          0.67,
+          1.9731333333333327,
+          7.15,
+          5.313733333333334
+        ]
+      },
+      {
+        "path": "F3_features/ModelFeature_cellAge/Endothelial/figures/proportion_old_minus_young_pp.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "575eb31d10e4f2f49f048d5b1a07b230e163926d122f4f7feeed9eec25123b7f",
+        "display_box_inches": [
+          8.17,
+          2.063169837495045,
+          7.15,
+          5.1336603250099095
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "F3_features/ModelFeature_cellAge/tables/all_stable_celltype_associations.csv",
+      "No rebinning of Age_group. D/E omitted only in binary contrast; continuous-age models retain eligible adult samples.",
+      "Age-dependent composition slopes also have no FDR-significant primary associations."
+    ]
+  },
+  {
+    "slide": 27,
+    "section": "05 · 模型特征与CellAge",
+    "title": "时钟特征数与相对hUSI：尚无显著单调关系",
+    "takeaway": "特征数 / 系数绝对值与CellAge效应的Spearman关系，完整探索检验集合校正后均无FDR显著结果。",
+    "images": [
+      {
+        "path": "F3_features/ModelFeature_cellAge/figures/Fig_ModelFeature_CellAge_Integration.png",
+        "crop_ltrb": [
+          0,
+          0.815,
+          0,
+          0
+        ],
+        "sha256": "bee99c1464b532bd9cebd1df016041892f014ec5fe4f2949aec22a2ca4013822",
+        "display_box_inches": [
+          0.7,
+          2.3389320605802038,
+          14.6,
+          4.582135878839592
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "F3_features/ModelFeature_cellAge/tables/model_importance_cellage_correlations.csv",
+      "Existing integrated figure panels K/L cropped for readability. Original PNG is embedded unchanged.",
+      "Only selected stable celltypes are compared; no gene expression-score test or independent external validation is implied."
+    ]
+  },
+  {
+    "slide": 28,
+    "section": "06 · 跨模块整合",
+    "title": "已经形成候选假说，尚未形成因果机制闭环",
+    "takeaway": "同一celltype内，尚无候选同时满足LISA、TF regulon年龄效应与靶基因年龄效应三项显著。",
+    "images": [
+      {
+        "path": "TF_analysis/stable_celltype_LISA2_20261118/integration/figures/integration_hypothesis_framework.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "0416908fd336ce0cb13140721350a38f44905bcffcb77a171eac4721bd02e45c",
+        "display_box_inches": [
+          2.4270916334661354,
+          1.65,
+          11.14581673306773,
+          3.9
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "TF_analysis/stable_celltype_LISA2_20261118/integration/TF_ECM_candidate_evidence_by_feature.csv",
+      "Example NR3C1 in eFibro_COL1A1_pan: LISA q0.0142 and TF ULM q0.0136; PLA2G4A age q0.594 in overall same-celltype analysis.",
+      "PLA2G4A significant in ovary-only contrast cannot be borrowed to close an overall-celltype causal chain."
+    ]
+  },
+  {
+    "slide": 29,
+    "section": "06 · 结论",
+    "title": "目前可以写入结果段的三点",
+    "takeaway": "候选调控因子与ECM机制需要真实donor映射、独立队列及实验验证。",
+    "images": [],
+    "evidence_notes": [
+      "All statements are bounded to the actual analysis families and data coverage, not causal or universal aging claims.",
+      "GeneModel feature count/absolute-coefficient association with CellAge effects: no FDR-significant Spearman relationships."
+    ]
+  },
+  {
+    "slide": 30,
+    "section": "附录 A · 完整表达热图",
+    "title": "完整特征热图保留，可在PPT中放大查看",
+    "takeaway": "Fibro显示520 / 750行；Endo显示161 / 350行。仅删除不满足展示规则的行，未删改原始stable名单。",
+    "images": [
+      {
+        "path": "F3_features/results/Fibroblast/figures/stable_feature_age_heatmap.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "4f1af94d4d2480dc86cc7a0415f683054c4aae676682526c71cdeec0cc688fee",
+        "display_box_inches": [
+          3.663522477208425,
+          1.48,
+          1.1629550455831499,
+          6.3
+        ]
+      },
+      {
+        "path": "F3_features/results/Endothelial/figures/stable_feature_age_heatmap.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "2755ffaee61a98a5620356203cbe84718e8fad237d398693a04ec3ec2177644f",
+        "display_box_inches": [
+          10.083965768390385,
+          1.48,
+          3.322068463219228,
+          6.3
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "Display summary JSONs in each F3_features/results/lineage/tables/. Full retained expression matrices remain available."
+    ]
+  },
+  {
+    "slide": 31,
+    "section": "附录 B · LISA排名",
+    "title": "Fibroblast Top 15：面板 a–f（6个celltypes）",
+    "takeaway": "原合并图上部两行（实际包含6个celltypes）；横轴为描述性−log10 P，各面板独立刻度。",
+    "images": [
+      {
+        "path": "TF_analysis/stable_celltype_LISA2_20261118/Fibroblast/combined_top_TFs.png",
+        "crop_ltrb": [
+          0,
+          0.03,
+          0,
+          0.6
+        ],
+        "sha256": "f2337d47dc8ce989b82622f9bfee8b404b226179fad2eed5b02af6fb25c8d6c6",
+        "display_box_inches": [
+          1.3660933660933663,
+          1.48,
+          13.267813267813267,
+          6.3
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "Original image embedded without rerendering; display crop only. See original panel labels a–f."
+    ]
+  },
+  {
+    "slide": 32,
+    "section": "附录 B · LISA排名",
+    "title": "Fibroblast Top 15：面板 g–l（6个celltypes）",
+    "takeaway": "展示排名不替代FDR判断；eFibro_COL1A2_pan第一名TCF7校正后q=0.056，尚未显著。",
+    "images": [
+      {
+        "path": "TF_analysis/stable_celltype_LISA2_20261118/Fibroblast/combined_top_TFs.png",
+        "crop_ltrb": [
+          0,
+          0.415,
+          0,
+          0.215
+        ],
+        "sha256": "f2337d47dc8ce989b82622f9bfee8b404b226179fad2eed5b02af6fb25c8d6c6",
+        "display_box_inches": [
+          1.3660933660933663,
+          1.48,
+          13.267813267813267,
+          6.3
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "Original combined figure middle two rows, original axes retained."
+    ]
+  },
+  {
+    "slide": 33,
+    "section": "附录 B · LISA排名",
+    "title": "Fibroblast Top 15：面板 m–n（2个celltypes）",
+    "takeaway": "iFibro_CD74_pan与qFibro_CLU_pan；候选调控关联不能命名为促衰老 / 抗衰老效应。",
+    "images": [
+      {
+        "path": "TF_analysis/stable_celltype_LISA2_20261118/Fibroblast/combined_top_TFs.png",
+        "crop_ltrb": [
+          0,
+          0.81,
+          0,
+          0.015
+        ],
+        "sha256": "f2337d47dc8ce989b82622f9bfee8b404b226179fad2eed5b02af6fb25c8d6c6",
+        "display_box_inches": [
+          0.7,
+          2.990541666666667,
+          14.6,
+          3.2789166666666656
+        ]
+      }
+    ],
+    "evidence_notes": []
+  },
+  {
+    "slide": 34,
+    "section": "附录 B · LISA排名",
+    "title": "Endothelial：5个有结果celltypes的Top 15",
+    "takeaway": "只包含完成LISA的5个celltypes；少于20个映射基因的22个celltypes未补造输入。",
+    "images": [
+      {
+        "path": "TF_analysis/stable_celltype_LISA2_20261118/Endothelial/combined_top_TFs.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "274a1ec6e03f7bc0dc89f147ea420af54e989eb151bc730dfecbaf325ffb371b",
+        "display_box_inches": [
+          2.307228915662651,
+          1.48,
+          11.385542168674698,
+          6.3
+        ]
+      }
+    ],
+    "evidence_notes": []
+  },
+  {
+    "slide": 35,
+    "section": "附录 C · 系数方向功能",
+    "title": "Fibroblast：正 / 负模型系数基因的功能补充",
+    "takeaway": "模型条件系数不是表达上调 / 下调，也不是促衰老 / 抗衰老。",
+    "images": [
+      {
+        "path": "F3_features/results/Fibroblast/figures/Positive_Hallmark_dotplot.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "3ff49cf1b55df271b7981200d545a0513dd45db3d0de7b49b3d85cea292fb446",
+        "display_box_inches": [
+          0.7325660792951554,
+          1.48,
+          10.48486784140969,
+          3.03
+        ]
+      },
+      {
+        "path": "F3_features/results/Fibroblast/figures/Negative_Reactome_dotplot.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "942f06fb67f668bbd537c5088a43c3ae9feee1dfe74d0af0ccd1123460406070",
+        "display_box_inches": [
+          2.8755470660146702,
+          4.65,
+          6.19890586797066,
+          3.03
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "F3_features/WORKFLOW_REVIEW.md; original bootstrap coefficient_mean based signed sets.",
+      "Database and grouping definitions differ from Nov18 Reactome_2022 global module; q values are not interchangeable."
+    ]
+  },
+  {
+    "slide": 36,
+    "section": "附录 C · 系数方向功能",
+    "title": "Endothelial：金属稳态与间充质集合的补充",
+    "takeaway": "方向分组与数据库版本均保持原结果定义，不与主分析的全体基因检验混合。",
+    "images": [
+      {
+        "path": "F3_features/results/Endothelial/figures/Positive_Reactome_dotplot.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "27e5d2df481b2663f6c9ab65272ff4e761af845dba34eb2387d6b6f454867b98",
+        "display_box_inches": [
+          0.7943006607929524,
+          1.48,
+          10.361398678414096,
+          3.03
+        ]
+      },
+      {
+        "path": "F3_features/results/Endothelial/figures/Negative_Hallmark_dotplot.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "de7ef0ba9c47448bc9b680e4e1de135d146a1fcb47b980e21f5676fb7d4c6e6e",
+        "display_box_inches": [
+          0.7,
+          4.662113272670223,
+          10.55,
+          3.0057734546595545
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "Original signed workflow; Reactome_Pathways_2024, Hallmark_2020."
+    ]
+  },
+  {
+    "slide": 37,
+    "section": "附录 D · ECM基因",
+    "title": "ECM基因年龄统计量：定位后续验证候选",
+    "takeaway": "颜色为raw-count Wald统计量，不是表达量；热图并非每个基因都显著。",
+    "images": [
+      {
+        "path": "2026_Nat Aging_HAECA/stromal_ECM_20261118/Fibroblast/figures/stable_ECM_gene_age_heatmap.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "ac3d966391ace0b4a84e04da748ab58c866e930c224c3caee3abb064ef075549",
+        "display_box_inches": [
+          1.4764285714285719,
+          1.48,
+          5.5371428571428565,
+          6.3
+        ]
+      },
+      {
+        "path": "2026_Nat Aging_HAECA/stromal_ECM_20261118/Endothelial/figures/stable_ECM_gene_age_heatmap.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "8108191925a3ab2671833b680f751675dfd0eb2ed3069767c1a5abf9b1de32c5",
+        "display_box_inches": [
+          8.17,
+          1.6566394521991046,
+          7.15,
+          5.946721095601791
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "2026_Nat Aging_HAECA/stromal_ECM_20261118/all_stable_ECM_gene_age_associations.csv",
+      "10 significant globally-stable ECM gene×profile associations; only1 exact original stable feature pair: eFibro_COL1A1_pan/ovary PLA2G4A, log2FC2.596,q0.01315.",
+      "That tissue-specific result is not evidence for all tissues or the overall-celltype target edge."
+    ]
+  },
+  {
+    "slide": 38,
+    "section": "附录 E · SenCID",
+    "title": "现有SenCID输出是SID推荐，不能当细胞年龄",
+    "takeaway": "recSID推荐模式仅作描述；不能将SID1–6相加、排序或解释为衰老强度。",
+    "images": [
+      {
+        "path": "F3_features/ModelFeature_cellAge/Fibroblast/figures/SenCID_recommendation_profiles.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "e154e3582249979e349fac4f375cf7c6d6452dcb7ff776498c5a61c5ac13f310",
+        "display_box_inches": [
+          1.0384089377947454,
+          1.48,
+          6.413182124410509,
+          6.3
+        ]
+      },
+      {
+        "path": "F3_features/ModelFeature_cellAge/Endothelial/figures/SenCID_recommendation_profiles.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "707173644d73acb39a18c4a01da1f71eb19a72863d0b20f57659d1156ed10055",
+        "display_box_inches": [
+          8.513650348079945,
+          1.48,
+          6.4626993038401075,
+          6.3
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "Local source script saved recSID, not pred_dict SID_Score. Column z scores are display only."
+    ]
+  },
+  {
+    "slide": 39,
+    "section": "附录 F · 原生hUSI分类",
+    "title": "SSE-high细胞比例：当前无显著年轻 / 年老差异",
+    "takeaway": "原生SSE阈值是数据自适应分类；不把两个lineage的绝对比例直接当统一校准的衰老程度。",
+    "images": [
+      {
+        "path": "F3_features/ModelFeature_cellAge/Fibroblast/figures/SSE_old_minus_young_pp.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "2f13dd167032a49464b1f4edd13e64c4d23864f07c08758f4dfd7acf6fc0d28d",
+        "display_box_inches": [
+          0.67,
+          2.0452414687687086,
+          7.15,
+          5.169517062462583
+        ]
+      },
+      {
+        "path": "F3_features/ModelFeature_cellAge/Endothelial/figures/SSE_old_minus_young_pp.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "48105a247f9b2ba65e4944ebb0263ae2e02f4276de6116af588dd784e5950743",
+        "display_box_inches": [
+          8.17,
+          2.063169837495045,
+          7.15,
+          5.1336603250099095
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "F3_features/ModelFeature_cellAge/tables/all_stable_celltype_associations.csv",
+      "8 estimable celltypes per lineage, no primary FDR<=.05."
+    ]
+  },
+  {
+    "slide": 40,
+    "section": "附录 G · TF footprint",
+    "title": "早期TF footprint图描述的是相对细胞状态",
+    "takeaway": "颜色为同TF跨celltype的footprint z-score，点大小关联TF RNA表达；不是motif结合或年龄效应。",
+    "images": [
+      {
+        "path": "TF_analysis/results/Fibroblast/figures/Fibroblast_TF_grammar_dotplot.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "d6475210041a3a750adb8dbd42069265813e09bcc2f791be9acd488269040d02",
+        "display_box_inches": [
+          0.67,
+          2.5465436599679885,
+          7.15,
+          4.166912680064023
+        ]
+      },
+      {
+        "path": "TF_analysis/results/Endothelial/figures/Endothelial_TF_grammar_dotplot.png",
+        "crop_ltrb": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "f7f66145dcf8eae9ba100b736c4ddc2f719ae4238a01c41b13ae98ad506bafa5",
+        "display_box_inches": [
+          8.17,
+          3.005462057934956,
+          7.15,
+          3.2490758841300873
+        ]
+      }
+    ],
+    "evidence_notes": [
+      "TF_analysis/interpretation/README.md",
+      "Whole-age TF-age heatmap stars are intentionally not used as adult-aging conclusions. Strict adult sensitivity has no FDR-significant TFs."
+    ]
+  }
+]

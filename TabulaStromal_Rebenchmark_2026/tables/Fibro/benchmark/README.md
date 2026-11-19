@@ -1,13 +1,11 @@
-# TabulaStromal_Rebenchmark_2026 — benchmark
+# benchmark
 
-[Analysis overview and protocol](../../../README.md)
+Current snapshot: **19 November 2026**. Counts refer to sample/proxy units unless stated otherwise. Selected expression features are not explicit cell-type proportions; predictive weights and regulatory annotations are not causal evidence.
 
-![Related result figure](../../../figures/combined/Stromal_individual_aging_clock_Fibroblast_Endothelial_FINAL_v2.png)
+[Module overview](../../../README.md) · [Results and legends](../../../../docs/results)
 
-## Files
+Files named `final_clock_*` and the 438/23-pair signatures describe the earlier unreduced EN branch; the current compact representation is linked from the module overview.
 
 - [cv_fold_metrics.csv](cv_fold_metrics.csv)
 - [cv_summary.csv](cv_summary.csv)
 - [model_comparison.csv](model_comparison.csv)
-
-Figure and data provenance are recorded in the analysis directory audit and evidence registries.

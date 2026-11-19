@@ -1,48 +1,64 @@
-# Results Part 2 — Celltype-resolved age clocks distinguish internal prediction, external transfer and cellular senescence
+# Results Part 2. Celltype-resolved clocks distinguish internal age information from external performance
 
-## Clock overview and complete grouped benchmark
+## Clock overview and grouped model comparison
 
-TabulaStromal predicts recorded chronological age from sample-level Celltype_Gene expression features ([Fig. 2A](../../F2_ModelPerformance/figures/TabulaStromal_Workflow_V6.png)). Expression was aggregated within sample and annotated cell type; explicit cell-type proportions or ratios were excluded. Feature filtering, ranking and scaling were fitted within training partitions. The local DeepSets, Pseudobulk and Ensemble implementations are IDEAL-Age-inspired estimators and are not asserted to reproduce an external method protocol exactly.
+TabulaStromal predicts recorded chronological age from expression aggregated within each sample and annotated cell state, producing Celltype_Gene features (Fig. 2A). Explicit cell-type proportions or ratios were excluded. The development sets contained 640 fibroblast samples assigned to 634 conservative GSE/GSM proxy groups and 437 endothelial samples assigned to 431 groups. Grouped five-fold cross-validation compared thirteen model families at requested feature counts of 8,000, 10,000, 15,000 and 20,000. Each lineage had all 260 model–feature-count–fold combinations. Proxy groups were disjoint within saved training/validation splits, although unresolved cross-study donor reuse could not be excluded.
 
-The development cohorts contained 640 fibroblast samples in 634 conservative GSE/GSM proxy groups and 437 endothelial samples in 431 groups. Thirteen model families were evaluated at K=8,000, 10,000, 15,000 and 20,000 using grouped five-fold CV. Saved groups were disjoint within every training/validation split. This check cannot resolve unannotated donor reuse across studies.
+*Source record: [C0007](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
 
-## Internal performance and source-figure scope
+Across the full benchmark, fibroblast XGBoost at 20,000 features ranked first by mean validation R², achieving 0.803 ± 0.020 with MAE 9.71 ± 0.66 years. Endothelial ExtraTrees at 20,000 features ranked first with R² 0.716 ± 0.116 and MAE 11.54 ± 1.84 years (mean ± sample standard deviation across five folds). These are descriptive model rankings; no paired superiority test established that either configuration outperformed every alternative. The three IDEAL-Age-inspired implementations were local variants, and their results do not constitute reproduction of the published immune-aging model [9].
 
-For the fibroblast collection, XGBoost at K=20,000 ranked first by mean validation R², with R²=0.803 ± 0.020, MAE=9.71 ± 0.66 years and PCC=0.899 ± 0.012 (mean ± sample SD across folds).
+*Source record: [C0008](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
 
-For the endothelial collection, ExtraTrees at K=20,000 ranked first by mean validation R², with R²=0.716 ± 0.116, MAE=11.54 ± 1.84 years and PCC=0.848 ± 0.074 (mean ± sample SD across folds).
+The heatmaps in Fig. 2B–D present a different summary: source fold 4, with feature count selected for each model using that fold's validation result. They contain training, validation and FT30→ALL100 external values and are neither five-fold means nor a benchmark of the later compact models. Moreover, MAD in panel D is the mean absolute deviation of observed ages from their mean. It describes age-label dispersion rather than prediction error.
 
-This is a descriptive ranking across the completed benchmark, not a model-superiority significance test. The supplied [Fig. 2B–F](../../F2_ModelPerformance/figures/Fig2_StromalClock_ModelPerformance.pdf) uses source fold 4, with each model's K chosen from that fold's validation result. It is not a five-fold mean. Its external values use FT30 followed by ALL100 evaluation, including fitted adaptation samples. MAD is the mean absolute deviation of chronological-age labels from their mean; it describes label dispersion rather than prediction error. The figure's biological-age axis wording refers to prediction of the recorded chronological-age target.
+*Source record: [C0009](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
 
-## A separate final interpretable ElasticNet branch
+## Current performance-first ElasticNet fits
 
-The fibroblast EN branch selected K=20,000 and achieved conditional validation R²=0.742 ± 0.031 and MAE=11.86 ± 0.95 years. The endothelial EN branch selected K=10,000 and achieved conditional validation R²=0.633 ± 0.124 and MAE=14.18 ± 1.98 years. Both clocks retained the original selected feature representation because stable-feature restriction predicted less well. They were refitted to all development samples ([Fig. 3A,B](../../TabulaStromal_Rebenchmark_2026/figures/combined/Stromal_individual_aging_clock_Fibroblast_Endothelial_FINAL_v2.pdf)). Selection of the EN family and its K is separate from the global benchmark ranking. Because K was selected using the same internal comparison, these CV estimates are conditional on that selection rather than fully nested estimates of the complete selection procedure.
+The current Fig. 2E,F and the model-fit elements in Fig. 2A use the subsequent performance-first ElasticNet source models with 750 fibroblast and 350 endothelial Celltype_Gene features. Applied to the development data used for fitting, these models achieved R² 0.950 and 0.950, MAE 4.98 and 5.03 years, and median absolute error 3.66 and 3.50 years, respectively (Table 1). Each plotted point represents one development sample; the displayed 640 and 437 observations are in-sample predictions. These panels do not establish out-of-fold performance of the compact feature sets.
 
-## External transfer depends on adaptation and the evaluation population
+*Source record: [C0010](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
 
-Without adaptation, the full-development fibroblast EN yielded R²=−2.943 and MAE=29.32 years in 93 merged external samples. The endothelial EN yielded R²=−1.720 and MAE=24.89 years in 77 samples (Fig. 3E,F). Negative R² preserves an important transfer limitation: the predictions had greater squared error than the external cohort-mean reference.
+The adapted performance-first models were evaluated on 93 fibroblast and 77 endothelial external samples, yielding R² 0.377 and 0.391, MAE 8.71 and 9.28 years, and median absolute error 4.69 and 6.42 years. These are the values in the lower external panels of Fig. 2A. The ALL100 designation identifies all eligible external observations rather than a literal sample count of one hundred. External outcomes participated in selecting the feature representation and optimization settings, in addition to supplying labeled adaptation samples. Accordingly, these results are outcome-informed external-cohort performance, not independent external validation.
 
-For the final EN adaptation protocol, 28 fibroblast and 23 endothelial samples were used for regularized refitting with frozen features, scaler and source hyperparameters, leaving 65 and 54 group-disjoint samples for evaluation. On the same held-out fibroblast samples, MAE decreased from 29.02 to 13.14 years and R² changed from −3.168 to −0.001. For endothelial samples, MAE decreased from 25.65 to 13.18 years and R² changed from −2.194 to −0.355. Adaptation reduced error, while held-out R² remained near zero or negative (Fig. 3M,N).
+*Source record: [C0011](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
 
-| Lineage | Evaluation population | n | R² | MAE (years) |
-| --- | --- | ---: | ---: | ---: |
-| Fibro | No adaptation, all external | 93 | -2.943 | 29.32 |
-| Fibro | No adaptation, held-out 70% | 65 | -3.168 | 29.02 |
-| Fibro | After adaptation, held-out 70% | 65 | -0.001 | 13.14 |
-| Fibro | After adaptation, ALL100 (mixed) | 93 | 0.358 | 9.34 |
-| Endo | No adaptation, all external | 77 | -1.720 | 24.89 |
-| Endo | No adaptation, held-out 70% | 54 | -2.194 | 25.65 |
-| Endo | After adaptation, held-out 70% | 54 | -0.355 | 13.18 |
-| Endo | After adaptation, ALL100 (mixed) | 77 | 0.172 | 9.56 |
+Table 1. Current performance-first models. Values describe distinct evaluation populations and must not be compared as equivalent validation estimates.
 
-Pooling the fitted and held-out observations gives the more favorable ALL100 metrics shown in the last row for each lineage. Those pooled metrics are mixed apparent/unseen performance and are not independent validation. Primary no-adaptation performance, matched held-out adaptation comparisons and the historical source-fold figure therefore remain distinct results. No independent health-outcome analysis establishes these predictions as biological-age measurements.
+| Lineage | Evaluation population | Features | n | R² | MAE, years | MedAE, years |
+|---|---|---:|---:|---:|---:|---:|
+| Fibroblast | Development, in-sample source-model fit | 750 | 640 | 0.950 | 4.98 | 3.66 |
+| Endothelial | Development, in-sample source-model fit | 350 | 437 | 0.950 | 5.03 | 3.50 |
+| Fibroblast | Adapted, ALL100 used in model selection | 750 | 93 | 0.377 | 8.71 | 4.69 |
+| Endothelial | Adapted, ALL100 used in model selection | 350 | 77 | 0.391 | 9.28 | 6.42 |
+| Fibroblast | Adapted, reused 70% subset | 750 | 65 | 0.032 | 12.02 | 8.47 |
+| Endothelial | Adapted, reused 70% subset | 350 | 54 | 0.043 | 11.67 | 9.91 |
 
-## CellAge identifies subtype differences without a confirmed adjusted age association
+*Source record: [C0031](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
 
-The audited CellAge snapshot included hUSI outputs for 1,665,482 fibroblast-lineage and 536,017 endothelial-lineage cells; recSID recommendations covered 1,372,858 and 352,228 cells, respectively ([Fig. 4](../../CellAge_Exploration/figures/Fig_CellAge_Stromal_Integration.pdf)). hUSI was analyzed as a senescence-associated score, not an age in years or a cross-lineage calibrated quantity. The inspected SenCID_rec_SID columns contain identity recommendations and do not provide genuine senescence-intensity measurements.
+Even the reused 70% subset was involved in ALL100-based model selection. Its R² of 0.032 for fibroblasts and 0.043 for endothelial cells therefore remains selection-affected. In contrast to panel D, MAD in the current model-fit and external panels denotes median absolute prediction error, here reported as MedAE. This difference in metric definitions is retained explicitly rather than assigning one meaning to all MAD labels.
 
-iFibro_CD74_pan had a positive paired hUSI contrast against the equal-weight mean of other observed subtypes within the same sample/tissue (effect 0.0539, 95% bootstrap CI 0.0427–0.0655; BH q=8.9e-12; 62 source-designated sampling units). EndoMT_PTN_pan had a positive paired hUSI contrast against the equal-weight mean of other observed subtypes within the same sample/tissue (effect 0.0826, 95% bootstrap CI 0.0630–0.1012; BH q=3.3e-11; 67 source-designated sampling units). These differences describe subtype-associated scores; they are not slopes with chronological age. The original source calls these units donors under its sample=donor assumption, which the available cross-study metadata cannot independently verify.
+*Source record: [C0012](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
 
-At the primary threshold of at least 20 scored cells per sample/tissue/subtype, 15 fibroblast and 6 endothelial adjusted hUSI–age models were identifiable; none met BH q<0.05 (Fig. 4E,F). The historical K=8,000 EN integration did not yield an identifiable fully adjusted hUSI–delta-age association. That partial historical prediction snapshot and its older stable features differ from the final EN clocks. A new joint analysis using complete final-clock OOF predictions and genuine SenCID intensities remains unavailable; it is not reported as a completed result.
+## Protocol-specific evidence for the transfer gap
 
-The source-to-claim mapping is available in [the evidence registry](../../evidence/evidence_registry.csv) and [the paragraph evidence report](../../audit/claim_to_evidence_report.csv).
+An earlier unreduced ElasticNet branch provides a separate comparison of transfer before and after adaptation. It used 20,000 fibroblast and 10,000 endothelial features, selected after the family-specific benchmark, and achieved conditional five-fold validation R² of 0.742 and 0.633 with MAE 11.86 and 14.18 years. Without adaptation, the full-development models yielded external R² −2.943 and −1.720 and MAE 29.32 and 24.89 years in 93 and 77 samples. Negative R² indicates worse squared-error prediction than the mean of the corresponding external age labels.
+
+*Source record: [C0013](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+For that earlier branch, adaptation used 28 fibroblast and 23 endothelial samples, leaving 65 and 54 group-disjoint samples for evaluation. On matched held-out observations, MAE fell from 29.02 to 13.14 years for fibroblasts and from 25.65 to 13.18 years for endothelial cells, while adapted R² remained −0.001 and −0.355. These results document a substantial transfer gap despite reduced error after target-cohort refitting. They are not the validation results of the current 750/350-feature models. Alternate integrations of the same external samples and per-GSE representations are likewise not independent biological replications.
+
+*Source record: [C0014](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+## Cellular senescence scores answer a distinct question
+
+The supporting CellAge snapshot contained hUSI scores for 1,665,482 fibroblast-lineage and 536,017 endothelial-lineage cells, with SenCID identity recommendations available for 1,372,858 and 352,228 cells. hUSI represents senescence-associated transcription rather than age in years [7]. The available recSID dimensions characterize senescence identities and cannot substitute for genuine SenCID senescence-intensity outputs [8]. Dataset-wise score normalization also limits interpretation of absolute cross-dataset or cross-lineage differences.
+
+*Source record: [C0015](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+The historical snapshot used an older, partially evaluated clock branch, so its clock–score associations cannot validate the current performance-first models. We therefore aligned the current selected cell states to the adult ModelFeature_CellAge analysis reported in Results Part 3 and Fig. 6. That analysis distinguishes within-sample relative hUSI from within-state age associations and composition changes. A complete evaluation linking current-model out-of-fold predictions or independently validated age acceleration to senescence scores remains unavailable.
+
+*Source record: [C0016](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+References: [verified bibliography](References.md). Figures: [source-matched legends](Figure_Legends.md).

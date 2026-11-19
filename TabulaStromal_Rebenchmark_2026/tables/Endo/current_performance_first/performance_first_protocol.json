@@ -1,0 +1,153 @@
+{
+  "protocol": {
+    "protocol": "performance-first-stable-EN-v1",
+    "n_bootstrap": 1500,
+    "min_frequency": 0.5,
+    "feature_counts": [
+      50,
+      75,
+      100,
+      125,
+      150,
+      175,
+      200,
+      250,
+      300,
+      350,
+      400,
+      450,
+      500,
+      600,
+      750,
+      1000,
+      1250,
+      1500
+    ],
+    "celltype_quota": null,
+    "source_l1": [
+      0.01,
+      0.1,
+      0.5,
+      0.9
+    ],
+    "source_alpha_fraction": [
+      0.0003,
+      0.001,
+      0.003,
+      0.01,
+      0.03,
+      0.1
+    ],
+    "source_candidates_per_mask": 2,
+    "adaptation_alpha_multiplier": [
+      0.03,
+      0.1,
+      0.3,
+      1.0,
+      3.0,
+      10.0,
+      30.0,
+      100.0,
+      300.0
+    ],
+    "source_blend": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "calibration_ridge": [
+      0.0,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "calibration_gene_blend": [
+      0.0,
+      0.25,
+      0.5,
+      0.75
+    ],
+    "objective": "(1-R2) + MAE/SD_age + MAD/SD_age; all100 same sample pairs",
+    "tie_break": "within numerical tolerance1e-9: more nonzero celltypes, then fewer features",
+    "coverage_alternative": "within1% of minimum objective, maximum nonzero celltypes",
+    "selection_data": "ALL100 outcomes; exploratory, not independent external validation",
+    "bootstrap_sources": "global full Top50000 and celltype-balanced full; same1500 replicates",
+    "seed": 42
+  },
+  "signature": "74045c54e947d3f957598c88a1eb9d4852de47636f5286331e9ca003025dfce4",
+  "inputs": [
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/features/train/pseudobulk.npz",
+      "sha256": "862f8a6df70163477647c13dae48e454edc5a7c7f34a13bbcec7e49a289c7b7d"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/features/train/samples.csv",
+      "sha256": "4152ea89974c566289e6703d4d2c3f1f4df4350f88ef09a568a5f7a3bc88df54"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/features/train/schema.json",
+      "sha256": "e5f422ad326d4bd05d193be9122fe69a3a318123616c188e22fab2108c5e3e7c"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/features/combined/pseudobulk.npz",
+      "sha256": "d8edb3e4e7e2e168acdc8954c0dca54f1a62f0fc088caf9cf18488ab93acb9f2"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/features/combined/samples.csv",
+      "sha256": "f05e248d0626d0445cd9b0d5f3afb5961cba2f7ba93bf966c1ec8c897eaf40ac"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/features/combined/schema.json",
+      "sha256": "e5f422ad326d4bd05d193be9122fe69a3a318123616c188e22fab2108c5e3e7c"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/stability/fig3_reference_full_selection_frequency.csv",
+      "sha256": "7e28b0b595a4354a366366b62338bb8b50649b0b91e43dd0200b9a48500a5480"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/stable_clock_optimization/full_l10.5_alpha0.01_B1500_frequency.csv",
+      "sha256": "183f01b475a4c6cb977fd67566ac747cc8e3dd4efc5d28363cd15b6ec9fa4065"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/stable_clock_optimization/full_feature_adaptation30_benchmark.csv",
+      "sha256": "5d6193d56eb50995c013703457e1839e5419a4170c22677384a40fad31ef1e74"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/models/fig3_reference_full_stable_EN_bundle.joblib",
+      "sha256": "8098bb3d290ed3e30c97e5c617f8b95a855253f3394b9f03f01a967a39b94b4e"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/stable_clock_optimization/full_candidate_a2b2249329474f90_bundle.joblib",
+      "sha256": "c614bd781a7fcba88dff9d5fc0c4275805b230ce9476a0ac5da211c8d16df9f4"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/stable_clock_optimization/full_candidate_2bde0e234375b2c4_bundle.joblib",
+      "sha256": "805a7cdc5db0172b11fe7ce7f613faa2163794455dba621221334ef8c78ca470"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/stable_clock_optimization/full_candidate_fc7d58cab5e08fe5_bundle.joblib",
+      "sha256": "4c0bce67969d7fce320a3958c60b09f119aede79235b99743bf802aef779fea1"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/stable_clock_optimization/full_candidate_f3e3ddf79bc016a2_bundle.joblib",
+      "sha256": "65626a55239c6e6eee32e57c35ee9dd3bb53ff632704e5c657d96b46633be72d"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/stable_clock_optimization/full_candidate_9c8d7dd05c0349a3_bundle.joblib",
+      "sha256": "4c797303f5d1bd3d0ece6663cfd20e00f54c25660d710f3cdea57fd77528cac7"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/stable_clock_optimization/full_candidate_5bc354a075984b7d_bundle.joblib",
+      "sha256": "19c393a6d13978874289046c5873e707f8e6c5c4a8c56aeaf2506b70e7b216b8"
+    },
+    {
+      "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/stable_clock_optimization/full_candidate_bbc4b63c4f6915ca_bundle.joblib",
+      "sha256": "487a1f094f2ed607c67072d34c6293f839355712729e62282f7502863b641f74"
+    }
+  ],
+  "script_sha256": "be27d5b0a4ed8b92d0b64c9bffbf641e23e5a34d8652cac21f87072c4a237d3f"
+}

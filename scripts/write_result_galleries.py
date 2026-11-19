@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 """Build navigable result-directory READMEs from the released asset manifest."""
+
+if __name__ == "__main__":
+    raise SystemExit("Historical November 9 release helper. Use scripts/update_results_release.py, then scripts/write_current_result_galleries.py; see scripts/README.md.")
+
 import csv
 import json
 import os

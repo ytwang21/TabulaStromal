@@ -1,0 +1,55 @@
+Celltype,Lineage,Minimum_mapped_genes,Reason,Status,elapsed_seconds,mapping_rate,n_TFs,n_input_genes,n_mapped_genes,signature
+Myfibro_CALD1_kidney,Fibroblast,20,Matching completed result reused,complete,888.3575990200043,0.9285714285714286,1076,28,26,ee07f432d5b8ea470181f92282557a05d4897d7b1e06e3256fd18050db260ce5
+Myfibro_CALD1_pan,Fibroblast,20,Matching completed result reused,complete,79.15714812278748,1.0,1076,65,65,75f241114ebb8e30273d763798891dfbea530bc0ee474531da70702de72c26bd
+Myfibro_KRT8_pan,Fibroblast,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,0.6842105263157895,,19,13,eea3ef85444eab82776e1c84a9b64571d5546457c8485b81dd7f252092ce6185
+Myfibro_MYH11_uterus,Fibroblast,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,0.9333333333333333,,15,14,5466930f6c7f7b436da6089b65d2d62421c6f0794de32127dff51030b68023b7
+Myfibro_QKI_brain,Fibroblast,20,Matching completed result reused,complete,557.9967534542084,0.9459459459459459,1076,37,35,3113d20a534f1a80dc0cb9d1a10afadefb4ecb2229be348aaf39ab9a8692fe46
+Myfibro_QKI_eye,Fibroblast,20,Matching completed result reused,complete,683.3305971622467,0.9310344827586207,1076,58,54,03d7a3920e7e17aa1dbb79d974dfe6ce9385ae5ee22ed8f8a9584a15e2517ca0
+Myfibro_TAGLN_pan,Fibroblast,20,Matching completed result reused,complete,365.5361793041229,0.9491525423728814,1076,59,56,0d44320bc000794e7d87ada6cb0512927209322d4566e7dd30157ff3418d1610
+Myfibro_TPM1_pan,Fibroblast,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,9,9,782cc7d283a1733af55c6a140b6a79d3ff5f9c25a70add1ba20279683f72d540
+Myfibro_TUBB2B_pan,Fibroblast,20,Matching completed result reused,complete,293.8116645812988,0.8571428571428571,1076,42,36,0839212a9b297a63fb6734e62bf08025860e6016da171e543ec661313f3d7e17
+eFibro_COL1A1_lung,Fibroblast,20,Matching completed result reused,complete,79.67218065261841,0.9259259259259259,1076,27,25,df3dabc8f848fb6955703f00551d93509beb1c4e65f75e579cfcbd3b38cf6bbf
+eFibro_COL1A1_pan,Fibroblast,20,Matching completed result reused,complete,126.42814326286316,0.9714285714285714,1076,70,68,742eb1b0ff20c2453278fbcec1a261d7147bbe1db399dcb16ee9603c445d7b37
+eFibro_COL1A2_pan,Fibroblast,20,Matching completed result reused,complete,124.30826163291931,0.9545454545454546,1076,22,21,07480214c55870fda5a7aef8a302d22a019625c5c473bf65afaf5ba94da9324a
+eFibro_COL3A1_lung,Fibroblast,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,2,2,1ef8685f52c779865ad84c34dcc1c29890642c47ff5784fae16e5a7a6da51cf0
+eFibro_COL3A1_pan,Fibroblast,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,3,3,bc3d18660ec43490cedcabbd69c59b0b840ffe793f46d43fa55174c79e35a23f
+eFibro_DCN_heart,Fibroblast,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,0.9375,,16,15,78bafcfa14587cd652078b871d7bf61986e5f50f7fce1645178b53e777c4acd9
+eFibro_DCN_pan,Fibroblast,20,Matching completed result reused,complete,86.25903940200806,0.9090909090909091,1076,44,40,62088bb97ed5ec1d2b00c405cc7f9e9445eb870f6ca8b8c143072dc892045138
+eFibro_DCN_uterus,Fibroblast,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,3,3,a5e341218b23c54ce6ae99e225e829a44d1b1a8d4ddf648ebd0998c0d0295532
+eFibro_HNRNPA1_pan,Fibroblast,20,Matching completed result reused,complete,88.06054019927979,0.9736842105263158,1076,38,37,2ffe0af245a6dc3916a06642dc53647a249003cec84d0c9fb76ce7c313c8fcfd
+eFibro_IGFBP7_pan,Fibroblast,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,0.8461538461538461,,13,11,f61417050c581fccd09a24a37054d2dcb571c2a599fd76cedfc6edc9b24c9be6
+eFibro_SPARC_pan,Fibroblast,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,0.875,,16,14,30c3949061899d7df9b1eb0317d68d4ae7a391f22c0a8cf9aef15ad24ab292b5
+iFibro_ARHGDIB_pan,Fibroblast,20,Matching completed result reused,complete,98.85181784629822,0.9310344827586207,1076,29,27,e485d90de4b4eb8a0d999af75e9b74e78db6d6c7f93256fcf2ad4e99272e6df5
+iFibro_CD74_bone marrow,Fibroblast,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,0.9444444444444444,,18,17,09980f5565ea39b5702f80f9c22efffe6f48b9eb28c7b0f5899e4289d6fd6cc4
+iFibro_CD74_pan,Fibroblast,20,Matching completed result reused,complete,80.06362843513489,1.0,1076,21,21,789814d675e32ee3ad15fd135337c2a3f8c0166ba1f6b65b6f4f48f167f3b14e
+iFibro_CD74_skin,Fibroblast,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,4,4,7e5b9c9fd7ba9acedcb4e5a0fe9997b905c064a93d02175f8e877f2d8ac9c634
+qFibro_APOD_breast,Fibroblast,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,0.9047619047619048,,21,19,c4893566609f6b4d98b1af12df87229177e6d7642014c8d937b4b7d7f88d4038
+qFibro_CFD_pan,Fibroblast,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,0.8888888888888888,,9,8,105b19a4d6480ae82aef699d59085f4bf48a7a8d6c080f450329a1454b2a1488
+qFibro_CLU_pan,Fibroblast,20,Matching completed result reused,complete,80.93082427978516,0.967741935483871,1076,62,60,48c412c4f72754acd05317c2f4e052432d9ed2a9d8ca38815086dd7ca35825a7
+ArtEC_CXCL12_pan,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,16,16,1b3bdaafdc9dfcdb182ec1871e64acf479c2563772036efa5249327aecb4ffdc
+ArtEC_FLT1_brain,Endothelial,20,Matching completed result reused,complete,649.3610651493073,0.8888888888888888,1076,27,24,42edde6bb88c60bde562a77c7dd0db789cbd5217c6190eb0c679194eaa7edcec
+ArtEC_FLT1_pan,Endothelial,20,Matching completed result reused,complete,678.5483028888702,1.0,1076,35,35,b84b3593252fbd8a386f4e495dfbd6ddd2a5bdb2e1ecbd230c22d4c0ba7649c4
+ArtEC_THY1_pan,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,0.8823529411764706,,17,15,4e0d5cbf11e8475248cd968b40298f3f060aa587aed74cff5648106ef9ffdc56
+CapEC_FLT1_uterus,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,8,8,3406deebf51e15351101b7a338a1f44ac5e14e11036c39d6ee29402d2091f5aa
+CapEC_GNG11_pan,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,0.9473684210526315,,19,18,2a5d1e00c1819882b9a444a82befd0c9b64cf0f9181bf1e3078c075d3e0a371b
+CapEC_TAGLN_prostate,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,1,1,bb1d8f3f86581b42cf91a7595a7f6ea0cb5cc004e936553fce5650cdb9cf5fe4
+CapEC_TM4SF1_breast,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,3,3,49529b77a53c5ad9a6c760ad164459d5c66004909fde33f7c82e7a1607423e4b
+CapEC_TM4SF1_pan,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,7,7,b8fa305db313813696e379f58474916a7a7e74703b990dcaa8c57956973ea9bd
+EndoMT_CD3D_pan,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,8,8,8c6c62cef5c12ffdd434fde7483c65a06edcc250ba9666ebd247d366ccf4976d
+EndoMT_CFD_bone marrow,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,0.75,,4,3,d745dd629d92f7d10e7bf5a8d6994cd7b3a4cef74c07181b94fa385ddbaaa43a
+EndoMT_CFD_pan,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,5,5,b9a3921459e9c8fdac119e5ff2b5fe4ff447f4de6c4f35021dd0bf045570cf8c
+EndoMT_CLU_eye,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,3,3,f12b6308aed2ca25151fc6d2fb6800a1fad5802356c17b87a304f68d7d34c321
+EndoMT_GNG11_vessel,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,0.875,,8,7,cc0a825daa48df593efd4e801d2d8c22aadbd0b52f8f0b24255eb1cd9fd98145
+EndoMT_PTN_pan,Endothelial,20,Matching completed result reused,complete,287.49639987945557,1.0,1076,23,23,27597da23861bf983f76c222e34696038de8fb7c649cc5bbf4bc18d0dbbaf1f3
+EndoMT_TAGLN_pan,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,3,3,e3db0702a26adc3a127674b8034f184df0cf909f82037c2a8ecda929b715a02f
+EndoMT_TM4SF1_pan,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,0.8571428571428571,,7,6,0d1e9e4140918d263a1ff1dca13c7d960e3584abfa0e24eed5a91b154f55b8c3
+EndoMT_TPM2_pan,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,19,19,192d5908722d17de11d151b8e8222e2cb9fe8f0c3eab545eaebbb7715cb21a9e
+EndoMT_VIM_pan,Endothelial,20,Matching completed result reused,complete,287.8219873905182,0.9459459459459459,1076,37,35,616ddab8bccf6e0fdf15c7593d72755a72c908d6c9625fdacec555d69a40fd3d
+LEC_EFEMP1_pan,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,8,8,986745ae60c3e876983952c4494f9a31f04a094bc9ad9cc6c0fa668d1dd82879
+VenEC_CLU_eye,Endothelial,20,Matching completed result reused,complete,79.38183665275574,0.953125,1076,64,61,4b6ed728c976bf6f3581b00572de260a8de7971dfb3ddea0cc9add98e893a08f
+VenEC_CLU_pan,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,0.875,,8,7,b305f0d583076036b180b3098efca8fa55323b5e8fc6df2b676b97e299b01e7d
+VenEC_EPCAM_pan,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,8,8,d22d1926b60184c147a1ebe86b9360fd84254d277e79cb4bf7447f5189234a3c
+VenEC_FLT1_pan,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,3,3,27a398fd75cd682426e866b07aa2153651838159985ec6132af7ea62a9b2ae66
+VenEC_TAGLN_pan,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,1,1,9b61cda77b22406f368ef5f4a94d3db9bd36467d1c7172ff9edb80e74208060d
+VenEC_TAGLN_pancreas,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,7,7,c047e9981c2be111d5af5f45efaa844805a0a8dceb21e5afeb905d5734f00910
+VenEC_TM4SF1_breast,Endothelial,20,LISA2 requires >=20 mapped protein-coding genes; no genes added,insufficient_genes,,1.0,,1,1,29026b99219077181a043b22134da3167dac8c325d5740a677ee76eb678bb7ef

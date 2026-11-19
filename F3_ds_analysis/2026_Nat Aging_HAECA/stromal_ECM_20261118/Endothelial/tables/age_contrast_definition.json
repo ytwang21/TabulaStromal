@@ -1,0 +1,33 @@
+{
+  "method": "median",
+  "tissue_cutoffs": {
+    "adipose": 53.0,
+    "airway": 31.0,
+    "bladder": 31.0,
+    "bone": 27.0,
+    "bone marrow": 60.0,
+    "brain": 60.0,
+    "breast": 60.0,
+    "colon": 60.0,
+    "esophagus": 31.0,
+    "eye": 60.0,
+    "intestine": 31.0,
+    "kidney": 55.5,
+    "liver": 31.0,
+    "lung": 50.5,
+    "muscle": 26.0,
+    "ovary": 46.0,
+    "pancreas": 48.0,
+    "peripheral nerve": 44.0,
+    "prostate": 60.0,
+    "skin": 53.0,
+    "spleen": 31.0,
+    "testis": 39.5,
+    "thymus": 25.0,
+    "uterus": 41.0
+  },
+  "median_definition": "Median of unique adult training GSE/GSM proxies per tissue, capped at60; aged>cutoff, young<=cutoff",
+  "cutoff_definition": "young<=50, aged>=60; 50<age<60 omitted",
+  "original_Age_group": "Unchanged; these labels define the statistical contrast only",
+  "count_aggregation": "Sum raw X by GSE/GSM proxy and exact stable Celltype; training sample identities only"
+}

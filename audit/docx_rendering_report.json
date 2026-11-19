@@ -1,19 +1,19 @@
 {
-  "status": "passed_automated_and_visual_page_checks",
+  "status": "passed_rendering_and_visual_review",
   "renderer": "LibreOffice 26.2.7.3 08dfbf04dcac895fc3a8d30dbf5a00de1b9dda5e",
   "pdf_inspector": "1.26.7",
   "original_scientific_figures_modified": false,
   "documents": [
     {
       "docx": "docs/results/Figure_Legends.docx",
-      "docx_sha256": "2d8a475efcca35d23209f80b3c51820535d21453f07d4c42ff7df63073b5a559",
+      "docx_sha256": "1955ec233835bb53b8abc17a0394d1526af951c1e836859063f2ba0b0bdfa6b0",
       "pdf": "docs/results/Figure_Legends.pdf",
-      "pdf_sha256": "3d0cb15eb87835f56c9c3adbd94f7de7c35abdf6a86c7b3888ee604c34eaf643",
-      "page_count": 4,
-      "source_text_blocks_checked": 16,
-      "source_text_blocks_found": 16,
-      "hyperlink_targets_checked": 1,
-      "hyperlink_targets_found": 1,
+      "pdf_sha256": "707ee529c67716fd6863ac2b53ff10535b71c6dc728221aa2c54b58e40620844",
+      "page_count": 5,
+      "source_text_blocks_checked": 26,
+      "source_text_blocks_found": 26,
+      "hyperlink_targets_checked": 0,
+      "hyperlink_targets_found": 0,
       "out_of_page_text_spans": 0,
       "embedded_pdf_fonts": [
         "BAAAAA+LiberationSerif",
@@ -23,29 +23,36 @@
       "pages": [
         {
           "page": 1,
-          "body_spans": 34,
+          "body_spans": 37,
           "preview": "page_01.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 2,
-          "body_spans": 40,
+          "body_spans": 37,
           "preview": "page_02.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 3,
-          "body_spans": 37,
+          "body_spans": 38,
           "preview": "page_03.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 4,
-          "body_spans": 6,
+          "body_spans": 36,
           "preview": "page_04.png",
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page": 5,
+          "body_spans": 2,
+          "preview": "page_05.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         }
@@ -54,14 +61,14 @@
     },
     {
       "docx": "docs/results/Results_Part1_StromalAtlas.docx",
-      "docx_sha256": "b85f3e41433e24cea605a98f097bc92ebae3e369d03ca3dcc8f67984335d845f",
+      "docx_sha256": "6666416f10f32caf6ec92df4c9aeaaa947d8f520ec12ce1946e99d1dd8726442",
       "pdf": "docs/results/Results_Part1_StromalAtlas.pdf",
-      "pdf_sha256": "27b235dfa92dca205d7754467f34cbb77010dc4bcd63294c55fe869d62714bf3",
+      "pdf_sha256": "e0a42af69bcb33821d1fbaa18f6edd781c6cfc10f08292676ca710df272615c9",
       "page_count": 2,
-      "source_text_blocks_checked": 11,
-      "source_text_blocks_found": 11,
-      "hyperlink_targets_checked": 5,
-      "hyperlink_targets_found": 5,
+      "source_text_blocks_checked": 17,
+      "source_text_blocks_found": 17,
+      "hyperlink_targets_checked": 4,
+      "hyperlink_targets_found": 4,
       "out_of_page_text_spans": 0,
       "embedded_pdf_fonts": [
         "BAAAAA+LiberationSerif",
@@ -71,14 +78,14 @@
       "pages": [
         {
           "page": 1,
-          "body_spans": 40,
+          "body_spans": 50,
           "preview": "page_01.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 2,
-          "body_spans": 8,
+          "body_spans": 29,
           "preview": "page_02.png",
           "width_pt": 612.0,
           "height_pt": 792.0
@@ -88,14 +95,14 @@
     },
     {
       "docx": "docs/results/Results_Part2_ClockPerformance_CellAge.docx",
-      "docx_sha256": "1d7387cff7050e552688c6c64b29fde0b467cb19e5f4d0ebb3209f8a695cbba9",
+      "docx_sha256": "1816dcf97d1584d2c7b568fc9c41a5138cfae3e67c51765a6a4651f079f4291c",
       "pdf": "docs/results/Results_Part2_ClockPerformance_CellAge.pdf",
-      "pdf_sha256": "55c7a8a60d1fd423c3fff2d797330153f90a238b3abe7b5f927579a6c436b7f8",
+      "pdf_sha256": "546acf180104a01eebb1b6984f861a59153ce7866c85c0275aff241aa19f1307",
       "page_count": 3,
-      "source_text_blocks_checked": 64,
-      "source_text_blocks_found": 64,
-      "hyperlink_targets_checked": 6,
-      "hyperlink_targets_found": 6,
+      "source_text_blocks_checked": 77,
+      "source_text_blocks_found": 77,
+      "hyperlink_targets_checked": 4,
+      "hyperlink_targets_found": 4,
       "out_of_page_text_spans": 0,
       "embedded_pdf_fonts": [
         "BAAAAA+LiberationSerif",
@@ -105,21 +112,21 @@
       "pages": [
         {
           "page": 1,
-          "body_spans": 40,
+          "body_spans": 48,
           "preview": "page_01.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 2,
-          "body_spans": 76,
+          "body_spans": 94,
           "preview": "page_02.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 3,
-          "body_spans": 8,
+          "body_spans": 35,
           "preview": "page_03.png",
           "width_pt": 612.0,
           "height_pt": 792.0
@@ -129,12 +136,12 @@
     },
     {
       "docx": "docs/results/Results_Part3_StableFeatures_Mechanisms.docx",
-      "docx_sha256": "8e152b04668eaef33ba7ee19fcb8b8f8ebe30fdcc9a9aee4dd78870fe1ec3e9c",
+      "docx_sha256": "3d431f8040f28279fa9e70a2219e0fc6d3987b178baada795b87113bfd464115",
       "pdf": "docs/results/Results_Part3_StableFeatures_Mechanisms.pdf",
-      "pdf_sha256": "2cc66a7d95211e65fca11210734ab041dc80cbb3bae2d9ef28929a5e451056c7",
-      "page_count": 2,
-      "source_text_blocks_checked": 15,
-      "source_text_blocks_found": 15,
+      "pdf_sha256": "24b4069f6011e97cf703b8bbfcea9c397fb6d3ccb6c8ac75c4091698e556cee7",
+      "page_count": 4,
+      "source_text_blocks_checked": 73,
+      "source_text_blocks_found": 73,
       "hyperlink_targets_checked": 4,
       "hyperlink_targets_found": 4,
       "out_of_page_text_spans": 0,
@@ -147,15 +154,29 @@
       "pages": [
         {
           "page": 1,
-          "body_spans": 40,
+          "body_spans": 50,
           "preview": "page_01.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 2,
-          "body_spans": 20,
+          "body_spans": 55,
           "preview": "page_02.png",
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page": 3,
+          "body_spans": 80,
+          "preview": "page_03.png",
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page": 4,
+          "body_spans": 63,
+          "preview": "page_04.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         }
@@ -164,14 +185,14 @@
     },
     {
       "docx": "docs/results/TabulaStromal_Results_Combined.docx",
-      "docx_sha256": "fad192ce310ff56ff8a6dfe8957e8ee2454f5e7dfb4e6b89ea8e9616d042d70d",
+      "docx_sha256": "5b7c28631561aac95cda6d1b9af60cce9e28dfa8b20f8a39889f26b1327dc15f",
       "pdf": "docs/results/TabulaStromal_Results_Combined.pdf",
-      "pdf_sha256": "1e5c77315dfb4ed6eec69cbce9a793a64f93e5273e4e0af318784463968bc108",
-      "page_count": 7,
-      "source_text_blocks_checked": 90,
-      "source_text_blocks_found": 90,
-      "hyperlink_targets_checked": 10,
-      "hyperlink_targets_found": 10,
+      "pdf_sha256": "dfbea2c12c8e87bf375ee2bc26207d36928c6288902e8c7f0f9730786a748020",
+      "page_count": 9,
+      "source_text_blocks_checked": 167,
+      "source_text_blocks_found": 167,
+      "hyperlink_targets_checked": 4,
+      "hyperlink_targets_found": 4,
       "out_of_page_text_spans": 0,
       "embedded_pdf_fonts": [
         "BAAAAA+LiberationSerif",
@@ -182,63 +203,69 @@
       "pages": [
         {
           "page": 1,
-          "body_spans": 40,
+          "body_spans": 50,
           "preview": "page_01.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 2,
-          "body_spans": 8,
+          "body_spans": 29,
           "preview": "page_02.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 3,
-          "body_spans": 40,
+          "body_spans": 51,
           "preview": "page_03.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 4,
-          "body_spans": 76,
+          "body_spans": 98,
           "preview": "page_04.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 5,
-          "body_spans": 8,
+          "body_spans": 28,
           "preview": "page_05.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 6,
-          "body_spans": 42,
+          "body_spans": 50,
           "preview": "page_06.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 7,
-          "body_spans": 18,
+          "body_spans": 55,
           "preview": "page_07.png",
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page": 8,
+          "body_spans": 80,
+          "preview": "page_08.png",
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page": 9,
+          "body_spans": 63,
+          "preview": "page_09.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         }
       ],
       "visual_review": "all pages inspected; no clipping or table overflow observed"
     }
-  ],
-  "visual_review_method": "All 18 rendered page PNGs inspected using the Codex image viewer; table and exponent displays checked.",
-  "renderer_download_provenance": {
-    "url": "https://download.documentfoundation.org/libreoffice/stable/26.2.7/rpm/x86_64/LibreOffice_26.2.7_Linux_x86-64_rpm.tar.gz",
-    "official_archive_sha256": "c22c6175d620afd89789d6cacebca90345aad75a24cee21cff882feec19fdee7",
-    "official_archive_bytes": 252077363,
-    "archive_digest_verified": true,
-    "redistributed_in_repository": false
-  }
+  ]
 }

@@ -1,0 +1,45 @@
+{
+  "benchmark_rows": 78,
+  "annotated_heatmap_cells": 234,
+  "scatter_samples": 1077,
+  "legend_rows": 2,
+  "metrics_verified": [
+    "n",
+    "R2",
+    "MAE",
+    "MAD",
+    "PCC"
+  ],
+  "heatmap_fold": 4,
+  "model": "ElasticNet",
+  "stable_features": {
+    "Fibroblast": 750,
+    "Endothelial": 350
+  },
+  "final_scatter_scope": "development_in_sample",
+  "workflow_external_samples": 170,
+  "MAD_definition_stable": "median absolute prediction error",
+  "MAD_definition_heatmap": "mean absolute age deviation",
+  "square_panels": [
+    {
+      "panel": "E",
+      "width_inches": 6.05,
+      "height_inches": 6.049999999999999
+    },
+    {
+      "panel": "F",
+      "width_inches": 6.049999999999999,
+      "height_inches": 6.049999999999999
+    }
+  ],
+  "training_performed": false,
+  "layout": "portrait: A full-width top; B\u2013D middle; E\u2013F bottom",
+  "figure_inches": [
+    16.2,
+    27.2
+  ],
+  "png_pixels": [
+    6480.0,
+    10880.0
+  ]
+}

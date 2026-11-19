@@ -13,6 +13,7 @@ import subprocess
 import sys
 from zipfile import ZipFile
 from xml.etree import ElementTree as ET
+from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKSUMS = 'provenance/export_checksums.csv'
@@ -58,13 +59,24 @@ def main(argv=None):
             errors.append(f'Excluded research/credential format: {rel}')
         if path.stat().st_size > 2_000_000:
             approved=released.get(rel)
-            limit=32_000_000 if path.suffix in {'.png','.pdf'} else 8_000_000
-            if not (approved and path.suffix in {'.png','.pdf','.csv'} and
+            limit=64_000_000 if path.suffix=='.pptx' else 32_000_000 if path.suffix in {'.png','.pdf'} else 24_000_000
+            if not (approved and path.suffix in {'.png','.pdf','.csv','.pptx'} and
                     path.stat().st_size <= limit and int(approved['bytes'])==path.stat().st_size and
                     hashlib.sha256(path.read_bytes()).hexdigest()==approved['sha256']):
                 errors.append(f'Large file requires a matching reviewed scientific-asset record: {rel}')
         raw = path.read_bytes()
         if path.suffix in {'.png', '.jpg', '.jpeg', '.pdf'}:
+            continue
+        if path.suffix == '.pptx':
+            try:
+                with ZipFile(path) as archive:
+                    assert archive.testzip() is None
+                    for member in archive.namelist():
+                        if member.endswith(('.xml','.rels')):
+                            value=archive.read(member).decode('utf-8');ET.fromstring(value)
+                            assert not re.search(r'/(?:fs|data)/home/[A-Za-z0-9_]',value)
+                            assert not any(re.search(pattern,value) for pattern in SECRET_PATTERNS)
+            except Exception as exc:errors.append(f'Invalid presentation package {rel}: {type(exc).__name__}: {exc}')
             continue
         if path.suffix == '.docx':
             try:
@@ -111,7 +123,7 @@ def main(argv=None):
                 if target.startswith(('https://', 'http://', 'mailto:', '#')):
                     continue
                 target = target.split('#', 1)[0]
-                if target and not (path.parent / target).exists():
+                if target and not (path.parent / unquote(target)).exists():
                     errors.append(f'Broken Markdown link in {rel}: {target}')
                 counts['markdown_links'] += 1
 

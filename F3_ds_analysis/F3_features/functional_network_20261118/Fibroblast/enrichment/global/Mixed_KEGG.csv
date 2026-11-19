@@ -1,0 +1,321 @@
+Term,Overlap_Count,Pathway_Size,Query_Size,Background_Size,Genes,P_value,FDR,Gene_ratio,Fold_enrichment,Database,Direction,Lineage
+Systemic lupus erythematosus,2,45,11,11700,C1S;MACROH2A1,0.0007782381017884477,0.24903619257230325,0.18181818181818182,47.27272727272727,KEGG,Mixed,Fibroblast
+Endocytosis,2,219,11,11700,AGAP1;ARAP3,0.017162706422469188,1.0,0.18181818181818182,9.71357409713574,KEGG,Mixed,Fibroblast
+ABC transporters,1,22,11,11700,ABCB7,0.02049907039669092,1.0,0.09090909090909091,48.34710743801653,KEGG,Mixed,Fibroblast
+Staphylococcus aureus infection,1,27,11,11700,C1S,0.025104341077348408,1.0,0.09090909090909091,39.39393939393939,KEGG,Mixed,Fibroblast
+Complement and coagulation cascades,1,30,11,11700,C1S,0.027858046278206844,1.0,0.09090909090909091,35.45454545454545,KEGG,Mixed,Fibroblast
+Base excision repair,1,32,11,11700,APEX1,0.02968991936345496,1.0,0.09090909090909091,33.23863636363637,KEGG,Mixed,Fibroblast
+Viral myocarditis,1,42,11,11700,FYN,0.03880230176296907,1.0,0.09090909090909091,25.324675324675326,KEGG,Mixed,Fibroblast
+Pertussis,1,50,11,11700,C1S,0.04603611739854037,1.0,0.09090909090909091,21.27272727272727,KEGG,Mixed,Fibroblast
+Fc epsilon RI signaling pathway,1,53,11,11700,FYN,0.04873601358854379,1.0,0.09090909090909091,20.06861063464837,KEGG,Mixed,Fibroblast
+Cholinergic synapse,1,65,11,11700,FYN,0.05946627572485741,1.0,0.09090909090909091,16.363636363636363,KEGG,Mixed,Fibroblast
+Adherens junction,1,67,11,11700,FYN,0.06124391639050783,1.0,0.09090909090909091,15.875169606512891,KEGG,Mixed,Fibroblast
+Natural killer cell mediated cytotoxicity,1,72,11,11700,FYN,0.06567466324788368,1.0,0.09090909090909091,14.772727272727273,KEGG,Mixed,Fibroblast
+T cell receptor signaling pathway,1,77,11,11700,FYN,0.07008639078954716,1.0,0.09090909090909091,13.813459268004722,KEGG,Mixed,Fibroblast
+Platelet activation,1,87,11,11700,FYN,0.07885308171001462,1.0,0.09090909090909091,12.225705329153605,KEGG,Mixed,Fibroblast
+Alcoholism,1,90,11,11700,MACROH2A1,0.08146839877763938,1.0,0.09090909090909091,11.818181818181818,KEGG,Mixed,Fibroblast
+Osteoclast differentiation,1,94,11,11700,FYN,0.08494498763867375,1.0,0.09090909090909091,11.315280464216636,KEGG,Mixed,Fibroblast
+Neutrophil extracellular trap formation,1,100,11,11700,MACROH2A1,0.09013744521927086,1.0,0.09090909090909091,10.636363636363635,KEGG,Mixed,Fibroblast
+Sphingolipid signaling pathway,1,101,11,11700,FYN,0.09100024591776983,1.0,0.09090909090909091,10.531053105310532,KEGG,Mixed,Fibroblast
+Phospholipase D signaling pathway,1,103,11,11700,FYN,0.09272361631850454,1.0,0.09090909090909091,10.326566637246248,KEGG,Mixed,Fibroblast
+Necroptosis,1,107,11,11700,MACROH2A1,0.09616144928344604,1.0,0.09090909090909091,9.94052676295667,KEGG,Mixed,Fibroblast
+cAMP signaling pathway,1,109,11,11700,ARAP3,0.09787592106106378,1.0,0.09090909090909091,9.7581317764804,KEGG,Mixed,Fibroblast
+Ubiquitin mediated proteolysis,1,132,11,11700,HERC3,0.11738096287996326,1.0,0.09090909090909091,8.057851239669422,KEGG,Mixed,Fibroblast
+Axon guidance,1,134,11,11700,FYN,0.11905880047290747,1.0,0.09090909090909091,7.9375848032564456,KEGG,Mixed,Fibroblast
+Focal adhesion,1,155,11,11700,FYN,0.13650186342888934,1.0,0.09090909090909091,6.86217008797654,KEGG,Mixed,Fibroblast
+Rap1 signaling pathway,1,155,11,11700,ARAP3,0.13650186342888934,1.0,0.09090909090909091,6.86217008797654,KEGG,Mixed,Fibroblast
+Pathogenic Escherichia coli infection,1,156,11,11700,FYN,0.13732459876906106,1.0,0.09090909090909091,6.818181818181818,KEGG,Mixed,Fibroblast
+Coronavirus disease,1,168,11,11700,C1S,0.14714199127588273,1.0,0.09090909090909091,6.3311688311688314,KEGG,Mixed,Fibroblast
+Prion disease,1,207,11,11700,FYN,0.17835124422398102,1.0,0.09090909090909091,5.138339920948617,KEGG,Mixed,Fibroblast
+AGE-RAGE signaling pathway in diabetic complications,0,85,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+AMPK signaling pathway,0,99,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Acute myeloid leukemia,0,59,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Adipocytokine signaling pathway,0,51,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Adrenergic signaling in cardiomyocytes,0,85,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+African trypanosomiasis,0,16,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+"Alanine, aspartate and glutamate metabolism",0,22,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Aldosterone synthesis and secretion,0,56,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Aldosterone-regulated sodium reabsorption,0,23,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Allograft rejection,0,16,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Alzheimer disease,0,276,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Amino sugar and nucleotide sugar metabolism,0,43,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Aminoacyl-tRNA biosynthesis,0,43,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Amoebiasis,0,62,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Amphetamine addiction,0,38,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Amyotrophic lateral sclerosis,0,283,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Antigen processing and presentation,0,49,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Apelin signaling pathway,0,92,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Apoptosis,0,120,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Arachidonic acid metabolism,0,24,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Arginine and proline metabolism,0,32,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Arginine biosynthesis,0,9,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Arrhythmogenic right ventricular cardiomyopathy,0,43,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Ascorbate and aldarate metabolism,0,8,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Asthma,0,11,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Autoimmune thyroid disease,0,16,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Autophagy,0,130,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+B cell receptor signaling pathway,0,62,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Bacterial invasion of epithelial cells,0,69,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Basal cell carcinoma,0,38,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Basal transcription factors,0,39,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Bile secretion,0,28,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Biosynthesis of unsaturated fatty acids,0,22,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Bladder cancer,0,36,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Breast cancer,0,97,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Butanoate metabolism,0,17,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+C-type lectin receptor signaling pathway,0,81,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Caffeine metabolism,0,1,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Calcium signaling pathway,0,107,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Carbohydrate digestion and absorption,0,24,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Cardiac muscle contraction,0,43,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Cell adhesion molecules,0,69,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Cell cycle,0,108,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Cellular senescence,0,137,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Central carbon metabolism in cancer,0,54,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Chagas disease,0,76,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Chemical carcinogenesis,0,127,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Chemokine signaling pathway,0,120,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Cholesterol metabolism,0,28,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Choline metabolism in cancer,0,80,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Chronic myeloid leukemia,0,73,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Circadian entrainment,0,49,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Circadian rhythm,0,27,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Citrate cycle (TCA cycle),0,27,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Cocaine addiction,0,26,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Collecting duct acid secretion,0,16,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Colorectal cancer,0,82,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Cortisol synthesis and secretion,0,36,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Cushing syndrome,0,99,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Cysteine and methionine metabolism,0,35,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Cytokine-cytokine receptor interaction,0,91,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Cytosolic DNA-sensing pathway,0,41,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+D-Glutamine and D-glutamate metabolism,0,3,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+DNA replication,0,35,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Diabetic cardiomyopathy,0,163,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Dilated cardiomyopathy,0,47,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Dopaminergic synapse,0,88,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Drug metabolism,0,48,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+ECM-receptor interaction,0,50,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Endocrine and other factor-regulated calcium reabsorption,0,32,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Endometrial cancer,0,54,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Epithelial cell signaling in Helicobacter pylori infection,0,58,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Epstein-Barr virus infection,0,166,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+ErbB signaling pathway,0,70,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Estrogen signaling pathway,0,83,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Ether lipid metabolism,0,26,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Fanconi anemia pathway,0,47,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Fat digestion and absorption,0,15,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Fatty acid biosynthesis,0,13,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Fatty acid degradation,0,31,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Fatty acid elongation,0,22,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Fc gamma R-mediated phagocytosis,0,84,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Ferroptosis,0,34,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Fluid shear stress and atherosclerosis,0,108,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Folate biosynthesis,0,16,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+FoxO signaling pathway,0,108,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Fructose and mannose metabolism,0,27,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+GABAergic synapse,0,39,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Galactose metabolism,0,20,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Gap junction,0,60,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Gastric acid secretion,0,39,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Gastric cancer,0,98,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Glioma,0,63,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Glucagon signaling pathway,0,73,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Glutamatergic synapse,0,57,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Glutathione metabolism,0,38,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Glycerolipid metabolism,0,39,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Glycerophospholipid metabolism,0,68,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+"Glycine, serine and threonine metabolism",0,23,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Glycolysis / Gluconeogenesis,0,41,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Glycosaminoglycan biosynthesis,0,40,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Glycosaminoglycan degradation,0,15,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Glycosphingolipid biosynthesis,0,28,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,0,24,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Glyoxylate and dicarboxylate metabolism,0,25,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+GnRH secretion,0,37,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+GnRH signaling pathway,0,68,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Graft-versus-host disease,0,17,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+"Growth hormone synthesis, secretion and action",0,90,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+HIF-1 signaling pathway,0,84,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Hedgehog signaling pathway,0,42,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Hematopoietic cell lineage,0,43,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Hepatitis B,0,137,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Hepatitis C,0,116,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Hepatocellular carcinoma,0,128,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Herpes simplex virus 1 infection,0,398,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Hippo signaling pathway,0,116,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Histidine metabolism,0,11,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Homologous recombination,0,34,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Human T-cell leukemia virus 1 infection,0,182,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Human cytomegalovirus infection,0,174,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Human immunodeficiency virus 1 infection,0,164,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Human papillomavirus infection,0,245,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Huntington disease,0,238,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Hypertrophic cardiomyopathy,0,48,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+IL-17 signaling pathway,0,57,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Inflammatory bowel disease,0,35,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Inflammatory mediator regulation of TRP channels,0,58,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Influenza A,0,123,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Inositol phosphate metabolism,0,61,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Insulin resistance,0,86,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Insulin secretion,0,46,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Insulin signaling pathway,0,112,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Intestinal immune network for IgA production,0,22,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+JAK-STAT signaling pathway,0,85,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Kaposi sarcoma-associated herpesvirus infection,0,150,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Legionellosis,0,46,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Leishmaniasis,0,54,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Leukocyte transendothelial migration,0,83,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Linoleic acid metabolism,0,5,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Lipid and atherosclerosis,0,159,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Long-term depression,0,40,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Long-term potentiation,0,45,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Longevity regulating pathway,0,86,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Lysine degradation,0,55,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Lysosome,0,111,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+MAPK signaling pathway,0,219,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Malaria,0,26,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Mannose type O-glycan biosynthesis,0,18,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Maturity onset diabetes of the young,0,2,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Measles,0,103,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Melanogenesis,0,62,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Melanoma,0,54,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Metabolism of xenobiotics by cytochrome P450,0,21,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+MicroRNAs in cancer,0,134,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Mineral absorption,0,32,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Mismatch repair,0,21,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Mitophagy,0,63,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Morphine addiction,0,39,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Mucin type O-glycan biosynthesis,0,17,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+N-Glycan biosynthesis,0,45,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+NF-kappa B signaling pathway,0,81,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+NOD-like receptor signaling pathway,0,130,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+"Neomycin, kanamycin and gentamicin biosynthesis",0,2,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Neuroactive ligand-receptor interaction,0,40,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Neurotrophin signaling pathway,0,100,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Nicotinate and nicotinamide metabolism,0,26,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Nicotine addiction,0,1,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Nitrogen metabolism,0,7,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Non-alcoholic fatty liver disease,0,134,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Non-homologous end-joining,0,11,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Non-small cell lung cancer,0,65,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Notch signaling pathway,0,50,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Nucleotide excision repair,0,43,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Olfactory transduction,0,19,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+One carbon pool by folate,0,16,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Oocyte meiosis,0,89,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Other glycan degradation,0,16,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Other types of O-glycan biosynthesis,0,32,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Ovarian steroidogenesis,0,21,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Oxidative phosphorylation,0,104,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Oxytocin signaling pathway,0,95,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+PD-L1 expression and PD-1 checkpoint pathway in cancer,0,73,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+PI3K-Akt signaling pathway,0,231,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+PPAR signaling pathway,0,42,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Pancreatic cancer,0,73,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Pancreatic secretion,0,44,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Pantothenate and CoA biosynthesis,0,14,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+"Parathyroid hormone synthesis, secretion and action",0,74,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Parkinson disease,0,196,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Pathways in cancer,0,376,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Pathways of neurodegeneration,0,343,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Pentose and glucuronate interconversions,0,11,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Pentose phosphate pathway,0,23,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Peroxisome,0,67,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Phagosome,0,101,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Phenylalanine metabolism,0,6,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+"Phenylalanine, tyrosine and tryptophan biosynthesis",0,2,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Phosphatidylinositol signaling system,0,81,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Phosphonate and phosphinate metabolism,0,5,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Phototransduction,0,7,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Porphyrin and chlorophyll metabolism,0,20,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Primary bile acid biosynthesis,0,8,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Primary immunodeficiency,0,18,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Progesterone-mediated oocyte maturation,0,69,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Prolactin signaling pathway,0,52,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Propanoate metabolism,0,30,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Prostate cancer,0,85,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Proteasome,0,43,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Protein digestion and absorption,0,39,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Protein export,0,23,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Protein processing in endoplasmic reticulum,0,158,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Proteoglycans in cancer,0,156,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Proximal tubule bicarbonate reclamation,0,12,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Purine metabolism,0,88,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Pyrimidine metabolism,0,46,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Pyruvate metabolism,0,33,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+RIG-I-like receptor signaling pathway,0,49,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+RNA degradation,0,70,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+RNA polymerase,0,31,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+RNA transport,0,148,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Ras signaling pathway,0,153,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Regulation of actin cytoskeleton,0,160,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Regulation of lipolysis in adipocytes,0,32,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Relaxin signaling pathway,0,93,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Renal cell carcinoma,0,65,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Renin secretion,0,40,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Renin-angiotensin system,0,9,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Retinol metabolism,0,14,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Retrograde endocannabinoid signaling,0,86,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Rheumatoid arthritis,0,55,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Riboflavin metabolism,0,7,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Ribosome,0,127,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Ribosome biogenesis in eukaryotes,0,70,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+SNARE interactions in vesicular transport,0,31,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Salivary secretion,0,42,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Salmonella infection,0,218,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Selenocompound metabolism,0,16,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Serotonergic synapse,0,50,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Shigellosis,0,210,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Signaling pathways regulating pluripotency of stem cells,0,90,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Small cell lung cancer,0,80,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Sphingolipid metabolism,0,37,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Spinocerebellar ataxia,0,112,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Spliceosome,0,129,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Starch and sucrose metabolism,0,18,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Steroid biosynthesis,0,16,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Steroid hormone biosynthesis,0,17,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Sulfur metabolism,0,10,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Sulfur relay system,0,8,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Synaptic vesicle cycle,0,41,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Synthesis and degradation of ketone bodies,0,7,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+TGF-beta signaling pathway,0,64,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+TNF signaling pathway,0,95,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Taste transduction,0,13,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Taurine and hypotaurine metabolism,0,4,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Terpenoid backbone biosynthesis,0,20,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Th1 and Th2 cell differentiation,0,66,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Th17 cell differentiation,0,76,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Thermogenesis,0,182,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Thiamine metabolism,0,8,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Thyroid cancer,0,33,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Thyroid hormone signaling pathway,0,98,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Thyroid hormone synthesis,0,42,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Tight junction,0,125,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Toll-like receptor signaling pathway,0,71,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Toxoplasmosis,0,88,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Transcriptional misregulation in cancer,0,121,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Tryptophan metabolism,0,25,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Tuberculosis,0,121,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Type I diabetes mellitus,0,20,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Type II diabetes mellitus,0,29,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Tyrosine metabolism,0,12,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Ubiquinone and other terpenoid-quinone biosynthesis,0,9,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+VEGF signaling pathway,0,50,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+"Valine, leucine and isoleucine degradation",0,41,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Various types of N-glycan biosynthesis,0,33,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Vascular smooth muscle contraction,0,79,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Vasopressin-regulated water reabsorption,0,36,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Vibrio cholerae infection,0,41,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Viral carcinogenesis,0,159,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Viral protein interaction with cytokine and cytokine receptor,0,31,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Vitamin B6 metabolism,0,4,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Vitamin digestion and absorption,0,10,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Wnt signaling pathway,0,111,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+Yersinia infection,0,121,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+alpha-Linolenic acid metabolism,0,9,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+beta-Alanine metabolism,0,19,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+cGMP-PKG signaling pathway,0,101,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+mRNA surveillance pathway,0,82,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+mTOR signaling pathway,0,125,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast
+p53 signaling pathway,0,67,11,11700,,1.0,1.0,0.0,0.0,KEGG,Mixed,Fibroblast

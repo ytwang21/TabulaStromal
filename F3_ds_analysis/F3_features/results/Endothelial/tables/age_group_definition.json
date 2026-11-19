@@ -1,0 +1,15 @@
+{
+  "source": "adata.obs['Age_group']",
+  "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "min_groups_per_category": 1,
+  "slope_axis": "ordinal positions in original category order; not years"
+}

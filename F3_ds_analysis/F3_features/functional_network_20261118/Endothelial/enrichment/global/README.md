@@ -1,0 +1,30 @@
+# global
+
+Current snapshot: **19 November 2026**. Counts refer to sample/proxy units unless stated otherwise. Selected expression features are not explicit cell-type proportions; predictive weights and regulatory annotations are not causal evidence.
+
+[Module overview](../../../../../README.md) · [Results and legends](../../../../../../docs/results)
+
+- [All_GO_BP.csv](All_GO_BP.csv)
+- [All_GO_CC.csv](All_GO_CC.csv)
+- [All_GO_MF.csv](All_GO_MF.csv)
+- [All_Hallmark.csv](All_Hallmark.csv)
+- [All_KEGG.csv](All_KEGG.csv)
+- [All_Reactome_2022.csv](All_Reactome_2022.csv)
+- [Mixed_GO_BP.csv](Mixed_GO_BP.csv)
+- [Mixed_GO_CC.csv](Mixed_GO_CC.csv)
+- [Mixed_GO_MF.csv](Mixed_GO_MF.csv)
+- [Mixed_Hallmark.csv](Mixed_Hallmark.csv)
+- [Mixed_KEGG.csv](Mixed_KEGG.csv)
+- [Mixed_Reactome_2022.csv](Mixed_Reactome_2022.csv)
+- [Negative_GO_BP.csv](Negative_GO_BP.csv)
+- [Negative_GO_CC.csv](Negative_GO_CC.csv)
+- [Negative_GO_MF.csv](Negative_GO_MF.csv)
+- [Negative_Hallmark.csv](Negative_Hallmark.csv)
+- [Negative_KEGG.csv](Negative_KEGG.csv)
+- [Negative_Reactome_2022.csv](Negative_Reactome_2022.csv)
+- [Positive_GO_BP.csv](Positive_GO_BP.csv)
+- [Positive_GO_CC.csv](Positive_GO_CC.csv)
+- [Positive_GO_MF.csv](Positive_GO_MF.csv)
+- [Positive_Hallmark.csv](Positive_Hallmark.csv)
+- [Positive_KEGG.csv](Positive_KEGG.csv)
+- [Positive_Reactome_2022.csv](Positive_Reactome_2022.csv)

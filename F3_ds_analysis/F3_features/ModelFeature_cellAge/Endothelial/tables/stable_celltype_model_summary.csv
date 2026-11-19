@@ -1,0 +1,28 @@
+Celltype,n_stable_features,mean_selection_frequency,model_abs_coefficient,model_signed_coefficient,n_positive_model_features,n_negative_model_features,Lineage,coefficient_interpretation
+ArtEC_CXCL12_pan,16,0.7948333333333334,6.219112658879661,-0.2170133911088219,10,6,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+ArtEC_FLT1_brain,27,0.7811111111111111,0.5159372163684812,0.5159372163684813,26,0,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+ArtEC_FLT1_pan,35,0.7802095238095238,0.6613992990444121,0.4538581674846703,29,5,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+ArtEC_THY1_pan,17,0.7391372549019608,0.39889078743031336,0.37509836672968216,15,1,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+CapEC_FLT1_uterus,8,0.6949166666666666,1.1052115294841243,0.4998887021187647,5,3,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+CapEC_GNG11_pan,19,0.7516491228070175,5.1656617340480135,-2.762990144508637,4,15,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+CapEC_TAGLN_prostate,1,0.6653333333333333,0.2297182497163814,-0.2297182497163814,0,1,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+CapEC_TM4SF1_breast,3,0.6873333333333335,1.28843916363023,0.9553201461823462,2,1,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+CapEC_TM4SF1_pan,7,0.7332380952380951,2.566263076822543,2.0496467933140297,6,1,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+EndoMT_CD3D_pan,8,0.68125,1.0247573849905864,-0.9948509546522231,1,7,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+EndoMT_CFD_bone marrow,4,0.7879999999999999,0.6402923043987898,-0.2604068849051244,1,3,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+EndoMT_CFD_pan,5,0.8510666666666667,0.5265725727836849,-0.3177255541754897,1,4,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+EndoMT_CLU_eye,3,0.7493333333333334,0.0320588148835362,-0.0320588148835362,0,3,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+EndoMT_GNG11_vessel,8,0.68825,0.4452160569516148,0.37580915263724324,5,3,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+EndoMT_PTN_pan,23,0.7367246376811594,0.7125661903979167,0.13141275100955027,4,16,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+EndoMT_TAGLN_pan,3,0.7200000000000001,0.0407801920283026,-0.0407801920283026,0,3,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+EndoMT_TM4SF1_pan,7,0.7459047619047618,3.2121645200556364,0.4389338252021031,2,5,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+EndoMT_TPM2_pan,19,0.7367368421052631,1.1401218486438958,-0.7866204703054226,4,14,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+EndoMT_VIM_pan,37,0.838,3.299609533950636,-1.6990475983765592,8,28,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+LEC_EFEMP1_pan,8,0.73725,2.516490500297407,-0.019500715962536996,3,5,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+VenEC_CLU_eye,64,0.8128020833333334,1.4563486464605808,0.8106323672312632,50,13,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+VenEC_CLU_pan,8,0.8255833333333333,2.7593353104220313,2.155951913267509,6,2,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+VenEC_EPCAM_pan,8,0.6625833333333333,0.108278919672782,-0.108278919672782,0,8,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+VenEC_FLT1_pan,3,0.7035555555555555,1.1184090778444127,0.8920323025846693,2,1,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+VenEC_TAGLN_pan,1,0.6966666666666667,0.8774807848533778,-0.8774807848533778,0,1,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+VenEC_TAGLN_pancreas,7,0.7106666666666667,1.37195651039251,-1.039125114317894,3,4,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging
+VenEC_TM4SF1_breast,1,0.634,1.064691786178464,-1.064691786178464,0,1,Endothelial,Conditional standardized-model contribution; not biological pro/anti-aging

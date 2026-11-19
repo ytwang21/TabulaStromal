@@ -1,10 +1,10 @@
-# CellAge_Exploration — tables
+# tables
 
-[Analysis overview and protocol](../README.md)
+Current snapshot: **19 November 2026**. Counts refer to sample/proxy units unless stated otherwise. Selected expression features are not explicit cell-type proportions; predictive weights and regulatory annotations are not causal evidence.
 
-![Related result figure](../figures/Fig_CellAge_Stromal_Integration.png)
+[Module overview](../README.md) · [Results and legends](../../docs/results)
 
-## Files
+This folder belongs to the historical score snapshot. The current selected-state analysis is linked from the module overview.
 
 - [cohort_overview.csv](cohort_overview.csv)
 - [endo_age_associations.csv](endo_age_associations.csv)
@@ -21,5 +21,3 @@
 - [fibro_score_qc.csv](fibro_score_qc.csv)
 - [fibro_subtype_contrasts.csv](fibro_subtype_contrasts.csv)
 - [fibro_subtype_ranking.csv](fibro_subtype_ranking.csv)
-
-Figure and data provenance are recorded in the analysis directory audit and evidence registries.

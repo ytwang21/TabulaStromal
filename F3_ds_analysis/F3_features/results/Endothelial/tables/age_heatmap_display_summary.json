@@ -1,0 +1,46 @@
+{
+  "n_input_stable_features": 350,
+  "n_displayed_features": 161,
+  "pattern_counts": {
+    "Young-high": 34,
+    "Middle-high": 21,
+    "Old-high": 106
+  },
+  "stage_windows": {
+    "Young-high": [
+      "A",
+      "B",
+      "C"
+    ],
+    "Middle-high": [
+      "D",
+      "E",
+      "F"
+    ],
+    "Old-high": [
+      "G",
+      "H"
+    ]
+  },
+  "classification": "Highest stage mean row z-score; all stages must be observed",
+  "row_order": "stage, within-stage peak Age_group, descending stage contrast, feature identifier",
+  "n_top_dynamic": 30,
+  "Age_group_labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "filter": {
+    "min_observed_age_groups": 4,
+    "min_raw_range": 0.2,
+    "min_relative_range": 0.3,
+    "relative_range_denominator": "abs(mean_expression)+0.1",
+    "min_stage_contrast_zscore": 0.3
+  },
+  "scope": "Display selection only; not a test of differential expression, independent replication, or pathway activity"
+}

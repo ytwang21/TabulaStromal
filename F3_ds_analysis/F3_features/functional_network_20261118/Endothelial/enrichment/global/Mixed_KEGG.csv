@@ -1,0 +1,321 @@
+Term,Overlap_Count,Pathway_Size,Query_Size,Background_Size,Genes,P_value,FDR,Gene_ratio,Fold_enrichment,Database,Direction,Lineage
+Renin secretion,1,36,5,11521,KCNJ2,0.015528988259669151,1.0,0.2,64.00555555555556,KEGG,Mixed,Endothelial
+Gastric acid secretion,1,38,5,11521,KCNJ2,0.016386018787183383,1.0,0.2,60.63684210526316,KEGG,Mixed,Endothelial
+Cholinergic synapse,1,64,5,11521,KCNJ2,0.027473204462118983,1.0,0.2,36.003125000000004,KEGG,Mixed,Endothelial
+Oxytocin signaling pathway,1,93,5,11521,KCNJ2,0.03972149654371314,1.0,0.2,24.776344086021506,KEGG,Mixed,Endothelial
+ABC transporters,0,22,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+AGE-RAGE signaling pathway in diabetic complications,0,85,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+AMPK signaling pathway,0,99,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Acute myeloid leukemia,0,60,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Adherens junction,0,66,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Adipocytokine signaling pathway,0,52,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Adrenergic signaling in cardiomyocytes,0,83,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+African trypanosomiasis,0,17,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+"Alanine, aspartate and glutamate metabolism",0,22,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Alcoholism,0,89,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Aldosterone synthesis and secretion,0,52,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Aldosterone-regulated sodium reabsorption,0,22,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Allograft rejection,0,19,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Alzheimer disease,0,273,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Amino sugar and nucleotide sugar metabolism,0,42,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Aminoacyl-tRNA biosynthesis,0,43,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Amoebiasis,0,63,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Amphetamine addiction,0,36,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Amyotrophic lateral sclerosis,0,282,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Antigen processing and presentation,0,51,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Apelin signaling pathway,0,93,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Apoptosis,0,123,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Arachidonic acid metabolism,0,23,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Arginine and proline metabolism,0,32,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Arginine biosynthesis,0,9,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Arrhythmogenic right ventricular cardiomyopathy,0,39,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Ascorbate and aldarate metabolism,0,8,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Asthma,0,13,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Autoimmune thyroid disease,0,18,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Autophagy,0,130,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Axon guidance,0,127,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+B cell receptor signaling pathway,0,64,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Bacterial invasion of epithelial cells,0,69,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Basal cell carcinoma,0,35,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Basal transcription factors,0,39,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Base excision repair,0,32,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Bile secretion,0,27,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Biosynthesis of unsaturated fatty acids,0,21,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Bladder cancer,0,35,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Breast cancer,0,94,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Butanoate metabolism,0,17,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+C-type lectin receptor signaling pathway,0,82,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Caffeine metabolism,0,1,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Calcium signaling pathway,0,102,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Carbohydrate digestion and absorption,0,21,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Cardiac muscle contraction,0,40,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Cell adhesion molecules,0,75,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Cell cycle,0,107,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Cellular senescence,0,135,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Central carbon metabolism in cancer,0,52,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Chagas disease,0,79,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Chemical carcinogenesis,0,125,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Chemokine signaling pathway,0,122,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Cholesterol metabolism,0,28,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Choline metabolism in cancer,0,79,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Chronic myeloid leukemia,0,73,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Circadian entrainment,0,47,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Circadian rhythm,0,27,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Citrate cycle (TCA cycle),0,27,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Cocaine addiction,0,26,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Collecting duct acid secretion,0,16,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Colorectal cancer,0,81,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Complement and coagulation cascades,0,29,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Coronavirus disease,0,168,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Cortisol synthesis and secretion,0,34,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Cushing syndrome,0,95,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Cysteine and methionine metabolism,0,35,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Cytokine-cytokine receptor interaction,0,93,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Cytosolic DNA-sensing pathway,0,41,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+D-Glutamine and D-glutamate metabolism,0,3,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+DNA replication,0,35,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Diabetic cardiomyopathy,0,163,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Dilated cardiomyopathy,0,44,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Dopaminergic synapse,0,86,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Drug metabolism,0,49,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+ECM-receptor interaction,0,45,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Endocrine and other factor-regulated calcium reabsorption,0,31,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Endocytosis,0,216,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Endometrial cancer,0,54,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Epithelial cell signaling in Helicobacter pylori infection,0,59,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Epstein-Barr virus infection,0,171,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+ErbB signaling pathway,0,68,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Estrogen signaling pathway,0,82,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Ether lipid metabolism,0,26,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Fanconi anemia pathway,0,46,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Fat digestion and absorption,0,15,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Fatty acid biosynthesis,0,13,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Fatty acid degradation,0,31,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Fatty acid elongation,0,21,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Fc epsilon RI signaling pathway,0,55,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Fc gamma R-mediated phagocytosis,0,84,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Ferroptosis,0,35,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Fluid shear stress and atherosclerosis,0,110,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Focal adhesion,0,149,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Folate biosynthesis,0,16,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+FoxO signaling pathway,0,108,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Fructose and mannose metabolism,0,27,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+GABAergic synapse,0,37,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Galactose metabolism,0,20,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Gap junction,0,58,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Gastric cancer,0,95,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Glioma,0,61,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Glucagon signaling pathway,0,73,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Glutamatergic synapse,0,53,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Glutathione metabolism,0,36,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Glycerolipid metabolism,0,39,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Glycerophospholipid metabolism,0,68,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+"Glycine, serine and threonine metabolism",0,23,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Glycolysis / Gluconeogenesis,0,41,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Glycosaminoglycan biosynthesis,0,40,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Glycosaminoglycan degradation,0,15,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Glycosphingolipid biosynthesis,0,27,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,0,24,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Glyoxylate and dicarboxylate metabolism,0,25,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+GnRH secretion,0,34,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+GnRH signaling pathway,0,66,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Graft-versus-host disease,0,20,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+"Growth hormone synthesis, secretion and action",0,87,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+HIF-1 signaling pathway,0,84,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Hedgehog signaling pathway,0,39,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Hematopoietic cell lineage,0,49,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Hepatitis B,0,138,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Hepatitis C,0,117,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Hepatocellular carcinoma,0,125,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Herpes simplex virus 1 infection,0,388,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Hippo signaling pathway,0,111,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Histidine metabolism,0,11,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Homologous recombination,0,33,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Human T-cell leukemia virus 1 infection,0,186,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Human cytomegalovirus infection,0,174,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Human immunodeficiency virus 1 infection,0,167,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Human papillomavirus infection,0,239,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Huntington disease,0,237,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Hypertrophic cardiomyopathy,0,45,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+IL-17 signaling pathway,0,60,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Inflammatory bowel disease,0,37,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Inflammatory mediator regulation of TRP channels,0,58,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Influenza A,0,125,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Inositol phosphate metabolism,0,62,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Insulin resistance,0,87,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Insulin secretion,0,42,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Insulin signaling pathway,0,112,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Intestinal immune network for IgA production,0,25,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+JAK-STAT signaling pathway,0,84,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Kaposi sarcoma-associated herpesvirus infection,0,154,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Legionellosis,0,49,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Leishmaniasis,0,58,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Leukocyte transendothelial migration,0,84,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Linoleic acid metabolism,0,5,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Lipid and atherosclerosis,0,162,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Long-term depression,0,40,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Long-term potentiation,0,44,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Longevity regulating pathway,0,86,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Lysine degradation,0,54,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Lysosome,0,112,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+MAPK signaling pathway,0,212,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Malaria,0,28,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Mannose type O-glycan biosynthesis,0,18,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Maturity onset diabetes of the young,0,2,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Measles,0,105,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Melanogenesis,0,60,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Melanoma,0,53,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Metabolism of xenobiotics by cytochrome P450,0,21,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+MicroRNAs in cancer,0,131,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Mineral absorption,0,31,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Mismatch repair,0,21,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Mitophagy,0,63,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Morphine addiction,0,38,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Mucin type O-glycan biosynthesis,0,16,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+N-Glycan biosynthesis,0,45,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+NF-kappa B signaling pathway,0,85,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+NOD-like receptor signaling pathway,0,134,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Natural killer cell mediated cytotoxicity,0,74,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Necroptosis,0,109,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+"Neomycin, kanamycin and gentamicin biosynthesis",0,2,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Neuroactive ligand-receptor interaction,0,37,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Neurotrophin signaling pathway,0,100,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Neutrophil extracellular trap formation,0,100,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Nicotinate and nicotinamide metabolism,0,25,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Nicotine addiction,0,1,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Nitrogen metabolism,0,6,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Non-alcoholic fatty liver disease,0,135,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Non-homologous end-joining,0,11,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Non-small cell lung cancer,0,63,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Notch signaling pathway,0,49,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Nucleotide excision repair,0,43,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Olfactory transduction,0,19,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+One carbon pool by folate,0,16,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Oocyte meiosis,0,87,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Osteoclast differentiation,0,98,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Other glycan degradation,0,16,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Other types of O-glycan biosynthesis,0,31,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Ovarian steroidogenesis,0,21,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Oxidative phosphorylation,0,104,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+PD-L1 expression and PD-1 checkpoint pathway in cancer,0,76,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+PI3K-Akt signaling pathway,0,222,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+PPAR signaling pathway,0,40,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Pancreatic cancer,0,72,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Pancreatic secretion,0,42,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Pantothenate and CoA biosynthesis,0,14,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+"Parathyroid hormone synthesis, secretion and action",0,74,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Parkinson disease,0,195,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Pathogenic Escherichia coli infection,0,156,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Pathways in cancer,0,365,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Pathways of neurodegeneration,0,339,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Pentose and glucuronate interconversions,0,11,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Pentose phosphate pathway,0,23,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Peroxisome,0,67,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Pertussis,0,51,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Phagosome,0,103,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Phenylalanine metabolism,0,6,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+"Phenylalanine, tyrosine and tryptophan biosynthesis",0,2,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Phosphatidylinositol signaling system,0,81,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Phospholipase D signaling pathway,0,103,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Phosphonate and phosphinate metabolism,0,5,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Phototransduction,0,7,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Platelet activation,0,88,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Porphyrin and chlorophyll metabolism,0,20,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Primary bile acid biosynthesis,0,8,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Primary immunodeficiency,0,22,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Prion disease,0,205,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Progesterone-mediated oocyte maturation,0,68,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Prolactin signaling pathway,0,52,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Propanoate metabolism,0,30,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Prostate cancer,0,82,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Proteasome,0,43,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Protein digestion and absorption,0,35,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Protein export,0,23,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Protein processing in endoplasmic reticulum,0,158,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Proteoglycans in cancer,0,153,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Proximal tubule bicarbonate reclamation,0,11,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Purine metabolism,0,85,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Pyrimidine metabolism,0,45,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Pyruvate metabolism,0,33,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+RIG-I-like receptor signaling pathway,0,50,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+RNA degradation,0,70,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+RNA polymerase,0,31,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+RNA transport,0,149,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Rap1 signaling pathway,0,149,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Ras signaling pathway,0,147,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Regulation of actin cytoskeleton,0,158,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Regulation of lipolysis in adipocytes,0,32,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Relaxin signaling pathway,0,91,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Renal cell carcinoma,0,63,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Renin-angiotensin system,0,9,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Retinol metabolism,0,13,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Retrograde endocannabinoid signaling,0,84,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Rheumatoid arthritis,0,58,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Riboflavin metabolism,0,7,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Ribosome,0,127,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Ribosome biogenesis in eukaryotes,0,70,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+SNARE interactions in vesicular transport,0,31,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Salivary secretion,0,40,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Salmonella infection,0,218,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Selenocompound metabolism,0,16,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Serotonergic synapse,0,48,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Shigellosis,0,211,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Signaling pathways regulating pluripotency of stem cells,0,87,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Small cell lung cancer,0,78,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Sphingolipid metabolism,0,37,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Sphingolipid signaling pathway,0,103,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Spinocerebellar ataxia,0,111,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Spliceosome,0,129,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Staphylococcus aureus infection,0,28,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Starch and sucrose metabolism,0,17,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Steroid biosynthesis,0,16,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Steroid hormone biosynthesis,0,17,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Sulfur metabolism,0,10,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Sulfur relay system,0,8,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Synaptic vesicle cycle,0,39,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Synthesis and degradation of ketone bodies,0,7,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Systemic lupus erythematosus,0,47,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+T cell receptor signaling pathway,0,81,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+TGF-beta signaling pathway,0,64,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+TNF signaling pathway,0,96,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Taste transduction,0,13,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Taurine and hypotaurine metabolism,0,3,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Terpenoid backbone biosynthesis,0,20,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Th1 and Th2 cell differentiation,0,70,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Th17 cell differentiation,0,80,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Thermogenesis,0,182,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Thiamine metabolism,0,8,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Thyroid cancer,0,33,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Thyroid hormone signaling pathway,0,97,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Thyroid hormone synthesis,0,41,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Tight junction,0,123,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Toll-like receptor signaling pathway,0,72,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Toxoplasmosis,0,91,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Transcriptional misregulation in cancer,0,123,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Tryptophan metabolism,0,24,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Tuberculosis,0,125,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Type I diabetes mellitus,0,23,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Type II diabetes mellitus,0,28,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Tyrosine metabolism,0,12,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Ubiquinone and other terpenoid-quinone biosynthesis,0,9,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Ubiquitin mediated proteolysis,0,132,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+VEGF signaling pathway,0,50,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+"Valine, leucine and isoleucine degradation",0,41,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Various types of N-glycan biosynthesis,0,33,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Vascular smooth muscle contraction,0,74,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Vasopressin-regulated water reabsorption,0,36,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Vibrio cholerae infection,0,41,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Viral carcinogenesis,0,159,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Viral myocarditis,0,43,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Viral protein interaction with cytokine and cytokine receptor,0,32,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Vitamin B6 metabolism,0,4,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Vitamin digestion and absorption,0,10,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Wnt signaling pathway,0,105,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+Yersinia infection,0,123,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+alpha-Linolenic acid metabolism,0,9,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+beta-Alanine metabolism,0,19,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+cAMP signaling pathway,0,103,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+cGMP-PKG signaling pathway,0,96,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+mRNA surveillance pathway,0,82,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+mTOR signaling pathway,0,124,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial
+p53 signaling pathway,0,66,5,11521,,1.0,1.0,0.0,0.0,KEGG,Mixed,Endothelial

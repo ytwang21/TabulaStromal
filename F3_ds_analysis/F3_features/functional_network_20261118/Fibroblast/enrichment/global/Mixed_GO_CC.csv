@@ -1,0 +1,461 @@
+Term,Overlap_Count,Pathway_Size,Query_Size,Background_Size,Genes,P_value,FDR,Gene_ratio,Fold_enrichment,Database,Direction,Lineage
+Sex Chromosome (GO:0000803),1,5,11,11700,MACROH2A1,0.004692824545666772,0.8623735431439444,0.09090909090909091,212.72727272727272,GO_CC,Mixed,Fibroblast
+X Chromosome (GO:0000805),1,6,11,11700,MACROH2A1,0.0056289834965002625,0.8623735431439444,0.09090909090909091,177.27272727272728,GO_CC,Mixed,Fibroblast
+Glial Cell Projection (GO:0097386),1,8,11,11700,FYN,0.0074989003751647345,0.8623735431439444,0.09090909090909091,132.95454545454547,GO_CC,Mixed,Fibroblast
+Microfibril (GO:0001527),1,8,11,11700,MFAP2,0.0074989003751647345,0.8623735431439444,0.09090909090909091,132.95454545454547,GO_CC,Mixed,Fibroblast
+Pericentric Heterochromatin (GO:0005721),1,21,11,11700,MACROH2A1,0.0195756464829408,1.0,0.09090909090909091,50.64935064935065,GO_CC,Mixed,Fibroblast
+Supramolecular Fiber (GO:0099512),1,21,11,11700,MFAP2,0.0195756464829408,1.0,0.09090909090909091,50.64935064935065,GO_CC,Mixed,Fibroblast
+Platelet Alpha Granule (GO:0031091),1,62,11,11700,APLP2,0.05679407645477309,1.0,0.09090909090909091,17.15542521994135,GO_CC,Mixed,Fibroblast
+Asymmetric Synapse (GO:0032279),1,79,11,11700,FYN,0.07184577287237849,1.0,0.09090909090909091,13.463751438434983,GO_CC,Mixed,Fibroblast
+Nuclear Chromosome (GO:0000228),1,83,11,11700,MACROH2A1,0.07535546182600703,1.0,0.09090909090909091,12.814895947426068,GO_CC,Mixed,Fibroblast
+Postsynaptic Density (GO:0014069),1,83,11,11700,FYN,0.07535546182600703,1.0,0.09090909090909091,12.814895947426068,GO_CC,Mixed,Fibroblast
+Membrane Raft (GO:0045121),1,112,11,11700,FYN,0.10044208577821048,1.0,0.09090909090909091,9.496753246753247,GO_CC,Mixed,Fibroblast
+Chromosome (GO:0005694),1,134,11,11700,MACROH2A1,0.11905880047290747,1.0,0.09090909090909091,7.9375848032564456,GO_CC,Mixed,Fibroblast
+Dendrite (GO:0030425),1,136,11,11700,FYN,0.12073373799281699,1.0,0.09090909090909091,7.820855614973262,GO_CC,Mixed,Fibroblast
+Nucleolus (GO:0005730),2,697,11,11700,APEX1;MACROH2A1,0.1365369257712292,1.0,0.18181818181818182,3.052041215599322,GO_CC,Mixed,Fibroblast
+Nuclear Lumen (GO:0031981),2,703,11,11700,APEX1;MACROH2A1,0.13847452063498447,1.0,0.18181818181818182,3.0259924996767102,GO_CC,Mixed,Fibroblast
+Endoplasmic Reticulum Lumen (GO:0005788),1,181,11,11700,APLP2,0.1576627953678365,1.0,0.09090909090909091,5.876443997990959,GO_CC,Mixed,Fibroblast
+Secretory Granule Membrane (GO:0030667),1,192,11,11700,APLP2,0.16647270833747818,1.0,0.09090909090909091,5.5397727272727275,GO_CC,Mixed,Fibroblast
+Collagen-Containing Extracellular Matrix (GO:0062023),1,195,11,11700,MFAP2,0.16886082988757475,1.0,0.09090909090909091,5.454545454545455,GO_CC,Mixed,Fibroblast
+Neuron Projection (GO:0043005),1,271,11,11700,FYN,0.22732360878482744,1.0,0.09090909090909091,3.924857430392486,GO_CC,Mixed,Fibroblast
+Intracellular Membraneless Organelle (GO:0043232),2,1043,11,11700,APEX1;MACROH2A1,0.2564707115677174,1.0,0.18181818181818182,2.0395711670879457,GO_CC,Mixed,Fibroblast
+Mitochondrial Membrane (GO:0031966),1,516,11,11700,ABCB7,0.39126255997880266,1.0,0.09090909090909091,2.061310782241015,GO_CC,Mixed,Fibroblast
+Nucleus (GO:0005634),4,3640,11,11700,APEX1;APLP2;FYN;MACROH2A1,0.46303226529263963,1.0,0.36363636363636365,1.1688311688311688,GO_CC,Mixed,Fibroblast
+Intracellular Organelle Lumen (GO:0070013),1,665,11,11700,APLP2,0.47479587604760115,1.0,0.09090909090909091,1.5994531784005468,GO_CC,Mixed,Fibroblast
+Intracellular Membrane-Bounded Organelle (GO:0043231),4,4146,11,11700,APEX1;APLP2;FYN;MACROH2A1,0.5865480062005417,1.0,0.36363636363636365,1.0261807656887252,GO_CC,Mixed,Fibroblast
+9+0 Non-Motile Cilium (GO:0097731),0,6,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+9+2 Motile Cilium (GO:0097729),0,32,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+90S Preribosome (GO:0030686),0,9,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+AMPA Glutamate Receptor Complex (GO:0032281),0,3,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+AP-1 Adaptor Complex (GO:0030121),0,9,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+AP-2 Adaptor Complex (GO:0030122),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+AP-3 Adaptor Complex (GO:0030123),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+ATAC Complex (GO:0140672),0,12,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+ATP-binding Cassette (ABC) Transporter Complex (GO:0043190),0,2,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+ATPase Dependent Transmembrane Transport Complex (GO:0098533),0,3,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Acetylcholine-Gated Channel Complex (GO:0005892),0,2,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Acrosomal Membrane (GO:0002080),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Acrosomal Vesicle (GO:0001669),0,16,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Actin Cytoskeleton (GO:0015629),0,262,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Actin Filament (GO:0005884),0,58,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Actin-Based Cell Projection (GO:0098858),0,51,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Activin Receptor Complex (GO:0048179),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Adherens Junction (GO:0005912),0,108,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Aggresome (GO:0016235),0,24,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Alpha-Beta T Cell Receptor Complex (GO:0042105),0,2,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Alpha-Ketoacid Dehydrogenase Complex (GO:0045240),0,12,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Alveolar Lamellar Body (GO:0097208),0,2,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Amphisome (GO:0044753),0,10,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Amphisome Membrane (GO:1904930),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Anaphase-Promoting Complex (GO:0005680),0,19,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Apical Dendrite (GO:0097440),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Apical Junction Complex (GO:0043296),0,67,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Apicolateral Plasma Membrane (GO:0016327),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Astral Microtubule (GO:0000235),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Astrocyte End-Foot (GO:0097450),0,3,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Astrocyte Projection (GO:0097449),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Autolysosome (GO:0044754),0,9,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Autophagosome (GO:0005776),0,73,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Autophagosome Membrane (GO:0000421),0,33,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Axon (GO:0030424),0,112,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Axonal Growth Cone (GO:0044295),0,13,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Azurophil Granule (GO:0042582),0,119,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Azurophil Granule Lumen (GO:0035578),0,67,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Azurophil Granule Membrane (GO:0035577),0,45,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+B-WICH Complex (GO:0110016),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+BLOC-1 Complex (GO:0031083),0,13,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Basement Membrane (GO:0005604),0,27,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Basolateral Plasma Membrane (GO:0016323),0,104,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Bicellular Tight Junction (GO:0005923),0,49,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Bounding Membrane of Organelle (GO:0098588),0,649,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Box C/D Methylation Guide snoRNP Complex (GO:0031428),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Box C/D RNP Complex (GO:0170049),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Brahma Complex (GO:0035060),0,10,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Brush Border Membrane (GO:0031526),0,13,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+CD40 Receptor Complex (GO:0035631),0,9,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+CD95 Death-Inducing Signaling Complex (GO:0031265),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+CMG Complex (GO:0071162),0,9,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+COPI Vesicle Coat (GO:0030126),0,12,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+COPI-coated Vesicle (GO:0030137),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+COPI-coated Vesicle Membrane (GO:0030663),0,15,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+COPII Vesicle Coat (GO:0030127),0,15,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+COPII-coated ER to Golgi Transport Vesicle (GO:0030134),0,65,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Calcium Channel Complex (GO:0034704),0,27,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+CatSper Complex (GO:0036128),0,3,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Catenin Complex (GO:0016342),0,11,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cation Channel Complex (GO:0034703),0,20,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cation-Transporting ATPase Complex (GO:0090533),0,17,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Caveola (GO:0005901),0,49,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cdc73/Paf1 Complex (GO:0016593),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cell Projection Membrane (GO:0031253),0,58,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cell-Cell Contact Zone (GO:0044291),0,36,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cell-Cell Junction (GO:0005911),0,210,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cell-Substrate Junction (GO:0030055),0,347,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Chitosome (GO:0045009),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Chloride Channel Complex (GO:0034707),0,3,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Chromaffin Granule (GO:0042583),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Chromatoid Body (GO:0033391),0,3,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Chromocenter (GO:0010369),0,3,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Chylomicron (GO:0042627),0,2,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Ciliary Membrane (GO:0060170),0,25,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cilium (GO:0005929),0,269,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Clathrin Adaptor Complex (GO:0030131),0,18,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Clathrin Coat (GO:0030118),0,12,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Clathrin Coat of Coated Pit (GO:0030132),0,12,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Clathrin Coat of Endocytic Vesicle (GO:0030128),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Clathrin Coat of trans-Golgi Network Vesicle (GO:0030130),0,11,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Clathrin Vesicle Coat (GO:0030125),0,9,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Clathrin-Coated Endocytic Vesicle (GO:0045334),0,47,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Clathrin-Coated Endocytic Vesicle Membrane (GO:0030669),0,39,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Clathrin-Coated Vesicle (GO:0030136),0,68,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Clathrin-Coated Vesicle Membrane (GO:0030665),0,51,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Clathrin-Sculpted Gamma-Aminobutyric Acid Transport Vesicle (GO:0061200),0,3,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Clathrin-Sculpted Gamma-Aminobutyric Acid Transport Vesicle Membrane (GO:0061202),0,3,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Coated Vesicle (GO:0030135),0,70,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Coated Vesicle Membrane (GO:0030662),0,44,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Condensed Chromosome (GO:0000793),0,53,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+"Condensed Chromosome, Centromeric Region (GO:0000779)",0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Condensed Nuclear Chromosome (GO:0000794),0,24,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Core Mediator Complex (GO:0070847),0,25,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cornified Envelope (GO:0001533),0,10,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cortical Actin Cytoskeleton (GO:0030864),0,34,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cortical Cytoskeleton (GO:0030863),0,43,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cortical Endoplasmic Reticulum (GO:0032541),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cortical Granule (GO:0060473),0,3,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cul2-RING Ubiquitin Ligase Complex (GO:0031462),0,18,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cul3-RING Ubiquitin Ligase Complex (GO:0031463),0,49,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cul4-RING E3 Ubiquitin Ligase Complex (GO:0080008),0,29,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cul4A-RING E3 Ubiquitin Ligase Complex (GO:0031464),0,12,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cul5-RING Ubiquitin Ligase Complex (GO:0031466),0,11,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cyclin-Dependent Protein Kinase Holoenzyme Complex (GO:0000307),0,41,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cytolytic Granule (GO:0044194),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cytoplasmic Dynein Complex (GO:0005868),0,17,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cytoplasmic Side of Endoplasmic Reticulum Membrane (GO:0098554),0,19,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cytoplasmic Side of Endosome Membrane (GO:0010009),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cytoplasmic Side of Lysosomal Membrane (GO:0098574),0,10,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cytoplasmic Side of Plasma Membrane (GO:0009898),0,89,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cytoplasmic Side of Rough Endoplasmic Reticulum Membrane (GO:0098556),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cytoplasmic Stress Granule (GO:0010494),0,70,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cytoplasmic Vesicle Lumen (GO:0060205),0,95,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cytoplasmic Vesicle Membrane (GO:0030659),0,305,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cytoskeleton (GO:0005856),0,474,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cytosolic Large Ribosomal Subunit (GO:0022625),0,48,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Cytosolic Small Ribosomal Subunit (GO:0022627),0,37,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Death-Inducing Signaling Complex (GO:0031264),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Dendrite Cytoplasm (GO:0032839),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Dendrite Membrane (GO:0032590),0,6,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Dense Core Granule (GO:0031045),0,1,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Desmosome (GO:0030057),0,11,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Deuterosome (GO:0098536),0,2,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Dystroglycan Complex (GO:0016011),0,2,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+ER to Golgi Transport Vesicle Membrane (GO:0012507),0,45,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+ESC/E(Z) Complex (GO:0035098),0,12,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Early Endosome (GO:0005769),0,245,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Early Endosome Membrane (GO:0031901),0,95,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Early Phagosome (GO:0032009),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Endocytic Vesicle (GO:0030139),0,139,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Endocytic Vesicle Lumen (GO:0071682),0,10,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Endocytic Vesicle Membrane (GO:0030666),0,106,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Endolysosome (GO:0036019),0,21,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Endolysosome Membrane (GO:0036020),0,13,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Endopeptidase Complex (GO:1905369),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Endoplasmic Reticulum Membrane (GO:0005789),0,638,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Endoplasmic Reticulum Tubular Network (GO:0071782),0,27,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Endoplasmic reticulum-Golgi Intermediate Compartment Membrane (GO:0033116),0,40,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Endoribonuclease Complex (GO:1902555),0,16,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Endosome Lumen (GO:0031904),0,16,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Endosome Membrane (GO:0010008),0,314,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Excitatory Synapse (GO:0060076),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Exocytic Vesicle (GO:0070382),0,14,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Exocytic Vesicle Membrane (GO:0099501),0,30,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+External Side of Apical Plasma Membrane (GO:0098591),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Extracellular Membrane-Bounded Organelle (GO:0065010),0,38,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Extracellular Vesicle (GO:1903561),0,38,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Extrinsic Component of Cytoplasmic Side of Plasma Membrane (GO:0031234),0,30,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+FNIP-folliculin RagC/D GAP (GO:1990877),0,9,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Ficolin-1-Rich Granule (GO:0101002),0,150,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Ficolin-1-Rich Granule Lumen (GO:1904813),0,111,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Ficolin-1-Rich Granule Membrane (GO:0101003),0,38,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Filopodium (GO:0030175),0,39,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Filopodium Membrane (GO:0031527),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Flotillin Complex (GO:0016600),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Focal Adhesion (GO:0005925),0,343,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+G Protein-Coupled Receptor Dimeric Complex (GO:0038037),0,2,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+GABA-ergic Synapse (GO:0098982),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+GBAF Complex (GO:0140288),0,11,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Gap Junction (GO:0005921),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Germ Plasm (GO:0060293),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Glutamatergic Synapse (GO:0098978),0,56,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Golgi Cis Cisterna (GO:0000137),0,9,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Golgi Cisterna (GO:0031985),0,31,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Golgi Cisterna Membrane (GO:0032580),0,11,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Golgi Lumen (GO:0005796),0,39,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Golgi Medial Cisterna (GO:0005797),0,9,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Golgi Membrane (GO:0000139),0,364,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Golgi Stack (GO:0005795),0,27,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Golgi Trans Cisterna (GO:0000138),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Golgi-associated Vesicle (GO:0005798),0,38,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Golgi-associated Vesicle Membrane (GO:0030660),0,16,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+H3 Histone Acetyltransferase Complex (GO:0070775),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+H4 Histone Acetyltransferase Complex (GO:1902562),0,14,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+H4/H2A Histone Acetyltransferase Complex (GO:0043189),0,22,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+HFE-transferrin Receptor Complex (GO:1990712),0,3,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Hemidesmosome (GO:0030056),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Heterotrimeric G-protein Complex (GO:0005834),0,19,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+High-Density Lipoprotein Particle (GO:0034364),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Hrd1p Ubiquitin Ligase Complex (GO:0000836),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+INO80-type Complex (GO:0097346),0,26,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+ISWI-type Complex (GO:0031010),0,13,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Inhibitory Synapse (GO:0060077),0,1,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Inner Dynein Arm (GO:0036156),0,1,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Ino80 Complex (GO:0031011),0,15,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Insulin-Responsive Compartment (GO:0032593),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Intercalated Disc (GO:0014704),0,22,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Intermediate Filament (GO:0005882),0,25,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Intermediate Filament Cytoskeleton (GO:0045111),0,45,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Intracellular Vesicle (GO:0097708),0,6,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Ionotropic Glutamate Receptor Complex (GO:0008328),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Junctional Sarcoplasmic Reticulum Membrane (GO:0014701),0,1,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Keratin Filament (GO:0045095),0,6,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Kinetochore Microtubule (GO:0005828),0,17,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Lamellar Body (GO:0042599),0,3,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Large Ribosomal Subunit (GO:0015934),0,49,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Late Endosome (GO:0005770),0,174,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Late Endosome Membrane (GO:0031902),0,79,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Lipid Droplet (GO:0005811),0,66,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Low-Density Lipoprotein Particle (GO:0034362),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Lumenal Side of Endoplasmic Reticulum Membrane (GO:0098553),0,26,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Lysosomal Lumen (GO:0043202),0,61,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Lysosomal Membrane (GO:0005765),0,318,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Lysosome (GO:0005764),0,426,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Lytic Vacuole (GO:0000323),0,194,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Lytic Vacuole Membrane (GO:0098852),0,267,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+MHC Class I Protein Complex (GO:0042612),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+MHC Class II Protein Complex (GO:0042613),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+MHC Protein Complex (GO:0042611),0,14,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+MIB Complex (GO:0140275),0,12,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+MICOS Complex (GO:0061617),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+MLL1 Complex (GO:0071339),0,29,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+MLL1/2 Complex (GO:0044665),0,30,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+MLL3/4 Complex (GO:0044666),0,10,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+MOZ/MORF Histone Acetyltransferase Complex (GO:0070776),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Macropinosome (GO:0044354),0,6,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Matrix Side of Mitochondrial Inner Membrane (GO:0099617),0,6,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Melanosome (GO:0042470),0,20,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Melanosome Membrane (GO:0033162),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Membrane Attack Complex (GO:0005579),0,2,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Microbody Lumen (GO:0031907),0,35,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Microbody Membrane (GO:0031903),0,48,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Microtubule (GO:0005874),0,140,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Microtubule Cytoskeleton (GO:0015630),0,295,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Microvillus (GO:0005902),0,32,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Microvillus Membrane (GO:0031528),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Mitochondrial Inner Membrane (GO:0005743),0,357,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Mitochondrial Intermembrane Space (GO:0005758),0,64,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Mitochondrial Matrix (GO:0005759),0,350,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Mitochondrial Outer Membrane (GO:0005741),0,148,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Mitochondrial Outer Membrane Translocase Complex (GO:0005742),0,19,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Mitochondrial Ribosome (GO:0005761),0,21,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Mitotic Spindle (GO:0072686),0,128,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Mitotic Spindle Microtubule (GO:1990498),0,14,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Monoatomic Ion Channel Complex (GO:0034702),0,13,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Motile Cilium (GO:0031514),0,42,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Multimeric Ribonuclease P Complex (GO:0030681),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Multivesicular Body (GO:0005771),0,31,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Multivesicular Body Membrane (GO:0032585),0,16,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+"Multivesicular Body, Internal Vesicle (GO:0097487)",0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Muscle Myosin Complex (GO:0005859),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Myofibril (GO:0030016),0,11,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Myosin Filament (GO:0032982),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+NADPH Oxidase Complex (GO:0043020),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+NMDA Selective Glutamate Receptor Complex (GO:0017146),0,1,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+NSL Complex (GO:0044545),0,10,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+NURF Complex (GO:0016589),0,6,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Neuromuscular Junction (GO:0031594),0,22,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Neuron Projection Cytoplasm (GO:0120111),0,9,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Neuron Spine (GO:0044309),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Neuron to Neuron Synapse (GO:0098984),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Neuronal Dense Core Vesicle (GO:0098992),0,1,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Non-Motile Cilium (GO:0097730),0,22,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+NuA4 Histone Acetyltransferase Complex (GO:0035267),0,22,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Nuclear Envelope Lumen (GO:0005641),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Nuclear Inclusion Body (GO:0042405),0,10,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Nuclear Inner Membrane (GO:0005637),0,21,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Nuclear Membrane (GO:0031965),0,200,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Nuclear Outer Membrane (GO:0005640),0,12,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Nuclear Stress Granule (GO:0097165),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Nucleolar Exosome (RNase Complex) (GO:0101019),0,9,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Oligosaccharyltransferase Complex A (GO:0160226),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Oligosaccharyltransferase Complex B (GO:0160227),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Outer Dynein Arm (GO:0036157),0,1,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Oxoglutarate Dehydrogenase Complex (GO:0045252),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+P Granule (GO:0043186),0,9,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+P-body (GO:0000932),0,68,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+PAR Polarity Complex (GO:0120157),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+PRC1 Complex (GO:0035102),0,14,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+PTW/PP1 Phosphatase Complex (GO:0072357),0,6,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Palmitoyltransferase Complex (GO:0002178),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Perineuronal Net (GO:0072534),0,2,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Perisynaptic Extracellular Matrix (GO:0098966),0,2,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Peroxisomal Matrix (GO:0005782),0,35,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Peroxisomal Membrane (GO:0005778),0,48,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Peroxisome (GO:0005777),0,105,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Phagocytic Vesicle (GO:0045335),0,75,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Phagocytic Vesicle Membrane (GO:0030670),0,39,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Phagolysosome (GO:0032010),0,3,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+"Phosphatidylinositol 3-Kinase Complex, Class I (GO:0097651)",0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+"Phosphatidylinositol 3-Kinase Complex, Class IA (GO:0005943)",0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+"Phosphatidylinositol 3-Kinase Complex, Class III (GO:0035032)",0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Pi-Body (GO:0071546),0,1,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Pigment Granule (GO:0048770),0,16,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Pigment Granule Membrane (GO:0090741),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Pinosome (GO:0044352),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Plasma Membrane Raft (GO:0044853),0,55,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Platelet Alpha Granule Lumen (GO:0031093),0,44,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Platelet Alpha Granule Membrane (GO:0031092),0,13,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Platelet Dense Granule (GO:0042827),0,13,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Platelet Dense Granule Lumen (GO:0031089),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Platelet Dense Granule Membrane (GO:0031088),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Platelet Dense Tubular Network (GO:0031094),0,9,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Platelet Dense Tubular Network Membrane (GO:0031095),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Podosome (GO:0002102),0,20,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Polymeric Cytoskeletal Fiber (GO:0099513),0,185,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Postsynaptic Density Membrane (GO:0098839),0,6,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Postsynaptic Specialization Membrane (GO:0099634),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Potassium Channel Complex (GO:0034705),0,21,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Precatalytic Spliceosome (GO:0071011),0,49,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+"Preribosome, Large Subunit Precursor (GO:0030687)",0,15,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+"Preribosome, Small Subunit Precursor (GO:0030688)",0,9,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Prespliceosome (GO:0071010),0,15,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Primary Lysosome (GO:0005766),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Protein Kinase Complex (GO:1902911),0,20,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Protein Phosphatase 4 Complex (GO:0030289),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Protein Phosphatase Type 2A Complex (GO:0000159),0,15,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Protein Serine/Threonine Phosphatase Complex (GO:0008287),0,25,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Proton-Transporting V-type ATPase Complex (GO:0033176),0,11,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+"Proton-Transporting V-type ATPase, V0 Domain (GO:0033179)",0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+"Proton-Transporting V-type ATPase, V1 Domain (GO:0033180)",0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Pseudopodium (GO:0031143),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Pyruvate Dehydrogenase Complex (GO:0045254),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+RISC Complex (GO:0016442),0,13,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+RISC-loading Complex (GO:0070578),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+RNA N6-methyladenosine Methyltransferase Complex (GO:0036396),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+RNA Polymerase I Complex (GO:0005736),0,11,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+"RNA Polymerase II, Core Complex (GO:0005665)",0,16,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+RNA Polymerase III Complex (GO:0005666),0,16,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+RSC-type Complex (GO:0016586),0,12,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Recycling Endosome (GO:0055037),0,124,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Recycling Endosome Membrane (GO:0055038),0,56,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Ribonuclease MRP Complex (GO:0000172),0,6,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Ribosome (GO:0005840),0,42,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Rough Endoplasmic Reticulum (GO:0005791),0,21,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Rough Endoplasmic Reticulum Membrane (GO:0030867),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+SAGA Complex (GO:0000124),0,23,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+SAGA-type Complex (GO:0070461),0,36,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+SAM Complex (GO:0001401),0,12,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+SCF Ubiquitin Ligase Complex (GO:0019005),0,49,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+SUMO Ligase Complex (GO:0106068),0,11,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+SWI/SNF Complex (GO:0016514),0,25,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Sarcoglycan Complex (GO:0016012),0,2,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Sarcolemma (GO:0042383),0,26,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Sarcoplasmic Reticulum (GO:0016529),0,24,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Sarcoplasmic Reticulum Membrane (GO:0033017),0,13,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Sec61 Translocon Complex (GO:0005784),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Secondary Lysosome (GO:0005767),0,13,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Secretory Granule Lumen (GO:0034774),0,231,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Secretory Vesicle (GO:0099503),0,14,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Septin Cytoskeleton (GO:0032156),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Septin Ring (GO:0005940),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Serine Palmitoyltransferase Complex (GO:0017059),0,6,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Serine Protease Inhibitor Complex (GO:0097180),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Serine-Type Endopeptidase Complex (GO:1905370),0,6,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Serine-Type Peptidase Complex (GO:1905286),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Serine/Threonine Protein Kinase Complex (GO:1902554),0,64,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Set1C/COMPASS Complex (GO:0048188),0,12,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Shelterin Complex (GO:0070187),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+"Signal Recognition Particle, Endoplasmic Reticulum Targeting (GO:0005786)",0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Small Ribosomal Subunit (GO:0015935),0,38,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Small-Subunit Processome (GO:0032040),0,69,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Smc5-Smc6 Complex (GO:0030915),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Smooth Endoplasmic Reticulum (GO:0005790),0,9,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Sodium Channel Complex (GO:0034706),0,3,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Sodium:Potassium-Exchanging ATPase Complex (GO:0005890),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Specific Granule (GO:0042581),0,107,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Specific Granule Lumen (GO:0035580),0,36,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Specific Granule Membrane (GO:0035579),0,63,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Spectrin-Associated Cytoskeleton (GO:0014731),0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Sperm Flagellum (GO:0036126),0,28,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Spherical High-Density Lipoprotein Particle (GO:0034366),0,2,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Spindle (GO:0005819),0,184,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Spindle Microtubule (GO:0005876),0,62,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Spliceosomal snRNP Complex (GO:0097525),0,56,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Spliceosomal tri-snRNP Complex (GO:0097526),0,35,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Swr1 Complex (GO:0000812),0,12,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Symmetric Synapse (GO:0032280),0,2,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Synaptic Membrane (GO:0097060),0,15,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Synaptic Vesicle Membrane (GO:0030672),0,30,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+T Cell Receptor Complex (GO:0042101),0,6,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+THO Complex Part of Transcription Export Complex (GO:0000445),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+TIM22 Mitochondrial Import Inner Membrane Insertion Complex (GO:0042721),0,6,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+TIM23 Mitochondrial Import Inner Membrane Translocase Complex (GO:0005744),0,15,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+TOM Complex (GO:0140596),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+TORC1 Complex (GO:0031931),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+TORC2 Complex (GO:0031932),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+TRAPPII Protein Complex (GO:1990071),0,10,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+TRAPPIII Protein Complex (GO:1990072),0,10,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Tertiary Granule (GO:0070820),0,105,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Tertiary Granule Lumen (GO:1904724),0,32,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Tertiary Granule Membrane (GO:0070821),0,45,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Tight Junction (GO:0070160),0,60,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Transcription Factor AP-1 Complex (GO:0035976),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Transcription Factor TFIID Complex (GO:0005669),0,29,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Transcription Factor TFIIH Core Complex (GO:0000439),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Transcription Factor TFIIH Holo Complex (GO:0005675),0,10,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Transcription Factor TFIIIC Complex (GO:0000127),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Transcription Factor TFTC Complex (GO:0033276),0,17,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+"Transferase Complex, Transferring Phosphorus-Containing Groups (GO:0061695)",0,4,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Transport Vesicle Membrane (GO:0030658),0,41,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Triglyceride-Rich Plasma Lipoprotein Particle (GO:0034385),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+U1 snRNP (GO:0005685),0,16,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+U12-type Spliceosomal Complex (GO:0005689),0,24,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+U2 snRNP (GO:0005686),0,23,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+U2-type Catalytic Step 1 Spliceosome (GO:0071006),0,10,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+U2-type Catalytic Step 2 Spliceosome (GO:0071007),0,28,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+U2-type Precatalytic Spliceosome (GO:0071005),0,48,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+U2-type Prespliceosome (GO:0071004),0,15,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+U2-type Spliceosomal Complex (GO:0005684),0,88,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+U4 snRNP (GO:0005687),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+U4/U6 X U5 tri-snRNP Complex (GO:0046540),0,35,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+U5 snRNP (GO:0005682),0,17,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+U6 snRNP (GO:0005688),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+U7 snRNP (GO:0005683),0,6,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Uniplex Complex (GO:1990246),0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Vacuolar Lumen (GO:0005775),0,116,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Vacuolar Membrane (GO:0005774),0,46,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Vacuolar Proton-Transporting V-type ATPase Complex (GO:0016471),0,15,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+"Vacuolar Proton-Transporting V-type ATPase, V0 Domain (GO:0000220)",0,5,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+"Vacuolar Proton-Transporting V-type ATPase, V1 Domain (GO:0000221)",0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Very-Low-Density Lipoprotein Particle (GO:0034361),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Vesicle (GO:0031982),0,156,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Vesicle Coat (GO:0030120),0,34,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Vesicle Membrane (GO:0012506),0,52,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Voltage-Gated Calcium Channel Complex (GO:0005891),0,14,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Voltage-Gated Potassium Channel Complex (GO:0008076),0,19,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Voltage-Gated Sodium Channel Complex (GO:0001518),0,2,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Zonula Adherens (GO:0005915),0,6,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Zymogen Granule (GO:0042588),0,3,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+Zymogen Granule Membrane (GO:0042589),0,3,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+bBAF Complex (GO:0140092),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+beta-catenin-TCF Complex (GO:1990907),0,11,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+cis-Golgi Network (GO:0005801),0,41,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+cis-Golgi Network Membrane (GO:0033106),0,6,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+cullin-RING Ubiquitin Ligase Complex (GO:0031461),0,164,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+cyclin/CDK Positive Transcription Elongation Factor Complex (GO:0008024),0,7,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+mRNA Cleavage and Polyadenylation Specificity Factor Complex (GO:0005847),0,15,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+nBAF Complex (GO:0071565),0,11,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+npBAF Complex (GO:0071564),0,11,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+post-mRNA Release Spliceosomal Complex (GO:0071014),0,8,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+tRNA Methyltransferase Complex (GO:0043527),0,10,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+trans-Golgi Network (GO:0005802),0,196,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+trans-Golgi Network Membrane (GO:0032588),0,85,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast
+trans-Golgi Network Transport Vesicle (GO:0030140),0,14,11,11700,,1.0,1.0,0.0,0.0,GO_CC,Mixed,Fibroblast

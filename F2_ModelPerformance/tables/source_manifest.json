@@ -1,0 +1,117 @@
+[
+  {
+    "path": "F2_ModelPerformance/overview/TabulaStromal_Workflow_V6.pdf",
+    "sha256": "f1a010397900d4789ac7dc6320ecc9c3a2974068eaf38f4848d9a5928220b077",
+    "bytes": 2199575
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Stromal_Combined_Figure/outputs/Stromal_individual_aging_clock_Fibroblast_Endothelial_4.pdf",
+    "sha256": "314a93d419cf99e8eb274accc0c0153fa5e1f8be287d6728517a4130d68e36b2",
+    "bytes": 79578
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Stromal_Combined_Figure/outputs/completion_4.json",
+    "sha256": "7b9a1aebd6198eeed1d0bfc00ffce616eb6f5ffbd9e9a977aec763cd782f8295",
+    "bytes": 15499
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Stromal_Combined_Figure/outputs/plot_data/Fibroblast_benchmark_summary_4.csv",
+    "sha256": "b1a60a8e77f08ea9cbf1c1f544f7520c38bbfde3b6f3c3d3418cf6e6381f717c",
+    "bytes": 6405
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Stromal_Combined_Figure/outputs/plot_data/Fibroblast_benchmark_per_fold_4.csv",
+    "sha256": "930e0ebca8324a733d988a31f574cd4712383ca3a5ddcb5a0d558970627bc011",
+    "bytes": 26821
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Stromal_Combined_Figure/outputs/plot_data/Fibroblast_scatter_predictions_4.csv",
+    "sha256": "08754be7f43e79e91784100e4e7764c28e1628f2a66fdf97cb87f2a7eb4cd67e",
+    "bytes": 278470
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Stromal_Combined_Figure/outputs/plot_data/Fibroblast_scatter_metric_diagnostics_4.csv",
+    "sha256": "702289bd6b7103d7499f8462d809db41dc3cc1648c7e8629a1196bb7d09aa115",
+    "bytes": 997
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Stromal_Combined_Figure/outputs/plot_data/Fibroblast_external_metric_scope_audit_4.csv",
+    "sha256": "1305df343f2d6e3cdeaa11e9a2ca3ab927f5ab6ee4997cc1d51482c5ad171ee1",
+    "bytes": 21353
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Stromal_Combined_Figure/outputs/plot_data/Fibroblast_internal_K_selection_4.csv",
+    "sha256": "38c1968f55b336cc7adbd38ca2dc38b1e445b28e6f93566a6933c0de0f51d069",
+    "bytes": 881
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Stromal_Combined_Figure/outputs/plot_data/Endothelial_benchmark_summary_4.csv",
+    "sha256": "98ea1cc2a4ef28aaf4efa8d957cbc32cf5aeee37638a63247c911607a86c5ef4",
+    "bytes": 6385
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Stromal_Combined_Figure/outputs/plot_data/Endothelial_benchmark_per_fold_4.csv",
+    "sha256": "6368a82d2c10f7bc4791a90cb79719ec5467baed49245997a17e825ddca95aac",
+    "bytes": 25322
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Stromal_Combined_Figure/outputs/plot_data/Endothelial_scatter_predictions_4.csv",
+    "sha256": "c1a575e29d790316691eba88bcf36900022ca3d2a24559b388aac25e6fb46ef7",
+    "bytes": 196437
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Stromal_Combined_Figure/outputs/plot_data/Endothelial_scatter_metric_diagnostics_4.csv",
+    "sha256": "36edd0de6ac79c35f4ac2f8ea383189086176a91663a0edf14e63bbbe791d5df",
+    "bytes": 970
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Stromal_Combined_Figure/outputs/plot_data/Endothelial_external_metric_scope_audit_4.csv",
+    "sha256": "c8d9f143a24cf7b4c6e97f10e66d8a5f84b9d019fe2345c1b52d631b2a56a538",
+    "bytes": 21388
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Stromal_Combined_Figure/outputs/plot_data/Endothelial_internal_K_selection_4.csv",
+    "sha256": "a59b28e9fc80faeddebf71950e849b3f3990f13a0f8b2fad2f756e9b52a2ca8d",
+    "bytes": 883
+  },
+  {
+    "path": "F2_ModelPerformance/benchmark/final_model/ElasticNet_final_fit_predictions.csv",
+    "sha256": "4b7bb6b839b4b5f3aab193ac54a938938daba922af3f3e8522c8e03ae105e131",
+    "bytes": 638836
+  },
+  {
+    "path": "F2_ModelPerformance/benchmark/final_model/ElasticNet_final_fit_metrics.csv",
+    "sha256": "6c62ed403456b72408ac4df02c6961ee121111c81140a93f6858be7d41d37f19",
+    "bytes": 801
+  },
+  {
+    "path": "F2_ModelPerformance/benchmark/final_model/ElasticNet_final_fit.png",
+    "sha256": "ab54d2cfb04b9100239d1d5f0ae5ff3c78bfcf94bc34b49fc519f30930bfd880",
+    "bytes": 694743
+  },
+  {
+    "path": "F2_ModelPerformance/benchmark/final_model/ElasticNet_final_fit.pdf",
+    "sha256": "0b24a376fdfca510a268c1c8730e15ed4560c6bba0b7c3feb4b5e985119cd805",
+    "bytes": 62205
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/StableClock_Optimization/balanced_ALL100_selected_summary.csv",
+    "sha256": "eaab31b9629de277127954bc3141de557b387ce56993ee910f7a4924498834bf",
+    "bytes": 2983
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/StableClock_Optimization/Stromal_balanced_ALL100_selected_clock.png",
+    "sha256": "fc557cd88fcdb76f8bfe84b2101ea999afe6350aee5232bd119a629e68f67113",
+    "bytes": 1718651
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Fibro_Accelerated_20261102/results/Fibro/stable_clock_optimization/performance_first_all100_predictions.csv",
+    "sha256": "c8462c5b0004b004280cb2073f10920867ff92d17304bc0f52e3fdac44f21919",
+    "bytes": 17060
+  },
+  {
+    "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/stable_clock_optimization/performance_first_all100_predictions.csv",
+    "sha256": "a1f086e4cecd6ed133e2d52caaa1e5e468eaf6a5ce35b5e2c620a4444740f3ff",
+    "bytes": 13549
+  }
+]

@@ -1,13 +1,9 @@
-# F2_ModelPerformance — audit
+# audit
 
-[Analysis overview and protocol](../README.md)
+Current snapshot: **19 November 2026**. Counts refer to sample/proxy units unless stated otherwise. Selected expression features are not explicit cell-type proportions; predictive weights and regulatory annotations are not causal evidence.
 
-![Related result figure](../figures/TabulaStromal_Workflow_V6.png)
-
-## Files
+[Module overview](../README.md) · [Results and legends](../../docs/results)
 
 - [figure_inventory.csv](figure_inventory.csv)
 - [file_inventory.csv](file_inventory.csv)
 - [released_assets.csv](released_assets.csv)
-
-Figure and data provenance are recorded in the analysis directory audit and evidence registries.

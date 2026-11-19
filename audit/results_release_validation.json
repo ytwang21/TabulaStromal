@@ -1,11 +1,13 @@
 {
   "status": "passed",
-  "checks": 525,
-  "original_figure_files": 117,
-  "aggregate_tables": 81,
-  "figure_candidates": 847,
-  "evidence_records": 773,
-  "paragraph_claim_mappings": 26,
-  "complete_source_file_entries": 1413618,
-  "word_rendering": "Actual DOCX to PDF rendering verified; receipt hashes, text, links and page review match this release."
+  "checks": 1624,
+  "original_figure_files": 229,
+  "aggregate_tables": 201,
+  "figure_candidates": 1677,
+  "evidence_records": 46088,
+  "paragraph_claim_mappings": 32,
+  "complete_source_file_entries": 1469578,
+  "downstream_presentation_slides": 40,
+  "original_PPT_images": 52,
+  "word_rendering": "Actual current DOCX renders; hashes, text, links, geometry and page review verified"
 }

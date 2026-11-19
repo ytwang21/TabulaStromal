@@ -5,6 +5,10 @@ The complete path-level inventory stays in ignored outputs/ because cache paths
 may contain sample labels. Public summaries cover every scanned file; public
 figure metadata exclude vendor, runtime, backup and source-snapshot copies.
 """
+
+if __name__ == "__main__":
+    raise SystemExit("Historical November 9 release helper. Use scripts/update_results_release.py, then scripts/write_current_result_galleries.py; see scripts/README.md.")
+
 import argparse
 from collections import defaultdict
 import csv

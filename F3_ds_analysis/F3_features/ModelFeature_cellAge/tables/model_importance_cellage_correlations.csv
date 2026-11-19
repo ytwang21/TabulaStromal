@@ -1,0 +1,25 @@
+Lineage,Metric,Predictor,n_celltypes,Spearman_rho,P_value,Interpretation,FDR
+Fibroblast,SSE_old_minus_young_pp,n_stable_features,8,0.3333333333333334,0.4197530864197531,Exploratory within-selected-celltypes association,0.892233442788835
+Fibroblast,SSE_old_minus_young_pp,model_abs_coefficient,8,-0.3233590907165799,0.4346394485508573,Exploratory within-selected-celltypes association,0.892233442788835
+Fibroblast,hUSI_age_per10y,n_stable_features,16,0.14580280908084978,0.5900276111132021,Exploratory within-selected-celltypes association,0.9440441777811234
+Fibroblast,hUSI_age_per10y,model_abs_coefficient,16,-0.21362954826666053,0.42694075026117206,Exploratory within-selected-celltypes association,0.892233442788835
+Fibroblast,hUSI_old_minus_young,n_stable_features,8,-0.04761904761904763,0.9108491685195836,Exploratory within-selected-celltypes association,0.9741279946623942
+Fibroblast,hUSI_old_minus_young,model_abs_coefficient,8,-0.6107893935757621,0.10772123669287088,Exploratory within-selected-celltypes association,0.892233442788835
+Fibroblast,proportion_age_pp_per10y,n_stable_features,23,-0.13699314317638356,0.5330824883622753,Exploratory within-selected-celltypes association,0.9350214356484771
+Fibroblast,proportion_age_pp_per10y,model_abs_coefficient,23,-0.06846097891949353,0.7562705117491269,Exploratory within-selected-celltypes association,0.9741279946623942
+Fibroblast,proportion_old_minus_young_pp,n_stable_features,20,0.1805869585710512,0.4461167213944175,Exploratory within-selected-celltypes association,0.892233442788835
+Fibroblast,proportion_old_minus_young_pp,model_abs_coefficient,20,0.23761943643542607,0.31307718673651597,Exploratory within-selected-celltypes association,0.892233442788835
+Fibroblast,relative_hUSI,n_stable_features,17,-0.024539895773198095,0.9255166791844643,Exploratory within-selected-celltypes association,0.9741279946623942
+Fibroblast,relative_hUSI,model_abs_coefficient,17,-0.026538739804103418,0.9194676052680583,Exploratory within-selected-celltypes association,0.9741279946623942
+Endothelial,SSE_old_minus_young_pp,n_stable_features,8,0.25303041367373696,0.545429170794945,Exploratory within-selected-celltypes association,0.9350214356484771
+Endothelial,SSE_old_minus_young_pp,model_abs_coefficient,8,-0.07142857142857144,0.8665262706759088,Exploratory within-selected-celltypes association,0.9741279946623942
+Endothelial,hUSI_age_per10y,n_stable_features,13,0.14661484766965074,0.6326790095660785,Exploratory within-selected-celltypes association,0.9490185143491178
+Endothelial,hUSI_age_per10y,model_abs_coefficient,13,-0.24725274725274726,0.4154051197255382,Exploratory within-selected-celltypes association,0.892233442788835
+Endothelial,hUSI_old_minus_young,n_stable_features,8,0.32532481758051895,0.43168838619534633,Exploratory within-selected-celltypes association,0.892233442788835
+Endothelial,hUSI_old_minus_young,model_abs_coefficient,8,0.023809523809523815,0.9553740118158807,Exploratory within-selected-celltypes association,0.9741279946623942
+Endothelial,proportion_age_pp_per10y,n_stable_features,20,0.23007954630744978,0.3291288296448204,Exploratory within-selected-celltypes association,0.892233442788835
+Endothelial,proportion_age_pp_per10y,model_abs_coefficient,20,0.21954887218045113,0.352345677311515,Exploratory within-selected-celltypes association,0.892233442788835
+Endothelial,proportion_old_minus_young_pp,n_stable_features,16,0.2440649145098177,0.3623204665733777,Exploratory within-selected-celltypes association,0.892233442788835
+Endothelial,proportion_old_minus_young_pp,model_abs_coefficient,16,0.008823529411764706,0.9741279946623942,Exploratory within-selected-celltypes association,0.9741279946623942
+Endothelial,relative_hUSI,n_stable_features,14,-0.25635750373096106,0.3763236441971446,Exploratory within-selected-celltypes association,0.892233442788835
+Endothelial,relative_hUSI,model_abs_coefficient,14,-0.04615384615384615,0.8755025376321142,Exploratory within-selected-celltypes association,0.9741279946623942

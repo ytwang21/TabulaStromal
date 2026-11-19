@@ -1,0 +1,1137 @@
+Term,Overlap_Count,Pathway_Size,Query_Size,Background_Size,Genes,P_value,FDR,Gene_ratio,Fold_enrichment,Database,Direction,Lineage
+Voltage-Gated Potassium Channel Activity Involved in Cardiac Muscle Cell Action Potential Repolarization (GO:0086008),1,3,5,11521,KCNJ2,0.0013015182812966045,0.6570080352155186,0.2,768.0666666666666,GO_MF,Mixed,Endothelial
+Inward Rectifier Potassium Channel Activity (GO:0005242),1,4,5,11521,KCNJ2,0.0017350564310268978,0.6570080352155186,0.2,576.0500000000001,GO_MF,Mixed,Endothelial
+Nitrite Reductase Activity (GO:0098809),1,4,5,11521,MTARC1,0.0017350564310268978,0.6570080352155186,0.2,576.0500000000001,GO_MF,Mixed,Endothelial
+Voltage-Gated Potassium Channel Activity (GO:0005249),1,11,5,11521,KCNJ2,0.0047656096231215575,1.0,0.2,209.47272727272727,GO_MF,Mixed,Endothelial
+Ligand-Gated Monoatomic Cation Channel Activity (GO:0099094),1,16,5,11521,KCNJ2,0.006925780724646668,1.0,0.2,144.01250000000002,GO_MF,Mixed,Endothelial
+Kinase Binding (GO:0019900),2,352,5,11521,NBEAL1;RND3,0.008756134511237306,1.0,0.4,13.092045454545454,GO_MF,Mixed,Endothelial
+Protein Kinase Binding (GO:0019901),2,389,5,11521,NBEAL1;RND3,0.010626956644659883,1.0,0.4,11.846786632390746,GO_MF,Mixed,Endothelial
+"Phosphatidylinositol-4,5-Bisphosphate Binding (GO:0005546)",1,50,5,11521,KCNJ2,0.02151567641625997,1.0,0.2,46.084,GO_MF,Mixed,Endothelial
+Phosphatidylinositol Bisphosphate Binding (GO:1902936),1,64,5,11521,KCNJ2,0.027473204462118983,1.0,0.2,36.003125000000004,GO_MF,Mixed,Endothelial
+GTP Binding (GO:0005525),1,157,5,11521,RND3,0.06631575008225009,1.0,0.2,14.676433121019109,GO_MF,Mixed,Endothelial
+Guanyl Ribonucleotide Binding (GO:0032561),1,169,5,11521,RND3,0.07123590914436839,1.0,0.2,13.63431952662722,GO_MF,Mixed,Endothelial
+"DNA-binding Transcription Activator Activity, RNA Polymerase II-specific (GO:0001228)",1,170,5,11521,MEIS2,0.07164498423723996,1.0,0.2,13.554117647058824,GO_MF,Mixed,Endothelial
+GTPase Activity (GO:0003924),1,200,5,11521,RND3,0.08385037613254288,1.0,0.2,11.521,GO_MF,Mixed,Endothelial
+Ribonucleoside Triphosphate Phosphatase Activity (GO:0017111),1,205,5,11521,RND3,0.08587206666317189,1.0,0.2,11.24,GO_MF,Mixed,Endothelial
+Anion Binding (GO:0043168),1,282,5,11521,KCNJ2,0.11655806152275361,1.0,0.2,8.170921985815603,GO_MF,Mixed,Endothelial
+Double-Stranded DNA Binding (GO:0003690),1,314,5,11521,MEIS2,0.12906566523638632,1.0,0.2,7.338216560509554,GO_MF,Mixed,Endothelial
+Transition Metal Ion Binding (GO:0046914),1,328,5,11521,MTARC1,0.13449299670726367,1.0,0.2,7.025,GO_MF,Mixed,Endothelial
+Sequence-Specific DNA Binding (GO:0043565),1,349,5,11521,MEIS2,0.14258323071212536,1.0,0.2,6.602292263610316,GO_MF,Mixed,Endothelial
+Sequence-Specific Double-Stranded DNA Binding (GO:1990837),1,355,5,11521,MEIS2,0.14488357847272074,1.0,0.2,6.490704225352113,GO_MF,Mixed,Endothelial
+Cis-Regulatory Region Sequence-Specific DNA Binding (GO:0000987),1,601,5,11521,MEIS2,0.2350350148025143,1.0,0.2,3.833943427620633,GO_MF,Mixed,Endothelial
+RNA Polymerase II Cis-Regulatory Region Sequence-Specific DNA Binding (GO:0000978),1,602,5,11521,MEIS2,0.23538527349537028,1.0,0.2,3.827574750830565,GO_MF,Mixed,Endothelial
+RNA Polymerase II Transcription Regulatory Region Sequence-Specific DNA Binding (GO:0000977),1,706,5,11521,MEIS2,0.2711181744519195,1.0,0.2,3.2637393767705385,GO_MF,Mixed,Endothelial
+1-Acylglycerol-3-Phosphate O-acyltransferase Activity (GO:0003841),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+1-Acylglycerophosphocholine O-acyltransferase Activity (GO:0047184),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+1-Alkyl-2-Acetylglycerophosphocholine Esterase Activity (GO:0003847),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+1-Phosphatidylinositol Binding (GO:0005545),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+1-Phosphatidylinositol-3-Kinase Activity (GO:0016303),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+1-Phosphatidylinositol-3-Kinase Regulator Activity (GO:0046935),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"1-Phosphatidylinositol-4,5-Bisphosphate 3-Kinase Activity (GO:0046934)",0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+1-Phosphatidylinositol-4-Phosphate 3-Kinase Activity (GO:0035005),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+1-Phosphatidylinositol-4-Phosphate 5-Kinase Activity (GO:0016308),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+11-Cis Retinal Binding (GO:0005502),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"2 Iron, 2 Sulfur Cluster Binding (GO:0051537)",0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+2-Acylglycerol-3-Phosphate O-acyltransferase Activity (GO:0047144),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+2-Oxoglutarate-Dependent Dioxygenase Activity (GO:0016706),0,35,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"3',5'-Cyclic-Nucleotide Phosphodiesterase Activity (GO:0004114)",0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"3',5'-cyclic-AMP Phosphodiesterase Activity (GO:0004115)",0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"3',5'-cyclic-GMP Phosphodiesterase Activity (GO:0047555)",0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+3'-5' DNA Helicase Activity (GO:0043138),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+3'-5' Exonuclease Activity (GO:0008408),0,39,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+3'-5' RNA Helicase Activity (GO:0034458),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+3'-5'-DNA Exonuclease Activity (GO:0008296),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+3'-5'-RNA Exonuclease Activity (GO:0000175),0,31,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+3-hydroxyacyl-CoA Dehydratase Activity (GO:0018812),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+3-hydroxyacyl-CoA Dehydrogenase Activity (GO:0003857),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"4 Iron, 4 Sulfur Cluster Binding (GO:0051539)",0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+4-galactosyl-N-acetylglucosaminide 3-alpha-L-fucosyltransferase Activity (GO:0017083),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+5'-(N(7)-methylguanosine 5'-triphospho)-[mRNA] Hydrolase Activity (GO:0140933),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+5'-3' DNA Exonuclease Activity (GO:0035312),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+5'-3' DNA Helicase Activity (GO:0043139),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+5'-3' Exonuclease Activity (GO:0008409),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+5'-3' RNA Polymerase Activity (GO:0034062),0,28,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+5'-Deoxyribose-5-Phosphate Lyase Activity (GO:0051575),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+5'-Flap Endonuclease Activity (GO:0017108),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+5'-Nucleotidase Activity (GO:0008253),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+5S rRNA Binding (GO:0008097),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+7SK snRNA Binding (GO:0097322),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+ABC-type Glutathione S-conjugate Transporter Activity (GO:0015431),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+ABC-type Xenobiotic Transporter Activity (GO:0008559),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+ADP Binding (GO:0043531),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+ADP Transmembrane Transporter Activity (GO:0015217),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+ADP-D-ribose Modification-Dependent Protein Binding (GO:0160002),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+AMP Binding (GO:0016208),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+ATP Binding (GO:0005524),0,220,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+ATP Transmembrane Transporter Activity (GO:0005347),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+ATP-dependent Diacylglycerol Kinase Activity (GO:0004143),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+ATP-gated Ion Channel Activity (GO:0035381),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"ATPase Activity, Coupled to Transmembrane Movement of Ions, Rotational Mechanism (GO:0044769)",0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+ATPase Binding (GO:0051117),0,59,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Acetylation-Dependent Protein Binding (GO:0140033),0,18,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Acetylcholine Binding (GO:0042166),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Acetylcholine Receptor Activity (GO:0015464),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Acetylcholine Receptor Binding (GO:0033130),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Acetylcholine Receptor Regulator Activity (GO:0030548),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Acetylcholine-Gated Monoatomic Cation-Selective Channel Activity (GO:0022848),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Acetylgalactosaminyltransferase Activity (GO:0008376),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Acetylglucosaminyltransferase Activity (GO:0008375),0,26,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Acetyltransferase Activator Activity (GO:0010698),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Acetyltransferase Activity (GO:0016407),0,23,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Acid Phosphatase Activity (GO:0003993),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Acid-Amino Acid Ligase Activity (GO:0016881),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Acid-Thiol Ligase Activity (GO:0016878),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Acidic Amino Acid Transmembrane Transporter Activity (GO:0015172),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Actin Binding (GO:0003779),0,127,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Actin Monomer Binding (GO:0003785),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Actinin Binding (GO:0042805),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Activin Receptor Activity (GO:0017002),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Activin Receptor Activity, Type I (GO:0016361)",0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Activin Receptor Binding (GO:0070697),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Acylglycerol O-acyltransferase Activity (GO:0016411),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Acyltransferase Activity, Transferring Groups Other Than Amino-Acyl Groups (GO:0016747)",0,56,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Adenine Nucleotide Transmembrane Transporter Activity (GO:0000295),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Adenosine Deaminase Activity (GO:0004000),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Adenyl Nucleotide Binding (GO:0030554),0,20,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Adenyl Ribonucleotide Binding (GO:0032559),0,238,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Adenylate Cyclase Binding (GO:0008179),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Adenylate Cyclase Regulator Activity (GO:0010854),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Adenylate Kinase Activity (GO:0004017),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Adenylyltransferase Activity (GO:0070566),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Adrenergic Receptor Binding (GO:0031690),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Alanine Transmembrane Transporter Activity (GO:0022858),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Alcohol Dehydrogenase (NAD+) Activity (GO:0004022),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Alcohol Dehydrogenase (NADP+) Activity (GO:0008106),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Alcohol Dehydrogenase [NAD(P)+] Activity (GO:0018455),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Aldehyde Dehydrogenase (NAD+) Activity (GO:0004029),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Aldehyde Dehydrogenase [NAD(P)+] Activity (GO:0004030),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Aldehyde-Lyase Activity (GO:0016832),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Aldo-Keto Reductase (NADPH) Activity (GO:0004033),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Aldose Reductase (NADPH) Activity (GO:0004032),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Alkali Metal Ion Binding (GO:0031420),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+All-Trans-Retinol Dehydrogenase (NAD+) Activity (GO:0004745),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+All-Trans-Retinol Dehydrogenase (NADP+) Activity (GO:0052650),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Alpha-(1->3)-Fucosyltransferase Activity (GO:0046920),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Alpha-Actinin Binding (GO:0051393),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Alpha-Glucosidase Activity (GO:0090599),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Alpha-Mannosidase Activity (GO:0004559),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Alpha-Tubulin Binding (GO:0043014),0,28,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Amidine-Lyase Activity (GO:0016842),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Amino Acid:Monoatomic Cation Symporter Activity (GO:0005416),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Amino Acid:Proton Symporter Activity (GO:0005280),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Amino Acid:Sodium Symporter Activity (GO:0005283),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Aminopeptidase Activity (GO:0004177),0,20,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Aminophospholipid Flippase Activity (GO:0015247),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ammonium Channel Activity (GO:0008519),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Androsterone Dehydrogenase [NAD(P)+] Activity (GO:0047023),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ankyrin Binding (GO:0030506),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Antiporter Activity (GO:0015297),0,35,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Apolipoprotein Receptor Binding (GO:0034190),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Arachidonate Binding (GO:0050544),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Arginine N-methyltransferase Activity (GO:0016273),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Armadillo Repeat Domain Binding (GO:0070016),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Aromatic Amino Acid Transmembrane Transporter Activity (GO:0015173),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Aryl Hydrocarbon Receptor Binding (GO:0017162),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Aryl Sulfotransferase Activity (GO:0004062),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Arylesterase Activity (GO:0004064),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Arylsulfatase Activity (GO:0004065),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Aspartic Endopeptidase Activity, Intramembrane Cleaving (GO:0042500)",0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Aspartic-Type Endopeptidase Activity (GO:0004190),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Aspartic-Type Endopeptidase Inhibitor Activity (GO:0019828),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Aspartic-Type Peptidase Activity (GO:0070001),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Axon Guidance Receptor Activity (GO:0008046),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+BH Domain Binding (GO:0051400),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+BH3 Domain Binding (GO:0051434),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+BMP Binding (GO:0036122),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+BMP Receptor Activity (GO:0098821),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+BMP Receptor Binding (GO:0070700),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Basal RNA Polymerase II Transcription Machinery Binding (GO:0001099),0,36,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Basic Amino Acid Transmembrane Transporter Activity (GO:0015174),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Beta-1,3-Galactosyltransferase Activity (GO:0048531)",0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Beta-Galactoside (CMP) Alpha-2,3-Sialyltransferase Activity (GO:0003836)",0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Beta-Tubulin Binding (GO:0048487),0,25,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Bicarbonate Transmembrane Transporter Activity (GO:0015106),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Bicarbonate:Monoatomic Anion Antiporter Activity (GO:0140829),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Bile Acid Binding (GO:0032052),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Bile Acid Transmembrane Transporter Activity (GO:0015125),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Bile Acid:Sodium Symporter Activity (GO:0008508),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Bioactive Lipid Receptor Activity (GO:0045125),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Bis(5'-Adenosyl)-Pentaphosphatase Activity (GO:0034432),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Branched-Chain Amino Acid Transmembrane Transporter Activity (GO:0015658),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Bubble DNA Binding (GO:0000405),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+C-C Chemokine Binding (GO:0019957),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+C-C Chemokine Receptor Activity (GO:0016493),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+C-X-C Chemokine Binding (GO:0019958),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+C-acetyltransferase Activity (GO:0016453),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+C-acyltransferase Activity (GO:0016408),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+C-methyltransferase Activity (GO:0008169),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+C2H2 Zinc Finger Domain Binding (GO:0070742),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+C4-dicarboxylate Transmembrane Transporter Activity (GO:0015556),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+CARD Domain Binding (GO:0050700),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+CCR Chemokine Receptor Binding (GO:0048020),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+CCR1 Chemokine Receptor Binding (GO:0031726),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+CD4 Receptor Binding (GO:0042609),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+CDP-alcohol Phosphatidyltransferase Activity (GO:0017169),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+CXCR Chemokine Receptor Binding (GO:0045236),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cadherin Binding (GO:0045296),0,273,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cadherin Binding Involved in Cell-Cell Adhesion (GO:0098641),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Calcium Channel Activity (GO:0005262),0,35,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Calcium Channel Inhibitor Activity (GO:0019855),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Calcium Channel Regulator Activity (GO:0005246),0,27,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Calcium Ion Binding (GO:0005509),0,154,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Calcium Ion Sensor Activity (GO:0061891),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Calcium Ion Transmembrane Transporter Activity (GO:0015085),0,32,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Calcium-Activated Cation Channel Activity (GO:0005227),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Calcium-Activated Potassium Channel Activity (GO:0015269),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Calcium-Dependent Cysteine-Type Endopeptidase Activity (GO:0004198),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Calcium-Dependent Phospholipase A2 Activity (GO:0047498),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Calcium-Dependent Phospholipid Binding (GO:0005544),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Calcium-Dependent Protein Serine/Threonine Kinase Activity (GO:0009931),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Calcium-Dependent Protein Serine/Threonine Phosphatase Activity (GO:0004723),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Calcium-Independent Phospholipase A2 Activity (GO:0047499),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Calcium/Calmodulin-Dependent Protein Kinase Activity (GO:0004683),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Calcium:Monoatomic Cation Antiporter Activity (GO:0015368),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Calcium:Sodium Antiporter Activity (GO:0005432),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Carbohydrate Kinase Activity (GO:0019200),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Carbohydrate:Monoatomic Cation Symporter Activity (GO:0005402),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Carbohydrate:Proton Symporter Activity (GO:0005351),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Carbon-Nitrogen Ligase Activity, With Glutamine as amido-N-donor (GO:0016884)",0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Carbonate Dehydratase Activity (GO:0004089),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Carbonyl Reductase (NADPH) Activity (GO:0004090),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Carboxy-Lyase Activity (GO:0016831),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Carboxylic Acid Binding (GO:0031406),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Carboxylic Acid Transmembrane Transporter Activity (GO:0046943),0,39,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Carboxylic Ester Hydrolase Activity (GO:0052689),0,63,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Carboxypeptidase Activity (GO:0004180),0,18,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cardiolipin Binding (GO:1901612),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Carnitine O-acyltransferase Activity (GO:0016406),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Carnitine Transmembrane Transporter Activity (GO:0015226),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Caspase Binding (GO:0089720),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Catalytic Activity, Acting on a tRNA (GO:0140101)",0,41,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cation Binding (GO:0043169),0,54,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cell Adhesion Mediator Activity (GO:0098631),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cell-Cell Adhesion Mediator Activity (GO:0098632),0,28,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cell-Matrix Adhesion Mediator Activity (GO:0098634),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ceramide 1-Phosphate Binding (GO:1902387),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ceramide 1-Phosphate Transfer Activity (GO:1902388),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ceramide Transfer Activity (GO:0120017),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Channel Activator Activity (GO:0099103),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Channel Activity (GO:0015267),0,25,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Channel Inhibitor Activity (GO:0016248),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Chemoattractant Activity (GO:0042056),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Chemokine Activity (GO:0008009),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Chemokine Binding (GO:0019956),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Chemokine Receptor Activity (GO:0004950),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Chemokine Receptor Binding (GO:0042379),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Chemorepellent Activity (GO:0045499),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Chitinase Activity (GO:0004568),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Chloride Channel Activity (GO:0005254),0,24,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Chloride Channel Inhibitor Activity (GO:0019869),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Chloride Channel Regulator Activity (GO:0017081),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Chloride Ion Binding (GO:0031404),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Chloride Transmembrane Transporter Activity (GO:0015108),0,29,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Chloride:Bicarbonate Antiporter Activity (GO:0140900),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Chloride:Monoatomic Cation Symporter Activity (GO:0015377),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cholesterol Binding (GO:0015485),0,37,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cholesterol Transfer Activity (GO:0120020),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Choline Transmembrane Transporter Activity (GO:0015220),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Chondroitin Sulfotransferase Activity (GO:0034481),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Chromo Shadow Domain Binding (GO:0070087),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ciliary Neurotrophic Factor Receptor Binding (GO:0005127),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Clathrin Adaptor Activity (GO:0035615),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Clathrin Heavy Chain Binding (GO:0032050),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Clathrin Light Chain Binding (GO:0032051),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+CoA Carboxylase Activity (GO:0016421),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+CoA-ligase Activity (GO:0016405),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Complement Component C3b Binding (GO:0001851),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Complement Receptor Activity (GO:0004875),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Copper Ion Binding (GO:0005507),0,28,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Copper Ion Transmembrane Transporter Activity (GO:0005375),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Core Promoter Sequence-Specific DNA Binding (GO:0001046),0,33,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Crossover Junction DNA Endonuclease Activity (GO:0008821),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cuprous Ion Binding (GO:1903136),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cyclase Activator Activity (GO:0010853),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cyclic Nucleotide Binding (GO:0030551),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cyclic Nucleotide-Dependent Protein Kinase Activity (GO:0004690),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cyclic-Nucleotide Phosphodiesterase Activity (GO:0004112),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cyclin-Dependent Protein Kinase Activity (GO:0097472),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cyclin-Dependent Protein Serine/Threonine Kinase Activator Activity (GO:0061575),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cyclin-Dependent Protein Serine/Threonine Kinase Activity (GO:0004693),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cyclin-Dependent Protein Serine/Threonine Kinase Inhibitor Activity (GO:0004861),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cyclin-Dependent Protein Serine/Threonine Kinase Regulator Activity (GO:0016538),0,36,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cysteine-Type Deubiquitinase Activity (GO:0004843),0,65,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cysteine-Type Endopeptidase Activator Activity (GO:0140608),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cysteine-Type Endopeptidase Activator Activity Involved in Apoptotic Process (GO:0008656),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cysteine-Type Endopeptidase Activity (GO:0004197),0,58,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cysteine-Type Endopeptidase Inhibitor Activity (GO:0004869),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cysteine-Type Endopeptidase Inhibitor Activity Involved in Apoptotic Process (GO:0043027),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cysteine-Type Peptidase Activity (GO:0008234),0,106,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cytidine Deaminase Activity (GO:0004126),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cytidylyltransferase Activity (GO:0070567),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Cytochrome-B5 Reductase Activity, Acting on NAD(P)H (GO:0004128)",0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cytokine Activity (GO:0005125),0,43,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cytokine Receptor Activity (GO:0004896),0,32,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Cytokine Receptor Binding (GO:0005126),0,49,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+D-glucose Transmembrane Transporter Activity (GO:0055056),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+D-glucose:sodium Symporter Activity (GO:0005412),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+D-mannose Binding (GO:0005537),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+DEAD/H-box RNA Helicase Binding (GO:0017151),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"DNA Binding, Bending (GO:0008301)",0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+DNA Endonuclease Activity (GO:0004520),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"DNA Endonuclease Activity, Producing 3'-Phosphomonoesters (GO:0016889)",0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"DNA Exonuclease Activity, Producing 5'-Phosphomonoesters (GO:0016895)",0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+DNA N-glycosylase Activity (GO:0019104),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+DNA Nuclease Activity (GO:0004536),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+DNA Polymerase Activity (GO:0034061),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+DNA Polymerase Binding (GO:0070182),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+DNA Replication Origin Binding (GO:0003688),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+DNA Secondary Structure Binding (GO:0000217),0,26,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+DNA-(apurinic or Apyrimidinic Site) Endonuclease Activity (GO:0003906),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+DNA-binding Transcription Factor Binding (GO:0140297),0,222,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"DNA-binding Transcription Repressor Activity, RNA Polymerase II-specific (GO:0001227)",0,140,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+DNA-directed DNA Polymerase Activity (GO:0003887),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+DNA-directed RNA Polymerase Activity (GO:0003899),0,27,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+DNA-methyltransferase Activity (GO:0009008),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Damaged DNA Binding (GO:0003684),0,45,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Deaminase Activity (GO:0019239),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Death Domain Binding (GO:0070513),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Death Receptor Activity (GO:0005035),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Death Receptor Binding (GO:0005123),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Dehydroascorbic Acid Transmembrane Transporter Activity (GO:0033300),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Delayed Rectifier Potassium Channel Activity (GO:0005251),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Dermatan Sulfotransferase Activity (GO:0120534),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Deubiquitinase Activator Activity (GO:0035800),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Deubiquitinase Activity (GO:0101005),0,79,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Diacylglycerol-Dependent Serine/Threonine Kinase Activity (GO:0004697),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Dicarboxylic Acid Transmembrane Transporter Activity (GO:0005310),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Dihydropyrimidinase Activity (GO:0004157),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Dinucleotide Phosphatase Activity (GO:0004551),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Dipeptidase Activity (GO:0016805),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Dipeptidyl-Peptidase Activity (GO:0008239),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Disordered Domain Specific Binding (GO:0097718),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Disulfide Oxidoreductase Activity (GO:0015036),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Dopamine Receptor Binding (GO:0050780),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Double-Stranded Methylated DNA Binding (GO:0010385),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Double-Stranded RNA Binding (GO:0003725),0,60,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Double-Stranded Telomeric DNA Binding (GO:0003691),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Dynactin Binding (GO:0034452),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+E-box Binding (GO:0070888),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Endodeoxyribonuclease Activity, Producing 5'-Phosphomonoesters (GO:0016888)",0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Endonuclease Activity (GO:0004519),0,48,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Endopeptidase Activator Activity (GO:0061133),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Endopeptidase Activity (GO:0004175),0,144,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Endopeptidase Inhibitor Activity (GO:0004866),0,53,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Endopeptidase Regulator Activity (GO:0061135),0,33,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ephrin Receptor Activity (GO:0005003),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ephrin Receptor Binding (GO:0046875),0,18,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Epidermal Growth Factor Receptor Binding (GO:0005154),0,18,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Epoxide Hydrolase Activity (GO:0004301),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Estradiol 17-Beta-Dehydrogenase [NAD(P)+] Activity (GO:0004303),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Estrogen 16-Alpha-Hydroxylase Activity (GO:0101020),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Estrogen Response Element Binding (GO:0034056),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ether Hydrolase Activity (GO:0016803),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Eukaryotic Initiation Factor 4E Binding (GO:0008190),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Excitatory Extracellular Ligand-Gated Monoatomic Ion Channel Activity (GO:0005231),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Exonuclease Activity (GO:0004527),0,40,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Exopeptidase Activity (GO:0008238),0,35,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Extracellularly ATP-gated Monoatomic Cation Channel Activity (GO:0004931),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+FAD Binding (GO:0071949),0,22,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+FMN Binding (GO:0010181),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Fatty Acid Elongase Activity (GO:0009922),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Fatty Acid Transmembrane Transporter Activity (GO:0015245),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Fatty acyl-CoA Hydrolase Activity (GO:0047617),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ferric Iron Binding (GO:0008199),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ferrous Iron Binding (GO:0008198),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ferroxidase Activity (GO:0004322),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Fibroblast Growth Factor Binding (GO:0017134),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Fibroblast Growth Factor Receptor Binding (GO:0005104),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Filamin Binding (GO:0031005),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Flap Endonuclease Activity (GO:0048256),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Flavin Adenine Dinucleotide Binding (GO:0050660),0,41,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Four-Way Junction DNA Binding (GO:0000400),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Four-Way Junction Helicase Activity (GO:0009378),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Frizzled Binding (GO:0005109),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Fructose Binding (GO:0070061),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Fructose Transmembrane Transporter Activity (GO:0005353),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Fucose Binding (GO:0042806),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Fucosyltransferase Activity (GO:0008417),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+G Protein-Coupled Amine Receptor Activity (GO:0008227),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+G Protein-Coupled Chemoattractant Receptor Activity (GO:0001637),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+G Protein-Coupled Glutamate Receptor Binding (GO:0035256),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+G Protein-Coupled Peptide Receptor Activity (GO:0008528),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+G Protein-Coupled Photoreceptor Activity (GO:0008020),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+G Protein-Coupled Purinergic Nucleotide Receptor Activity (GO:0045028),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+G Protein-Coupled Receptor Activity (GO:0004930),0,40,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+G Protein-Coupled Receptor Binding (GO:0001664),0,64,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+G Protein-Coupled Receptor Kinase Activity (GO:0004703),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+G-quadruplex DNA Binding (GO:0051880),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+G-quadruplex RNA Binding (GO:0002151),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+G-rich Strand Telomeric DNA Binding (GO:0098505),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+GABA Receptor Binding (GO:0050811),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+GDP Binding (GO:0019003),0,51,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+GDP Phosphatase Activity (GO:0004382),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+GDP-dissociation Inhibitor Activity (GO:0005092),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+GPI Anchor Binding (GO:0034235),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+GTPase Activator Activity (GO:0005096),0,175,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+GTPase Binding (GO:0051020),0,202,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+GTPase Inhibitor Activity (GO:0005095),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+GTPase Regulator Activity (GO:0030695),0,348,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Galactosidase Activity (GO:0015925),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Galactosyltransferase Activity (GO:0008378),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Gamma-Aminobutyric Acid Transmembrane Transporter Activity (GO:0015185),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Gamma-Aminobutyric Acid:Sodium:Chloride Symporter Activity (GO:0005332),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Gamma-Tubulin Binding (GO:0043015),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Gap Junction Channel Activity (GO:0005243),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Gap Junction Hemi-Channel Activity (GO:0055077),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Gated Channel Activity (GO:0022836),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+General Transcription Initiation Factor Binding (GO:0140296),0,30,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Glucosidase Activity (GO:0015926),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Glucosyltransferase Activity (GO:0046527),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Glucuronosyltransferase Activity (GO:0015020),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Glutamate Receptor Binding (GO:0035254),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Glutathione Transferase Activity (GO:0004364),0,16,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Glutathione Transmembrane Transporter Activity (GO:0034634),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Glycerol Channel Activity (GO:0015254),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Glycerol Transmembrane Transporter Activity (GO:0015168),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Glycerophospholipid Flippase Activity (GO:0140333),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Glycine Transmembrane Transporter Activity (GO:0015187),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Glycogen Binding (GO:2001069),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Growth Factor Activity (GO:0008083),0,28,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Growth Factor Receptor Binding (GO:0070851),0,46,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Growth Hormone Receptor Binding (GO:0005131),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Guanyl-Nucleotide Exchange Factor Activity (GO:0005085),0,171,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Guanylate Cyclase Activator Activity (GO:0030250),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Guanylate Kinase Activity (GO:0004385),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Guanylyltransferase Activity (GO:0070568),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Heparan Sulfate Sulfotransferase Activity (GO:0034483),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Hexosaminidase Activity (GO:0015929),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Hexose Transmembrane Transporter Activity (GO:0015149),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Hexosyltransferase Activity (GO:0016758),0,53,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+High Voltage-Gated Calcium Channel Activity (GO:0008331),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+High-Density Lipoprotein Particle Binding (GO:0008035),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone Acetyltransferase Activity (GO:0004402),0,27,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone Acetyltransferase Binding (GO:0035035),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone Deacetylase Activity (GO:0004407),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Histone Deacetylase Activity, NAD-dependent (GO:0017136)",0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone Deacetylase Binding (GO:0042826),0,71,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone Demethylase Activity (GO:0032452),0,18,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone Deubiquitinase Activity (GO:0140934),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H2A Deubiquitinase Activity (GO:0140950),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H2A Ubiquitin Ligase Activity (GO:0141053),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H3 Acetyltransferase Activity (GO:0010484),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H3 Demethylase Activity (GO:0141052),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H3 Kinase Activity (GO:0140996),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H3 Methyltransferase Activity (GO:0140938),0,34,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H3 Reader Activity (GO:0140006),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H3K14 Acetyltransferase Activity (GO:0036408),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H3K27 Methyltransferase Activity (GO:0046976),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H3K36 Demethylase Activity (GO:0051864),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H3K36 Methyltransferase Activity (GO:0046975),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H3K4 Demethylase Activity (GO:0032453),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H3K4 Methyltransferase Activity (GO:0042800),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H3K9 Demethylase Activity (GO:0032454),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H3K9 Methyltransferase Activity (GO:0046974),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H4 Acetyltransferase Activity (GO:0010485),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H4 Methyltransferase Activity (GO:0140939),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H4 Reader Activity (GO:0140008),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H4K12 Acetyltransferase Activity (GO:0043997),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H4K16 Acetyltransferase Activity (GO:0046972),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H4K20 Methyltransferase Activity (GO:0042799),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H4K5 Acetyltransferase Activity (GO:0043995),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone H4K8 Acetyltransferase Activity (GO:0043996),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone Methyltransferase Activity (GO:0042054),0,29,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone Methyltransferase Binding (GO:1990226),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone Octamer Slider Activity (GO:0140751),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone Reader Activity (GO:0140566),0,25,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Histone Ubiquitin Ligase Activity (GO:0140852),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Hormone Activity (GO:0005179),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Hormone Receptor Binding (GO:0051427),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Hsp70 Protein Binding (GO:0030544),0,26,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Hsp90 Protein Binding (GO:0051879),0,24,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Hyaluronic Acid Binding (GO:0005540),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Hyalurononglucosaminidase Activity (GO:0004415),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Hydro-Lyase Activity (GO:0016836),0,31,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Hydrolase Activity, Acting on Acid Anhydrides, in Phosphorus-Containing Anhydrides (GO:0016818)",0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Hydrolase Activity, Acting on Carbon-Nitrogen (But Not Peptide) Bonds, in Cyclic Amides (GO:0016812)",0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Hydrolase Activity, Acting on Carbon-Nitrogen (But Not Peptide) Bonds, in Cyclic Amidines (GO:0016814)",0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Hydrolase Activity, Acting on Carbon-Nitrogen (But Not Peptide) Bonds, in Linear Amides (GO:0016811)",0,24,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Hydrolase Activity, Acting on Carbon-Nitrogen (But Not Peptide) Bonds, in Linear Amidines (GO:0016813)",0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Hydrolase Activity, Hydrolyzing N-glycosyl Compounds (GO:0016799)",0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Hydrolase Activity, Hydrolyzing O-glycosyl Compounds (GO:0004553)",0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Hydroxymethyl-, Formyl- and Related Transferase Activity (GO:0016742)",0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+I-SMAD Binding (GO:0070411),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Icosanoid Binding (GO:0050542),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Icosanoid Transmembrane Transporter Activity (GO:0071714),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Icosatetraenoic Acid Binding (GO:0050543),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+IgG Binding (GO:0019864),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+IgG Receptor Activity (GO:0019770),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Immunoglobulin Receptor Activity (GO:0019763),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Immunoglobulin Receptor Binding (GO:0034987),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Inorganic Anion Transmembrane Transporter Activity (GO:0015103),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Inorganic Cation Transmembrane Transporter Activity (GO:0022890),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Inositol 1,4,5 Trisphosphate Binding (GO:0070679)",0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Inositol Hexakisphosphate Kinase Activity (GO:0000828),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Inositol Phosphate Kinase Activity (GO:0180030),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Inositol Trisphosphate Phosphatase Activity (GO:0046030),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Inositol-1,4,5-Trisphosphate 5-Phosphatase Activity (GO:0052658)",0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Inositol-Polyphosphate 5-Phosphatase Activity (GO:0004445),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Insulin Receptor Binding (GO:0005158),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Insulin-Like Growth Factor Binding (GO:0005520),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Insulin-Like Growth Factor I Binding (GO:0031994),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Insulin-Like Growth Factor II Binding (GO:0031995),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Insulin-Like Growth Factor Receptor Binding (GO:0005159),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Interleukin-1 Binding (GO:0019966),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Interleukin-1 Receptor Binding (GO:0005149),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Interleukin-17 Receptor Activity (GO:0030368),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Interleukin-6 Receptor Binding (GO:0005138),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Intracellularly Calcium-Gated Channel Activity (GO:0141147),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Intracellularly Calcium-Gated Chloride Channel Activity (GO:0005229),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Intracellularly Cyclic Nucleotide-Activated Monoatomic Cation Channel Activity (GO:0005221),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Intracellularly Gated Calcium Channel Activity (GO:0015278),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Intracellularly Ligand-Gated Monoatomic Ion Channel Activity (GO:0005217),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Intracellularly cGMP-activated Cation Channel Activity (GO:0005223),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Intramolecular Oxidoreductase Activity, Interconverting Aldoses and Ketoses (GO:0016861)",0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Intramolecular Oxidoreductase Activity, Transposing C=C Bonds (GO:0016863)",0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Intramolecular Phosphotransferase Activity (GO:0016868),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Iodide Transmembrane Transporter Activity (GO:0015111),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ion Channel Inhibitor Activity (GO:0008200),0,28,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ion Channel Regulator Activity (GO:0099106),0,53,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ionotropic Glutamate Receptor Binding (GO:0035255),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Iron Ion Binding (GO:0005506),0,45,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Iron Ion Transmembrane Transporter Activity (GO:0005381),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Iron-Sulfur Cluster Binding (GO:0051536),0,28,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+JUN Kinase Binding (GO:0008432),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+JUN Kinase Kinase Kinase Activity (GO:0004706),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+K48-linked Deubiquitinase Activity (GO:1990380),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+K48-linked Polyubiquitin Modification-Dependent Protein Binding (GO:0036435),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+K63-linked Deubiquitinase Activity (GO:0061578),0,16,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+K63-linked Polyubiquitin Modification-Dependent Protein Binding (GO:0070530),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Kinase Activator Activity (GO:0019209),0,33,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Kinase Activity (GO:0016301),0,77,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Kinase Inhibitor Activity (GO:0019210),0,36,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Kinesin Binding (GO:0019894),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+L-alanine Transmembrane Transporter Activity (GO:0015180),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+L-amino Acid Transmembrane Transporter Activity (GO:0015179),0,35,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+L-amino-acid N-acetyltransferase Activity (GO:0140085),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+L-arginine Transmembrane Transporter Activity (GO:0061459),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+L-aspartate Transmembrane Transporter Activity (GO:0015183),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+L-glutamate Transmembrane Transporter Activity (GO:0005313),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+L-glutamine Transmembrane Transporter Activity (GO:0015186),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+L-leucine Transmembrane Transporter Activity (GO:0015190),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+L-lysine Transmembrane Transporter Activity (GO:0015189),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+L-proline Transmembrane Transporter Activity (GO:0015193),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+L-serine Transmembrane Transporter Activity (GO:0015194),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+LBD Domain Binding (GO:0050693),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+LRR Domain Binding (GO:0030275),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Lactate Dehydrogenase Activity (GO:0004457),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Leak Channel Activity (GO:0022840),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Leucine Zipper Domain Binding (GO:0043522),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ligand-Gated Calcium Channel Activity (GO:0099604),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ligand-Gated Channel Activity (GO:0022834),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ligand-Gated Monoatomic Anion Channel Activity (GO:0099095),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ligand-Gated Monoatomic Ion Channel Activity (GO:0015276),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ligand-Gated Sodium Channel Activity (GO:0015280),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Lipase Activator Activity (GO:0060229),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Lipase Activity (GO:0016298),0,24,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Lipase Inhibitor Activity (GO:0055102),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Lipid Kinase Activity (GO:0001727),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Lipid Phosphatase Activity (GO:0042577),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Lipoprotein Lipase Activity (GO:0004465),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Lipoprotein Particle Binding (GO:0071813),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Lipoprotein Particle Receptor Binding (GO:0070325),0,20,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Long-Chain Fatty Acid Binding (GO:0036041),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Long-Chain Fatty Acid Transmembrane Transporter Activity (GO:0005324),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Long-Chain Fatty acid-CoA Ligase Activity (GO:0004467),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Long-Chain Fatty acyl-CoA Hydrolase Activity (GO:0052816),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Low-Density Lipoprotein Particle Binding (GO:0030169),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Low-Density Lipoprotein Particle Receptor Binding (GO:0050750),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Lysine N-methyltransferase Activity (GO:0016278),0,22,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Lysine-Acetylated Histone Binding (GO:0070577),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Lysophosphatidic Acid Acyltransferase Activity (GO:0042171),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Lysophosphatidic Acid Phosphatase Activity (GO:0052642),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Lysophospholipase Activity (GO:0004622),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Lysophospholipid Acyltransferase Activity (GO:0071617),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MAP Kinase Activity (GO:0004707),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MAP Kinase Kinase Activity (GO:0004708),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MAP Kinase Kinase Kinase Activity (GO:0004709),0,18,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MAP Kinase Kinase Kinase Kinase Activity (GO:0008349),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MAP Kinase Phosphatase Activity (GO:0033549),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MAP Kinase Tyrosine Phosphatase Activity (GO:0033550),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MAP Kinase Tyrosine/Serine/Threonine Phosphatase Activity (GO:0017017),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MAP-kinase Scaffold Activity (GO:0005078),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MHC Class I Protein Binding (GO:0042288),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MHC Class I Protein Complex Binding (GO:0023024),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MHC Class I Receptor Activity (GO:0032393),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MHC Class II Protein Binding (GO:0042289),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MHC Class II Protein Complex Binding (GO:0023026),0,18,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MHC Class II Receptor Activity (GO:0032395),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MHC Class Ib Protein Binding (GO:0023029),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MHC Protein Binding (GO:0042287),0,16,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Magnesium Ion Binding (GO:0000287),0,130,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Magnesium Ion Transmembrane Transporter Activity (GO:0015095),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Malate Dehydrogenase Activity (GO:0016615),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Manganese Ion Binding (GO:0030145),0,41,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Manganese Ion Transmembrane Transporter Activity (GO:0005384),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Mannosidase Activity (GO:0015923),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Mannosyl-Oligosaccharide 1,2-Alpha-Mannosidase Activity (GO:0004571)",0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Mannosyl-Oligosaccharide Mannosidase Activity (GO:0015924),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Mannosyltransferase Activity (GO:0000030),0,20,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Mechanosensitive Monoatomic Cation Channel Activity (GO:0140135),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Mechanosensitive Monoatomic Ion Channel Activity (GO:0008381),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Medium-Chain Fatty acid-CoA Ligase Activity (GO:0031956),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Metal Cation:Proton Antiporter Activity (GO:0051139),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Metal Ion Binding (GO:0046872),0,305,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Metal Ion Transmembrane Transporter Activity (GO:0046873),0,22,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Metal-Dependent Deubiquitinase Activity (GO:0140492),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Metalloaminopeptidase Activity (GO:0070006),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Metallocarboxypeptidase Activity (GO:0004181),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Metalloendopeptidase Activity (GO:0004222),0,34,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Metalloendopeptidase Inhibitor Activity (GO:0008191),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Metalloexopeptidase Activity (GO:0008235),0,29,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Metallopeptidase Activity (GO:0008237),0,55,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Methylated Histone Binding (GO:0035064),0,53,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Methylation-Dependent Protein Binding (GO:0140034),0,55,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Methyltransferase Activity (GO:0008168),0,33,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Microtubule Binding (GO:0008017),0,178,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Microtubule Minus-End Binding (GO:0051011),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Microtubule Plus-End Binding (GO:0051010),0,16,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Minor Groove of Adenine-Thymine-Rich DNA Binding (GO:0003680),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Mismatched DNA Binding (GO:0030983),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Mitochondrial Ribosome Binding (GO:0097177),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Mitogen-Activated Protein Kinase Binding (GO:0051019),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Mitogen-Activated Protein Kinase Kinase Binding (GO:0031434),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Mitogen-Activated Protein Kinase Kinase Kinase Binding (GO:0031435),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Monoacylglycerol Lipase Activity (GO:0047372),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Monoamine Transmembrane Transporter Activity (GO:0008504),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Monoatomic Anion Channel Activity (GO:0005253),0,30,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Monoatomic Anion Transmembrane Transporter Activity (GO:0008509),0,16,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Monoatomic Cation Channel Activity (GO:0005261),0,44,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Monoatomic Cation Transmembrane Transporter Activity (GO:0008324),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Monoatomic Cation:Bicarbonate Symporter Activity (GO:0140410),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Monoatomic Ion Channel Activity (GO:0005216),0,23,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Monoatomic Ion-Gated Channel Activity (GO:0022839),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Monocarboxylate:Sodium Symporter Activity (GO:0140161),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Monocarboxylic Acid Binding (GO:0033293),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Monocarboxylic Acid Transmembrane Transporter Activity (GO:0008028),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Muscle Alpha-Actinin Binding (GO:0051371),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MutLalpha Complex Binding (GO:0032405),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+MutSalpha Complex Binding (GO:0032407),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Myosin Binding (GO:0017022),0,37,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Myosin Heavy Chain Binding (GO:0032036),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Myosin II Binding (GO:0045159),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Myosin Light Chain Binding (GO:0032027),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Myosin Phosphatase Regulator Activity (GO:0017020),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Myosin V Binding (GO:0031489),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"N-acetyl-beta-D-glucosaminide Beta-(1,3)-Galactosyltransferase Activity (GO:0008499)",0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+N-acetylglucosamine 6-O-sulfotransferase Activity (GO:0001517),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+N-acetyltransferase Activity (GO:0008080),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+N-acylsphingosine Amidohydrolase Activity (GO:0017040),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+N-acyltransferase Activity (GO:0016410),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+N-methyltransferase Activity (GO:0008170),0,22,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+N6-methyladenosine-containing RNA Reader Activity (GO:1990247),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+NAD Binding (GO:0051287),0,25,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+NAD(P)H Oxidase H2O2-forming Activity (GO:0016174),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+NAD+ Binding (GO:0070403),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+NAD+ poly-ADP-ribosyltransferase Activity (GO:0003950),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+NAD-dependent Protein Lysine Deacetylase Activity (GO:0034979),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+NADH Dehydrogenase Activity (GO:0003954),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+NADP Binding (GO:0050661),0,25,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+NADPH Binding (GO:0070402),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+NADPH Dehydrogenase Activity (GO:0003959),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+NEDD8 Transferase Activity (GO:0019788),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+NF-kappaB Binding (GO:0051059),0,27,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Natural Killer Cell Lectin-Like Receptor Binding (GO:0046703),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Neurexin Family Protein Binding (GO:0042043),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Neuropeptide Activity (GO:0160041),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Neuropeptide Hormone Activity (GO:0005184),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Neuropeptide Receptor Binding (GO:0071855),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Neuropilin Binding (GO:0038191),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Neurotransmitter Receptor Activity Involved in Regulation of Postsynaptic Membrane Potential (GO:0099529),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Neurotrophin Binding (GO:0043121),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Neurotrophin TRK Receptor Binding (GO:0005167),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Neurotrophin TRKA Receptor Binding (GO:0005168),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Neutral L-amino Acid Transmembrane Transporter Activity (GO:0015175),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Neutral L-amino Acid:Sodium Symporter Activity (GO:0005295),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nitric-Oxide Synthase Binding (GO:0050998),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Non-Membrane Spanning Protein Tyrosine Kinase Activity (GO:0004715),0,24,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Non-Membrane Spanning Protein Tyrosine Phosphatase Activity (GO:0004726),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Notch Binding (GO:0005112),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nuclear Androgen Receptor Binding (GO:0050681),0,22,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nuclear Estrogen Receptor Binding (GO:0030331),0,28,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nuclear Glucocorticoid Receptor Binding (GO:0035259),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nuclear Localization Sequence Binding (GO:0008139),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nuclear Receptor Binding (GO:0016922),0,98,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nuclear Retinoic Acid Receptor Binding (GO:0042974),0,16,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nuclear Retinoid X Receptor Binding (GO:0046965),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nuclear Steroid Receptor Activity (GO:0003707),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nuclear Thyroid Hormone Receptor Binding (GO:0046966),0,26,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nuclear Vitamin D Receptor Binding (GO:0042809),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nuclease Activity (GO:0004518),0,43,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nucleobase-Containing Compound Kinase Activity (GO:0019205),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nucleoside Diphosphate Kinase Activity (GO:0004550),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nucleoside Diphosphate Phosphatase Activity (GO:0017110),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nucleoside Kinase Activity (GO:0019206),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nucleoside Monophosphate Kinase Activity (GO:0050145),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nucleoside Transmembrane Transporter Activity (GO:0005337),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nucleoside Triphosphate Diphosphatase Activity (GO:0047429),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nucleosomal DNA Binding (GO:0031492),0,23,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nucleotidase Activity (GO:0008252),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nucleotide Receptor Activity (GO:0016502),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nucleotide Transmembrane Transporter Activity (GO:0015215),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Nucleotidyltransferase Activity (GO:0016779),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+O-acetyltransferase Activity (GO:0016413),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+O-acyltransferase Activity (GO:0008374),0,23,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+O-methyltransferase Activity (GO:0008171),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Olfactory Receptor Binding (GO:0031849),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Omega Peptidase Activity (GO:0008242),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Organic Acid:Sodium Symporter Activity (GO:0005343),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Outward Rectifier Potassium Channel Activity (GO:0015271),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Oxalate Transmembrane Transporter Activity (GO:0019531),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Oxidized DNA Binding (GO:0032356),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Oxidized Purine DNA Binding (GO:0032357),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase Activity, Acting on Metal Ions, NAD or NADP as Acceptor (GO:0016723)",0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase Activity, Acting on Metal Ions, Oxygen as Acceptor (GO:0016724)",0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase Activity, Acting on NAD(P)H, Heme Protein as Acceptor (GO:0016653)",0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase Activity, Acting on NAD(P)H, Oxygen as Acceptor (GO:0050664)",0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase Activity, Acting on NAD(P)H, Quinone or Similar Compound as Acceptor (GO:0016655)",0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase Activity, Acting on a Sulfur Group of Donors, Disulfide as Acceptor (GO:0016671)",0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase Activity, Acting on a Sulfur Group of Donors, Oxygen as Acceptor (GO:0016670)",0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase Activity, Acting on the Aldehyde or Oxo Group of Donors, Disulfide as Acceptor (GO:0016624)",0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase Activity, Acting on the Aldehyde or Oxo Group of Donors, NAD or NADP as Acceptor (GO:0016620)",0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase Activity, Acting on the CH-CH Group of Donors, NAD or NADP as Acceptor (GO:0016628)",0,18,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase Activity, Acting on the CH-CH Group of Donors, With a Flavin as Acceptor (GO:0052890)",0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase Activity, Acting on the CH-NH Group of Donors, NAD or NADP as Acceptor (GO:0016646)",0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase Activity, Acting on the CH-NH2 Group of Donors, Oxygen as Acceptor (GO:0016641)",0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase Activity, Acting on the CH-OH Group of Donors, NAD or NADP as Acceptor (GO:0016616)",0,48,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase, Paired Donors, W Incorp or Reduc of O2, Reduced Flavin or Flavoprotein as One Donor, and Incorp of O (GO:0016712)",0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase, Paired Donors, W Incorp or Reduction of O2, Another Compound as One Donor, and Incorp of O (GO:0016716)",0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase, Paired Donors, W Incorp or Reduction of O2, NAD(P)H as One Donor, and Incorp of O (GO:0016709)",0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase, Paired Donors, W Incorp or Reduction of O2, Reduced Iron-Sulfur Protein as One Donor, and Incorp of O (GO:0016713)",0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase, Paired Donors, W Oxidation of a Pair of Donors Resulting in the Reduc of O2 to Two Molecules of H2O (GO:0016717)",0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Oxidoreductase, Single Donors W Incorp of O2, Incorp of Two Atoms of O (GO:0016702)",0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Oxysterol Binding (GO:0008142),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+P-type Calcium Transporter Activity (GO:0005388),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+P-type Ion Transporter Activity (GO:0015662),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+P-type Potassium Transmembrane Transporter Activity (GO:0008556),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+P-type Sodium Transporter Activity (GO:0008554),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+P-type Sodium:Potassium-Exchanging Transporter Activity (GO:0005391),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+PDZ Domain Binding (GO:0030165),0,35,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Palmitoyltransferase Activity (GO:0016409),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Patched Binding (GO:0005113),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Pentosyltransferase Activity (GO:0016763),0,28,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Peptidase Activator Activity (GO:0016504),0,28,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Peptidase Activator Activity Involved in Apoptotic Process (GO:0016505),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Peptidase Inhibitor Activity (GO:0030414),0,23,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Peptide Hormone Receptor Binding (GO:0051428),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Peptidoglycan Binding (GO:0042834),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Peptidyl-Proline 4-Dioxygenase Activity (GO:0031545),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Peroxisome Proliferator Activated Receptor Binding (GO:0042975),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatase Activator Activity (GO:0019211),0,20,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatase Activity (GO:0016791),0,54,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatase Binding (GO:0019902),0,91,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatase Inhibitor Activity (GO:0019212),0,27,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphate Ion Binding (GO:0042301),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphate Transmembrane Transporter Activity (GO:0005315),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidate Phosphatase Activity (GO:0008195),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidic Acid Binding (GO:0070300),0,16,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidic Acid Transfer Activity (GO:1990050),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylcholine Binding (GO:0031210),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylcholine Transfer Activity (GO:0120019),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylcholine Transporter Activity (GO:0008525),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylcholine-Sterol O-acyltransferase Activator Activity (GO:0060228),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylethanolamine Binding (GO:0008429),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylglycerol Binding (GO:1901611),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylinositol 3-Kinase Inhibitor Activity (GO:0141039),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylinositol 3-Kinase Regulator Activity (GO:0035014),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylinositol 3-Kinase Regulatory Subunit Binding (GO:0036312),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylinositol Binding (GO:0035091),0,86,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylinositol Kinase Activity (GO:0052742),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylinositol Monophosphate Phosphatase Activity (GO:0052744),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylinositol Phosphate 4-Phosphatase Activity (GO:0034596),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylinositol Phosphate 5-Phosphatase Activity (GO:0034595),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylinositol Phosphate Binding (GO:1901981),0,90,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylinositol Phosphate Phosphatase Activity (GO:0052866),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylinositol Phospholipase C Activity (GO:0004435),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylinositol Transfer Activity (GO:0008526),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylinositol Trisphosphate Phosphatase Activity (GO:0034594),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Phosphatidylinositol-3,4,5-Trisphosphate Binding (GO:0005547)",0,33,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Phosphatidylinositol-3,4-Bisphosphate Binding (GO:0043325)",0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Phosphatidylinositol-3,5-Bisphosphate 3-Phosphatase Activity (GO:0052629)",0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Phosphatidylinositol-3,5-Bisphosphate Binding (GO:0080025)",0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Phosphatidylinositol-3,5-Bisphosphate Phosphatase Activity (GO:0106018)",0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylinositol-3-Phosphate Binding (GO:0032266),0,37,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylinositol-3-Phosphate Phosphatase Activity (GO:0004438),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Phosphatidylinositol-4,5-Bisphosphate 5-Phosphatase Activity (GO:0004439)",0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Phosphatidylinositol-4,5-Bisphosphate Phosphatase Activity (GO:0106019)",0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylinositol-4-Phosphate Binding (GO:0070273),0,22,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphatidylinositol-5-Phosphate Binding (GO:0010314),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphofructokinase Activity (GO:0008443),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phospholipase A1 Activity (GO:0008970),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phospholipase A2 Activity (GO:0004623),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phospholipase Activator Activity (GO:0016004),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phospholipase Activity (GO:0004620),0,46,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phospholipase Binding (GO:0043274),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phospholipase C Activity (GO:0004629),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phospholipase D Activity (GO:0004630),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phospholipase Inhibitor Activity (GO:0004859),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phospholipid Scramblase Activity (GO:0017128),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phospholipid Transfer Activity (GO:0120014),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphoric Diester Hydrolase Activity (GO:0008081),0,28,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphoric Ester Hydrolase Activity (GO:0042578),0,38,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphorylation-Dependent Protein Binding (GO:0140031),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphoserine Residue Binding (GO:0050815),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Phosphotransferase Activity, Alcohol Group as Acceptor (GO:0016773)",0,67,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Phosphotransferase Activity, Phosphate Group as Acceptor (GO:0016776)",0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Phosphotransferase Activity, for Other Substituted Phosphate Groups (GO:0016780)",0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Phosphotyrosine Residue Binding (GO:0001784),0,31,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Platelet-Derived Growth Factor Binding (GO:0048407),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Platelet-Derived Growth Factor Receptor Binding (GO:0005161),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Poly-Purine Tract Binding (GO:0070717),0,23,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Poly-Pyrimidine Tract Binding (GO:0008187),0,20,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Polyubiquitin Modification-Dependent Protein Binding (GO:0031593),0,50,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Postsynaptic Neurotransmitter Receptor Activity (GO:0098960),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Potassium Channel Activator Activity (GO:0099104),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Potassium Channel Activity (GO:0005267),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Potassium Channel Inhibitor Activity (GO:0019870),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Potassium Channel Regulator Activity (GO:0015459),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Potassium Ion Binding (GO:0030955),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Potassium Ion Leak Channel Activity (GO:0022841),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Potassium Ion Transmembrane Transporter Activity (GO:0015079),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Potassium:Chloride Symporter Activity (GO:0015379),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Potassium:Proton Antiporter Activity (GO:0015386),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Prenyl Diphosphate Synthase Activity (GO:0120531),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Prenyltransferase Activity (GO:0004659),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Preribosome Binding (GO:1990275),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Primary Methylamine Oxidase Activity (GO:0008131),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Primary miRNA Binding (GO:0070878),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Procollagen-Proline Dioxygenase Activity (GO:0019798),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Prostaglandin Receptor Activity (GO:0004955),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Prostaglandin Transmembrane Transporter Activity (GO:0015132),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protease Binding (GO:0002020),0,81,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Binding Involved in Heterotypic Cell-Cell Adhesion (GO:0086080),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Carboxyl O-methyltransferase Activity (GO:0051998),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Geranylgeranyltransferase Activity (GO:0004661),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Heterodimerization Activity (GO:0046982),0,140,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Homodimerization Activity (GO:0042803),0,478,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Kinase A Catalytic Subunit Binding (GO:0034236),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Kinase A Regulatory Subunit Binding (GO:0034237),0,18,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Kinase Activator Activity (GO:0030295),0,84,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Kinase B Binding (GO:0043422),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Kinase C Binding (GO:0005080),0,28,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Kinase Inhibitor Activity (GO:0004860),0,52,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Kinase Regulator Activity (GO:0019887),0,95,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein N-acetyltransferase Activity (GO:0034212),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Phosphatase 1 Binding (GO:0008157),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Phosphatase 2A Binding (GO:0051721),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Phosphatase 2B Binding (GO:0030346),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Phosphatase Activator Activity (GO:0072542),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Phosphatase Binding (GO:0019903),0,95,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Phosphatase Inhibitor Activity (GO:0004864),0,25,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Phosphatase Regulator Activity (GO:0019888),0,67,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Phosphorylated Amino Acid Binding (GO:0045309),0,38,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Serine Kinase Activity (GO:0106310),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Serine/Threonine Kinase Activator Activity (GO:0043539),0,57,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Serine/Threonine Kinase Activity (GO:0004674),0,282,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Serine/Threonine Kinase Binding (GO:0120283),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Serine/Threonine Kinase Inhibitor Activity (GO:0030291),0,40,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Serine/Threonine Phosphatase Activity (GO:0004722),0,50,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Serine/Threonine Phosphatase Inhibitor Activity (GO:0004865),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Serine/Threonine/Tyrosine Kinase Activity (GO:0004712),0,22,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Tyrosine Kinase Activator Activity (GO:0030296),0,16,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Tyrosine Kinase Activity (GO:0004713),0,67,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Tyrosine Kinase Binding (GO:1990782),0,57,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Tyrosine Kinase Inhibitor Activity (GO:0030292),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Tyrosine Phosphatase Activity (GO:0004725),0,62,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Tyrosine/Serine/Threonine Phosphatase Activity (GO:0008138),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein Tyrosine/Threonine Phosphatase Activity (GO:0008330),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein-Arginine N-methyltransferase Activity (GO:0016274),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein-Cysteine S-palmitoyltransferase Activity (GO:0019706),0,18,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Protein-Lysine N-methyltransferase Activity (GO:0016279),0,45,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Proton Channel Activity (GO:0015252),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Proton Transmembrane Transporter Activity (GO:0015078),0,23,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Proton-Transporting ATPase Activity, Rotational Mechanism (GO:0046961)",0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Pseudouridine Synthase Activity (GO:0009982),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Purine Nucleobase Transmembrane Transporter Activity (GO:0005345),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Purine Nucleotide Transmembrane Transporter Activity (GO:0015216),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Purine Ribonucleotide Transmembrane Transporter Activity (GO:0005346),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Purinergic Nucleotide Receptor Activity (GO:0001614),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Pyridoxal Phosphate Binding (GO:0030170),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Pyrimidine Nucleobase Transmembrane Transporter Activity (GO:0005350),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Pyrimidine Nucleoside Transmembrane Transporter Activity (GO:0015214),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Pyrimidine Nucleotide-Sugar Transmembrane Transporter Activity (GO:0015165),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Pyrophosphatase Activity (GO:0016462),0,45,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Pyruvate Transmembrane Transporter Activity (GO:0050833),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Quaternary Ammonium Group Transmembrane Transporter Activity (GO:0015651),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+R-SMAD Binding (GO:0070412),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RAGE Receptor Binding (GO:0050786),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA 2'-O-methyltransferase Activity (GO:0062105),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA 7-Methylguanosine Cap Binding (GO:0000340),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Cap Binding (GO:0000339),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Endonuclease Activity (GO:0004521),0,32,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"RNA Endonuclease Activity, Producing 5'-Phosphomonoesters (GO:0016891)",0,25,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Exonuclease Activity (GO:0004532),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"RNA Exonuclease Activity, Producing 5'-Phosphomonoesters (GO:0016896)",0,30,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Methyltransferase Activity (GO:0008173),0,18,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Nuclease Activity (GO:0004540),0,52,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Polymerase Binding (GO:0070063),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Polymerase Core Enzyme Binding (GO:0043175),0,32,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Polymerase I Core Promoter Sequence-Specific DNA Binding (GO:0001164),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Polymerase I Transcription Regulatory Region Sequence-Specific DNA Binding (GO:0001163),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Polymerase II C-terminal Domain Binding (GO:0099122),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Polymerase II CTD Heptapeptide Repeat Kinase Activity (GO:0008353),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Polymerase II CTD Heptapeptide Repeat Phosphatase Activity (GO:0008420),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Polymerase II Complex Binding (GO:0000993),0,31,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Polymerase II Core Promoter Sequence-Specific DNA Binding (GO:0000979),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Polymerase II General Transcription Initiation Factor Binding (GO:0001091),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Polymerase II-specific DNA-binding Transcription Factor Binding (GO:0061629),0,173,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Polymerase III Cis-Regulatory Region Sequence-Specific DNA Binding (GO:0000992),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Polymerase III Type 3 Promoter Sequence-Specific DNA Binding (GO:0001006),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA Stem-Loop Binding (GO:0035613),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+RNA-directed DNA Polymerase Activity (GO:0003964),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Racemase and Epimerase Activity, Acting on Carbohydrates and Derivatives (GO:0016857)",0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Receptor Antagonist Activity (GO:0048019),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Receptor Ligand Activity (GO:0048018),0,112,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Receptor Tyrosine Kinase Binding (GO:0030971),0,46,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Regulatory RNA Binding (GO:0061980),0,30,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Retinal Binding (GO:0016918),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Retinal Dehydrogenase Activity (GO:0001758),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Retinoic Acid 4-Hydroxylase Activity (GO:0008401),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Retinoic Acid Binding (GO:0001972),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Retinoid Binding (GO:0005501),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Retinol Binding (GO:0019841),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Retinyl-Palmitate Esterase Activity (GO:0050253),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Riboflavin Transmembrane Transporter Activity (GO:0032217),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ribonuclease P Activity (GO:0004526),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ribonuclease P RNA Binding (GO:0033204),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ribosomal Large Subunit Binding (GO:0043023),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ribosomal Small Subunit Binding (GO:0043024),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ribosome Binding (GO:0043022),0,88,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+S-adenosylmethionine-dependent Methyltransferase Activity (GO:0008757),0,43,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+S-methyltransferase Activity (GO:0008172),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+SH2 Domain Binding (GO:0042169),0,24,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+SH3 Domain Binding (GO:0017124),0,38,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+STAT Family Protein Binding (GO:0097677),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+SUMO Binding (GO:0032183),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+SUMO Ligase Activity (GO:0061665),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+SUMO Transferase Activity (GO:0019789),0,23,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Secondary Active Monocarboxylate Transmembrane Transporter Activity (GO:0015355),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Secondary Active Sulfate Transmembrane Transporter Activity (GO:0008271),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Secondary Active Transmembrane Transporter Activity (GO:0015291),0,34,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Semaphorin Receptor Activity (GO:0017154),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Semaphorin Receptor Binding (GO:0030215),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sequence-Specific mRNA Binding (GO:1990825),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Serine-Type Endopeptidase Activity (GO:0004252),0,41,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Serine-Type Endopeptidase Inhibitor Activity (GO:0004867),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Serine-Type Exopeptidase Activity (GO:0070008),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Serine-Type Peptidase Activity (GO:0008236),0,44,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sialyltransferase Activity (GO:0008373),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Signal Recognition Particle Binding (GO:0005047),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Signaling Receptor Complex Adaptor Activity (GO:0030159),0,32,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Single-Stranded DNA 3'-5' DNA Exonuclease Activity (GO:0008310),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Single-Stranded DNA Binding (GO:0003697),0,82,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Single-Stranded DNA Endodeoxyribonuclease Activity (GO:0000014),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Single-Stranded DNA Exodeoxyribonuclease Activity (GO:0008297),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Single-Stranded DNA Helicase Activity (GO:0017116),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Single-Stranded RNA Binding (GO:0003727),0,37,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Single-Stranded Telomeric DNA Binding (GO:0043047),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Small GTPase Binding (GO:0031267),0,178,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Small Ribosomal Subunit rRNA Binding (GO:0070181),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sodium Channel Activity (GO:0005272),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sodium Channel Inhibitor Activity (GO:0019871),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sodium Channel Regulator Activity (GO:0017080),0,18,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sodium Ion Binding (GO:0031402),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sodium Ion Transmembrane Transporter Activity (GO:0015081),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sodium-Independent Organic Anion Transmembrane Transporter Activity (GO:0015347),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sodium:Bicarbonate Symporter Activity (GO:0008510),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sodium:Chloride Symporter Activity (GO:0015378),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sodium:Phosphate Symporter Activity (GO:0005436),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sodium:Proton Antiporter Activity (GO:0015385),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Solute:Inorganic Anion Antiporter Activity (GO:0005452),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Solute:Monoatomic Cation Symporter Activity (GO:0015294),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Solute:Potassium Antiporter Activity (GO:0022821),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Solute:Proton Symporter Activity (GO:0015295),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Solute:Sodium Symporter Activity (GO:0015370),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sphingosine N-acyltransferase Activity (GO:0050291),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sphingosine-1-Phosphate Phosphatase Activity (GO:0042392),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sphingosine-1-Phosphate Receptor Activity (GO:0038036),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"Steroid Dehydrogenase Activity, Acting on the CH-OH Group of Donors, NAD or NADP as Acceptor (GO:0033764)",0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Steroid Hydroxylase Activity (GO:0008395),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sterol Binding (GO:0032934),0,47,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sterol Ester Esterase Activity (GO:0004771),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sterol Transfer Activity (GO:0120015),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Store-Operated Calcium Channel Activity (GO:0015279),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sugar-Phosphatase Activity (GO:0050308),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sulfate Transmembrane Transporter Activity (GO:0015116),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sulfatide Binding (GO:0120146),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sulfotransferase Activity (GO:0008146),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sulfur Amino Acid Transmembrane Transporter Activity (GO:0000099),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sulfuric Ester Hydrolase Activity (GO:0008484),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Sulfurtransferase Activity (GO:0016783),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Supercoiled DNA Binding (GO:0097100),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Superoxide-Generating NAD(P)H Oxidase Activity (GO:0016175),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Superoxide-Generating NADPH Oxidase Activator Activity (GO:0016176),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Syntaxin Binding (GO:0019905),0,37,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Syntaxin-1 Binding (GO:0017075),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+TBP-class Protein Binding (GO:0017025),0,18,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Tat Protein Binding (GO:0030957),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Tau Protein Binding (GO:0048156),0,36,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Tau-Protein Kinase Activity (GO:0050321),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Telomerase Activity (GO:0003720),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Telomerase Inhibitor Activity (GO:0010521),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Telomerase RNA Binding (GO:0070034),0,20,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Telomeric DNA Binding (GO:0042162),0,32,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Testosterone Dehydrogenase [NAD(P)+] Activity (GO:0030283),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Thiamine Transmembrane Transporter Activity (GO:0015234),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Thioesterase Binding (GO:0031996),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Threonine-Type Peptidase Activity (GO:0070003),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Thyroid Hormone Transmembrane Transporter Activity (GO:0015349),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Titin Binding (GO:0031432),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Toll-like Receptor Binding (GO:0035325),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transaminase Activity (GO:0008483),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transcription Cis-Regulatory Region Binding (GO:0000976),0,327,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transcription Coactivator Binding (GO:0001223),0,31,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transcription Coregulator Binding (GO:0001221),0,86,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transcription Corepressor Binding (GO:0001222),0,42,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transferrin Receptor Binding (GO:1990459),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transforming Growth Factor Beta Binding (GO:0050431),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transforming Growth Factor Beta Receptor Activity (GO:0005024),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transforming Growth Factor Beta Receptor Binding (GO:0005160),0,18,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transition Metal Ion Transmembrane Transporter Activity (GO:0046915),0,26,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transmembrane Receptor Protein Kinase Activity (GO:0019199),0,19,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transmembrane Receptor Protein Phosphatase Activity (GO:0019198),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transmembrane Receptor Protein Serine/Threonine Kinase Activity (GO:0004675),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transmembrane Receptor Protein Serine/Threonine Kinase Binding (GO:0070696),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transmembrane Receptor Protein Tyrosine Kinase Activator Activity (GO:0030297),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transmembrane Receptor Protein Tyrosine Kinase Activity (GO:0004714),0,29,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transmembrane Receptor Protein Tyrosine Kinase Adaptor Activity (GO:0005068),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transmembrane Receptor Protein Tyrosine Phosphatase Activity (GO:0005001),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transmembrane-Ephrin Receptor Activity (GO:0005005),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transmitter-Gated Monoatomic Ion Channel Activity (GO:0022824),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Transmitter-Gated Monoatomic Ion Channel Activity Involved in Regulation of Postsynaptic Membrane Potential (GO:1904315),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Triacylglycerol Lipase Activity (GO:0004806),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Tripeptide Transmembrane Transporter Activity (GO:0042937),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Tropomyosin Binding (GO:0005523),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Tubulin Binding (GO:0015631),0,235,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Tubulin-Glutamic Acid Ligase Activity (GO:0070740),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Tumor Necrosis Factor Binding (GO:0043120),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Tumor Necrosis Factor Receptor Activity (GO:0005031),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Tumor Necrosis Factor Receptor Binding (GO:0005164),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Tumor Necrosis Factor Receptor Superfamily Binding (GO:0032813),0,23,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Type 1 Fibroblast Growth Factor Receptor Binding (GO:0005105),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Type I Transforming Growth Factor Beta Receptor Binding (GO:0034713),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Type II Transforming Growth Factor Beta Receptor Binding (GO:0005114),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+U1 snRNA Binding (GO:0030619),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+U3 snoRNA Binding (GO:0034511),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+U4 snRNA Binding (GO:0030621),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+U6 snRNA Binding (GO:0017070),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+UDP Phosphatase Activity (GO:0045134),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+UDP-galactosyltransferase Activity (GO:0035250),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+UDP-glucosyltransferase Activity (GO:0035251),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+UDP-glycosyltransferase Activity (GO:0008194),0,29,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+UDP-xylosyltransferase Activity (GO:0035252),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin Binding (GO:0043130),0,75,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin Conjugating Enzyme Activity (GO:0061631),0,30,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin Conjugating Enzyme Binding (GO:0031624),0,25,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin Ligase Activator Activity (GO:1990757),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin Ligase Inhibitor Activity (GO:1990948),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin Protein Ligase Activity (GO:0061630),0,230,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin Protein Ligase Binding (GO:0031625),0,234,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin-Like Ligase-Substrate Adaptor Activity (GO:1990756),0,81,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin-Like Protein Conjugating Enzyme Activity (GO:0061650),0,35,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin-Like Protein Conjugating Enzyme Binding (GO:0044390),0,31,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin-Like Protein Ligase Activity (GO:0061659),0,243,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin-Like Protein Ligase Binding (GO:0044389),0,248,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin-Like Protein Peptidase Activity (GO:0019783),0,27,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin-Modified Histone Reader Activity (GO:0061649),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin-Modified Protein Reader Activity (GO:0140036),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin-Protein Transferase Activator Activity (GO:0097027),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin-Protein Transferase Activity (GO:0004842),0,312,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin-Protein Transferase Inhibitor Activity (GO:0055105),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin-Specific Protease Binding (GO:1990381),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Ubiquitin-Ubiquitin Ligase Activity (GO:0034450),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Unmethylated CpG Binding (GO:0045322),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Urate Transmembrane Transporter Activity (GO:0015143),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Urea Transmembrane Transporter Activity (GO:0015204),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Uridine Transmembrane Transporter Activity (GO:0015213),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Uridylyltransferase Activity (GO:0070569),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Vascular Endothelial Growth Factor Receptor 2 Binding (GO:0043184),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Vascular Endothelial Growth Factor Receptor Activity (GO:0005021),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Vascular Endothelial Growth Factor Receptor Binding (GO:0005172),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Vasopressin Receptor Activity (GO:0005000),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Very Long-Chain Fatty acid-CoA Ligase Activity (GO:0031957),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Vinculin Binding (GO:0017166),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Virus Receptor Activity (GO:0001618),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Vitamin B6 Binding (GO:0070279),0,15,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Voltage-Gated Calcium Channel Activity (GO:0005245),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Voltage-Gated Channel Activity (GO:0022832),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Voltage-Gated Chloride Channel Activity (GO:0005247),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Voltage-Gated Monoatomic Anion Channel Activity (GO:0008308),0,11,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Voltage-Gated Monoatomic Cation Channel Activity (GO:0022843),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Voltage-Gated Monoatomic Ion Channel Activity (GO:0005244),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Voltage-Gated Potassium Channel Activity Involved in Ventricular Cardiac Muscle Cell Action Potential Repolarization (GO:1902282),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Voltage-Gated Sodium Channel Activity (GO:0005248),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Volume-Sensitive Anion Channel Activity (GO:0005225),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+WW Domain Binding (GO:0050699),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Water Channel Activity (GO:0015250),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Water Transmembrane Transporter Activity (GO:0005372),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Wide Pore Channel Activity (GO:0022829),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Wnt Receptor Activity (GO:0042813),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Xylosyltransferase Activity (GO:0042285),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Zinc Ion Binding (GO:0008270),0,243,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+Zinc Ion Transmembrane Transporter Activity (GO:0005385),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+[Heparan Sulfate]-Glucosamine 3-Sulfotransferase Activity (GO:0008467),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+acetyl-CoA C-acyltransferase Activity (GO:0003988),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+acyl-CoA Dehydrogenase Activity (GO:0003995),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+acyl-CoA Oxidase Activity (GO:0003997),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"alpha-N-acetylgalactosaminide Alpha-2,6-Sialyltransferase Activity (GO:0001665)",0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+"alpha-N-acetylneuraminate Alpha-2,8-Sialyltransferase Activity (GO:0003828)",0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+aminoacyl-tRNA Editing Activity (GO:0002161),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+aminoacyl-tRNA Ligase Activity (GO:0004812),0,37,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+arachidonate-CoA Ligase Activity (GO:0047676),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+bHLH Transcription Factor Binding (GO:0043425),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+cAMP Binding (GO:0030552),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+cAMP Response Element Binding (GO:0035497),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+cAMP Response Element Binding Protein Binding (GO:0008140),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+cAMP-dependent Protein Kinase Activity (GO:0004691),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+cAMP-dependent Protein Kinase Inhibitor Activity (GO:0004862),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+cAMP-dependent Protein Kinase Regulator Activity (GO:0008603),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+cGMP Binding (GO:0030553),0,2,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+co-SMAD Binding (GO:0070410),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+deNEDDylase Activity (GO:0019784),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+deSUMOylase Activity (GO:0016929),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+enoyl-CoA Hydratase Activity (GO:0004300),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+fatty-acyl-CoA Binding (GO:0000062),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+fatty-acyl-CoA Synthase Activity (GO:0004321),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+glucuronosyl-N-acetylgalactosaminyl-proteoglycan 4-beta-N-acetylgalactosaminyltransferase Activity (GO:0047238),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+lncRNA Binding (GO:0106222),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+mRNA 3'-UTR AU-rich Region Binding (GO:0035925),0,21,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+mRNA 3'-UTR Binding (GO:0003730),0,81,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+mRNA 5'-UTR Binding (GO:0048027),0,20,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+mRNA Binding (GO:0003729),0,247,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+mRNA Methyltransferase Activity (GO:0008174),0,12,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+methyl-CpG Binding (GO:0008327),0,16,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+miRNA Binding (GO:0035198),0,25,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+pH-gated Monoatomic Ion Channel Activity (GO:0160128),0,1,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+poly(A) Binding (GO:0008143),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+poly(A) RNA Polymerase Activity (GO:1990817),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+poly(A)-specific Ribonuclease Activity (GO:0004535),0,10,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+poly(G) Binding (GO:0034046),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+poly(U) RNA Binding (GO:0008266),0,17,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+pre-mRNA Binding (GO:0036002),0,28,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+pre-mRNA Intronic Binding (GO:0097157),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+pre-miRNA Binding (GO:0070883),0,7,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+protein-N-terminal Amino-Acid Acetyltransferase Activity (GO:0004596),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+rDNA Binding (GO:0000182),0,3,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+rRNA (Adenine) Methyltransferase Activity (GO:0016433),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+rRNA Binding (GO:0019843),0,42,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+rRNA Methyltransferase Activity (GO:0008649),0,6,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+siRNA Binding (GO:0035197),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+snRNA Binding (GO:0017069),0,41,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+snRNP Binding (GO:0070990),0,5,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+snoRNA Binding (GO:0030515),0,31,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+tRNA (Cytidine) Methyltransferase Activity (GO:0016427),0,8,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+tRNA (Guanine) Methyltransferase Activity (GO:0016423),0,9,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+tRNA Binding (GO:0000049),0,48,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+tRNA Methyltransferase Activity (GO:0008175),0,14,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+tRNA-specific Adenosine Deaminase Activity (GO:0008251),0,4,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial
+tRNA-specific Ribonuclease Activity (GO:0004549),0,13,5,11521,,1.0,1.0,0.0,0.0,GO_MF,Mixed,Endothelial

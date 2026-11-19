@@ -1,14 +1,7 @@
-# Publishing this source release
+# Publishing reviewed repository updates
 
-The local Git repository is prepared independently of GitHub authentication. Publication is complete only after the remote repository exists and its main-branch commit matches the reviewed local commit. `provenance/validation.json` records local checks; it is not evidence of remote publication.
+An update is complete when the reviewed local commit is on the remote main branch and the fetched remote head matches it. The current public payload contains original figures, aggregate tables, a portable-text downstream PPTX and three Results drafts; it does not publish private matrices, models or the remaining manuscript sections.
 
-Use the official GitHub CLI for interactive login. Never paste access tokens into issues, chat messages or repository files.
+Refresh the source assets using the scripts documented in [scripts/README.md](../scripts/README.md), build/render the Results files, review the pages, and run both repository and result-release checks. Then commit the reviewed payload and push main with normal fast-forward Git semantics. Fetch before pushing; do not force-push over other work. Verify the remote commit and its GitHub Actions checks after upload.
 
-```bash
-gh auth login --hostname github.com --git-protocol https --web --scopes repo,workflow
-python scripts/publish_github.py --repo ytwang21/TabulaStromal --visibility public
-```
-
-The publisher checks the clean committed tree, verifies the authenticated owner, creates an empty repository if absent, uploads main, and verifies the remote commit. It stops if a nonempty remote exists, visibility differs, or origin points elsewhere. It never force-pushes. The `workflow` OAuth scope is needed to upload the included GitHub Actions workflow.
-
-This release includes three evidence-linked Results drafts, figure legends, editable Word files and corresponding PDF reading copies. It does not publish original study data, model weights, remaining manuscript sections, a DOI release or a paper. Those have separate resource and provenance requirements.
+The original `scripts/publish_github.py` only creates an empty repository and intentionally refuses an existing nonempty repository. It is retained for provenance and is not the update procedure. Existing GitHub authorization can be reused; never include authentication secrets in repository files or publication receipts.

@@ -1,29 +1,81 @@
-# Results Part 3 — Stable expression features nominate lineage-associated molecular hypotheses
+# Results Part 3. Selected features nominate context-dependent stromal molecular programs
 
-## Group-bootstrap stability and subtype support
+## Performance-first features span multiple stromal states
 
-The interpretable branch used 300 successful group bootstrap fits within each of five outer-training partitions and in the full development set, giving 1,800 checked records per lineage. Filtering, ranking and scaling were repeated within resamples. At selection frequency ≥0.70, full-development stability identified 438 fibroblast Celltype_Gene pairs representing 416 genes in five detailed cell types, and 23 endothelial pairs representing 23 genes in one cell type ([Fig. 3C,D,G–L](../../TabulaStromal_Rebenchmark_2026/figures/combined/Stromal_individual_aging_clock_Fibroblast_Endothelial_FINAL_v2.pdf)). Each held-out stable-model comparison used its corresponding outer-training stable set; full-development stability was used for exploratory explanation.
+Downstream analyses used the current performance-first representation: 750 fibroblast Celltype_Gene pairs encoding 678 unique genes and 350 endothelial pairs encoding 337 genes, spanning 27 detailed states per lineage (Fig. 3A,B). Selected features combined global and celltype-balanced candidate sources with recorded bootstrap denominators of 1,500. Their minimum retained selection frequencies were 0.600 and 0.602. These sets differ from the earlier 300-bootstrap, frequency-0.70 interpretation branch and were not interchanged with it. The current gene sets shared 45 genes, leaving 633 fibroblast-only and 292 endothelial-only memberships; these membership differences do not establish intrinsic lineage specificity.
 
-Fibroblast pair counts were eFibro_COL1A1_pan, 205 pairs; Myfibro_TAGLN_pan, 153 pairs; Myfibro_CALD1_pan, 75 pairs; eFibro_DCN_pan, 4 pairs; eFibro_COL1A2_pan, 1 pair. The endothelial set was confined to CapEC_TM4SF1_pan. Candidate-normalized fractions and source cell/sample coverage accompany the raw counts. Unequal observation and candidate-gene opportunity limit interpretation of these counts as intrinsic subtype importance.
+*Source record: [C0017](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
 
-## Stable-feature restriction did not improve age prediction
+Feature counts were uneven across states. eFibro_COL1A1_pan contributed 70 fibroblast pairs, followed by Myfibro_CALD1_pan with 65 and qFibro_CLU_pan with 62. VenEC_CLU_eye contributed 64 endothelial pairs, followed by EndoMT_VIM_pan with 37 and ArtEC_FLT1_pan with 35. Counts describe representation within the selected model, not cell abundance, independently tested subtype importance or evidence of a lineage transition. Because external outcomes influenced model selection, these downstream annotations are exploratory descriptions of the selected predictors.
 
-For fibroblasts, restricting EN to stable features reduced conditional mean validation R² from 0.742 to 0.636 and increased MAE from 11.86 to 14.65 years. For endothelial cells, R² decreased from 0.633 to 0.123 and MAE increased from 14.18 to 25.68 years (Fig. 3A,B). Neither stable version met the promotion criterion. The stable signatures therefore provide an interpretation of selected expression features, whereas the original-feature EN remains the final predictor. Selection stability does not itself imply superior prediction.
+*Source record: [C0018](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
 
-## Shared membership is not matched causal direction
+Expression-pattern displays retained 520 fibroblast and 161 endothelial features after coverage and dynamic-range filtering (Fig. 3C,D). Of the fibroblast features, 183, 43 and 294 had their highest display-window mean in the source-defined young, middle and old windows; the corresponding endothelial counts were 34, 21 and 106. These windows group original A–H labels for visualization and do not establish equal-width chronological-age intervals. Display filtering and row scaling are not differential-expression tests. Likewise, a positive or negative ElasticNet coefficient is a conditional predictive weight, not a demonstrated pro-aging or anti-aging effect.
 
-Nine genes were shared between the two final stable sets: CD59, CYSTM1, DDAH2, NREP, RPS27L, SOD2, STMN1, WTAP, ZFP36 ([shared-gene supplement](../../TabulaStromal_Rebenchmark_2026/figures/combined/Stromal_FinalClock_shared_specific_genes.png)). Shared membership means recurrence under the recorded selection procedures; it does not establish equal coefficient direction or independent causal replication. Apparent lineage-restricted membership can also reflect differences in sample support and feature observability.
+*Source record: [C0019](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
 
-## Functional annotation separates matrix-associated and vesicle-associated signals
+## Functional annotation distinguishes lineage-associated themes
 
-Global fibroblast enrichment included Collagen-Containing Extracellular Matrix (GO:0062023; 27/416 query genes; 11,337-gene background; BH FDR=6.06×10⁻⁷) and the Reactome term Extracellular Matrix Organization (24/416 query genes; the same background; FDR=6.59×10⁻⁶). Endothelial enrichment included ER to Golgi Transport Vesicle Membrane (GO:0012507; 3/23 query genes; 10,949-gene background; FDR=0.0133; Fig. 3O,P). These are observed overlaps of stable genes with annotated gene sets, not demonstrations of pathway activation or causal aging mechanisms.
+Functional analysis used measured lineage-specific backgrounds of 11,700 fibroblast and 11,521 endothelial genes and complete library-specific correction families (Fig. 3E–J). In fibroblasts, all selected genes were enriched for the Hallmark inflammatory response (18 overlapping genes; BH q = 0.0185), TNFα signaling via NF-κB (20 genes; q = 0.0339) and the collagen-containing extracellular matrix cellular-component term (26 genes; q = 0.0269). These overlaps connect predictive features to inflammatory and matrix-associated annotations without demonstrating pathway activation or its cause.
 
-Across the specified global GO, Reactome and KEGG libraries, 56 fibroblast and 12 endothelial terms met FDR<0.05. Adding the separately retained Hallmark library increased the fibroblast count to 75. The exported global tables retain zero-overlap tested terms and the original within-scope/library BH values; the multiplicity family was not recomputed after filtering. Overlapping annotations driven by the same genes do not represent independent mechanistic discoveries.
+*Source record: [C0020](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
 
-The eight supplied aging lists remain provided_unverified. Their measured overlaps in Fig. 3Q,R are statistical comparisons with those supplied lists, not validation against authenticated official signatures.
+The endothelial set was enriched for cytoskeleton (30 genes; q = 0.0194), KEGG mineral absorption (seven genes; q = 0.00791) and the Reactome 2022 metallothionein metal-binding term (four genes; q = 0.0183). The latter overlap comprised MT1E, MT1M, MT1X and MT2A and also contributed to related metal-response annotations. Such overlapping terms are not independent replications and do not establish exposure to a particular metal. The current main network uses Reactome 2022; separate older signed-feature outputs using Reactome 2024 were not merged into this correction family.
 
-## Expression–age associations define follow-up hypotheses
+*Source record: [C0021](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
 
-The saved covariate-adjusted expression–age analyses contained FDR<0.05 results for 10 of 438 fibroblast pairs and 4 of 23 endothelial pairs. These associations remain distinct from model-coefficient signs. Per-study direction resources can share samples and lack a prespecified universal replication criterion, so they do not independently validate every stable feature. The older CellAge signature branch is also distinct from these final stable sets. No perturbation experiment, authenticated GWAS result or transcription-factor network analysis establishes a molecular driver here. The supported interpretation is a set of predictive features and molecular hypotheses for further testing.
+Gene–theme networks summarized significant memberships rather than inferred causal interactions. A separate KEGG context display showed 28 fibroblast pathways covering 132 genes and 25 endothelial pathways covering 52 genes (Extended Data Fig. 3). Inclusion in that display did not require every row to be significant; the fibroblast global all-gene KEGG analysis had no FDR-significant term. Theme membership and selected network edges therefore serve as annotation aids rather than additional statistical discoveries.
 
-The source-to-claim mapping is available in [the evidence registry](../../evidence/evidence_registry.csv) and [the paragraph evidence report](../../audit/claim_to_evidence_report.csv).
+*Source record: [C0022](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+## Regulator inference identifies candidates with limited adult age support
+
+LISA2 analysis integrated public chromatin information with selected gene sets for 14 of 27 fibroblast states and five of 27 endothelial states (Fig. 4A–C). Other states lacked sufficient mapped input genes and were retained as unavailable. After accounting for the number of ChIP datasets per factor and correcting across all factor–state tests within each lineage, examples included TP53 in Myfibro_TUBB2B_pan (q = 7.51 × 10⁻⁷), SOX4 in eFibro_COL1A1_pan (q = 8.44 × 10⁻⁸) and TEAD1 in Myfibro_TAGLN_pan (q = 0.0123). Endothelial candidates included HSF1 in EndoMT_PTN_pan (q = 1.78 × 10⁻¹²), SMARCC1 in ArtEC_FLT1_brain (q = 0.000146) and RUNX1T1 in EndoMT_VIM_pan (q = 0.00186). These results indicate regulatory association with the input gene set; they do not establish factor activation with age or direct binding in the sampled stromal cells.
+
+*Source record: [C0023](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+A separate CollecTRI-prior-constrained RNA analysis was evaluable in 21 fibroblast and 15 endothelial states. It tested 352,675 and 241,986 candidate edges and retained 13,994 and 4,747 supported edges, including 65 and seven edges whose targets matched selected Celltype_Gene features (Fig. 4D,E). These are edge counts rather than unique target-gene counts. Their interpretation depends on prior knowledge, covariate adjustment, sign concordance and resampling support. A stricter adult within-cohort sensitivity analysis tested 1,434 fibroblast and 1,054 endothelial factor–state associations; none survived lineage-wide BH correction. Thus, the network candidates were not established as general adult age-associated regulators.
+
+*Source record: [C0024](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+## Adult raw-count analysis reveals tissue-dependent matrix-associated contrasts
+
+To examine matrix-associated transcription in adults, raw counts were aggregated within training-sample proxies and selected states after age-concordance and coverage filtering. The analysis retained 300,431 fibroblast cells in 1,748 proxy-by-state pseudobulks and 166,664 endothelial cells in 905 pseudobulks. Counts with fractional entries were not rounded; noninteger genes were excluded separately for each fitted profile. Negative-binomial aged-versus-young models were estimable for 39 cell-state or cell-state-by-tissue profiles (Fig. 5A–D). AGRN was the only shared selected ECM-associated gene, a membership observation rather than a replicated age effect.
+
+*Source record: [C0025](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+Using full-gene Wald statistics as inputs to signed gene-set regression, 67 of 312 ECM-signature comparisons met FDR ≤ 0.05 after correction across both lineages: 41 fibroblast and 26 endothelial comparisons. These include overlapping signatures and analysis scopes and are not 67 independent biological replications. For eFibro_COL1A1_pan, the collagen-formation signature had a negative contrast in ovary (ULM score −5.81; q = 1.03 × 10⁻⁶; eight sample proxies), whereas ECM organization had a positive contrast in colon (+4.65; q = 0.000116; eleven proxies). ArtEC_FLT1_pan in adipose showed a positive collagen-formation contrast (+5.33; q = 7.98 × 10⁻⁶; twelve proxies). Each example arose from one study, and these separate contrasts are not a formal age-by-tissue interaction test.
+
+*Source record: [C0026](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+Among 142 displayed mechanosensitive-regulator comparisons, only TEAD4 in adipose ArtEC_FLT1_pan survived correction across the full 22,346-test transcription-factor family (ULM score +3.95; q = 0.0174; seven younger and five older proxies from one study; Fig. 5E). The results therefore do not support a general claim of YAP/TAZ–TEAD activation across stromal states. At the exact selected-feature level, PLA2G4A in ovary eFibro_COL1A1_pan was the sole significant ECM-associated example (aged-versus-young log₂ fold change 2.60; cross-profile q = 0.0132; Table 2). No endothelial exact-feature association passed that correction. No same-state candidate simultaneously satisfied the LISA2, TF-age and target-gene-age significance criteria in the integrated candidate table. The broader heatmaps in Fig. 5F,G instead summarize globally selected ECM-associated genes across cell-state-level profiles and do not establish exact-feature support in every displayed state.
+
+*Source record: [C0027](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+Table 2. Selected adult contrasts. ULM uses full-gene Wald statistics; log₂FC is an individual-gene negative-binomial age effect. All five examples are supported by one study each. ECM and TF q-values are corrected across both lineages in separate complete families; the gene q-value uses all tested gene-by-profile comparisons within its lineage.
+
+| Context | Readout | Statistic | BH q | n proxies | Studies |
+|---|---|---:|---:|---:|---:|
+| Fibroblast: eFibro_COL1A1_pan, ovary | Collagen formation | ULM −5.81 | 1.03 × 10⁻⁶ | 8 | 1 |
+| Fibroblast: eFibro_COL1A1_pan, colon | ECM organization | ULM +4.65 | 0.000116 | 11 | 1 |
+| Endothelial: ArtEC_FLT1_pan, adipose | Collagen formation | ULM +5.33 | 7.98 × 10⁻⁶ | 12 | 1 |
+| Endothelial: ArtEC_FLT1_pan, adipose | TEAD4 regulon | ULM +3.95 | 0.0174 | 12 | 1 |
+| Fibroblast: eFibro_COL1A1_pan, ovary | PLA2G4A | log₂FC +2.60 | 0.0132 | 8 | 1 |
+
+*Source record: [C0032](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+## Selected cellular states differ in relative senescence-associated transcription
+
+The current ModelFeature_CellAge analysis aligned the 27 selected states per lineage to adult, age-concordant samples, encompassing 731 fibroblast sample proxies from 87 studies and 529 endothelial proxies from 80 studies before state-specific primary coverage requirements (Fig. 6). The primary within-sample comparison estimated each state's mean hUSI difference from the cell-weighted mean of other scored cells in the same lineage and sample-by-tissue unit. Seventeen fibroblast and fourteen endothelial states had estimable relative-score contrasts; seven and eight, respectively, survived correction across both lineages within this metric.
+
+*Source record: [C0028](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+Fibroblast eFibro_COL1A2_pan showed a positive relative hUSI difference of 0.0315 (95% CI, 0.0216–0.0414; q = 1.29 × 10⁻⁶; 185 sample proxies across 45 studies), as did Myfibro_CALD1_pan (0.0287; 0.0186–0.0388; q = 1.46 × 10⁻⁵; 134 proxies across 34 studies). Endothelial VenEC_CLU_pan showed a negative difference (−0.0166; −0.0237 to −0.00955; q = 0.000218; 125 proxies across 34 studies). These three directions remained significant in healthy-only, training-only, outside-training and alternate cell-threshold sensitivity analyses. Those analyses reuse overlapping observations and are sensitivity checks rather than independent replication.
+
+*Source record: [C0029](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+No primary adjusted within-state hUSI–age, younger-versus-older hUSI, SSE-fraction or composition–age comparison survived its metric-specific correction. In particular, continuous hUSI–age models were estimable for sixteen fibroblast and thirteen endothelial states, with no FDR-significant slope. Model feature count and coefficient-derived importance also showed no FDR-significant exploratory correlation with the tested CellAge summaries. Moreover, 553 of 678 fibroblast selected genes and 276 of 337 endothelial genes overlapped the hUSI signature. Relative hUSI therefore describes a dependent transcriptomic state contrast, not independent validation of the clock or evidence that a selected cell state ages faster.
+
+*Source record: [C0030](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+References: [verified bibliography](References.md). Figures: [source-matched legends](Figure_Legends.md).

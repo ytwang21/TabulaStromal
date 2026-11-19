@@ -111,7 +111,9 @@ def append_markdown(doc, text, source):
             t.style = 'Table Grid'
             t.autofit = False
             available=doc.sections[0].page_width-doc.sections[0].left_margin-doc.sections[0].right_margin
-            weights=[.12,.46,.08,.14,.20] if len(rows[0])==5 else [1/len(rows[0])]*len(rows[0])
+            weights=([.12,.34,.10,.06,.09,.14,.15] if len(rows[0])==7 else
+                     [.32,.23,.13,.14,.09,.09] if len(rows[0])==6 else
+                     [.12,.46,.08,.14,.20] if len(rows[0])==5 else [1/len(rows[0])]*len(rows[0]))
             for column,weight in zip(t.columns,weights):column.width=int(available*weight)
             for index, row in enumerate(rows):
                 cells = t.rows[0].cells if index == 0 else t.add_row().cells

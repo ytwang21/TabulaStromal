@@ -1,18 +1,21 @@
-# Release and analysis helpers
+# Project scripts
 
-[Analysis entry points](../docs/reproducing.md) · [Result galleries](../docs/results/)
+The primary analysis entry points remain `run_workflow.py` and `predict_age.py`; see the project homepage and data contract. The original-EN continuation requires a validated archive.
 
-The source-result release is rebuilt from authorized original inputs in this order:
+## Current result publication
+
+Run from the repository root with a completed, source-verified manuscript audit in the local project:
 
 ```bash
-python scripts/audit_source_results.py --project-root /path/to/LLM_Aging
-python scripts/publish_result_assets.py --project-root /path/to/LLM_Aging
-python scripts/build_result_evidence.py --project-root /path/to/LLM_Aging
-python scripts/write_results_sections.py
-python scripts/write_result_galleries.py
+python scripts/update_results_release.py --project-root /path/to/LLM_Aging
+python scripts/write_current_result_galleries.py
 python scripts/build_results_documents.py
-python scripts/validate_repository.py --write-checksums
+python scripts/render_results_documents.py --soffice /path/to/soffice
 python scripts/validate_results_release.py
+python scripts/validate_repository.py --write-checksums
+python scripts/validate_repository.py --verify-checksums
 ```
 
-The first script stores a complete metadata inventory locally under ignored outputs/. Figure files are copied without alteration. Only aggregate tables are released. The evidence builder reads observation metadata and existing predictions for checks; it does not export individual prediction rows or densify expression. Markdown and Word share a single source. `publish_result_assets.py` exports local files and does not itself publish to GitHub.
+The updater rechecks all audited source hashes, rejects the two excluded F3 trees, exports reviewed aggregate figures/tables, generalizes presentation XML paths while preserving embedded images, and keeps the complete path inventory in ignored outputs. Individual rows and model/matrix files are not exported. The five result documents require actual PDF rendering and manual page review before the release validator accepts their receipts.
+
+The November 9 audit/export/Results-writing helpers are preserved as historical source and their direct CLI entry points are disabled to prevent overwriting the current five-module release with stale protocols. The current updater and gallery writer replace those publication operations. `publish_github.py` is the original empty-repository creator; updates to this existing repository use a reviewed fast-forward Git push.
