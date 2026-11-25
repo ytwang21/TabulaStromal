@@ -1451,3 +1451,7 @@ def stage_figure(cfg,lineages):
     """Current one-page A–D figure: Fibro/Endo UMAPs and all Leiden bars."""
     from reference_style_figures import render_reference_figures
     render_reference_figures(cfg,lineages)
+    for lin in lineages:
+        plot_leiden_diagnostics(cfg,lin)
+        plot_version_comparison(cfg,lin)
+        plot_reference_umap(cfg,lin)

@@ -1,13 +1,13 @@
 {
   "status": "passed",
-  "checks": 1624,
-  "original_figure_files": 229,
-  "aggregate_tables": 201,
-  "figure_candidates": 1677,
-  "evidence_records": 46088,
-  "paragraph_claim_mappings": 32,
-  "complete_source_file_entries": 1469578,
-  "downstream_presentation_slides": 40,
-  "original_PPT_images": 52,
+  "checks": 2231,
+  "original_figure_files": 319,
+  "aggregate_tables": 269,
+  "figure_candidates": 2021,
+  "evidence_records": 96418,
+  "paragraph_claim_mappings": 47,
+  "complete_source_file_entries": 1153427,
+  "downstream_presentation_slides": 56,
+  "original_PPT_images": 72,
   "word_rendering": "Actual current DOCX renders; hashes, text, links, geometry and page review verified"
 }

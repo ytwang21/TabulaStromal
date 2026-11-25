@@ -1,0 +1,14 @@
+{
+  "min_cells": 20,
+  "nonlinear_min_units": 30,
+  "interaction_min_tissue_units": 10,
+  "interaction_min_tissue_GSE": 3,
+  "interaction_min_ageinformative_GSE": 2,
+  "spline_knots": [
+    25,
+    45,
+    65,
+    85
+  ],
+  "perturbation_primary_condition": "Dox_2000ng/mL, 3days"
+}

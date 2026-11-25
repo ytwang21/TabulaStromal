@@ -1,8 +1,10 @@
 [
   {
     "path": "F2_ModelPerformance/overview/TabulaStromal_Workflow_V6.pdf",
-    "sha256": "f1a010397900d4789ac7dc6320ecc9c3a2974068eaf38f4848d9a5928220b077",
-    "bytes": 2199575
+    "sha256": "5e27f0dadf1d13fe7da38c77d68c09c23d6321fa9cfeedd79095f687c6762401",
+    "bytes": 17081818,
+    "previous_sha256_before_workflow_sync": "f1a010397900d4789ac7dc6320ecc9c3a2974068eaf38f4848d9a5928220b077",
+    "role": "synchronized_workflow_output; original drawing baseline is workflow_original_extracted.png"
   },
   {
     "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Stromal_Combined_Figure/outputs/Stromal_individual_aging_clock_Fibroblast_Endothelial_4.pdf",
@@ -113,5 +115,11 @@
     "path": "AgePrediction/GeneModel/TabulaStromal_Rebenchmark_2026/Endo/stable_clock_optimization/performance_first_all100_predictions.csv",
     "sha256": "a1f086e4cecd6ed133e2d52caaa1e5e468eaf6a5ce35b5e2c620a4444740f3ff",
     "bytes": 13549
+  },
+  {
+    "path": "F2_ModelPerformance/data/workflow_original_extracted.png",
+    "sha256": "0e2d87b636820891077e4d9d0b3b9984a2dbb308219ec153ffa19d56078ada00",
+    "bytes": 1665400,
+    "role": "original_workflow_drawing_baseline"
   }
 ]

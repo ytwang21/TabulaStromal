@@ -123,6 +123,7 @@ def append_markdown(doc, text, source):
                 for cell,value,weight in zip(cells,row,weights):
                     cell.width=int(available*weight);cell.text=value
                     for paragraph in cell.paragraphs:
+                        paragraph.paragraph_format.keep_with_next=(index<len(rows)-1)
                         paragraph.paragraph_format.line_spacing=1.1
                         paragraph.paragraph_format.space_after=Pt(4)
                         for run in paragraph.runs:run.font.size=Pt(9);run.bold=(index==0)

@@ -95,6 +95,7 @@ def main():
             assert row.annotation_matches_highest==(top==str(ref.Celltype_general))
         checks.append(f'{lin}: all {len(chart)} Leiden titles/reference labels and every plotted bar equal original-row score aggregation; mismatches preserved')
     png=r/'figures/integrated/ExtFig1_SignatureScore_Fibro_Endo.png';pdf=png.with_suffix('.pdf')
+    Image.MAX_IMAGE_PIXELS=200_000_000
     im=Image.open(png);assert min(im.size)>=3000 and min(im.info['dpi'])>=299
     checks.append(f'PNG: {im.size[0]}×{im.size[1]}, {im.info["dpi"]} dpi')
     reader=PdfReader(pdf);assert len(reader.pages)==1;page=reader.pages[0]
@@ -113,6 +114,20 @@ def main():
             descriptor=descriptor.get_object()
             assert any(k in descriptor for k in ['/FontFile','/FontFile2','/FontFile3'])
     checks.append('PDF: one A–D page with editable bars/axes/labels/legends and embedded fonts; UMAP point clouds locally rasterized')
+    layout=sp.read_json(r/'logs/reference_layout_update.json')['physical_geometry']
+    mainlayout=layout['integrated']
+    assert mainlayout['passed'] and mainlayout['n_UMAPs']==15 and mainlayout['n_Leiden_panels']==99
+    for sheet in layout.values():
+        axes=sheet['UMAPs'];bars=sheet['Leiden_panels']
+        np.testing.assert_allclose([a['width_inches'] for a in axes],mainlayout['UMAP_width_inches'],atol=1e-9,rtol=0)
+        np.testing.assert_allclose([a['height_inches'] for a in axes],mainlayout['UMAP_height_inches'],atol=1e-9,rtol=0)
+        np.testing.assert_allclose([a['height_inches'] for a in bars],mainlayout['Leiden_panel_height_inches'],atol=1e-9,rtol=0)
+        np.testing.assert_allclose([v for a in bars for v in a['bar_width_inches']],mainlayout['bar_width_inches'],atol=1e-9,rtol=0)
+        assert all(l['single_row'] and l['n_columns']==l['n_items'] for l in sheet['legends'])
+        np.testing.assert_allclose(sheet['Leiden_region_height_inches'],sheet['UMAP_region_height_inches'],atol=1e-9,rtol=0)
+    dims=mainlayout['Leiden_panel_width_inches']
+    np.testing.assert_allclose(dims['endo']/dims['fibro'],1.5,atol=1e-9,rtol=0)
+    checks.append('Rendered physical geometry: all 15 UMAPs equal size; all 484 bars equal width; all 99 Leiden axes equal height; D/C panel width ratio 1.5; every legend single-row; C/D region height equals A/B region height')
     required=['config.yaml','README.md','requirements.txt','scripts/run_signature_score.py','scripts/signature_pipeline.py',
        'scripts/00_audit.py','scripts/01_marker_qc.py','scripts/02_score_signatures.py','scripts/03_validate_annotations.py','scripts/04_plot_extendfig1.py',
        'notebooks/ExtendFig1_SignatureScore.ipynb','reports/audit_report.md','reports/marker_selection_report.md',

@@ -1,0 +1,47 @@
+{
+  "annotation_generation_before_writeback": {
+    "fibro": {
+      "source_h5ad_size_mtime_unchanged": true,
+      "foreign_marker_naming_violations": 0,
+      "policy_version": "foreign_lineage_marker_policy_v2_20261121",
+      "distinct_genes_per_original_annotation_unit": true,
+      "outer_label_tokens_preserved": true,
+      "full_cell_table_row_count_correct": true,
+      "derived_fields_match_notebook_rule": true,
+      "merged_Leiden_units_preserved": true,
+      "validation_unsupported_markers": 0
+    },
+    "endo": {
+      "source_h5ad_size_mtime_unchanged": true,
+      "foreign_marker_naming_violations": 0,
+      "policy_version": "foreign_lineage_marker_policy_v2_20261121",
+      "distinct_genes_per_original_annotation_unit": true,
+      "outer_label_tokens_preserved": true,
+      "full_cell_table_row_count_correct": true,
+      "derived_fields_match_notebook_rule": true,
+      "merged_Leiden_units_preserved": true,
+      "validation_unsupported_markers": 0
+    },
+    "final_checks_passed": true
+  },
+  "authorized_h5ad_writeback": {
+    "status": "PASS",
+    "date": "2026-11-21",
+    "files_updated": 8,
+    "fields": [
+      "Celltype",
+      "Celltype_sub",
+      "Celltype_general"
+    ],
+    "leiden_preserved_in_all_files": true,
+    "main_leiden": {
+      "fibro": "0-54, already continuous",
+      "endo": "0-43, already continuous"
+    },
+    "backups": "F1_StromalAtlas/CelltypeAnno/h5ad_update_20261121",
+    "verification": "F1_StromalAtlas/CelltypeAnno/h5ad_update_20261121/completed.json",
+    "summary": "F1_StromalAtlas/CelltypeAnno/h5ad_update_20261121/update_summary.tsv",
+    "note": "Source h5ad files have now been updated by explicit user authorization. Earlier generation-only source-unchanged checks are historical."
+  },
+  "final_checks_passed": true
+}

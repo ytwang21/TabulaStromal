@@ -5,7 +5,7 @@ import joblib
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import KFold,StratifiedKFold
-from .storage import dump,write_csv,write_json
+from .storage import dump,write_csv,write_json,directory_lock
 from .metrics import evaluate,METRICS
 from .data import load_dataset
 from .models import Preprocessor,rank_features,make_estimator,fit_checked,fit_model,predict_model,bags_for,save_bundle
@@ -27,9 +27,10 @@ def grouped_splits(meta,n_splits=5,seed=42,age_bins=8):
 
 def cached_rank(ctx,ds,rows,tag):
     path=ctx.root/'checkpoints/preprocessing'/tag/'ranking.joblib';marker=path.with_suffix('.complete.json')
-    if ctx.cache.valid(marker):return joblib.load(path)
-    rank=rank_features(ds['X'][rows],ds['meta'].Age.to_numpy(float)[rows],ctx.cfg)
-    dump(path,rank);ctx.cache.mark(marker,[path]);return rank
+    with directory_lock(path.parent):
+        if ctx.cache.valid(marker):return joblib.load(path)
+        rank=rank_features(ds['X'][rows],ds['meta'].Age.to_numpy(float)[rows],ctx.cfg)
+        dump(path,rank);ctx.cache.mark(marker,[path]);return rank
 
 
 def cached_pre(ctx,ds,rows,K,tag,rank=None):
@@ -49,18 +50,34 @@ def tune_linear(ctx,ds,rows,K,name,tag):
     scores=np.zeros(len(candidates));failures=[];meta=ds['meta'].iloc[rows].reset_index(drop=True)
     n=min(ctx.cfg['cv']['inner_splits'],meta.group_id.nunique())
     if n<2:raise ValueError('Not enough groups for nested tuning')
+    losses=np.full((n,len(candidates)),np.nan)
+    if ctx.resume and path.exists():
+        previous=json.loads(path.read_text())
+        if previous.get('signature')==ctx.cache.signature and previous.get('candidates')==candidates and previous.get('tuning_ids')==meta.sample_id.tolist() and 'partial_losses' in previous:
+            losses=np.asarray(previous['partial_losses'],float);failures=previous.get('failures',[])
+    from joblib import Parallel,delayed,parallel_config
     for inner,(itr,iva) in enumerate(grouped_splits(meta,n,ctx.cfg['seed'])):
+        missing=[i for i in range(len(candidates)) if np.isnan(losses[inner,i])]
+        if not missing:continue
         tr,va=rows[itr],rows[iva];pre=cached_pre(ctx,ds,tr,K,tag+f'/inner{inner}')
         assert set(pre.fit_ids).isdisjoint(set(ds['meta'].sample_id.iloc[va]))
         X=pre.transform(ds['X'][tr]);V=pre.transform(ds['X'][va]);y=ds['meta'].Age.to_numpy(float)
-        for i,params in enumerate(candidates):
-            try:
-                model=fit_checked(make_estimator(name,ctx.cfg,ctx.cfg['seed'],params),X,y[tr]);scores[i]+=np.mean(np.abs(model.predict(V)-y[va]))/n
-            except Exception as e:
-                scores[i]=np.inf;failures.append(dict(inner=inner,params=params,error=str(e)))
+        workers=min(ctx.cfg['resources'].get('tuning_workers',1),len(missing))
+        # Separate processes preserve Python warning/convergence checks per fit.
+        # Save partial trials to the SAME tuning JSON, not new trial files.
+        with parallel_config(backend='loky',inner_max_num_threads=1):
+            results=Parallel(n_jobs=workers,return_as='generator',pre_dispatch=workers)(delayed(tuning_candidate)(name,ctx.cfg,candidates[i],i,X,y[tr],V,y[va]) for i in missing)
+            for i,loss,error in results:
+                losses[inner,i]=loss
+                if error:failures.append(dict(inner=inner,params=candidates[i],error=error))
+                write_json(path,dict(signature=ctx.cache.signature,candidates=candidates,partial_losses=losses,
+                    failures=failures,tuning_ids=meta.sample_id.tolist(),status='partial',inner_completed=inner,
+                    criterion='inner_valid_MAE; original preprocessing and candidates unchanged'))
+                LOG.info('TUNING %s K=%s %s inner=%s candidate=%s/%s MAE=%s',ctx.lineage,K,name,inner+1,i+1,len(candidates),loss)
+    for inner in range(n):scores+=losses[inner]/n
     if not np.isfinite(scores).any():raise RuntimeError(f'All {name} inner candidates failed: {failures}')
     params=candidates[int(np.argmin(scores))]
-    write_json(path,dict(params=params,candidates=candidates,mean_inner_MAE=scores,failures=failures,
+    write_json(path,dict(signature=ctx.cache.signature,params=params,candidates=candidates,mean_inner_MAE=scores,partial_losses=losses,failures=failures,
                          tuning_ids=meta.sample_id.tolist(),criterion='inner_valid_MAE; full preprocessing refit per inner train'))
     ctx.cache.mark(marker,[path]);return params
 
@@ -77,41 +94,21 @@ def benchmark(ctx):
             splitrows.extend(dict(fold=fold,split=split,sample_id=meta.sample_id.iloc[i],group_id=meta.group_id.iloc[i]) for i in ix)
         assert set(meta.group_id.iloc[tr]).isdisjoint(meta.group_id.iloc[va])
     write_csv(ctx.root/'benchmark/cv_splits.csv',pd.DataFrame(splitrows))
-    for fold,(tr,va) in enumerate(splits,1):
-        for K in ctx.cfg['features']['K']:
-            pre=cached_pre(ctx,ds,tr,K,f'outer{fold}')
-            X=pre.transform(ds['X'][tr]);V=pre.transform(ds['X'][va]);trainbags=validbags=None
-            for name in ctx.cfg['models']['names']:
-                path=task_path(ctx,K,name,fold);marker=path/'complete.json'
-                if ctx.cache.valid(marker):continue
-                LOG.info('BENCHMARK %s K=%d %s fold=%d, effective K=%d',ctx.lineage,K,name,fold,len(pre.indices));start=time.time()
-                try:
-                    params=tune_linear(ctx,ds,tr,K,name,f'outer{fold}')
-                    if name in ['DeepSets','Ensemble'] and trainbags is None:
-                        trainbags=bags_for(ds,pre,tr);validbags=bags_for(ds,pre,va)
-                    # Only resume epoch states from this exact source/config/input signature.
-                    epochdir=path/'epochs'/ctx.cache.signature;epochdir.mkdir(parents=True,exist_ok=True)
-                    model=fit_model(name,X,y[tr],ctx.cfg,ctx.cfg['seed']+fold,params,trainbags,epochdir/'last.pt',ctx.resume)
-                    predtr=predict_model(model,name,X,trainbags);predva=predict_model(model,name,V,validbags)
-                    info=dict(lineage=ctx.lineage,K=K,fold=fold,seed=ctx.cfg['seed']+fold,params=params,
-                              train_ids=meta.sample_id.iloc[tr].tolist(),valid_ids=meta.sample_id.iloc[va].tolist(),
-                              train_groups=meta.group_id.iloc[tr].unique().tolist(),valid_groups=meta.group_id.iloc[va].unique().tolist(),
-                              training_seconds=time.time()-start,warnings=getattr(model,'fit_warnings_',[]))
-                    outputs=save_bundle(path,name,model,pre,info);result=[];preds=[]
-                    for split,ix,p in [('Train',tr,predtr),('Valid',va,predva)]:
-                        result.append(dict(lineage=ctx.lineage,K=K,model=name,fold=fold,split=split,
-                                           effective_K=len(pre.indices),training_seconds=info['training_seconds'],**evaluate(y[ix],p)))
-                        table=meta.iloc[ix].copy();table['prediction']=p;table['lineage']=ctx.lineage;table['K']=K;table['model']=name;table['fold']=fold;table['split']=split;preds.append(table)
-                    write_csv(path/'metrics.csv',pd.DataFrame(result));write_csv(path/'predictions.csv',pd.concat(preds))
-                    ctx.cache.mark(marker,outputs+[path/'metrics.csv',path/'predictions.csv'])
-                    del model;gc.collect()
-                except Exception as e:
-                    LOG.exception('Benchmark failed: %s K=%d fold=%d',name,K,fold)
-                    error=dict(K=K,model=name,fold=fold,error=str(e),traceback=traceback.format_exc())
-                    failures.append(error);write_json(path/'failure.json',error)
-            collect_benchmark(ctx)
+    from joblib import Parallel,delayed,parallel_config
+    workers=ctx.cfg['resources'].get('benchmark_workers',1)
+    from .pipeline import task_context
+    if ctx.cfg['resources'].get('benchmark_granularity')=='K_fold':
+        tasks=[(f,tr,va,[K]) for f,(tr,va) in enumerate(splits,1) for K in ctx.cfg['features']['K']
+               if not all(ctx.cache.valid(task_path(ctx,K,name,f)/'complete.json') for name in ctx.cfg['models']['names'])]
+    else:tasks=[(f,tr,va,None) for f,(tr,va) in enumerate(splits,1)]
+    LOG.info('Scheduling %s independent K/fold tasks across %s workers; completed models are skipped',len(tasks),workers)
+    with parallel_config(backend='loky',inner_max_num_threads=ctx.cfg['resources']['threads']):
+        batches=Parallel(n_jobs=workers,pre_dispatch=workers)(delayed(benchmark_fold)(task_context(ctx,i),ds,f,tr,va,ks) for i,(f,tr,va,ks) in enumerate(tasks))
+    failures=[r for batch in batches for r in batch]
     collect_benchmark(ctx)
     write_csv(ctx.root/'benchmark/failed_combinations.csv',pd.DataFrame(failures,columns=['K','model','fold','error','traceback']))
+    jung=[dict(lineage=ctx.lineage,K=r['K'],fold=r['fold'],step='process_selection_or_native_H2O',reason=r['error'],attempted_fix='real H2O backend; no Ridge fallback') for r in failures if r['model']=='JungClock']
+    write_csv(ctx.root/'benchmark/JungClock_failure_report.csv',pd.DataFrame(jung,columns=['lineage','K','fold','step','reason','attempted_fix']))
     expected=len(ctx.cfg['features']['K'])*len(ctx.cfg['models']['names'])*len(splits)
     complete=sum(ctx.cache.valid(task_path(ctx,K,n,f)/'complete.json') for K,n,f in itertools.product(ctx.cfg['features']['K'],ctx.cfg['models']['names'],range(1,len(splits)+1)))
     write_json(ctx.root/'benchmark/completeness.json',dict(expected=expected,complete=complete,failed=len(failures)))
@@ -128,7 +125,7 @@ def collect_benchmark(ctx):
     frame=pd.concat(metrics,ignore_index=True);pred=pd.concat(preds,ignore_index=True)
     write_csv(ctx.root/'benchmark/cv_fold_metrics.csv',frame);write_csv(ctx.root/'benchmark/cv_predictions.csv',pred)
     summary=frame.groupby(['lineage','K','model','split'])[METRICS].agg(['mean','std','count']);summary.columns=['_'.join(c) for c in summary.columns];summary=summary.reset_index()
-    write_csv(ctx.root/'benchmark/cv_summary.csv',summary);write_csv(ctx.root/'benchmark/feature_k_comparison.csv',summary)
+    write_csv(ctx.root/'benchmark/cv_summary.csv',summary);write_csv(ctx.root/'benchmark/feature_k_comparison.csv',summary);write_csv(ctx.root/'benchmark/method_comparability.csv',frame[['lineage','K','model','fold','effective_K','actual_model_features']].drop_duplicates())
     valid=summary[summary.split=='Valid'].copy();train=summary[summary.split=='Train'][['K','model','R2_mean']].rename(columns={'R2_mean':'Train_R2_mean'})
     valid=valid.merge(train,on=['K','model']);valid['generalization_gap']=valid.Train_R2_mean-valid.R2_mean
     # Ranking uses internal validation only; gap and variability are prespecified tie breakers.
@@ -141,3 +138,51 @@ def collect_benchmark(ctx):
         for (K,name,group),sub in pred[pred.split=='Valid'].groupby(['K','model',field]):
             checks.append(dict(K=K,model=name,stratification=field,stratum=group,**evaluate(sub.Age,sub.prediction)))
     write_csv(ctx.root/'benchmark/cv_gse_tissue_sensitivity.csv',pd.DataFrame(checks))
+
+def benchmark_fold(ctx,ds,fold,tr,va,K_values=None):
+    from .storage import worker_logging
+    worker_logging(ctx.root,'benchmark')
+    meta=ds['meta'];y=meta.Age.to_numpy(float);failures=[]
+    for K in (K_values if K_values is not None else ctx.cfg['features']['K']):
+        pre=cached_pre(ctx,ds,tr,K,f'outer{fold}')
+        X=pre.transform(ds['X'][tr]);V=pre.transform(ds['X'][va]);trainbags=validbags=None
+        for name in ctx.cfg['models']['names']:
+            path=task_path(ctx,K,name,fold);marker=path/'complete.json'
+            if ctx.cache.valid(marker):continue
+            LOG.info('BENCHMARK %s K=%d %s fold=%d, effective K=%d',ctx.lineage,K,name,fold,len(pre.indices));start=time.time()
+            try:
+                params=tune_linear(ctx,ds,tr,K,name,f'outer{fold}')
+                if name in ['IdealAge(DeepSets)','IdealAge(Ensemble)'] and trainbags is None:
+                    trainbags=bags_for(ds,pre,tr);validbags=bags_for(ds,pre,va)
+                # Only resume epoch states from this exact source/config/input signature.
+                epochdir=path/'epochs'/ctx.cache.signature;epochdir.mkdir(parents=True,exist_ok=True)
+                ctx.cfg.setdefault('jungclock',{})['feature_gene_map']={f:ds['schema']['genes'][int(j)%len(ds['schema']['genes'])] for f,j in zip(pre.names,pre.indices)}
+                model=fit_model(name,X,y[tr],ctx.cfg,ctx.cfg['seed']+fold,params,trainbags,epochdir/'last.pt',ctx.resume,feature_names=pre.names,metadata=meta.iloc[tr])
+                predtr=predict_model(model,name,X,trainbags);predva=predict_model(model,name,V,validbags)
+                info=dict(lineage=ctx.lineage,K=K,fold=fold,seed=ctx.cfg['seed']+fold,params=params,
+                          train_ids=meta.sample_id.iloc[tr].tolist(),valid_ids=meta.sample_id.iloc[va].tolist(),
+                          train_groups=meta.group_id.iloc[tr].unique().tolist(),valid_groups=meta.group_id.iloc[va].unique().tolist(),
+                          training_seconds=time.time()-start,warnings=getattr(model,'fit_warnings_',[]))
+                outputs=save_bundle(path,name,model,pre,info);result=[];preds=[]
+                for split,ix,p in [('Train',tr,predtr),('Valid',va,predva)]:
+                    result.append(dict(lineage=ctx.lineage,K=K,model=name,fold=fold,split=split,
+                                       effective_K=len(pre.indices),actual_model_features=(len(model.indices) if name=='JungClock' else len(pre.indices)),training_seconds=info['training_seconds'],**evaluate(y[ix],p)))
+                    table=meta.iloc[ix].copy();table['prediction']=p;table['lineage']=ctx.lineage;table['K']=K;table['model']=name;table['fold']=fold;table['split']=split;preds.append(table)
+                write_csv(path/'metrics.csv',pd.DataFrame(result));write_csv(path/'predictions.csv',pd.concat(preds))
+                ctx.cache.mark(marker,outputs+[path/'metrics.csv',path/'predictions.csv'])
+                del model;gc.collect()
+            except Exception as e:
+                LOG.exception('Benchmark failed: %s K=%d fold=%d',name,K,fold)
+                error=dict(K=K,model=name,fold=fold,error=str(e),traceback=traceback.format_exc())
+                failures.append(error);write_json(path/'failure.json',error)
+
+
+    return failures
+
+
+
+def tuning_candidate(name,cfg,params,index,X,y,V,target):
+    try:
+        model=fit_checked(make_estimator(name,cfg,cfg['seed'],params),X,y)
+        return index,float(np.mean(np.abs(model.predict(V)-target))),''
+    except Exception as e:return index,float('inf'),str(e)

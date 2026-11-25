@@ -97,8 +97,10 @@ def audit(ctx):
             age_key=next(k for k in [ctx.cfg['fields']['age']]+ctx.cfg['fields'].get('age_fallbacks',[]) if k in a.obs)
             obs_tables.append(dict(dataset=it['dataset'],obs_columns=list(a.obs),var_columns=list(a.var),
                                    age_key=age_key,age_dtype=str(a.obs[age_key].dtype),
-                                   selected_fields=ctx.cfg['fields'],age_examples=a.obs[age_key].drop_duplicates().head(25).tolist()))
+                                   selected_fields=ctx.cfg['fields'],celltypes=sorted(m.loc[m.valid,'Celltype'].unique()),age_examples=a.obs[age_key].drop_duplicates().head(25).tolist()))
         finally: a.file.close()
+    train_types=set(obs_tables[0]['celltypes'])
+    write_csv(root/'celltype_alignment_audit.csv',pd.DataFrame([dict(dataset=t['dataset'],n_train_types=len(train_types),n_dataset_types=len(t['celltypes']),matched_types=len(train_types&set(t['celltypes'])),unknown_types=';'.join(sorted(set(t['celltypes'])-train_types)),missing_train_types=';'.join(sorted(train_types-set(t['celltypes'])))) for t in obs_tables]))
     train=sample_tables['train']; combined=sample_tables['combined']; leaks=[]
     for ds,tab in sample_tables.items():
         if ds=='train': continue
@@ -159,7 +161,9 @@ Celltype retains pan/tissue suffixes exactly. Myfibro enrichment is described, n
 
 '''+'\n'.join(refs)+'\n\nCPU/RAM/disk estimates are in resource_estimate.json. Wall time depends on measured model fits; no fabricated completion estimate. Sequential lineage execution is default.\n'
     write_text(root/'audit_report.md',report)
-    return [root/'input_summary.csv',root/'leakage_audit.csv',root/'excluded_samples.csv',root/'inventory.json',root/'audit_report.md',root/'environment.txt']
+    from .jungclock import audit_method
+    method_outputs=audit_method(ctx)
+    return method_outputs+[root/'celltype_alignment_audit.csv',root/'input_summary.csv',root/'leakage_audit.csv',root/'excluded_samples.csv',root/'inventory.json',root/'audit_report.md',root/'environment.txt']
 
 
 def sparse_save(path,x):

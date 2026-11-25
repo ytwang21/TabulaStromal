@@ -1,0 +1,7 @@
+Gene,n_features,n_celltypes,n_patterns,Patterns,Features,Celltype_pattern_pairs
+MEIS2,2,2,2,Young-high;Middle-high,CapEC_GNG11_pan_MEIS2;ArtEC_FLT1_pan_MEIS2,CapEC_GNG11_pan=Young-high;ArtEC_FLT1_pan=Middle-high
+RND3,2,2,2,Middle-high;Old-high,CapEC_GNG11_pan_RND3;EndoMT_TM4SF1_pan_RND3,CapEC_GNG11_pan=Middle-high;EndoMT_TM4SF1_pan=Old-high
+MT1E,2,2,1,Old-high,VenEC_CLU_pan_MT1E;ArtEC_CXCL12_pan_MT1E,VenEC_CLU_pan=Old-high;ArtEC_CXCL12_pan=Old-high
+MT1M,2,2,1,Old-high,VenEC_CLU_pan_MT1M;CapEC_TM4SF1_pan_MT1M,VenEC_CLU_pan=Old-high;CapEC_TM4SF1_pan=Old-high
+MT1X,2,2,1,Old-high,VenEC_CLU_pan_MT1X;EndoMT_TM4SF1_pan_MT1X,VenEC_CLU_pan=Old-high;EndoMT_TM4SF1_pan=Old-high
+SH3BGRL2,2,2,1,Old-high,ArtEC_THY1_pan_SH3BGRL2;VenEC_CLU_eye_SH3BGRL2,ArtEC_THY1_pan=Old-high;VenEC_CLU_eye=Old-high

@@ -1,0 +1,3 @@
+lineage	n_input_pickle	n_final_cells	n_excluded_nonnumeric_age	previous_target_n_cells	delta_vs_previous	n_GSE	n_genes	n_Leiden	selected_resolution	n_transferred_labels	n_training_labels	n_low_support_Leiden	n_unknown	published	target	sha256
+fibro	80216	79285	931	79028	257	14	11700	48	4.0	17	31	25	0	True	AgePrediction/Valid_data/Fibro_valid_bacthGSE_withNormalAllAge.h5ad	5da7de2247bb02adf17944c923f599d6cbba53a08fc5ebd17b7826f7372521c2
+endo	53547	47847	5700	47634	213	11	11521	93	6.0	17	37	35	0	True	AgePrediction/Valid_data/Endo_valid_bacthGSE_withNormalAllAge.h5ad	ddb3827a262a0ce977892905f79dc37242170fa350a3f43e8a10afc965626a2b

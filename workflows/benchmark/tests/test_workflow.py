@@ -13,6 +13,8 @@ import pandas as pd
 import scipy.sparse as sp
 from tabulastromal.metrics import evaluate
 from tabulastromal.models import Preprocessor,NAMES,fit_model,predict_model,save_bundle,load_bundle
+# Native-H2O JungClock requires separately installed author ontology and backend.
+NAMES=[name for name in NAMES if name!='JungClock']
 from tabulastromal.training import grouped_splits
 from tabulastromal.external import adaptation_split
 from tabulastromal.storage import Cache,write_text
@@ -20,7 +22,7 @@ from tabulastromal.storage import Cache,write_text
 
 def toy_config(base):
     cfg=yaml.safe_load((ROOT/'config.yaml').read_text());cfg['output_root']=str(base/'output')
-    cfg['resources']['threads']=1;cfg['models'].update(xgb_estimators=5,tree_estimators=5,boost_estimators=5,mlp_max_iter=10,
+    cfg['models']['names']=NAMES;cfg['resources'].update(threads=1,device='cpu',xgb_device='cpu',external_scope='all');cfg['models'].update(xgb_estimators=5,tree_estimators=5,boost_estimators=5,mlp_max_iter=10,
         deep_epochs=2,deep_hidden=4,deep_batch_samples=4,max_iter=5000,linear_alphas=[.1],l1_ratios=[.5])
     cfg['features'].update(K=[8],selection='variance',min_cells_per_sample=2,chunk_cells=17,cells_per_subtype=2,variance_threshold=1e-6)
     cfg['cv'].update(n_splits=2,inner_splits=2);cfg['stability'].update(n_bootstrap=2,min_fold_improvements=2)
@@ -28,6 +30,8 @@ def toy_config(base):
     cfg['enrichment']['gmt_dir']=str(base/'gmts');Path(cfg['enrichment']['gmt_dir']).mkdir()
     (Path(cfg['enrichment']['gmt_dir'])/'toy_GO.gmt').write_text('test term\ttoy_generated_not_biological_evidence\tIL6\tTP53\tCDKN1A\tMMP1\tVEGFA\n')
     cfg['enrichment']['min_set_size']=1
+    provided=base/'provided_sets.json';provided.write_text(json.dumps(dict(source_path='synthetic_test_only',sets={'toy_aging':['IL6','TP53','CDKN1A']})));cfg['enrichment']['provided_sets']=str(provided)
+    cfg['enrichment']['hgnc_tsv']=None;cfg['enrichment']['stromal_sasp_evidence_csv']=None
     rng=np.random.default_rng(16);genes=['IL6','TP53','CDKN1A','MMP1','VEGFA','TAGLN','COL1A1','DCN','VIM','GAPDH','ACTB','CLDN5']
     def make(n,prefix,gse,repeat_samples=False):
         obs=[];expr=[]

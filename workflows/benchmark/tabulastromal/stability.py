@@ -18,21 +18,15 @@ def bootstrap_en(ctx,ds,rows,K,params,tag):
     root=ctx.root/'stability'/tag;root.mkdir(parents=True,exist_ok=True)
     meta=ds['meta'].iloc[rows];groups=meta.group_id.unique();B=ctx.cfg['stability']['n_bootstrap'];p=ds['X'].shape[1]
     coefficients=[];exposures=[]
+    from joblib import Parallel,delayed,parallel_config
+    missing=[b for b in range(B) if not ctx.cache.valid((root/'bootstrap'/f'boot_{b:04d}.joblib').with_suffix('.complete.json'))]
+    with parallel_config(backend='loky',inner_max_num_threads=1):
+        Parallel(n_jobs=ctx.cfg['resources'].get('bootstrap_workers',1))(delayed(bootstrap_record)(ctx,ds,rows,K,params,tag,b) for b in missing)
     for b in range(B):
         path=root/'bootstrap'/f'boot_{b:04d}.joblib';marker=path.with_suffix('.complete.json')
         if ctx.cache.valid(marker):record=joblib.load(path)
         else:
-            rng=np.random.default_rng(ctx.cfg['seed']+b);draw=rng.choice(groups,len(groups),replace=True)
-            # Duplicate all samples of each selected group, preserving donor/sample grouping.
-            ix=np.concatenate([rows[np.flatnonzero(meta.group_id.to_numpy()==g)] for g in draw])
-            LOG.info('BOOTSTRAP %s %d/%d, %d sample rows',tag,b+1,B,len(ix))
-            rank=rank_features(ds['X'][ix],ds['meta'].Age.to_numpy(float)[ix],ctx.cfg)
-            pre=Preprocessor.fit(ds['X'][ix],ds['meta'].Age.to_numpy(float)[ix],ds['schema']['features'],ds['meta'].sample_id.iloc[ix],K,ctx.cfg,rank)
-            model=fit_model('ElasticNet',pre.transform(ds['X'][ix]),ds['meta'].Age.to_numpy(float)[ix],ctx.cfg,ctx.cfg['seed']+b,params)
-            record=dict(indices=pre.indices,coefficient=np.asarray(model.coef_,np.float32),
-                        input_coefficient=np.asarray(model.coef_/pre.scaler.scale_,np.float32),
-                        bootstrap=b,draw_groups=draw,fit_ids=pre.fit_ids,params=params)
-            dump(path,record);ctx.cache.mark(marker,[path]);del pre,model
+            record=bootstrap_record(ctx,ds,rows,K,params,tag,b)
         beta=np.where(np.abs(record['coefficient'])>ctx.cfg['stability']['coefficient_epsilon'],record['coefficient'],0)
         coefficients.append(sp.csr_matrix((beta,(np.zeros(len(beta),int),record['indices'])),shape=(1,p)))
         exposures.append(sp.csr_matrix((np.ones(len(beta)),(np.zeros(len(beta),int),record['indices'])),shape=(1,p)))
@@ -116,9 +110,10 @@ def stability(ctx):
     finalparams=tune_linear(ctx,ds,allrows,finalK,name,'full_train_final')
     finalpath=ctx.root/'models/final_model';marker=finalpath/'complete.json'
     if not ctx.cache.valid(marker):
-        bags=bags_for(ds,finalpre,allrows) if name in ['DeepSets','Ensemble'] else None
+        bags=bags_for(ds,finalpre,allrows) if name in ['IdealAge(DeepSets)','IdealAge(Ensemble)'] else None
         epoch=finalpath/'epochs'/ctx.cache.signature/'last.pt';epoch.parent.mkdir(parents=True,exist_ok=True)
-        model=fit_model(name,finalpre.transform(ds['X']),y,ctx.cfg,ctx.cfg['seed'],finalparams,bags,epoch,ctx.resume)
+        ctx.cfg.setdefault('jungclock',{})['feature_gene_map']={f:ds['schema']['genes'][int(j)%len(ds['schema']['genes'])] for f,j in zip(finalpre.names,finalpre.indices)}
+        model=fit_model(name,finalpre.transform(ds['X']),y,ctx.cfg,ctx.cfg['seed'],finalparams,bags,epoch,ctx.resume,feature_names=finalpre.names,metadata=meta)
         outputs=save_bundle(finalpath,name,model,finalpre,dict(lineage=ctx.lineage,K=finalK,scheme=scheme,params=finalparams,seed=ctx.cfg['seed'],train_ids=meta.sample_id.tolist(),valid_ids=[],selection_basis='internal CV only'))
         finalschema=dict(ds['schema'],selected_features=finalpre.names,scheme=scheme,model=name,K=finalK,signature=ctx.cache.signature)
         write_json(finalpath/'feature_schema.json',finalschema)
@@ -128,10 +123,11 @@ def stability(ctx):
         ctx.cache.mark(marker,outputs+[finalpath/'feature_schema.json',finalpath/'training_config.json',finalpath/'environment.txt'])
     _,model,finalpre,info=load_bundle(finalpath,ctx.cfg)
     final_external=[];final_predictions=[]
-    for it in json.loads((ctx.root/'audit/inventory.json').read_text())[1:]:
+    from .external import selected_external_items
+    for it in selected_external_items(ctx):
         ext=load_dataset(ctx.root/'features'/it['dataset'])
         if not len(ext['meta']):continue
-        ix=np.arange(len(ext['meta']));bags=bags_for(ext,finalpre,ix) if name in ['DeepSets','Ensemble'] else None
+        ix=np.arange(len(ext['meta']));bags=bags_for(ext,finalpre,ix) if name in ['IdealAge(DeepSets)','IdealAge(Ensemble)'] else None
         p=predict_model(model,name,finalpre.transform(ext['X']),bags)
         record=dict(lineage=ctx.lineage,model=name,K=finalK,scheme=scheme,dataset=it['dataset'],method=it['method'],role=it['role'],selection='fixed internal-CV-selected full-training refit',**evaluate(ext['meta'].Age,p))
         final_external.append(record);t=ext['meta'].copy();t['prediction']=p;t['dataset']=it['dataset'];t['method']=it['method'];t['model']=name;t['K']=finalK;final_predictions.append(t)
@@ -142,7 +138,9 @@ def stability(ctx):
              n_stable_subtypes=stable.Celltype.nunique(),interpretation_label='selected clock features' if name=='ElasticNet' else 'exploratory EN stability; selected clock is '+name,
              archived_baseline_note='best_original_EN labels the un-reduced EN of this fresh benchmark, not a reconstructed historical pickle; archived results remain separate and untouched'))
     write_text_report(ctx,table,stable,scheme)
-    return [ctx.root/'stability'/f for f in ['stable_Celltype_Gene.csv','stable_Celltype.csv','stable_Gene.csv','stable_vs_original_EN_cv.csv','selection_decision.json']]+[marker]
+    from .delivery import stable_exports
+    stable_outputs=stable_exports(ctx,ds,table,stable,params,K)
+    return [ctx.root/'stability'/f for f in ['stable_Celltype_Gene.csv','stable_Celltype.csv','stable_Gene.csv','stable_vs_original_EN_cv.csv','selection_decision.json']]+[marker]+stable_outputs
 
 
 def write_text_report(ctx,table,stable,scheme):
@@ -158,3 +156,24 @@ Celltype stable fraction divides stable pairs by variance-eligible candidates. C
 Gene stability reports max and mean pair frequency, raw stable-pair count and candidate-celltype-normalized coverage; none is a new bootstrap gene-level selection probability.
 The selected-K/selected-model CV scores are selection-affected estimates. External fixed refit evaluation is the independent confirmation; A/B and alternate integration methods share samples.
 ''')
+
+
+def bootstrap_record(ctx,ds,rows,K,params,tag,b):
+    from .storage import worker_logging
+    worker_logging(ctx.root,'bootstrap')
+    root=ctx.root/'stability'/tag;meta=ds['meta'].iloc[rows];groups=meta.group_id.unique();B=ctx.cfg['stability']['n_bootstrap']
+    path=root/'bootstrap'/f'boot_{b:04d}.joblib';marker=path.with_suffix('.complete.json')
+    if ctx.cache.valid(marker):return joblib.load(path)
+    rng=np.random.default_rng(ctx.cfg['seed']+b);draw=rng.choice(groups,len(groups),replace=True)
+    # Duplicate all samples of each selected group, preserving donor/sample grouping.
+    ix=np.concatenate([rows[np.flatnonzero(meta.group_id.to_numpy()==g)] for g in draw])
+    LOG.info('BOOTSTRAP %s %d/%d, %d sample rows',tag,b+1,B,len(ix))
+    rank_cfg={**ctx.cfg,'resources':{**ctx.cfg['resources'],'mi_workers':ctx.cfg['resources'].get('bootstrap_mi_workers',1)}}
+    rank=rank_features(ds['X'][ix],ds['meta'].Age.to_numpy(float)[ix],rank_cfg)
+    pre=Preprocessor.fit(ds['X'][ix],ds['meta'].Age.to_numpy(float)[ix],ds['schema']['features'],ds['meta'].sample_id.iloc[ix],K,ctx.cfg,rank)
+    model=fit_model('ElasticNet',pre.transform(ds['X'][ix]),ds['meta'].Age.to_numpy(float)[ix],ctx.cfg,ctx.cfg['seed']+b,params)
+    record=dict(indices=pre.indices,coefficient=np.asarray(model.coef_,np.float32),
+                input_coefficient=np.asarray(model.coef_/pre.scaler.scale_,np.float32),
+                bootstrap=b,draw_groups=draw,fit_ids=pre.fit_ids,params=params)
+    dump(path,record);ctx.cache.mark(marker,[path]);del pre,model
+    return record

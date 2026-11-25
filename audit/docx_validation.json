@@ -3,7 +3,7 @@
   "documents": [
     {
       "file": "docs/results/Results_Part1_StromalAtlas.docx",
-      "text_paragraphs": 17,
+      "text_paragraphs": 30,
       "tables": 0,
       "zip_and_xml": "passed",
       "source_text_and_tables": "identical",
@@ -13,7 +13,7 @@
     },
     {
       "file": "docs/results/Results_Part2_ClockPerformance_CellAge.docx",
-      "text_paragraphs": 28,
+      "text_paragraphs": 34,
       "tables": 1,
       "zip_and_xml": "passed",
       "source_text_and_tables": "identical",
@@ -23,7 +23,7 @@
     },
     {
       "file": "docs/results/Results_Part3_StableFeatures_Mechanisms.docx",
-      "text_paragraphs": 37,
+      "text_paragraphs": 57,
       "tables": 1,
       "zip_and_xml": "passed",
       "source_text_and_tables": "identical",
@@ -33,7 +33,7 @@
     },
     {
       "file": "docs/results/TabulaStromal_Results_Combined.docx",
-      "text_paragraphs": 82,
+      "text_paragraphs": 121,
       "tables": 2,
       "zip_and_xml": "passed",
       "source_text_and_tables": "identical",
@@ -43,7 +43,7 @@
     },
     {
       "file": "docs/results/Figure_Legends.docx",
-      "text_paragraphs": 26,
+      "text_paragraphs": 34,
       "tables": 0,
       "zip_and_xml": "passed",
       "source_text_and_tables": "identical",

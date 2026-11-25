@@ -1,0 +1,4 @@
+Lineage,Pattern,n_features,n_unique_genes,n_celltypes,median_stage_contrast,median_bootstrap_support,n_bootstrap_support_ge_08,n_any_single_proxy_age_group,median_LOO_support,n_conservative
+Fibroblast,Young-high,183,171,17,0.984270862167086,0.9958677685950413,167,73,1.0,81
+Fibroblast,Middle-high,43,41,16,0.7275684115657274,0.808,23,17,1.0,19
+Fibroblast,Old-high,294,273,21,1.2157660499744418,0.984,255,59,1.0,203

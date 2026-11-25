@@ -1,0 +1,13 @@
+lineage,conditioning,min_compatible_neighbors,metric,contrast,estimate,ci_low,ci_high,n_query_records
+fibro,tissue_x_Celltype_general,5,same_study_enrichment,BBKNN_minus_PCA,-0.9936695157486316,-1.881352968067285,-0.37580346553511196,7595
+fibro,tissue_x_Celltype_general,5,study_hellinger_affinity,BBKNN_minus_PCA,0.005760054638108717,0.0044826256394693625,0.007179881636995008,7595
+fibro,tissue_x_Celltype_general,5,affinity_gap_to_random,BBKNN_minus_PCA,-0.005760054638108716,-0.007293898725425031,-0.004367172172668219,7595
+fibro,tissue_x_Celltype_general,20,same_study_enrichment,BBKNN_minus_PCA,0.007474620458625898,-1.2509699893719766,2.068514038051012,1054
+fibro,tissue_x_Celltype_general,20,study_hellinger_affinity,BBKNN_minus_PCA,0.007702657707329993,0.005433473822281249,0.010350120634758214,1054
+fibro,tissue_x_Celltype_general,20,affinity_gap_to_random,BBKNN_minus_PCA,-0.007702657707329993,-0.010639544348754191,-0.005282453916455559,1054
+fibro,tissue_x_Celltype,5,same_study_enrichment,BBKNN_minus_PCA,-0.6301422493987354,-1.161363982274417,-0.1787030104837034,7148
+fibro,tissue_x_Celltype,5,study_hellinger_affinity,BBKNN_minus_PCA,0.006052196900825481,0.004525864537022841,0.007674329124778597,7148
+fibro,tissue_x_Celltype,5,affinity_gap_to_random,BBKNN_minus_PCA,-0.006052196900825481,-0.007883608425677802,-0.004697189414630382,7148
+fibro,tissue_x_Celltype,20,same_study_enrichment,BBKNN_minus_PCA,0.35272896824759864,-0.612051582867598,2.1816713227748443,946
+fibro,tissue_x_Celltype,20,study_hellinger_affinity,BBKNN_minus_PCA,0.009042312861438978,0.006269977094166379,0.012324400012081595,946
+fibro,tissue_x_Celltype,20,affinity_gap_to_random,BBKNN_minus_PCA,-0.009042312861438978,-0.012332551426946716,-0.005832566963129246,946

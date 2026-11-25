@@ -4,7 +4,7 @@
 
 TabulaStromal integrates fibroblast- and endothelial-lineage references containing **5,916,760** and **2,239,277 cells**. Clock development uses separately filtered sets of **640/437 samples**, grouped into **634/431 GSE/GSM proxies**. These labels are not independently verified donor counts, and the full atlas is not uniformly healthy.
 
-This release updates all five result modules from the source-verified 19 November snapshot, including the downstream presentation, original figures, aggregate tables, evidence records and three English Results sections.
+This release updates all five result modules from the source-verified 25 November snapshot, including the downstream presentation, original figures, aggregate tables, evidence records and three English Results sections.
 
 ## Model Overview
 
@@ -32,7 +32,7 @@ The current Figure 2 E/F instead shows **development-set in-sample fits** of per
 
 **Neither the development fits nor the outcome-selected external estimates establish independent generalization of the current compact models.** The reused 70% outcomes also participated in ALL100 selection. MAD in these current fit/external panels means median absolute prediction error (MedAE), unlike panel D. Exact values and evaluation scopes are linked in [Results Part 2](docs/results/Results_Part2_ClockPerformance_CellAge.md).
 
-The full grouped five-fold benchmark ranked XGBoost first for fibroblasts (mean validation R² 0.803) and ExtraTrees first for endothelial cells (0.716). These are different configurations from the compact ElasticNet fits. The [earlier unreduced EN branch](TabulaStromal_Rebenchmark_2026/) retains its original unadapted and held-out adaptation metrics as historical protocol evidence.
+The updated full fourteen-model grouped five-fold benchmark ranked XGBoost first for fibroblasts (mean validation R² 0.803) and XGBoost first for endothelial cells (0.727). These are different configurations from the compact ElasticNet fits. The [earlier unreduced EN branch](TabulaStromal_Rebenchmark_2026/) retains its original unadapted and held-out adaptation metrics as historical protocol evidence.
 
 ## Explore the five result modules
 
@@ -40,7 +40,7 @@ The full grouped five-fold benchmark ranked XGBoost first for fibroblasts (mean 
 |---|---|
 | [F1_StromalAtlas](F1_StromalAtlas/) | Atlas overview, detailed states, metadata coverage, retrospective annotation agreement and filtering figures |
 | [F2_ModelPerformance](F2_ModelPerformance/) | Updated original workflow, current complete Figure 2, B–F panels and exact aggregate metric tables |
-| [F3_ds_analysis](F3_ds_analysis/) | Selected features, functional annotation, LISA2, RNA networks, adult raw-count ECM, current CellAge, and the **40-slide PPTX** |
+| [F3_ds_analysis](F3_ds_analysis/) | Selected features, functional annotation, LISA2, RNA networks, adult raw-count ECM, current CellAge, and the **56-slide PPTX** |
 | [TabulaStromal_Rebenchmark_2026](TabulaStromal_Rebenchmark_2026/) | Current 750/350-feature definitions and optimization protocol, with the earlier unreduced EN branch labeled separately |
 | [CellAge_Exploration](CellAge_Exploration/) | Historical score provenance and its distinction from the current selected-state CellAge analysis |
 
@@ -58,9 +58,9 @@ Current selected features span **27 states per lineage**, encode **678/337 uniqu
 
 ## Audit and provenance
 
-The complete five-root metadata discovery contains **1,469,578 file entries**, including historical and environment files; it does not imply reading all file contents. The public release contains **229 original scientific image/PDF files**, **201 aggregate/evidence tables** and the downstream PPTX. The content-read inventory now records **433 source files**: 432 checked before the initial export plus the newly refreshed workflow PNG. See [audit scope and inventories](audit/README.md), [evidence registry](evidence/evidence_registry.csv), [release checks](audit/results_release_validation.json) and [Word rendering receipts](audit/docx_rendering_report.md).
+The complete five-root metadata discovery contains **1,153,427 file entries**, including historical and environment files; it does not imply reading all file contents. The public release contains **319 original scientific image/PDF files**, **269 aggregate/evidence tables** and the downstream PPTX. The content-read inventory now records **530 source files**: each rechecked against its current source before this export. See [audit scope and inventories](audit/README.md), [evidence registry](evidence/evidence_registry.csv), [release checks](audit/results_release_validation.json) and [Word rendering receipts](audit/docx_rendering_report.md).
 
-All descendants of the F3 audit directory named `VenEC_CLU_eye_audit` and `F3_features/Age10_20_audit_20261117` are excluded. A legitimate Celltype named `VenEC_CLU_eye` in current aggregate results is not that excluded audit directory. Source images are unaltered. The PPTX retains all 40 slides and embedded image bytes; personal server paths in its XML text are generalized. Full cache-path inventories remain local under ignored `outputs/`.
+All descendants of the F3 audit directory named `VenEC_CLU_eye_audit` and `F3_features/Age10_20_audit_20261117` are excluded. A legitimate Celltype named `VenEC_CLU_eye` in current aggregate results is not that excluded audit directory. Source images are unaltered. The PPTX retains all 56 slides and embedded image bytes; personal server paths in its XML text are generalized. Full cache-path inventories remain local under ignored `outputs/`.
 
 ## Run the source workflows
 
@@ -84,3 +84,9 @@ The source benchmark and inference workflows retain their documented data contra
 [CITATION.cff](CITATION.cff) provides software attribution; no manuscript DOI or published-paper status is asserted. A project-wide license has not yet been selected; see [NOTICE](NOTICE). Third-party resources retain their terms. Contributions should preserve explicit protocol and inference-unit distinctions: [CONTRIBUTING.md](CONTRIBUTING.md).
 
 [中文说明](README.zh-CN.md) · [Publication procedure](docs/publication.md)
+
+## Updated atlas and downstream evidence
+
+The 25 November audit includes marker-name curation and external label transfer, residual-study graph diagnostics, expression-pattern reliability and six exploratory extensions. Updated five-fold benchmark winners are XGBoost in both lineages (R² 0.803/0.727). Formal nonlinear tests identify 119 features, 38 also showing positive held-study relative-shape improvement. Paired sample-proxy tests have 24 primary and 24 separate sensitivity comparisons. The public six-donor-line fibroblast intervention reanalysis has no FDR-significant primary module response.
+
+[F1 updated figures and tables](F1_StromalAtlas/) · [Pattern results](F3_ds_analysis/F3_features/results/SF_pattern_analysis/) · [Six exploratory tasks and source-matched figures](F3_ds_analysis/exploration/)

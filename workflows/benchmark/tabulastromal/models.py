@@ -17,7 +17,7 @@ from sklearn.exceptions import ConvergenceWarning
 from .storage import dump,write_json,atomic_path
 LOG=logging.getLogger(__name__)
 NAMES=['XGBoost','ExtraTrees','ElasticNet','MLP','Ridge','Lasso','RandomForest','GradientBoosting',
-       'Supervised_PCA_Ridge','SVR','DeepSets','Pseudobulk','Ensemble']
+       'Supervised_PCA_Ridge','SVR','IdealAge(DeepSets)','IdealAge(Pseudobulk)','IdealAge(Ensemble)','JungClock']
 
 
 class Preprocessor:
@@ -44,10 +44,16 @@ def rank_features(X,y,cfg):
     if cfg['features']['selection']=='variance':scores=v[eligible]
     else:
         scores=np.empty(len(eligible));batch=256
-        for start in range(0,len(eligible),batch):
+        # Identical 256-column blocks/seeds to the original serial algorithm.
+        # Parallelize blocks, retaining deterministic scores and bounded memory.
+        def score_block(start):
             ix=eligible[start:start+batch];dense=X[:,ix].toarray()
-            scores[start:start+len(ix)]=mutual_info_regression(dense,y,random_state=cfg['seed'],n_neighbors=min(3,len(y)-1))
-            if start%(batch*100)==0:LOG.info('MI ranking: %d/%d eligible features',start,len(eligible))
+            return start,mutual_info_regression(dense,y,random_state=cfg['seed'],n_neighbors=min(3,len(y)-1))
+        from concurrent.futures import ThreadPoolExecutor
+        with ThreadPoolExecutor(max_workers=cfg['resources'].get('mi_workers',1)) as pool:
+            for start,values in pool.map(score_block,range(0,len(eligible),batch)):
+                scores[start:start+len(values)]=values
+                if start%(batch*100)==0:LOG.info('MI ranking: %d/%d eligible features',start,len(eligible))
     return eligible[np.lexsort((eligible,-scores))]
 
 
@@ -74,7 +80,12 @@ class BulkRegressor:
     def predict(self,X):return np.mean([m.predict(self.qt.transform(X)) for m in self.models],axis=0)
 
 
+def canonical_name(name):
+    return {"DeepSets":"IdealAge(DeepSets)","DeepSets (IDEAL-Age)":"IdealAge(DeepSets)","Pseudobulk":"IdealAge(Pseudobulk)","Pseudobulk (IDEAL-Age)":"IdealAge(Pseudobulk)","Ensemble":"IdealAge(Ensemble)","Ensemble (IDEAL-Age)":"IdealAge(Ensemble)"}.get(name,name)
+
+
 def make_estimator(name,cfg,seed,params=None):
+    name=canonical_name(name)
     c=cfg['models'];p=params or {};nj=cfg['resources']['threads']
     if name=='ElasticNet':return ElasticNet(alpha=p.get('alpha',.1),l1_ratio=p.get('l1_ratio',.5),max_iter=c['max_iter'],random_state=seed)
     if name=='Ridge':return Ridge(alpha=p.get('alpha',10.))
@@ -82,18 +93,28 @@ def make_estimator(name,cfg,seed,params=None):
     if name=='XGBoost':
         from xgboost import XGBRegressor
         return XGBRegressor(n_estimators=c['xgb_estimators'],max_depth=3,learning_rate=.02,subsample=.8,
-                            colsample_bytree=.7,reg_lambda=10,reg_alpha=1,random_state=seed,n_jobs=nj,tree_method='hist')
+                            colsample_bytree=.7,reg_lambda=10,reg_alpha=1,random_state=seed,n_jobs=nj,tree_method='hist',device=cfg['resources'].get('xgb_device','cpu'))
     if name=='ExtraTrees':return ExtraTreesRegressor(n_estimators=c['tree_estimators'],max_features=.3,min_samples_leaf=3,random_state=seed,n_jobs=nj)
     if name=='RandomForest':return RandomForestRegressor(n_estimators=c['tree_estimators'],max_depth=8,max_features=.3,min_samples_leaf=5,random_state=seed,n_jobs=nj)
     if name=='GradientBoosting':return GradientBoostingRegressor(n_estimators=c['boost_estimators'],learning_rate=.02,max_depth=2,loss='huber',random_state=seed)
     if name=='MLP':return MLPRegressor(hidden_layer_sizes=(128,64),alpha=1,max_iter=c['mlp_max_iter'],early_stopping=False,random_state=seed)
     if name=='Supervised_PCA_Ridge':return PCARidge(seed=seed)
     if name=='SVR':return SVR(kernel='rbf',C=10,epsilon=.2)
-    if name=='Pseudobulk':return BulkRegressor(cfg,seed)
+    if name=='IdealAge(Pseudobulk)':return BulkRegressor(cfg,seed)
     raise KeyError(name)
 
 
 def fit_checked(model,X,y):
+    # Sample counts are small relative to p. Coordinate descent is serial;
+    # multithreaded BLAS inside every sweep was spending CPU on synchronization.
+    # The estimator, alpha/l1 ratio, tolerance, seed and iteration budget stay identical.
+    if isinstance(model,(ElasticNet,Lasso,Ridge)):
+        from threadpoolctl import threadpool_limits
+        with threadpool_limits(limits=1):return _fit_checked(model,X,y)
+    return _fit_checked(model,X,y)
+
+
+def _fit_checked(model,X,y):
     """Record warnings; retry linear coordinate descent, fail if it stays unconverged."""
     with warnings.catch_warnings(record=True) as ws:
         warnings.simplefilter('always');model.fit(X,y)
@@ -213,35 +234,45 @@ class BlendRegressor:
     def predict(self,X,bags):return .5*self.deep.predict(bags)+.5*self.bulk.predict(X)
 
 
-def fit_model(name,X,y,cfg,seed,params=None,bags=None,checkpoint=None,resume=True):
-    if name=='DeepSets':return DeepRegressor(X.shape[1],cfg,seed).fit(bags,y,checkpoint,resume)
-    if name=='Ensemble':
+def fit_model(name,X,y,cfg,seed,params=None,bags=None,checkpoint=None,resume=True,feature_names=None,metadata=None):
+    name=canonical_name(name)
+    if name=="JungClock":
+        from .jungclock import JungClock
+        return JungClock(cfg,seed,feature_names,checkpoint).fit(X,y,metadata)
+    if name=='IdealAge(DeepSets)':return DeepRegressor(X.shape[1],cfg,seed).fit(bags,y,checkpoint,resume)
+    if name=='IdealAge(Ensemble)':
         deep=DeepRegressor(X.shape[1],cfg,seed).fit(bags,y,checkpoint,resume)
         bulk=fit_checked(BulkRegressor(cfg,seed),X,y);return BlendRegressor(deep,bulk)
     return fit_checked(make_estimator(name,cfg,seed,params),X,y)
 
 
 def predict_model(model,name,X,bags=None):
-    if name=='DeepSets':return model.predict(bags)
-    if name=='Ensemble':return model.predict(X,bags)
+    name=canonical_name(name)
+    if name=='IdealAge(DeepSets)':return model.predict(bags)
+    if name=='IdealAge(Ensemble)':return model.predict(X,bags)
     return model.predict(X)
 
 
 def save_bundle(path,name,model,pre,info):
+    name=canonical_name(name)
     path=Path(path);path.mkdir(parents=True,exist_ok=True)
     dump(path/'preprocessor.joblib',pre);write_json(path/'model.json',dict(model=name,**info,selected_features=pre.names,
                                                                          preprocessing_fit_ids=pre.fit_ids,requested_K=pre.requested_K,effective_K=len(pre.indices)))
     outputs=[path/'preprocessor.joblib',path/'model.json']
-    if name in ['DeepSets','Ensemble']:
-        deep=model if name=='DeepSets' else model.deep;deep.save(path/'state_dict.pt');outputs.append(path/'state_dict.pt')
-        if name=='Ensemble':dump(path/'bulk.joblib',model.bulk);outputs.append(path/'bulk.joblib')
+    if name in ['IdealAge(DeepSets)','IdealAge(Ensemble)']:
+        deep=model if name=='IdealAge(DeepSets)' else model.deep;deep.save(path/'state_dict.pt');outputs.append(path/'state_dict.pt')
+        if name=='IdealAge(Ensemble)':dump(path/'bulk.joblib',model.bulk);outputs.append(path/'bulk.joblib')
+    elif name=='JungClock':outputs+=model.save(path)
     else:dump(path/'estimator.joblib',model);outputs.append(path/'estimator.joblib')
     return outputs
 
 
 def load_bundle(path,cfg):
-    path=Path(path);info=json.loads((path/'model.json').read_text());name=info['model'];pre=joblib.load(path/'preprocessor.joblib')
-    if name=='DeepSets':model=DeepRegressor.load(path/'state_dict.pt',cfg)
-    elif name=='Ensemble':model=BlendRegressor(DeepRegressor.load(path/'state_dict.pt',cfg),joblib.load(path/'bulk.joblib'))
+    path=Path(path);info=json.loads((path/'model.json').read_text());name=canonical_name(info['model']);pre=joblib.load(path/'preprocessor.joblib')
+    if name=='IdealAge(DeepSets)':model=DeepRegressor.load(path/'state_dict.pt',cfg)
+    elif name=='IdealAge(Ensemble)':model=BlendRegressor(DeepRegressor.load(path/'state_dict.pt',cfg),joblib.load(path/'bulk.joblib'))
+    elif name=='JungClock':
+        from .jungclock import JungClock
+        model=JungClock.load(path,cfg)
     else:model=joblib.load(path/'estimator.joblib')
     return name,model,pre,info

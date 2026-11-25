@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-22",
+  "status": "PASS",
+  "fields": [
+    "Celltype",
+    "Celltype_sub",
+    "Celltype_general"
+  ],
+  "entries": [
+    {
+      "lineage": "endo",
+      "source": {
+        "path": "data/scalex/endo/human/Endo_human_EndoDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyEndo.h5ad",
+        "bytes": 93452494407,
+        "mtime_ns": 1795260615146070913
+      },
+      "target": {
+        "path": "data/scalex/endo/human/age_prediction/data/Endo_human_EndoDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyEndo_age_normal.h5ad",
+        "bytes": 7765794959,
+        "mtime_ns": 1780476898597459394
+      },
+      "n_cells": 314925,
+      "unmatched_cell_ids": 0,
+      "identity_crosschecks": [
+        "sample",
+        "GSE",
+        "GSM"
+      ],
+      "historical_Celltype_context_matches": true,
+      "target_Leiden_differs_from_parent_in_cells": 302661,
+      "target_Leiden_preserved": true,
+      "changed_cells": {
+        "Celltype": 266404,
+        "Celltype_sub": 266404,
+        "Celltype_general": 0
+      },
+      "palette_actions": {
+        "Celltype_colors": "retain colors by original annotation unit; duplicate color if one old subtype splits",
+        "Celltype_sub_colors": "retain colors by original annotation unit; duplicate color if one old subtype splits"
+      },
+      "status": "PASS",
+      "all_updated_values_equal_Atlas": true,
+      "cell_ids_and_order_preserved": true,
+      "other_obs_fields_and_expression_nodes_preserved": true,
+      "final_fingerprint": {
+        "path": "data/scalex/endo/human/age_prediction/data/Endo_human_EndoDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyEndo_age_normal.h5ad",
+        "bytes": 7765967947,
+        "mtime_ns": 1795316426447812374
+      }
+    },
+    {
+      "lineage": "fibro",
+      "source": {
+        "path": "data/scalex/fibro/human/Fibro_human_FibDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyFib.h5ad",
+        "bytes": 262351510232,
+        "mtime_ns": 1795260479446176836
+      },
+      "target": {
+        "path": "data/scalex/fibro/human/age_prediction/data/Fibro_human_FibDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyFib_age_normal.h5ad",
+        "bytes": 31543331190,
+        "mtime_ns": 1780473653747636859
+      },
+      "n_cells": 849095,
+      "unmatched_cell_ids": 0,
+      "identity_crosschecks": [
+        "sample",
+        "GSE",
+        "GSM"
+      ],
+      "historical_Celltype_context_matches": true,
+      "target_Leiden_differs_from_parent_in_cells": 0,
+      "target_Leiden_preserved": true,
+      "changed_cells": {
+        "Celltype": 496627,
+        "Celltype_sub": 496627,
+        "Celltype_general": 0
+      },
+      "palette_actions": {
+        "Celltype_colors": "retain colors by original annotation unit; duplicate color if one old subtype splits",
+        "Celltype_sub_colors": "retain colors by original annotation unit; duplicate color if one old subtype splits",
+        "Celltype_general_colors": "retain colors by original annotation unit; duplicate color if one old subtype splits"
+      },
+      "status": "PASS",
+      "all_updated_values_equal_Atlas": true,
+      "cell_ids_and_order_preserved": true,
+      "other_obs_fields_and_expression_nodes_preserved": true,
+      "final_fingerprint": {
+        "path": "data/scalex/fibro/human/age_prediction/data/Fibro_human_FibDEG_count_notAge_0.2_10X_tissueB_bbknn_onlyFib_age_normal.h5ad",
+        "bytes": 31543755102,
+        "mtime_ns": 1795316426447812374
+      }
+    }
+  ],
+  "method": "Exact cell-ID transfer from updated full Atlas, cross-checked by sample/study and historical Celltype context; target Leiden preserved; in-place HDF5 field replacement",
+  "verification_scope": "Untouched-node addresses/attributes/shapes and distributed payload samples; full row IDs and all updated annotation values checked",
+  "full_expression_hash_performed": false,
+  "separate_training_h5ad_written": false,
+  "completed_at": "2026-11-22 11:00:28"
+}

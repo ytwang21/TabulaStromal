@@ -395,6 +395,7 @@ def main():
     parser.add_argument('--dpi',type=int)
     parser.add_argument('--plot-cells',type=int,help='0 = all source cells as vectors; default = existing pipeline display scale')
     parser.add_argument('--reuse-panels',action='store_true',help='Reuse existing A-J panel exports when changing only the main layout')
+    parser.add_argument('--refresh',action='store_true',help='Rebuild plot data after an explicitly verified source/annotation refresh')
     parser.add_argument('--panels',default='ABCDEFGHIJ',help='Independent panels to refresh, e.g. J; main is always refreshed and other panels must already exist')
     args=parser.parse_args()
     if not args.panels or set(args.panels)-set('ABCDEFGHIJ'):parser.error('--panels must contain only A-J')
@@ -417,9 +418,9 @@ def main():
     dump_json(out/'config_used.json',config)
     cache=out/'prepared_plot_data.pkl'
     cache_key={k:config[k] for k in ['source_run','plot_cells_per_lineage','seed']}
-    if cache.exists():
+    if cache.exists() and not args.refresh:
         with cache.open('rb') as stream:cached=pickle.load(stream)
-        if cached['key']!=cache_key:raise ValueError('Prepared cohort configuration changed; use a new output directory')
+        if cached['key']!=cache_key:raise ValueError('Prepared cohort configuration changed; verify sources and rerun with --refresh')
         data=cached['data']
         for item in data.values():
             r=item['record'];stat=Path(r['source']).stat()

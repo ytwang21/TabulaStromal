@@ -1,6 +1,6 @@
 # figures
 
-Current snapshot: **19 November 2026**. Counts refer to sample/proxy units unless stated otherwise. Selected expression features are not explicit cell-type proportions; predictive weights and regulatory annotations are not causal evidence.
+Current snapshot: **25 November 2026**. Counts refer to sample/proxy units unless stated otherwise. Selected expression features are not explicit cell-type proportions; predictive weights and regulatory annotations are not causal evidence.
 
 [Module overview](../README.md) · [Results and legends](../../docs/results)
 
@@ -20,6 +20,12 @@ Current snapshot: **19 November 2026**. Counts refer to sample/proxy units unles
 
 ![Fig1H_Endothelial_markers](Fig1H_Endothelial_markers.png)
 
+- [BatchRemoval_Endothelial_Diagnostics.pdf](BatchRemoval_Endothelial_Diagnostics.pdf)
+- [BatchRemoval_Endothelial_Diagnostics.png](BatchRemoval_Endothelial_Diagnostics.png)
+- [BatchRemoval_Fibroblast_Diagnostics.pdf](BatchRemoval_Fibroblast_Diagnostics.pdf)
+- [BatchRemoval_Fibroblast_Diagnostics.png](BatchRemoval_Fibroblast_Diagnostics.png)
+- [BatchRemoval_scIB_MatchedSample.pdf](BatchRemoval_scIB_MatchedSample.pdf)
+- [BatchRemoval_scIB_MatchedSample.png](BatchRemoval_scIB_MatchedSample.png)
 - [ExtFig1_SignatureScore_Fibro_Endo.pdf](ExtFig1_SignatureScore_Fibro_Endo.pdf)
 - [ExtFig1_SignatureScore_Fibro_Endo.png](ExtFig1_SignatureScore_Fibro_Endo.png)
 - [ExtFig1_SignatureScore_preview.png](ExtFig1_SignatureScore_preview.png)

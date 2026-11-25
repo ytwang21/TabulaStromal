@@ -1,0 +1,17 @@
+lineage,method,metric,value
+fibro,PCA_sample,graph_connectivity_Celltype_general,1.0
+fibro,PCA_sample,cLISI_Celltype_general,0.8775533639308316
+fibro,PCA_sample,graph_connectivity_Celltype,0.9998584692028986
+fibro,PCA_sample,cLISI_Celltype,0.9408218383704231
+fibro,PCA_sample,iLISI_GSE,0.006211091189516634
+fibro,PCA_sample,iLISI_tissue,0.07252384093958705
+fibro,PCA_sample,n_GSE,749.0
+fibro,PCA_sample,n_tissue,39.0
+fibro,BBKNN_tissue_sample_rerun,graph_connectivity_Celltype_general,1.0
+fibro,BBKNN_tissue_sample_rerun,cLISI_Celltype_general,0.3236100723011714
+fibro,BBKNN_tissue_sample_rerun,graph_connectivity_Celltype,1.0
+fibro,BBKNN_tissue_sample_rerun,cLISI_Celltype,0.7291370406406706
+fibro,BBKNN_tissue_sample_rerun,iLISI_GSE,0.017528740986416737
+fibro,BBKNN_tissue_sample_rerun,iLISI_tissue,0.23363286264441588
+fibro,BBKNN_tissue_sample_rerun,n_GSE,749.0
+fibro,BBKNN_tissue_sample_rerun,n_tissue,39.0

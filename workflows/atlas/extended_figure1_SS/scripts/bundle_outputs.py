@@ -14,6 +14,7 @@ def main():
     r=Path(__file__).resolve().parents[1]
     selected=[r/name for name in ['config.yaml','README.md','requirements.txt','run_nohup.sh',
                                   'StromalAtlas_ExtendFig1_SignatureScore.md']]
+    if (r/'annotation_sync_validation.json').exists():selected.append(r/'annotation_sync_validation.json')
     for folder in ['scripts','notebooks','marker_sets','audit','reports']:
         selected += [p for p in (r/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts]
     selected += [p for p in (r/'data').glob('*') if p.is_file() and p.suffix in {'.csv','.json'}]

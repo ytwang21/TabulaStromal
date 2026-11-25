@@ -1,11 +1,16 @@
 {
   "status": "passed",
-  "slides": 40,
-  "picture_placements": 54,
-  "unique_source_images": 52,
-  "external_image_links": 0,
+  "slides": 56,
+  "original_slides_retained": 40,
+  "inserted_slides": 16,
+  "Fibroblast_pattern_slides": "5–11",
+  "Endothelial_pattern_slides": "13–19",
+  "cross_lineage_pattern_slides": "20–21",
+  "original_complete_heatmap_appendix_slide": 46,
   "out_of_bounds_shapes": [],
-  "all_images_original_files": true,
-  "excluded_directories_used": false,
-  "note": "Geometric/package checks and source-based layout previews; no native Office renderer installed."
+  "original_images_preserved": true,
+  "all_added_images_match_original_result_files": true,
+  "external_image_links": 0,
+  "picture_placements": 74,
+  "note": "Geometry and package/source checks; source-based layout previews, no native Office renderer installed."
 }

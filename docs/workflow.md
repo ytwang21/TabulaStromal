@@ -2,7 +2,7 @@
 
 ![Updated original TabulaStromal workflow](assets/TabulaStromal_Workflow_V6.png)
 
-The 19 November 2026 refresh publishes the supplied `F2_ModelPerformance/overview/TabulaStromal_Workflow_V6.png` at its original **6144 × 4096** resolution. The [homepage asset](assets/TabulaStromal_Workflow_V6.png) and [F2 gallery asset](../F2_ModelPerformance/figures/TabulaStromal_Workflow_V6.png) contain identical, unmodified source bytes. Dimensions and SHA256 values are recorded in the [refresh receipt](../audit/workflow_refresh.json).
+The 25 November 2026 refresh publishes the supplied `F2_ModelPerformance/overview/TabulaStromal_Workflow_V6.png` at its original **6144 × 4096** resolution. The [homepage asset](assets/TabulaStromal_Workflow_V6.png) and [F2 gallery asset](../F2_ModelPerformance/figures/TabulaStromal_Workflow_V6.png) contain identical, unmodified source bytes. Dimensions and SHA256 values are recorded in the [refresh receipt](../audit/workflow_refresh.json).
 
 The workflow connects stromal atlas collection, cell annotation, Celltype_Gene pseudo-bulk construction, model comparison, external adaptation and downstream analysis. Its updated lower performance plots use the current compact ElasticNet results. The two lineages have separate models, retaining 750 fibroblast and 350 endothelial Celltype_Gene features.
 

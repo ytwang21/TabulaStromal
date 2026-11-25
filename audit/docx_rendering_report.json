@@ -1,17 +1,17 @@
 {
-  "status": "passed_rendering_and_visual_review",
-  "renderer": "LibreOffice 26.2.7.3 08dfbf04dcac895fc3a8d30dbf5a00de1b9dda5e",
+  "status": "passed_actual_render_and_visual_review",
+  "renderer": "LibreOffice 26.2.7.3",
   "pdf_inspector": "1.26.7",
   "original_scientific_figures_modified": false,
   "documents": [
     {
       "docx": "docs/results/Figure_Legends.docx",
-      "docx_sha256": "1955ec233835bb53b8abc17a0394d1526af951c1e836859063f2ba0b0bdfa6b0",
+      "docx_sha256": "919b7c2d6cebca35eb2bf169c96c8300a548447f5d3df936d679bb41e2900473",
       "pdf": "docs/results/Figure_Legends.pdf",
-      "pdf_sha256": "707ee529c67716fd6863ac2b53ff10535b71c6dc728221aa2c54b58e40620844",
-      "page_count": 5,
-      "source_text_blocks_checked": 26,
-      "source_text_blocks_found": 26,
+      "pdf_sha256": "d2d920558fff2388507723b35eebdf1901eae09aba084d711f1d44ca38150945",
+      "page_count": 6,
+      "source_text_blocks_checked": 34,
+      "source_text_blocks_found": 34,
       "hyperlink_targets_checked": 0,
       "hyperlink_targets_found": 0,
       "out_of_page_text_spans": 0,
@@ -51,8 +51,15 @@
         },
         {
           "page": 5,
-          "body_spans": 2,
+          "body_spans": 37,
           "preview": "page_05.png",
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page": 6,
+          "body_spans": 6,
+          "preview": "page_06.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         }
@@ -61,12 +68,12 @@
     },
     {
       "docx": "docs/results/Results_Part1_StromalAtlas.docx",
-      "docx_sha256": "6666416f10f32caf6ec92df4c9aeaaa947d8f520ec12ce1946e99d1dd8726442",
+      "docx_sha256": "d02345eabbca168e03feb00ef7c596d26303e28c94ed71b0c36b598ee004564e",
       "pdf": "docs/results/Results_Part1_StromalAtlas.pdf",
-      "pdf_sha256": "e0a42af69bcb33821d1fbaa18f6edd781c6cfc10f08292676ca710df272615c9",
-      "page_count": 2,
-      "source_text_blocks_checked": 17,
-      "source_text_blocks_found": 17,
+      "pdf_sha256": "202f6f5564db5c15a9ea0b42fe9e36b6dd85f191e1dcc6324dc1e8129e6a7256",
+      "page_count": 3,
+      "source_text_blocks_checked": 30,
+      "source_text_blocks_found": 30,
       "hyperlink_targets_checked": 4,
       "hyperlink_targets_found": 4,
       "out_of_page_text_spans": 0,
@@ -85,8 +92,15 @@
         },
         {
           "page": 2,
-          "body_spans": 29,
+          "body_spans": 52,
           "preview": "page_02.png",
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page": 3,
+          "body_spans": 42,
+          "preview": "page_03.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         }
@@ -95,12 +109,12 @@
     },
     {
       "docx": "docs/results/Results_Part2_ClockPerformance_CellAge.docx",
-      "docx_sha256": "1816dcf97d1584d2c7b568fc9c41a5138cfae3e67c51765a6a4651f079f4291c",
+      "docx_sha256": "986946a8e2f8024cb4506ddcb62fd017c6be2671bf7f4147bed88c7671efe807",
       "pdf": "docs/results/Results_Part2_ClockPerformance_CellAge.pdf",
-      "pdf_sha256": "546acf180104a01eebb1b6984f861a59153ce7866c85c0275aff241aa19f1307",
-      "page_count": 3,
-      "source_text_blocks_checked": 77,
-      "source_text_blocks_found": 77,
+      "pdf_sha256": "cb0f801659d4c6f5add77ee3e91ad5e3ee87cb1161d8590e88b4cf011638a93d",
+      "page_count": 4,
+      "source_text_blocks_checked": 83,
+      "source_text_blocks_found": 83,
       "hyperlink_targets_checked": 4,
       "hyperlink_targets_found": 4,
       "out_of_page_text_spans": 0,
@@ -126,8 +140,15 @@
         },
         {
           "page": 3,
-          "body_spans": 35,
+          "body_spans": 52,
           "preview": "page_03.png",
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page": 4,
+          "body_spans": 16,
+          "preview": "page_04.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         }
@@ -136,12 +157,12 @@
     },
     {
       "docx": "docs/results/Results_Part3_StableFeatures_Mechanisms.docx",
-      "docx_sha256": "3d431f8040f28279fa9e70a2219e0fc6d3987b178baada795b87113bfd464115",
+      "docx_sha256": "977b70930ccb3804aa29ab92d4e9059655c680f134f58526be11e4ee3a436f56",
       "pdf": "docs/results/Results_Part3_StableFeatures_Mechanisms.pdf",
-      "pdf_sha256": "24b4069f6011e97cf703b8bbfcea9c397fb6d3ccb6c8ac75c4091698e556cee7",
-      "page_count": 4,
-      "source_text_blocks_checked": 73,
-      "source_text_blocks_found": 73,
+      "pdf_sha256": "1eba6c9e876497c774ec69e996c43231f93de1888ca9c025d9c1618a9dda8c35",
+      "page_count": 6,
+      "source_text_blocks_checked": 93,
+      "source_text_blocks_found": 93,
       "hyperlink_targets_checked": 4,
       "hyperlink_targets_found": 4,
       "out_of_page_text_spans": 0,
@@ -154,29 +175,43 @@
       "pages": [
         {
           "page": 1,
-          "body_spans": 50,
+          "body_spans": 46,
           "preview": "page_01.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 2,
-          "body_spans": 55,
+          "body_spans": 56,
           "preview": "page_02.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 3,
-          "body_spans": 80,
+          "body_spans": 55,
           "preview": "page_03.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 4,
-          "body_spans": 63,
+          "body_spans": 85,
           "preview": "page_04.png",
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page": 5,
+          "body_spans": 56,
+          "preview": "page_05.png",
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page": 6,
+          "body_spans": 60,
+          "preview": "page_06.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         }
@@ -185,12 +220,12 @@
     },
     {
       "docx": "docs/results/TabulaStromal_Results_Combined.docx",
-      "docx_sha256": "5b7c28631561aac95cda6d1b9af60cce9e28dfa8b20f8a39889f26b1327dc15f",
+      "docx_sha256": "f0cf4c26e9859748a87a2e735aa7dfbd76fb1cb5dbd3624c034acee9f546477a",
       "pdf": "docs/results/TabulaStromal_Results_Combined.pdf",
-      "pdf_sha256": "dfbea2c12c8e87bf375ee2bc26207d36928c6288902e8c7f0f9730786a748020",
-      "page_count": 9,
-      "source_text_blocks_checked": 167,
-      "source_text_blocks_found": 167,
+      "pdf_sha256": "84773c5a324a98f0f0d8ed1ceee33e29aa32bd5e7e52a4c7287be1160fa7389d",
+      "page_count": 13,
+      "source_text_blocks_checked": 206,
+      "source_text_blocks_found": 206,
       "hyperlink_targets_checked": 4,
       "hyperlink_targets_found": 4,
       "out_of_page_text_spans": 0,
@@ -210,57 +245,85 @@
         },
         {
           "page": 2,
-          "body_spans": 29,
+          "body_spans": 52,
           "preview": "page_02.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 3,
-          "body_spans": 51,
+          "body_spans": 42,
           "preview": "page_03.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 4,
-          "body_spans": 98,
+          "body_spans": 51,
           "preview": "page_04.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 5,
-          "body_spans": 28,
+          "body_spans": 98,
           "preview": "page_05.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 6,
-          "body_spans": 50,
+          "body_spans": 49,
           "preview": "page_06.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 7,
-          "body_spans": 55,
+          "body_spans": 12,
           "preview": "page_07.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 8,
-          "body_spans": 80,
+          "body_spans": 48,
           "preview": "page_08.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         },
         {
           "page": 9,
-          "body_spans": 63,
+          "body_spans": 55,
           "preview": "page_09.png",
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page": 10,
+          "body_spans": 56,
+          "preview": "page_10.png",
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page": 11,
+          "body_spans": 85,
+          "preview": "page_11.png",
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page": 12,
+          "body_spans": 56,
+          "preview": "page_12.png",
+          "width_pt": 612.0,
+          "height_pt": 792.0
+        },
+        {
+          "page": 13,
+          "body_spans": 58,
+          "preview": "page_13.png",
           "width_pt": 612.0,
           "height_pt": 792.0
         }

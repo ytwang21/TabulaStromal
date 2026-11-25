@@ -6,6 +6,18 @@ import joblib
 import numpy as np
 import pandas as pd
 _HASHES = {}
+_WORKER_LOG = None
+
+
+def worker_logging(root,phase):
+    import logging,sys
+    global _WORKER_LOG
+    key=(os.getpid(),str(root),phase)
+    if _WORKER_LOG==key:return
+    _WORKER_LOG=key
+    logging.basicConfig(level=logging.INFO,force=True,
+        format='%(asctime)s | %(process)d | %(levelname)s | %(name)s | %(message)s',
+        handlers=[logging.FileHandler(Path(root)/'logs'/f'{phase}_{os.getpid()}.log'),logging.StreamHandler(sys.stdout)])
 
 
 def json_default(x):
@@ -22,14 +34,38 @@ def digest(x):
 
 def file_info(path):
     p = Path(path)
-    return dict(path=str(p.resolve()), size=p.stat().st_size, mtime_ns=p.stat().st_mtime_ns)
+    return dict(path=str(p.resolve()), size=p.stat().st_size, mtime_ns=p.stat().st_mtime_ns,ctime_ns=p.stat().st_ctime_ns)
+
+
+def annotation_identity(path, cfg):
+    """Hash actual annotation/category codes and gene IDs without loading expression.
+
+    Stat identity also covers matrix replacement. Annotation hashes explicitly
+    invalidate old pseudobulk/model checkpoints after Celltype relabeling.
+    """
+    import h5py
+    h=hashlib.sha256()
+    with h5py.File(path,'r') as f:
+        fields=set(v for v in cfg['fields'].values() if isinstance(v,str))
+        fields.update(cfg['fields'].get('age_fallbacks',[]));fields.update(['_index','tissue','sex'])
+        nodes=[f'obs/{x}' for x in sorted(fields) if x in f['obs']]
+        nodes += [x for x in ['var/_index','raw/var/_index'] if x in f]
+        def add(node):
+            h.update(node.name.encode())
+            if isinstance(node,h5py.Group):
+                for key in sorted(node):add(node[key])
+            else:
+                for start in range(0,node.shape[0],65536):
+                    arr=node[start:start+65536]
+                    if arr.dtype.kind in 'OSU':h.update(json.dumps([str(v) for v in arr]).encode())
+                    else:h.update(arr.tobytes())
+        for node in nodes:add(f[node])
+    return h.hexdigest()
 
 
 def file_hash(path):
     p = Path(path)
     st = p.stat()
-    # Atomic replacement can preserve size and timestamp ticks on a coarse
-    # filesystem. A new inode must never reuse the prior file's digest.
     key = (str(p.resolve()), st.st_dev, st.st_ino, st.st_size, st.st_mtime_ns, st.st_ctime_ns)
     if key in _HASHES: return _HASHES[key]
     h = hashlib.sha256()
@@ -74,12 +110,16 @@ class Cache:
     def __init__(self, signature, resume=True):
         self.signature, self.resume = signature, resume
         self.created = set()
+        self.started = time.time()
 
     def valid(self, marker):
         p = Path(marker)
-        if (not self.resume and str(p.resolve()) not in self.created) or not p.exists(): return False
+        if not p.exists(): return False
         try:
             d = json.loads(p.read_text())
+            # A worker's successful marker belongs to this fresh run even when
+            # its process-local `created` set cannot be returned to the driver.
+            if not self.resume and str(p.resolve()) not in self.created and d.get('completed_at',0)<self.started:return False
             if d.get('signature') != self.signature or d.get('status') != 'complete': return False
             for f in d.get('outputs', []):
                 child = Path(f['path'])
@@ -97,12 +137,24 @@ class Cache:
 
 
 @contextmanager
-def process_lock(path):
+def directory_lock(path):
+    """Lock the existing preprocessing directory: no extra lock files."""
+    import fcntl
+    p=Path(path);p.mkdir(parents=True,exist_ok=True);fd=os.open(p,os.O_RDONLY)
+    try:
+        fcntl.flock(fd,fcntl.LOCK_EX)
+        yield
+    finally:
+        fcntl.flock(fd,fcntl.LOCK_UN);os.close(fd)
+
+
+@contextmanager
+def process_lock(path,blocking=False):
     """fcntl releases the lock even after SIGKILL; lock files need not be deleted."""
     import fcntl
     p = Path(path); p.parent.mkdir(parents=True, exist_ok=True)
     with p.open('a+') as f:
-        try: fcntl.flock(f, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        try: fcntl.flock(f, fcntl.LOCK_EX | (0 if blocking else fcntl.LOCK_NB))
         except BlockingIOError: raise RuntimeError(f'Another pipeline owns {p}')
         f.seek(0); f.truncate(); f.write(str(os.getpid())); f.flush()
         yield

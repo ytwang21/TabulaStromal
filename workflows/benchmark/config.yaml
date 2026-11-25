@@ -39,6 +39,14 @@ resources:
   threads: 4
   device: cpu
   parallel_lineages: false
+  benchmark_workers: 2
+  external_workers: 2
+  bootstrap_workers: 2
+  tuning_workers: 1
+  mi_workers: 1
+  bootstrap_mi_workers: 1
+  external_scope: all
+  xgb_device: cpu
 models:
   names:
   - XGBoost
@@ -51,9 +59,9 @@ models:
   - GradientBoosting
   - Supervised_PCA_Ridge
   - SVR
-  - DeepSets
-  - Pseudobulk
-  - Ensemble
+  - IdealAge(DeepSets)
+  - IdealAge(Pseudobulk)
+  - IdealAge(Ensemble)
   tune_linear: true
   linear_alphas:
   - 0.01
@@ -110,3 +118,14 @@ enrichment:
   max_set_size: 3000
 figures:
   dpi: 350
+jungclock:
+  python_vendor: null
+  ontology: external_inputs/mbotc.csv
+  max_mem_size: 2G
+  min_genes: 10
+  ice_root: outputs/h2o
+  backend: official Python API to native Java H2O
+  protocol: JungClock-TabulaStromal-adapted
+  reference_commit: 1c42fb6841e13b81efbdef76e0d1c082c75d9405
+  reference_dir: external_inputs/plesa_clock
+  max_irlsm_features: 4000

@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-25",
   "status": "complete",
   "counts": {
-    "F1_StromalAtlas": 37668,
-    "F2_ModelPerformance": 217,
-    "F3_ds_analysis": 2235,
-    "TabulaStromal_Rebenchmark_2026": 1424326,
+    "F1_StromalAtlas": 38511,
+    "F2_ModelPerformance": 220,
+    "F3_ds_analysis": 2530,
+    "TabulaStromal_Rebenchmark_2026": 1107034,
     "CellAge_Exploration": 5132
   },
-  "total": 1469578,
-  "figure_files": 1745,
+  "total": 1153427,
+  "figure_files": 2089,
   "errors": [],
   "excluded_rules": [
     "F3_ds_analysis/**/VenEC_CLU_eye_audit/**",
@@ -17,7 +17,7 @@
   ],
   "excluded_descendants_scanned": false,
   "scope": "Actual metadata discovery in five allowed roots; excluded F3 trees pruned before traversal; content reads logged separately.",
-  "scanned_files": 1469578,
+  "scanned_files": 1153427,
   "source_roots": {
     "F1_StromalAtlas": "F1_StromalAtlas",
     "F2_ModelPerformance": "F2_ModelPerformance",

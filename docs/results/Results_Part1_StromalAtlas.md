@@ -30,4 +30,30 @@ These agreement estimates were retrospective. Reference annotations were marker-
 
 *Source record: [C0006](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
 
+## Marker-name curation preserves annotation structure
+
+A subsequent annotation review revised marker tokens while preserving the 32 fibroblast and 38 endothelial annotation units, their broad assignments and tissue suffixes. Marker-name changes affected 20 fibroblast units and 32 endothelial units, covering 3,020,209 and 2,000,407 cells. Candidate selection and review used Leiden-stratified discovery/validation samples of 27,500/13,750 fibroblast cells and 21,481/10,740 endothelial cells. The revised labels had no remaining between-unit marker-name collision or tissue-suffix mismatch. Positivity in this sampled review supports the choice of naming markers; it does not establish independent biological purity of every annotated cell.
+
+*Source record: [C0007](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+The annotation revision was propagated by exact cell-identity matching to training-reference objects containing 849,095 fibroblast and 314,925 endothelial cells. This operation updated annotation fields while retaining the target objects' existing clustering and expression. The saved clock and downstream feature lists remain indexed by their frozen, earlier Celltype names. We therefore retain those identifiers in model-specific results and use the annotation crosswalk to distinguish them from the updated atlas vocabulary. A changed naming marker is not evidence that a new biological state was discovered or that a frozen model was retrained.
+
+*Source record: [C0008](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+## Integration diagnostics reveal residual study structure
+
+Inspection of the full reference graphs showed that stored BBKNN construction used tissue, rather than GSE, as the batch key. Conditional diagnostics therefore evaluated residual study association within tissue-by-broad-state strata (Extended Data Fig. 4A,B). For matched queries with at least five compatible neighbors, same-study enrichment was 23.82-fold above the conditional random-mixing reference in fibroblasts (95% study-block bootstrap CI, 19.19–28.41) and 16.26-fold in endothelial cells (12.60–21.39). PCA reference values were 24.81 and 16.84, respectively. The modest reduction after graph integration did not remove substantial study-associated structure. Such structure may reflect technical effects and unmodeled biology; these diagnostics cannot uniquely separate them.
+
+*Source record: [C0009](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+Broad-label neighborhood retention in the stored graph was 0.959 and 0.953 at the strongest thirty neighbors, decreasing to 0.772 and 0.695 when as many as 390 neighbors were included. Integration assessment therefore depended on graph scale. Standard scIB metrics were additionally computed on matched reconstructed subsets of 32,863 fibroblast and 33,984 endothelial cells (Extended Data Fig. 4C), rather than on the original full graph. No scVI model was trained, because a verified full-reference raw-count input was unavailable. These results support reporting the atlas as an annotated integrated reference with residual study structure, rather than as a demonstrably batch-free population.
+
+*Source record: [C0010](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
+## External annotation processing is distinct from clock validation
+
+An updated query-label-transfer workflow retained 79,285 fibroblast cells from fourteen studies and 47,847 endothelial cells from eleven studies after numerical-age filtering. GSE-aware query BBKNN graphs were kept separate from a reference/query graph used for reference-neighbor voting. Cluster-level assignments yielded seventeen reference labels per lineage across 48 fibroblast and 93 endothelial Leiden clusters; 25 and 35 clusters, respectively, were flagged for low support and were nevertheless assigned their best available reference label. Vocabulary checks across sixty external objects confirmed label compatibility, not independent identity accuracy. These updated cell-level objects differ from the saved 93/77-sample clock-evaluation populations below; no new clock performance is inferred from the annotation transfer alone.
+
+*Source record: [C0011](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*
+
 References: [verified bibliography](References.md). Figures: [source-matched legends](Figure_Legends.md).

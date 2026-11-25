@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-19",
-  "scope": "Targeted workflow refresh; original five-root metadata scan and research metric tables retained",
+  "date": "2026-11-25",
+  "scope": "Workflow source rechecked as part of the full five-root evidence refresh",
   "source_file": "F2_ModelPerformance/overview/TabulaStromal_Workflow_V6.png",
   "source_bytes": 17656382,
   "source_sha256": "487581078ae97fc10b151149c6cf455deae0d382d5568193aa91983da86afe11",
@@ -16,11 +16,11 @@
   "transformation": "original PNG bytes unchanged",
   "previous_published_bytes": 1895697,
   "previous_published_sha256": "3406fd7562dedcb5559951b0ea50035d4bd65efa6a49526adc40039f59f9f94c",
-  "additional_content_files_read": 1,
+  "additional_content_files_read": 0,
   "supporting_metric_tables": [
     "F2_ModelPerformance/tables/Fig2_scatter_metrics.csv",
     "F2_ModelPerformance/tables/Fig2_workflow_external_metrics.csv"
   ],
   "visual_review": "Original source reviewed: updated lower development/external panels; upper external example and other conceptual artwork retained",
-  "metadata_scan_refreshed": false
+  "metadata_scan_refreshed": true
 }

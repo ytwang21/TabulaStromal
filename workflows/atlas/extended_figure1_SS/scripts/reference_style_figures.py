@@ -12,7 +12,6 @@ from pathlib import Path
 import time
 import numpy as np
 import pandas as pd
-from matplotlib.gridspec import GridSpec, GridSpecFromSubplotSpec
 from matplotlib.colors import Normalize, to_rgb, to_hex
 from matplotlib.patches import Patch
 from matplotlib.ticker import MaxNLocator
@@ -106,32 +105,67 @@ def select_umap_signatures(cfg,lin,rows):
     return selected
 
 
-def umap_panel(fig,cfg,lin,obs,rect):
-    """Rect uses (left,right,bottom,top) figure fractions."""
+def inch_axes(fig,left,bottom,width,height):
+    fw,fh=fig.get_size_inches()
+    return fig.add_axes([left/fw,bottom/fh,width/fw,height/fh])
+
+
+def inch_text(fig,x,y,text,**kwargs):
+    fw,fh=fig.get_size_inches()
+    return fig.text(x/fw,y/fh,text,**kwargs)
+
+
+def geometry():
+    """Shared physical dimensions; panels consume space according to content."""
+    g={'width':32.,'height':36.8,'left':.72,'right':.46,'lineage_gap':.95,
+       'umap_gap_x':.36,'umap_gap_y':.42,'colorbar_width':.11,
+       'colorbar_gap':.05,'colorbar_tick_space':.28,
+       'bar_gap_x':.35,'bar_gap_y':.48,'bar_bottom':1.12,'legend_y':.10}
+    # 2+3 UMAP columns and 7+6 bar-chart columns on independent horizontal grids.
+    usable=g['width']-g['left']-g['right']-g['lineage_gap']
+    g['umap_side']=(usable-3*g['umap_gap_x'])/5-g['colorbar_width']-g['colorbar_gap']-g['colorbar_tick_space']
+    g['umap_tile_width']=g['umap_side']+g['colorbar_width']+g['colorbar_gap']+g['colorbar_tick_space']
+    g['x_unit_inches']=(usable-11*g['bar_gap_x'])/(7*4+6*6)
+    g['umap_widths']={lin:n*g['umap_tile_width']+(n-1)*g['umap_gap_x'] for lin,n in [('fibro',2),('endo',3)]}
+    g['bar_widths']={lin:n*k*g['x_unit_inches']+(n-1)*g['bar_gap_x'] for lin,n,k in [('fibro',7,4),('endo',6,6)]}
+    g['umap_region_height']=3*g['umap_side']+2*g['umap_gap_y']
+    g['bar_height']=(g['umap_region_height']-7*g['bar_gap_y'])/8
+    g['umap_top']=g['height']-.95
+    g['umap_header_y']=g['height']-.33
+    g['bar_header_y']=g['bar_bottom']+g['umap_region_height']+.47
+    return g
+
+
+def umap_panel(fig,cfg,lin,obs,left,top,g):
     rows=np.load(sp.cache(cfg,lin)/'plot_rows.npy')
     xy=np.load(sp.cache(cfg,lin)/'umap.npy',mmap_mode='r')[rows]
     vals=select_umap_signatures(cfg,lin,rows)
     finite=np.concatenate([v[np.isfinite(v)] for v in vals.values()])
     vmax=max(1.,float(math.ceil(np.quantile(finite,.995)))) if len(finite) else 1.
-    norm=Normalize(0,vmax);nrows=2 if lin=='fibro' else 3
-    grid=GridSpec(nrows,3,figure=fig,left=rect[0],right=rect[1],bottom=rect[2],top=rect[3],wspace=.18,hspace=.20)
-    # Equal plotted limits for every signature of the same lineage; no per-map crop.
-    xmin,ymin=np.nanmin(xy,axis=0);xmax,ymax=np.nanmax(xy,axis=0)
-    dx=xmax-xmin;dy=ymax-ymin
+    norm=Normalize(0,vmax);ncols=2 if lin=='fibro' else 3;side=g['umap_side']
+    # Square padding preserves coordinates and isotropic aspect, while making
+    # the physical axes boxes identical between the two differently shaped UMAPs.
+    low=np.nanmin(xy,axis=0);high=np.nanmax(xy,axis=0)
+    center=(low+high)/2;radius=float(np.max(high-low))*.53
     for i,key in enumerate(UMAP_LAYOUT[lin]):
-        nested=GridSpecFromSubplotSpec(1,2,subplot_spec=grid[i//3,i%3],width_ratios=[1,.035],wspace=.025)
-        ax=fig.add_subplot(nested[0]);cax=fig.add_subplot(nested[1])
+        x=left+(i%ncols)*(g['umap_tile_width']+g['umap_gap_x'])
+        y=top-(i//ncols+1)*side-(i//ncols)*g['umap_gap_y']
+        ax=inch_axes(fig,x,y,side,side)
+        cax=inch_axes(fig,x+side+g['colorbar_gap'],y,g['colorbar_width'],side)
         scatter=ax.scatter(*xy.T,c=vals[key],s=.65,cmap='viridis',norm=norm,linewidths=0,rasterized=True)
         cb=fig.colorbar(scatter,cax=cax,extend='max');cb.ax.tick_params(labelsize=9,length=2,pad=2)
         cb.locator=MaxNLocator(nbins=4);cb.update_ticks()
         if cb.solids is not None:cb.solids.set_rasterized(False)
         ax.set_title(key,fontsize=15,pad=4,fontweight='normal')
-        ax.set_xlim(xmin-dx*.03,xmax+dx*.03);ax.set_ylim(ymin-dy*.03,ymax+dy*.03)
+        ax.set_xlim(center[0]-radius,center[0]+radius);ax.set_ylim(center[1]-radius,center[1]+radius)
         ax.set_aspect('equal',adjustable='box');ax.set_xticks([]);ax.set_yticks([])
         for spine in ax.spines.values():spine.set_visible(False)
+        ax._signature_geometry={'kind':'umap','lineage':lin,'signature':key}
     sp.dump(sp.root(cfg)/f'data/plot_reference_umap_display_{lin}.json',
             {'color_vmin':0,'color_vmax':vmax,'color_strategy':'shared within lineage, ceil pooled99.5percentile; display saturation only',
              'n_sampled_cells':len(rows),'n_atlas_cells':len(obs),'panel_layout':UMAP_LAYOUT[lin],
+             'grid_rows':3,'grid_columns':ncols,'physical_axes_inches':[side,side],
+             'coordinate_display':'original coordinates, isotropic square padding; no deformation',
              'subtype_score_source':str(sp.cache(cfg,lin)/'figure_mean.npy'),
              'method':'mean log expression; no clipping or annotation-dependent score changes'})
 
@@ -144,83 +178,130 @@ def format_value(value):
     return f'{value:.2f}'
 
 
-def bar_panel(fig,cfg,lin,table,rect,ncols=6,nrows=None,legend_y=.025):
+def bar_panel(fig,cfg,lin,table,left,top,g):
     order=BAR_ORDER[lin];pal=sp.read_json(sp.root(cfg)/'audit/fig1_v2_colors.json')['general_colors']
-    nrows=nrows or math.ceil(len(table)/ncols)
-    grid=GridSpec(nrows,ncols,figure=fig,left=rect[0],right=rect[1],bottom=rect[2],top=rect[3],wspace=.30,hspace=.64)
+    ncols=7 if lin=='fibro' else 6;axwidth=len(order)*g['x_unit_inches']
     values=table[[f'mean_{s}' for s in order]].to_numpy()
     if np.nanmin(values)<0:raise ValueError('Negative mean-log score; refuse to hide negative scores')
     ylim=float(np.nanmax(values))*1.25
     for i,row in table.iterrows():
-        ax=fig.add_subplot(grid[i//ncols,i%ncols]);v=values[i]
+        x=left+(i%ncols)*(axwidth+g['bar_gap_x'])
+        y=top-(i//ncols+1)*g['bar_height']-(i//ncols)*g['bar_gap_y']
+        ax=inch_axes(fig,x,y,axwidth,g['bar_height']);v=values[i]
         ax.set_facecolor(pale(pal[row['Celltype_general']]))
         bars=ax.bar(np.arange(len(order)),v,color=[pal[s] for s in order],width=.69,edgecolor='#333333',linewidth=.45)
         best=float(np.nanmax(v))
         for j,(bar,val) in enumerate(zip(bars,v)):
-            top=np.isfinite(val) and np.isclose(val,best,atol=1e-10,rtol=0)
-            if top:bar.set_linewidth(1.1)
+            top_value=np.isfinite(val) and np.isclose(val,best,atol=1e-10,rtol=0)
+            if top_value:bar.set_linewidth(1.1)
             if np.isfinite(val):
                 text=format_value(val)
-                ax.text(j,val+ylim*.022,text,ha='center',va='bottom',fontsize=10 if top else (7 if len(text)>5 else 8),color='black')
+                ax.text(j,val+ylim*.022,text,ha='center',va='bottom',fontsize=11 if top_value else (7 if len(text)>5 else 9),color='black')
             else:ax.text(j,ylim*.02,'NA',ha='center',fontsize=8)
         suffix='' if row['annotation_matches_highest'] else ' †'
         if row['n_Celltype_general']>1:suffix+=' [mixed]'
         title=row['panel_title']+suffix
         ax.set_title(title,fontsize=9 if len(title)<36 else 8,pad=5,fontweight='normal')
-        ax.set_ylim(0,ylim);ax.set_xlim(-.65,len(order)-.35)
+        # Identical physical x-unit size gives exactly equal bar width across
+        # four- and six-signature panels. D axes are 6/4 times as wide as C axes.
+        ax.set_ylim(0,ylim);ax.set_xlim(-.5,len(order)-.5)
         ax.set_xticks([]);ax.yaxis.set_major_locator(MaxNLocator(nbins=3))
-        ax.tick_params(axis='y',labelsize=8,length=2,pad=2)
-        if i%ncols==0:ax.set_ylabel('Signature score',fontsize=9,labelpad=3)
+        ax.tick_params(axis='y',labelsize=9,length=2,pad=2)
+        if i%ncols==0:ax.set_ylabel('Signature score',fontsize=10,labelpad=3)
         ax.grid(axis='y',lw=.45,alpha=.27);ax.set_axisbelow(True)
         ax.spines['top'].set_visible(False);ax.spines['right'].set_visible(False)
         ax.spines['left'].set_linewidth(.6);ax.spines['bottom'].set_linewidth(.6)
-    mid=(rect[0]+rect[1])/2;width=rect[1]-rect[0]
-    for handles,x,title in [([Patch(facecolor=pal[s],label=s) for s in order],mid-width*.25,'marker_list'),
-                            ([Patch(facecolor=pale(pal[s]),label=s) for s in order],mid+width*.25,'Celltype')]:
-        legend=fig.legend(handles=handles,loc='lower center',bbox_to_anchor=(x,legend_y),ncol=2 if len(order)==4 else 3,
+        ax._signature_geometry={'kind':'barplot','lineage':lin,'leiden':str(row['leiden'])}
+    fw,fh=fig.get_size_inches();width=g['bar_widths'][lin]
+    for handles,x,title in [([Patch(facecolor=pal[s],label=s) for s in order],left+width*.25,'marker_list'),
+                            ([Patch(facecolor=pale(pal[s]),label=s) for s in order],left+width*.75,'Celltype')]:
+        legend=fig.legend(handles=handles,loc='lower center',bbox_to_anchor=(x/fw,g['legend_y']/fh),ncol=len(order),
                           fontsize=12,title=title,title_fontsize=13,frameon=True,fancybox=True,
                           handlelength=1.1,columnspacing=1.0,framealpha=1,borderpad=.6)
         legend.get_frame().set_edgecolor('#777777');legend.get_frame().set_linewidth(.7)
+        legend._signature_geometry={'kind':'legend','lineage':lin,'title':title,'n_items':len(order)}
+
+
+def validate_geometry(fig,label):
+    """Measure final rendered axes and bar transforms, not just grid settings."""
+    fig.canvas.draw();fw,fh=fig.get_size_inches();umaps=[];charts=[];legends=[]
+    for ax in fig.axes:
+        meta=getattr(ax,'_signature_geometry',None)
+        if not meta:continue
+        pos=ax.get_position();row={**meta,'width_inches':pos.width*fw,'height_inches':pos.height*fh,
+                                  'left_inches':pos.x0*fw,'bottom_inches':pos.y0*fh}
+        if meta['kind']=='umap':umaps.append(row)
+        else:
+            row['bar_width_inches']=[abs(ax.transData.transform((b.get_x()+b.get_width(),0))[0]-ax.transData.transform((b.get_x(),0))[0])/fig.dpi for b in ax.patches]
+            charts.append(row)
+    for legend in fig.legends:
+        meta=getattr(legend,'_signature_geometry',None)
+        if not meta:continue
+        labels=legend.get_texts();centers=[t.get_window_extent(fig.canvas.get_renderer()).y0 for t in labels]
+        assert np.ptp(centers)<1e-7,'Legend entries wrap to multiple rows'
+        box=legend.get_window_extent(fig.canvas.get_renderer())
+        assert box.x0>=0 and box.x1<=fw*fig.dpi and box.y0>=0,'Legend outside canvas'
+        legends.append({**meta,'n_columns':legend._ncols,'single_row':True})
+    assert umaps and charts and legends
+    np.testing.assert_allclose([r['width_inches'] for r in umaps],umaps[0]['width_inches'],rtol=0,atol=1e-9)
+    np.testing.assert_allclose([r['height_inches'] for r in umaps],umaps[0]['height_inches'],rtol=0,atol=1e-9)
+    np.testing.assert_allclose([r['height_inches'] for r in charts],charts[0]['height_inches'],rtol=0,atol=1e-9)
+    bars=[v for r in charts for v in r['bar_width_inches']]
+    np.testing.assert_allclose(bars,bars[0],rtol=0,atol=1e-9)
+    dims={lin:next(r['width_inches'] for r in charts if r['lineage']==lin) for lin in dict.fromkeys(r['lineage'] for r in charts)}
+    if len(dims)==2:np.testing.assert_allclose(dims['endo']/dims['fibro'],1.5,rtol=0,atol=1e-9)
+    umap_span=max(r['bottom_inches']+r['height_inches'] for r in umaps)-min(r['bottom_inches'] for r in umaps)
+    bar_span=max(r['bottom_inches']+r['height_inches'] for r in charts)-min(r['bottom_inches'] for r in charts)
+    np.testing.assert_allclose(bar_span,umap_span,rtol=0,atol=1e-9)
+    logging.info('%s geometry verified: UMAP %.4f × %.4f in; bars %.4f in; subplot height %.4f in',label,umaps[0]['width_inches'],umaps[0]['height_inches'],bars[0],charts[0]['height_inches'])
+    return {'passed':True,'figure_inches':[fw,fh],'n_UMAPs':len(umaps),'n_Leiden_panels':len(charts),
+            'UMAP_width_inches':umaps[0]['width_inches'],'UMAP_height_inches':umaps[0]['height_inches'],
+            'bar_width_inches':bars[0],'Leiden_panel_height_inches':charts[0]['height_inches'],
+            'UMAP_region_height_inches':umap_span,'Leiden_region_height_inches':bar_span,
+            'Leiden_to_UMAP_region_height_ratio':bar_span/umap_span,
+            'Leiden_panel_width_inches':dims,'legends':legends,'UMAPs':umaps,'Leiden_panels':charts}
 
 
 def make_figures(cfg,loaded):
-    plt=sp.plotting_setup();r=sp.root(cfg)
-    # One page, four panels. All 99 clusters remain, with space for full titles.
-    fig=plt.figure(figsize=(36,27))
-    for lin,left,right,a,b in [('fibro',.040,.477,'A','C'),('endo',.547,.984,'B','D')]:
-        obs,table=loaded[lin]
-        fig.text(left-.025,.978,a,fontsize=31,va='center',fontweight='normal')
-        fig.text((left+right)/2,.978,sp.LABELS[lin],fontsize=21,ha='center',va='center')
-        umap_panel(fig,cfg,lin,obs,(left,right,.665,.948))
-        fig.text(left-.025,.617,b,fontsize=31,va='center',fontweight='normal')
-        fig.text((left+right)/2,.617,'Signature score of '+sp.LABELS[lin]+' subtype markers',fontsize=19,ha='center',va='center')
-        bar_panel(fig,cfg,lin,table,(left,right,.105,.585),ncols=6 if lin=='fibro' else 5,nrows=10,legend_y=.020)
-        fig.text((left+right)/2,.075,
-            f"All Leiden clusters: {int(table.annotation_matches_highest.sum())}/{len(table)} match reference; † discordant",
-            fontsize=12,ha='center',va='center')
-    dest=r/'figures/integrated/ExtFig1_SignatureScore_Fibro_Endo'
-    sp.save_figure(fig,dest,cfg);plt.close(fig)
-    # Separate downloads inherit the same A/C and B/D panel letters.
-    for lin,a,b in [('fibro','A','C'),('endo','B','D')]:
-        obs,table=loaded[lin];fig=plt.figure(figsize=(20,24));left=.060;right=.975
-        fig.text(.018,.979,a,fontsize=29,va='center')
-        fig.text(.52,.979,sp.LABELS[lin],fontsize=21,ha='center',va='center')
-        umap_panel(fig,cfg,lin,obs,(left,right,.668,.945))
-        fig.text(.018,.620,b,fontsize=29,va='center')
-        fig.text(.52,.620,'Signature score of '+sp.LABELS[lin]+' subtype markers',fontsize=19,ha='center',va='center')
-        bar_panel(fig,cfg,lin,table,(left,right,.105,.585),ncols=6 if lin=='fibro' else 5,nrows=10,legend_y=.020)
-        fig.text(.52,.075,f"All Leiden clusters: {int(table.annotation_matches_highest.sum())}/{len(table)} match reference; † discordant",fontsize=12,ha='center',va='center')
-        sp.save_figure(fig,r/f'figures/panels/ExtFig1_SignatureScore_{sp.LABELS[lin]}',cfg);plt.close(fig)
+    plt=sp.plotting_setup();r=sp.root(cfg);g=geometry();metrics={}
+    nr=max(math.ceil(len(loaded[lin][1])/(7 if lin=='fibro' else 6)) for lin in loaded)
+    bar_top=g['bar_bottom']+nr*g['bar_height']+(nr-1)*g['bar_gap_y']
+    for which in ['integrated','fibro','endo']:
+        lineages=['fibro','endo'] if which=='integrated' else [which]
+        width=g['width'] if which=='integrated' else max(g['umap_widths'][which],g['bar_widths'][which])+g['left']+g['right']
+        fig=plt.figure(figsize=(width,g['height']))
+        for lin in lineages:
+            obs,table=loaded[lin]
+            if which=='integrated':
+                ux=g['left'] if lin=='fibro' else g['left']+g['umap_widths']['fibro']+g['lineage_gap']
+                bx=g['left'] if lin=='fibro' else g['left']+g['bar_widths']['fibro']+g['lineage_gap']
+            else:
+                ux=(width-g['umap_widths'][lin])/2;bx=(width-g['bar_widths'][lin])/2
+            a,b=('A','C') if lin=='fibro' else ('B','D')
+            inch_text(fig,ux-.40,g['umap_header_y'],a,fontsize=31,va='center',fontweight='normal')
+            inch_text(fig,ux+g['umap_widths'][lin]/2,g['umap_header_y'],sp.LABELS[lin],fontsize=21,ha='center',va='center')
+            umap_panel(fig,cfg,lin,obs,ux,g['umap_top'],g)
+            inch_text(fig,bx-.40,g['bar_header_y'],b,fontsize=31,va='center',fontweight='normal')
+            inch_text(fig,bx+g['bar_widths'][lin]/2,g['bar_header_y'],'Signature score of '+sp.LABELS[lin]+' subtype markers',fontsize=19,ha='center',va='center')
+            bar_panel(fig,cfg,lin,table,bx,bar_top,g)
+            inch_text(fig,bx+g['bar_widths'][lin]/2,.84,
+                f"All Leiden clusters: {int(table.annotation_matches_highest.sum())}/{len(table)} match reference; † discordant",
+                fontsize=12,ha='center',va='center')
+        metrics[which]=validate_geometry(fig,which)
+        path=r/'figures/integrated/ExtFig1_SignatureScore_Fibro_Endo' if which=='integrated' else r/f'figures/panels/ExtFig1_SignatureScore_{sp.LABELS[which]}'
+        sp.save_figure(fig,path,cfg);plt.close(fig)
+    return metrics
 
 
-def write_figure_report(cfg,loaded):
+def write_figure_report(cfg,loaded,geometry_metrics=None):
     r=sp.root(cfg);table=pd.concat([loaded[lin][1] for lin in ['fibro','endo']],ignore_index=True)
     table.to_csv(r/'data/plot_reference_cluster_check.csv',index=False)
-    lines=['# A–D layout and global marker comparison — 2026-11-06','',
+    lines=['# A–D layout and global marker comparison — 2026-11-24','',
         '原路径PNG/PDF已覆盖；主图为一页A–D，按上排A/B、下排C/D排列。分图沿用主图字母A/C与B/D。','',
-        'A：Fibroblast ECM、AP、Myfibro、eFibro、iFibro、qFibro，2×3 UMAP。',
+        'A：Fibroblast ECM、AP、Myfibro、eFibro、iFibro、qFibro，3×2 UMAP。',
         'B：Endothelial AP、Tip、Stalk、ArtEC、CapEC、VenEC、EndoMT、MCs、LEC，3×3 UMAP。',
         'C/D：分别为Fibroblast/Endothelial全部Leiden；每个标题严格使用`Celltype + "_C" + leiden`。', '',
+        '2026-11-24版式：A为3行×2列、B为3行×3列；所有UMAP的绘图区宽高严格相同，原坐标只作等比例方形留白。上方按2:3列数分配空间。C每行7个Leiden、D每行6个；共用同一物理x单位和小图高度，D的6柱小图宽度为C的4柱小图的1.5倍。C/D小图加高约61%，柱图区与UMAP区的总高度均为16.794英寸；画布纵向延长至36.8英寸，柱图数值与y轴标签适当放大。底部marker_list和Celltype图例中的4/6个亚型各排成单行。实测轴框、全部柱宽和图例行数保存在logs/reference_layout_update.json的physical_geometry中。', '',
         '所有亚型UMAP与柱图使用同一套新marker、同一批真实单细胞评分。柱值为该Leiden全部细胞的未加权mean-log表达均值；柱色继承Fig1 v2；浅色背景为原Celltype_general。黑色轮廓与较大数值标出真实最高值；†标记与参考注释不一致。', '',
         '## Marker组合比较方法与边界','',
         '从真实notebook、用户候选表、Fig1 v2和既有训练gene-QC构建有限候选池；每个亚型候选先接受训练GSE的表达覆盖、配对效应与稳定性QC；之前的基线明确保留为对照。以训练GSE等权一致率及亚型平衡项选择全局组合，每个亚型一份名单用于所有细胞。Fibroblast穷举固定候选池；Endothelial使用有停止条件的多起点坐标搜索，不声称穷举全部组合。', '',
@@ -255,6 +336,11 @@ def write_figure_report(cfg,loaded):
              'annotation_changed':False,'label_dependent_score_boost':False,'pdf_pages':1,
              'panels':{lin:{'n_clusters':len(loaded[lin][1]),'n_matching_clusters':int(loaded[lin][1].annotation_matches_highest.sum())} for lin in ['fibro','endo']},
              'updated_at':time.strftime('%Y-%m-%d %H:%M:%S')}
+    if geometry_metrics is None:
+        previous=r/'logs/reference_layout_update.json'
+        geometry_metrics=sp.read_json(previous).get('physical_geometry',{}) if previous.exists() else {}
+    summary['physical_geometry']=geometry_metrics
+    summary['layout_updated_date']='2026-11-24'
     sp.dump(r/'logs/reference_layout_update.json',summary)
     refresh_current_documentation(cfg)
 
@@ -272,13 +358,13 @@ def refresh_current_documentation(cfg):
     rates={lin:next(x['GSE_equal_top1'] for x in figures[lin]['comparison'] if x['split']=='holdout' and x['marker_version']=='selected_global_combination') for lin in figures}
     matched={lin:f"{summary['panels'][lin]['n_matching_clusters']}/{summary['panels'][lin]['n_clusters']}" for lin in figures}
     note=('<!-- CURRENT_FIGURE_START -->\n'
-          '## 当前绘图版本：2026-11-06，单页 A–D\n\n'
+          '## 当前绘图版本：2026-11-24，单页 A–D\n\n'
           'A为Fibroblast ECM/AP/4亚型UMAP；B为Endothelial AP/Tip/Stalk/6亚型UMAP；C/D分别为全部Leiden柱状图。'
           '本图使用新的训练GSE组合选择名单 `*_subtype_markers_figure.json` 与 `figure_mean.npy`，'
           '与下方历史基线 `*_subtype_markers_final.json` / mean/module统计区分。'
           f"新名单保留GSE一致率：Fibroblast {rates['fibro']:.2%}，Endothelial {rates['endo']:.2%}；全部Leiden一致数{matched['fibro']}、{matched['endo']}。"
           '†反例保留，没有按标签加分。详见 [当前图形与组合验证报告](reference_layout_report.md)。\n\n'
-          '以下正文保留2026-11-04基线Phase0–5分析；其分数及状态不应解释为本次新名单的统计。\n'
+          '以下正文为按原Phase0–5方法、在2026-11-21新注释对象上重新汇总验证的基线；其分数及状态与组合选择名单分开报告。\n'
           '<!-- CURRENT_FIGURE_END -->\n\n')
     for name in ['run_summary.md','marker_selection_report.md','annotation_validation_report.md']:
         path=r/'reports'/name;text=path.read_text()
@@ -295,7 +381,7 @@ def render_reference_figures(cfg,lineages):
     for lin in ['fibro','endo']:
         search.prepare(cfg,lin,resume=True)
         loaded[lin]=load_inputs(cfg,lin)
-    make_figures(cfg,loaded);write_figure_report(cfg,loaded)
+    metrics=make_figures(cfg,loaded);write_figure_report(cfg,loaded,metrics)
 
 
 if __name__=='__main__':

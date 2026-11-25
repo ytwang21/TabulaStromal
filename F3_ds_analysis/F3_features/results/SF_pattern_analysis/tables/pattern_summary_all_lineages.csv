@@ -1,0 +1,7 @@
+Lineage,Pattern,n_features,n_unique_genes,n_celltypes,median_stage_contrast,median_bootstrap_support,n_bootstrap_support_ge_08,n_any_single_proxy_age_group,median_LOO_support,n_conservative
+Fibroblast,Young-high,183,171,17,0.984270862167086,0.9958677685950413,167,73,1.0,81
+Fibroblast,Middle-high,43,41,16,0.7275684115657274,0.808,23,17,1.0,19
+Fibroblast,Old-high,294,273,21,1.2157660499744418,0.984,255,59,1.0,203
+Endothelial,Young-high,34,34,8,1.0480046556589706,1.0,31,30,1.0,4
+Endothelial,Middle-high,21,21,8,0.7238843095529279,0.908,14,12,1.0,3
+Endothelial,Old-high,106,102,13,1.1295254783843358,0.972,92,38,1.0,9

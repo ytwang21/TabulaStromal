@@ -117,7 +117,7 @@ def main():
                 rows=[r for r in rows if r.get('scope')=='global'] if dst.name=='global_pathway_enrichment.csv' else [r for r in rows if r.get('q','') not in ('','nan') and float(r['q'])<.05]
                 write_csv(dst,[{k:clean(v) for k,v in r.items()} for r in rows],fields)
             else:dst.write_text(clean(src.read_text()))
-            kind = 'aggregate_table' if suffix=='.csv' else 'source_metadata'
+            kind = 'aggregate_table' if suffix in {'.csv','.tsv'} else 'source_metadata'
             transformation = 'aggregate/evidence text with personal server paths generalized; numeric strings retained'
         record = dict(module=module, repository_file=str(destination), source_file=rel(src),
                       bytes=dst.stat().st_size, sha256=sha(dst), source_sha256=sha(src), kind=kind,
@@ -152,17 +152,17 @@ def main():
 
     f3=project/'F3_ds_analysis'; ppt_sources=json.loads((f3/'TabulaStromal_F3_PPT_sources.json').read_text())
     slides = ppt_sources if isinstance(ppt_sources,list) else ppt_sources.get('slides',ppt_sources.get('slide_sources'))
-    assert slides and len(slides)==40
+    assert slides and len(slides)==56
     placed = []
     for slide in slides:
         for im in slide.get('images',[]):
             p=f3/im['path']; assert sha(p)==im['sha256']; placed.append(str(p))
             for q in [p,p.with_suffix('.pdf')]:
                 if q.exists(): export(q,q.relative_to(project),'F3_ds_analysis','Current F3; see complete correction family and eligibility in Results/legends')
-    assert len(placed)==54 and len(set(placed))==52
+    assert len(placed)==74 and len(set(placed))==72
     for name in ['TabulaStromal_F3_Downstream_Results_20261119.pptx','TabulaStromal_F3_PPT_slide_index.csv',
                  'TabulaStromal_F3_PPT_sources.json','TabulaStromal_F3_PPT_validation.json']:
-        export(f3/name,Path('F3_ds_analysis')/name,'F3_ds_analysis','40-slide downstream summary; navigation rather than statistical primary evidence')
+        export(f3/name,Path('F3_ds_analysis')/name,'F3_ds_analysis','56-slide downstream summary; navigation rather than statistical primary evidence')
 
     feature=f3/'F3_features'; fn=feature/'functional_network_20261118'
     lisa=f3/'TF_analysis/stable_celltype_LISA2_20261118'; ecm=f3/'2026_Nat Aging_HAECA/stromal_ECM_20261118'; cell=feature/'ModelFeature_cellAge'
@@ -187,6 +187,32 @@ def main():
     for p in selected:
         export(p,p.relative_to(project),'F3_ds_analysis','Current aggregate F3 evidence; no cell/sample-level observations')
 
+    # New reviewed aggregate evidence. Individual observations and private caches stay local.
+    for dirname in ['CelltypeAnno','batchRemove']:
+        root=project/'F1_StromalAtlas'/dirname
+        aggregate=[]
+        if dirname=='CelltypeAnno':
+            aggregate=[root/'combined_summary.tsv',root/'acceptance_checks.json',root/'training_annotation_sync_20261122.json',root/'fibro/annotation_mapping.tsv',root/'endo/annotation_mapping.tsv',root/'exter_valid/bbknn_transfer_20261123/combined_summary.tsv']
+        else:aggregate=sorted((root/'tables').glob('*.csv'))
+        for source in aggregate:
+            export(source,Path('F1_StromalAtlas/tables')/(dirname+'_'+('_'.join(source.relative_to(root).parts))),'F1_StromalAtlas','Annotation naming update / residual-study diagnostics; see Results Part 1')
+        if dirname=='batchRemove':
+            for source in sorted((root/'figures').glob('*')):
+                if source.suffix in {'.png','.pdf'}:export(source,Path('F1_StromalAtlas/figures')/source.name,'F1_StromalAtlas','Full-reference graph or reconstructed matched-subset diagnosis; no scVI')
+    pattern=feature/'results/SF_pattern_analysis'
+    for source in sorted(pattern.rglob('*')):
+        if not source.is_file():continue
+        if source.suffix in {'.png','.pdf'} or (source.suffix=='.csv' and source.parent.name=='tables' and not any(term in source.name for term in ['GSE_by','tissue_by','leave_one_GSE','source_displayed_row'])):
+            export(source,source.relative_to(project),'F3_ds_analysis','Pattern assignments and complete-background enrichment; postselection reliability analysis')
+    exploration=f3/'exploration'
+    for source in sorted(exploration.glob('task*/all_tests.csv')):
+        export(source,source.relative_to(project),'F3_ds_analysis','Full task candidate family; main and sensitivity scopes separate; no individual observations')
+    for source in sorted(exploration.glob('task*/**/*')):
+        if source.is_file() and source.suffix in {'.png','.pdf'} and source.parent.name=='figures':
+            export(source,source.relative_to(project),'F3_ds_analysis','Exploratory associations; source-specific correction families and unavailable tests retained')
+    for name in ['analysis_config.json','validation_report.json','software_versions.json']:
+        export(exploration/name,Path('F3_ds_analysis/exploration')/name,'F3_ds_analysis','Six-task configuration/validation metadata; no raw records')
+
     bench=project/roots['TabulaStromal_Rebenchmark_2026']
     for short,folder in [('Fibro','Fibro_Accelerated_20261102/results/Fibro'),('Endo','Endo')]:
         for name in ['performance_first_features.csv','performance_first_summary.csv','performance_first_protocol.json','performance_first_celltypes.csv']:
@@ -201,7 +227,7 @@ def main():
     assert not any(re.search(r'(?<![A-Za-z0-9])GSM\d+|sample_id=|cellid=', ' '.join(r.values())) for r in evidence)
     export(manuscript/'evidence_registry.csv',Path('evidence/evidence_registry.csv'),'audit','Aggregate evidence; current/historical sources distinguished')
     for name in ['numeric_and_statistical_checks.csv','manuscript_numeric_consistency.csv','references_verified.csv']:
-        export(manuscript/name,Path('audit')/name,'audit','Verified source snapshot 2026-11-19')
+        export(manuscript/name,Path('audit')/name,'audit','Verified source snapshot 2026-11-25')
     for module in MODULES:
         subset=[{k:clean(v) for k,v in r.items()} for r in evidence if module_of(r['source_file'])==module]
         destination=Path(module)/'evidence/evidence_registry.csv'
@@ -233,7 +259,7 @@ def main():
                 blocks.append('*Source record: ['+r['claim_id']+'](../../audit/claim_to_evidence_report.csv); figure files are indexed in the [panel manifest](../../audit/figure_manifest.csv).*')
         blocks.append('References: [verified bibliography](References.md). Figures: [source-matched legends](Figure_Legends.md).')
         (ROOT/'docs/results'/(new+'.md')).write_text('\n\n'.join(blocks)+'\n')
-    assert len(public_claims)==32,(len(public_claims),'paragraph/table mappings')
+    assert len(public_claims)==len(current_claims),(len(public_claims),'paragraph/table mappings')
     write_csv(ROOT/'audit/claim_to_evidence_report.csv',public_claims)
     for old,new in [('08_Figure_Legends.md','Figure_Legends.md'),('09_References.md','References.md')]:
         (ROOT/'docs/results'/new).write_text(clean((manuscript/old).read_text()))
@@ -281,11 +307,11 @@ def main():
         write_csv(ROOT/module/'audit/file_inventory.csv',[r for r in read_rows if r['module']==module],list(read_rows[0]))
         write_csv(ROOT/module/'audit/figure_inventory.csv',[r for r in candidates if r['module']==module],list(candidates[0]))
         write_csv(ROOT/module/'audit/released_assets.csv',[r for r in assets.values() if r['module']==module],list(next(iter(assets.values()))))
-    release=dict(date='2026-11-19',modules=MODULES,exclusions=EXCLUSIONS,source_files=count,
+    release=dict(date='2026-11-25',modules=MODULES,exclusions=EXCLUSIONS,source_files=count,
         source_reads_reverified=len(source_reads),evidence_records=len(evidence),claim_mappings=len(public_claims),
         figure_candidates=len(candidates),original_figure_files=sum(r['kind']=='figure' for r in assets.values()),
         aggregate_tables=sum(r['kind']=='aggregate_table' for r in assets.values()),presentations=sum(r['kind']=='presentation' for r in assets.values()),
-        downstream_slides=40,downstream_image_placements=54,downstream_unique_original_images=52,
+        downstream_slides=len(slides),downstream_image_placements=len(placed),downstream_unique_original_images=len(set(placed)),
         raw_data_or_individual_predictions_published=False,complete_inventory_public=False)
     (ROOT/'audit/current_release.json').write_text(json.dumps(release,indent=2)+'\n')
     print(json.dumps(release,indent=2))

@@ -51,7 +51,7 @@ def main():
     check('Evidence IDs unique',len(ids)==len(evidence)==release['evidence_records'])
     check('Aggregate evidence has no individual IDs',not any(re.search(r'(?<![A-Za-z0-9])GSM\d+|sample_id=|cellid=',' '.join(r.values())) for r in evidence))
     claims=rows('audit/claim_to_evidence_report.csv')
-    check('All current Results paragraphs and tables mapped',len(claims)==release['claim_mappings']==32)
+    check('All current Results paragraphs and tables mapped',len(claims)==release['claim_mappings']==47)
     for r in claims:
         check('Current claim text '+r['claim_id'],r['claim_text'] in (ROOT/r['section_file']).read_text())
         check('Claim evidence resolves '+r['claim_id'],bool(r['claim_ids']) and set(r['claim_ids'].split(';'))<=ids)
@@ -64,8 +64,8 @@ def main():
     ecm=f3/'2026_Nat Aging_HAECA/stromal_ECM_20261118';cell=f3/'F3_features/ModelFeature_cellAge'
     sources=json.loads((ROOT/f3/'TabulaStromal_F3_PPT_sources.json').read_text());expected_images={im['sha256'] for slide in sources for im in slide['images']}
     with ZipFile(ROOT/f3/'TabulaStromal_F3_Downstream_Results_20261119.pptx') as z:
-        check('Forty-slide public presentation',sum(bool(re.fullmatch(r'ppt/slides/slide\d+\.xml',n)) for n in z.namelist())==40)
-        check('PPT scientific images unchanged',{sha256(z.read(n)).hexdigest() for n in z.namelist() if n.startswith('ppt/media/')}==expected_images and len(expected_images)==52)
+        check('Fifty-six-slide public presentation',sum(bool(re.fullmatch(r'ppt/slides/slide\d+\.xml',n)) for n in z.namelist())==release['downstream_slides']==56)
+        check('PPT scientific images unchanged',{sha256(z.read(n)).hexdigest() for n in z.namelist() if n.startswith('ppt/media/')}==expected_images and len(expected_images)==release['downstream_unique_original_images']==72)
     for slide in sources:
         for im in slide['images']:check('PPT original source '+im['path'],sha256((ROOT/f3/im['path']).read_bytes()).hexdigest()==im['sha256'])
     fit=rows('F2_ModelPerformance/tables/Fig2_scatter_metrics.csv');external=rows('F2_ModelPerformance/tables/Fig2_workflow_external_metrics.csv')
@@ -98,6 +98,19 @@ def main():
     for metric in sorted({r['Metric'] for r in primary}):
         group=[r for r in primary if r['Metric']==metric];correction('Current CellAge metric BH '+metric,group)
         if metric!='relative_hUSI':check('No primary corrected age effect '+metric,not any(r['FDR'] not in ('','nan') and float(r['FDR'])<=.05 for r in group))
+    # New complete exploratory families are independently recalculated here.
+    from collections import defaultdict
+    for p in sorted((ROOT/f3/'exploration').glob('task*/all_tests.csv')):
+        records=rows(p.relative_to(ROOT));families=defaultdict(list)
+        for r in records:
+            key=(r.get('Scope'),r.get('Metric')) if p.parent.name.startswith('task01') else (r.get('Scope'),) if p.parent.name.startswith(('task05','task06')) else ('all',)
+            families[key].append(r)
+        for key,group in families.items():correction('Exploration complete BH '+p.parent.name+str(key),group)
+    for p in sorted((ROOT/f3/'F3_features/results/SF_pattern_analysis').glob('*/tables/enrichment_*.csv')):
+        if 'significant' in p.stem:continue
+        families=defaultdict(list)
+        for r in rows(p.relative_to(ROOT)):families[r['Database']].append(r)
+        for lib,group in families.items():correction('Pattern full BH '+str(p.relative_to(ROOT))+lib,group,q='FDR_lineage_database_3patterns')
     for p in (ROOT/'docs/results').glob('*.docx'):
         with ZipFile(p) as z:
             root=ET.fromstring(z.read('word/document.xml'))
@@ -110,7 +123,7 @@ def main():
         check('Visual page review '+r['docx'],r['visual_review']=='all pages inspected; no clipping or table overflow observed')
     report=dict(status='passed',checks=len(checks),original_figure_files=release['original_figure_files'],aggregate_tables=release['aggregate_tables'],
                 figure_candidates=release['figure_candidates'],evidence_records=len(evidence),paragraph_claim_mappings=len(claims),complete_source_file_entries=scan['scanned_files'],
-                downstream_presentation_slides=40,original_PPT_images=52,word_rendering='Actual current DOCX renders; hashes, text, links, geometry and page review verified')
+                downstream_presentation_slides=release['downstream_slides'],original_PPT_images=len(expected_images),word_rendering='Actual current DOCX renders; hashes, text, links, geometry and page review verified')
     (ROOT/'audit/results_release_validation.json').write_text(json.dumps(report,indent=2)+'\n')
     with (ROOT/'audit/results_release_checks.csv').open('w') as f:
         w=csv.DictWriter(f,fieldnames=['check','passed'],lineterminator='\n');w.writeheader();w.writerows(checks)

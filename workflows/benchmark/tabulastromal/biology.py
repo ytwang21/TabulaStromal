@@ -118,7 +118,8 @@ def associations(ctx,stable,ds):
         stat=partial_association(x,meta.Age.to_numpy(float),meta);rows.append(dict(feature=r.feature,Celltype=r.Celltype,Gene=r.Gene,**stat));train_sign[r.feature]=np.sign(stat.get('beta_age',np.nan))
     frame=pd.DataFrame(rows,columns=['feature','Celltype','Gene','n','beta_age','partial_r','p_value','reason','covariates','residual_df'])
     frame['FDR']=bh(frame.p_value);write_csv(ctx.root/'enrichment/stable_gene_age_association.csv',frame)
-    for it in json.loads((ctx.root/'audit/inventory.json').read_text())[1:]:
+    from .external import selected_external_items
+    for it in selected_external_items(ctx):
         ext=load_dataset(ctx.root/'features'/it['dataset']);m=ext['meta'];bi=ext['bag_index']
         for r in stable.itertuples():
             observed=np.unique(bi['sample'][bi['celltype']==ctmap[r.Celltype]])

@@ -97,13 +97,13 @@ def prepare(fig1,out,plot_cells=None,refresh=False):
             raise ValueError(f'{lineage}: original atlas changed since Fig1 v2')
         logging.info('%s: reading metadata and verifying actual H5AD',title)
         full=pd.read_pickle(cache_root/lineage/'metadata.pkl')
-        obs=full[['general','celltype','age_group','sample','dataset']].rename(columns={
-            'general':'Celltype_general','celltype':'Celltype','age_group':'Age_group','dataset':'GSE'}).copy()
+        obs=full[['general','celltype','subtype','age_group','sample','dataset']].rename(columns={
+            'general':'Celltype_general','celltype':'Celltype','subtype':'Celltype_sub','age_group':'Age_group','dataset':'GSE'}).copy()
         del full
         xy=np.load(cache_root/lineage/'umap.npy',mmap_mode='r')
         with h5py.File(source,'r') as h:
             fields=list(h['obs'].keys())
-            required=['Celltype_general','Celltype','Age_group','sample','GSE']
+            required=['Celltype_general','Celltype','Celltype_sub','Age_group','sample','GSE']
             if set(required)-set(fields):raise ValueError('Missing required actual H5AD obs columns')
             if 'X_umap' not in h['obsm'] or h['obsm/X_umap'].shape!=(len(obs),2):
                 raise ValueError('No aligned source UMAP')
@@ -202,13 +202,32 @@ def prepare(fig1,out,plot_cells=None,refresh=False):
 
 
 def load_celltype_colors(data,cfg,out):
-    """Use the actual category-aligned palettes saved in each original H5AD."""
+    """Use current H5AD colors or explicitly remap the previous figure's palette.
+
+    The reviewed annotation writeback removes stale H5AD palettes. In that case
+    keep the same color for each original annotation unit through the audited
+    old→new Celltype mapping, without changing the input H5AD.
+    """
     palettes={};sources={}
     for lineage,item in data.items():
         path=item['record']['source']['path']
         with h5py.File(path,'r') as h:
             labels=list(map(str,read_elem(h['obs/Celltype/categories'])))
-            values=list(map(str,read_elem(h['uns/Celltype_colors'])))
+            values=list(map(str,read_elem(h['uns/Celltype_colors']))) if 'Celltype_colors' in h['uns'] else []
+        if not values:
+            reference=out/'fine_palette_reference.json'
+            original=json.loads(reference.read_text())['celltype_colors'][lineage]
+            mapping_path=HERE.parent/'CelltypeAnno'/lineage/'annotation_mapping.tsv'
+            if not mapping_path.exists():mapping_path=out/'tables'/f'{lineage}_annotation_mapping.tsv'
+            mapping=pd.read_csv(mapping_path,sep='\t')
+            mapping.to_csv(out/'tables'/f'{lineage}_annotation_mapping.tsv',sep='\t',index=False)
+            if set(mapping.old_Celltype)!=set(original):raise ValueError('Historical palette does not cover original annotation units')
+            palette={str(row.new_Celltype):original[str(row.old_Celltype)] for row in mapping.itertuples()}
+            values=[palette[label] for label in labels]
+            palette_source=dict(h5ad=path,labels='obs/Celltype/categories',colors='previous delivered palette remapped by reviewed annotation units',
+                reference=str(reference),reference_sha256=sha(reference),annotation_mapping=str(mapping_path),mapping_sha256=sha(mapping_path))
+        else:
+            palette_source=dict(h5ad=path,labels='obs/Celltype/categories',colors='uns/Celltype_colors')
         if len(labels)!=len(values):raise ValueError('Source Celltype/color length mismatch')
         palette=dict(zip(labels,values))
         if set(item['obs'].Celltype)!=set(palette):raise ValueError('Missing actual Celltype colors')
@@ -216,7 +235,7 @@ def load_celltype_colors(data,cfg,out):
         if len(set(matplotlib.colors.to_hex(v) for v in palette.values()))!=len(palette):
             raise ValueError('Actual Celltypes do not have distinct colors')
         palettes[lineage]=palette
-        sources[lineage]=dict(h5ad=path,labels='obs/Celltype/categories',colors='uns/Celltype_colors')
+        sources[lineage]=palette_source
     cfg['celltype_colors']=palettes
     dump(out/'color_map.json',dict(source=str(FIG1/'config_used.json'),
         general_colors=cfg['general_colors'],general_order=cfg['general_order'],
@@ -561,7 +580,9 @@ def validate(out,data,cfg,dpi):
     dump(out/'validation_report.json',dict(status='passed',figures=reports,
         full_count_totals={k:v['record']['n_cells'] for k,v in data.items()},
         proportions_sum_to_one=True,source_fields_ids_umap_verified=True,
-        original_obs_tissue_used=False,exact_fig1_palette=True,actual_h5ad_Celltype_colors=True,
+        original_obs_tissue_used=False,exact_fig1_palette=True,
+        actual_h5ad_Celltype_colors=all(s['colors']=='uns/Celltype_colors' for s in json.loads((out/'color_map.json').read_text())['celltype_palette_sources'].values()),
+        Celltype_palette_source_provenance_verified=True,
         font_scale=FONT_SCALE,text_color='#000000',font_weight='normal',
         umap_subtype_only=True,umap_grey_background=False,umap_zoom='per_subtype',
         Celltype_labels='full names with leader lines, on the UMAP'))
@@ -588,13 +609,13 @@ def documents(out,data,cfg,key,dpi):
 - Fibroblast：`{data['fibro']['record']['source']['path']}`。
 - Endothelial：`{data['endo']['record']['source']['path']}`。
 - 颜色、类别顺序：`{key['fig1']}/config_used.json` 的 general_colors / general_order；原样复制到 color_map.json，未自行调色。
-- 复用冻结 Fig1 v2 的 utils_data.py（read_elem、clean、age_order、stratified_rows）及其 source_run metadata.pkl/umap.npy。逐项核验实际 H5AD 的 Celltype_general、Celltype、Age_group、sample、GSE、全部细胞 ID/顺序及全部 UMAP 坐标，并核验源文件大小和 mtime。无需读取数百 GB 的表达矩阵，不运行轨迹、邻居图或 UMAP 拟合。
+- 复用冻结 Fig1 v2 的 utils_data.py（read_elem、clean、age_order、stratified_rows）及其 source_run metadata.pkl/umap.npy。逐项核验实际 H5AD 的 Celltype_general、Celltype、Celltype_sub、Age_group、sample、GSE、全部细胞 ID/顺序及全部 UMAP 坐标，并核验源文件大小和 mtime。无需读取数百 GB 的表达矩阵，不运行轨迹、邻居图或 UMAP 拟合。
 
 ## A–B：Subtype UMAP
 
 Fibroblast 按 Myfibro/eFibro/iFibro/qFibro 排列，2×2；Endothelial 按 ArtEC/CapEC/VenEC/EndoMT/MCs/LEC 排列，2×3。**每个小图只绘制对应 subtype 的展示细胞**，不绘制其他 subtype，不保留灰色背景点，也不再使用图下方的列表图例。原图例区域全部交给 UMAP，使图形占用面积明显增大。
 
-每个 subtype 内按完整 Celltype 字段分别着色。颜色从每个实际 H5AD 的 uns['Celltype_colors'] 与 obs['Celltype'].cat.categories 按原顺序配对，Fibroblast 32 类、Endothelial 38 类；每个谱系内颜色均不同。完整 Celltype 名称直接放在 UMAP 内，通过引线连接到该 Celltype 的一个实际展示细胞；锚点沿用已核验的近中位位置细胞，不移动原始细胞坐标。标签位置避让其他文字、计数和坐标箭头，并尽量避开稠密细胞区域。每个名称均保留原始下划线字符串，不缩写、不改名。70 个标注均有对应引线。
+每个 subtype 内按完整 Celltype 字段分别着色。优先使用实际 H5AD 的类别对齐配色；本次2026-11-21注释写回已移除旧palette，因此读取此前交付的 fine_palette_reference.json，按审阅后的 old_Celltype→new_Celltype 映射保留同一命名单元颜色，不写回H5AD。Fibroblast 32 类、Endothelial 38 类；每个谱系内颜色均不同。映射及哈希见color_map.json与tables/*_annotation_mapping.tsv。完整 Celltype 名称直接放在 UMAP 内，通过引线连接到该 Celltype 的一个实际展示细胞；锚点沿用已核验的近中位位置细胞，不移动原始细胞坐标。标签位置避让其他文字、计数和坐标箭头，并尽量避开稠密细胞区域。每个名称均保留原始下划线字符串，不缩写、不改名。70 个标注均有对应引线。
 
 各 subtype 根据自身全部展示细胞的坐标范围独立缩放，并保留 1:1 的 UMAP 坐标物理比例；没有裁掉离群点，没有重新拟合或非线性变形。不同小图的坐标范围因此不再相同，不能依据画面中的距离直接比较不同小图的绝对尺度。完整坐标范围、图形物理尺寸及每个 subtype 展示点数记录在 layout_validation.json。
 
@@ -630,7 +651,7 @@ external_inputs/python -u make_extendfig1_subtype.py
 后台运行：`bash run_extendfig1_subtype.sh`（内部 nohup），返回 PID 和日志位置。`--prepare-only` 仅核查并准备数据；`--preview-only` 快速预览；`--refresh` 从真实源对象重新核验。默认只重用经过指纹核验的绘图缓存，不修改任何输入或主图结果。Notebook 默认查看已产出结果，REBUILD=False。
 ''')
     nb=nbf.v4.new_notebook(metadata={'kernelspec':{'display_name':'Python 3','language':'python','name':'python3'}})
-    nb.cells=[nbf.v4.new_markdown_cell('# Extend Fig1 — subtype UMAP and composition\n\nUMAP 仅显示当前 subtype 并独立放大；Celltype 全名在图内以引线标注，使用源对象配色。C–F 沿用前次版式；字号维持初版 150%，纯黑且不加粗。详见 README。'),
+    nb.cells=[nbf.v4.new_markdown_cell('# Extend Fig1 — subtype UMAP and composition\n\nUMAP 仅显示当前 subtype 并独立放大；Celltype 全名在图内以引线标注，沿用核验后的原配色并按新注释映射。C–F 沿用前次版式；字号维持初版 150%，纯黑且不加粗。详见 README。'),
         nbf.v4.new_code_cell(f'from pathlib import Path\nimport pandas as pd,json\nfrom IPython.display import display,Image,Markdown\nOUT=Path({str(out)!r})'),
         nbf.v4.new_code_cell('display(json.loads((OUT/"validation_report.json").read_text()))\ndisplay(Markdown((OUT/"README.md").read_text()))'),
         nbf.v4.new_code_cell(f'display(Image(filename=str(OUT/{(MAIN+".png")!r}),width=1800))'),

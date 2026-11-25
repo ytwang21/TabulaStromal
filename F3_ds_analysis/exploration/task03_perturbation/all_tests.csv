@@ -1,0 +1,193 @@
+Lineage,Module,Condition,n_donor_lines,Status,Effect,CI_low,CI_high,P_value,Sign_flip_P,Parametric_t_P,n_positive,n_negative,FDR,FDR_sign_flip,FDR_parametric_sensitivity
+Endothelial,All_stable_genes,"Dox_1000ng/mL, 1d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,All_stable_genes,"Dox_1000ng/mL, 1d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,All_stable_genes,"Dox_1000ng/mL, 1d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,All_stable_genes,"Dox_1000ng/mL, 2d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,All_stable_genes,"Dox_1000ng/mL, 2d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,All_stable_genes,"Dox_1000ng/mL, 2d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,All_stable_genes,"Dox_1000ng/mL, 3d-ON",3,estimated,0.2518766358103971,-0.9119336686854397,1.4156869403062338,0.75,0.75,0.45005617954414223,2.0,1.0,0.8727272727272727,0.8727272727272727,0.576071909816502
+Endothelial,All_stable_genes,"Dox_1000ng/mL, 3d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,All_stable_genes,"Dox_1000ng/mL, 3d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,All_stable_genes,"Dox_1000ng/mL, 3days",3,estimated,0.14055694874588034,-0.13558180537051032,0.416695702862271,0.25,0.25,0.15992264416178198,3.0,0.0,0.4,0.4,0.28430692295427906
+Endothelial,All_stable_genes,"Dox_1000ng/mL, 5d-ON/2d-OFF",3,estimated,0.2320293592560226,0.11464933768242336,0.34940938082962186,0.25,0.25,0.01354367721645652,3.0,0.0,0.4,0.4,0.07879957653211066
+Endothelial,All_stable_genes,"Dox_2000ng/mL, 3days",6,estimated,0.025110545595041615,-0.011391419379910641,0.06161251056999387,0.125,0.125,0.13723676581274685,4.0,2.0,0.4,0.4,0.2509472289147371
+Endothelial,Hallmark: Angiogenesis,"Dox_1000ng/mL, 1d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Angiogenesis,"Dox_1000ng/mL, 1d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Angiogenesis,"Dox_1000ng/mL, 1d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Angiogenesis,"Dox_1000ng/mL, 2d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Angiogenesis,"Dox_1000ng/mL, 2d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Angiogenesis,"Dox_1000ng/mL, 2d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Angiogenesis,"Dox_1000ng/mL, 3d-ON",3,estimated,0.017995811477288626,-1.3360307959758757,1.372022418930453,1.0,1.0,0.9595972638758561,1.0,2.0,1.0,1.0,0.9595972638758561
+Endothelial,Hallmark: Angiogenesis,"Dox_1000ng/mL, 3d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Angiogenesis,"Dox_1000ng/mL, 3d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Angiogenesis,"Dox_1000ng/mL, 3days",3,estimated,-0.15514012350999395,-0.2584882559228212,-0.051791991097166715,0.25,0.25,0.02314204715681952,0.0,3.0,0.4,0.4,0.09150575895369882
+Endothelial,Hallmark: Angiogenesis,"Dox_1000ng/mL, 5d-ON/2d-OFF",3,estimated,-0.17806534110515934,-0.774592078932595,0.4184613967222762,0.5,0.5,0.32769746928381593,1.0,2.0,0.64,0.64,0.47665086441282317
+Endothelial,Hallmark: Angiogenesis,"Dox_2000ng/mL, 3days",6,estimated,-0.2948198372981625,-0.47347937406412155,-0.1161603005322035,0.0625,0.0625,0.008154641106146353,1.0,5.0,0.4,0.4,0.05218970307933666
+Endothelial,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 1d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 1d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 1d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 2d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 2d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 2d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 3d-ON",3,estimated,0.26672521444226255,-0.19838219204267354,0.7318326209271986,0.25,0.25,0.13240074250793446,3.0,0.0,0.4,0.4,0.2509472289147371
+Endothelial,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 3d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 3d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 3days",3,estimated,0.0758716318233076,-0.03019109714470153,0.18193436079131672,0.25,0.25,0.09132858207405167,3.0,0.0,0.4,0.4,0.21648256491627063
+Endothelial,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 5d-ON/2d-OFF",3,estimated,0.25382115390465193,0.03880137845870682,0.46884092935059707,0.25,0.25,0.03664641542620086,3.0,0.0,0.4,0.4,0.11726852936384276
+Endothelial,Hallmark: Inflammatory Response,"Dox_2000ng/mL, 3days",6,estimated,0.05718913012110557,-0.006825766359756048,0.12120402660196719,0.03125,0.03125,0.0700792328765902,6.0,0.0,0.3333333333333333,0.3333333333333333,0.18687795433757384
+Endothelial,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 1d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 1d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 1d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 2d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 2d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 2d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 3d-ON",3,estimated,0.7560625635329664,0.2238618317321759,1.288263295333757,0.25,0.25,0.025735994705727794,3.0,0.0,0.4,0.4,0.09150575895369882
+Endothelial,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 3d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 3d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 3days",3,estimated,0.6053700717299338,-0.3625605557010295,1.5733006991608973,0.25,0.25,0.11479723588769875,3.0,0.0,0.4,0.4,0.2509472289147371
+Endothelial,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 5d-ON/2d-OFF",3,estimated,0.5836101569844153,0.18489350149695793,0.9823268124718727,0.25,0.25,0.024297077914948954,3.0,0.0,0.4,0.4,0.09150575895369882
+Endothelial,Hallmark: Myc Targets V1,"Dox_2000ng/mL, 3days",6,estimated,0.4975325087863303,0.34790784641147676,0.6471571711611839,0.03125,0.03125,0.0003609011483487132,6.0,0.0,0.3333333333333333,0.3333333333333333,0.011548836747158822
+Endothelial,MT_core,"Dox_1000ng/mL, 1d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,MT_core,"Dox_1000ng/mL, 1d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,MT_core,"Dox_1000ng/mL, 1d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,MT_core,"Dox_1000ng/mL, 2d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,MT_core,"Dox_1000ng/mL, 2d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,MT_core,"Dox_1000ng/mL, 2d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,MT_core,"Dox_1000ng/mL, 3d-ON",3,estimated,0.15170647728717476,-0.44007747373766304,0.7434904283120126,0.5,0.5,0.38499669764089917,2.0,1.0,0.64,0.64,0.5028528295717867
+Endothelial,MT_core,"Dox_1000ng/mL, 3d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,MT_core,"Dox_1000ng/mL, 3d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,MT_core,"Dox_1000ng/mL, 3days",3,estimated,-0.02049973170472121,-1.2981120138779796,1.257112550468537,1.0,1.0,0.9512411414466116,1.0,2.0,1.0,1.0,0.9595972638758561
+Endothelial,MT_core,"Dox_1000ng/mL, 5d-ON/2d-OFF",3,estimated,1.2034713452374952,0.7573388501870876,1.6496038402879027,0.25,0.25,0.007341427499038845,3.0,0.0,0.4,0.4,0.05218970307933666
+Endothelial,MT_core,"Dox_2000ng/mL, 3days",6,estimated,-0.048999271337759776,-0.286890419670668,0.18889187699514842,0.625,0.625,0.6191349124114198,2.0,4.0,0.7692307692307693,0.7692307692307693,0.7075827570416227
+Endothelial,Middle-high,"Dox_1000ng/mL, 1d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Middle-high,"Dox_1000ng/mL, 1d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Middle-high,"Dox_1000ng/mL, 1d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Middle-high,"Dox_1000ng/mL, 2d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Middle-high,"Dox_1000ng/mL, 2d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Middle-high,"Dox_1000ng/mL, 2d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Middle-high,"Dox_1000ng/mL, 3d-ON",3,estimated,0.29618120342747806,-1.2426028918985117,1.8349652987534677,1.0,1.0,0.49467029028813125,1.0,2.0,1.0,1.0,0.6088249726623154
+Endothelial,Middle-high,"Dox_1000ng/mL, 3d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Middle-high,"Dox_1000ng/mL, 3d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Middle-high,"Dox_1000ng/mL, 3days",3,estimated,0.2494936008380982,-0.2864755572871899,0.7854627589633864,0.25,0.25,0.18311145295942213,3.0,0.0,0.4,0.4,0.3167333240379194
+Endothelial,Middle-high,"Dox_1000ng/mL, 5d-ON/2d-OFF",3,estimated,0.18575071210388916,-0.13333730220812462,0.5048387264159029,0.25,0.25,0.1292156012184227,3.0,0.0,0.4,0.4,0.2509472289147371
+Endothelial,Middle-high,"Dox_2000ng/mL, 3days",6,estimated,-0.00989817720005068,-0.07294938200531419,0.05315302760521283,0.65625,0.65625,0.7032255753851344,2.0,4.0,0.7924528301886793,0.7924528301886793,0.7759730487008379
+Endothelial,Old-high,"Dox_1000ng/mL, 1d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Old-high,"Dox_1000ng/mL, 1d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Old-high,"Dox_1000ng/mL, 1d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Old-high,"Dox_1000ng/mL, 2d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Old-high,"Dox_1000ng/mL, 2d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Old-high,"Dox_1000ng/mL, 2d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Old-high,"Dox_1000ng/mL, 3d-ON",3,estimated,0.2475280836720389,-1.4509874779440364,1.946043645288114,1.0,1.0,0.5946741559036295,1.0,2.0,1.0,1.0,0.7047989995894868
+Endothelial,Old-high,"Dox_1000ng/mL, 3d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Old-high,"Dox_1000ng/mL, 3d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Old-high,"Dox_1000ng/mL, 3days",3,estimated,0.09300629060267557,-0.17974789733841434,0.3657604785437655,0.5,0.5,0.28002160882370486,2.0,1.0,0.64,0.64,0.4524801825696495
+Endothelial,Old-high,"Dox_1000ng/mL, 5d-ON/2d-OFF",3,estimated,0.19196554382635364,0.12066878840217432,0.26326229925053296,0.25,0.25,0.007368842264877274,3.0,0.0,0.4,0.4,0.05218970307933666
+Endothelial,Old-high,"Dox_2000ng/mL, 3days",6,estimated,-0.09709833549833692,-0.16783088776927563,-0.0263657832273982,0.0625,0.0625,0.01676163043780376,1.0,5.0,0.4,0.4,0.08939536233495339
+Endothelial,Young-high,"Dox_1000ng/mL, 1d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Young-high,"Dox_1000ng/mL, 1d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Young-high,"Dox_1000ng/mL, 1d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Young-high,"Dox_1000ng/mL, 2d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Young-high,"Dox_1000ng/mL, 2d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Young-high,"Dox_1000ng/mL, 2d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Young-high,"Dox_1000ng/mL, 3d-ON",3,estimated,0.12067987394773373,-0.9191461321643932,1.1605058800598607,1.0,1.0,0.6670482448032325,1.0,2.0,1.0,1.0,0.7489664503053839
+Endothelial,Young-high,"Dox_1000ng/mL, 3d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Young-high,"Dox_1000ng/mL, 3d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Endothelial,Young-high,"Dox_1000ng/mL, 3days",3,estimated,0.05003315223294999,-0.5110902505439168,0.6111565550098168,0.75,0.75,0.738181233779981,2.0,1.0,0.8727272727272727,0.8727272727272727,0.8001602076163541
+Endothelial,Young-high,"Dox_1000ng/mL, 5d-ON/2d-OFF",3,estimated,0.15324050150651128,-0.38719763760088577,0.6936786406139083,0.5,0.5,0.3467957411911904,2.0,1.0,0.64,0.64,0.4824984225268736
+Endothelial,Young-high,"Dox_2000ng/mL, 3days",6,estimated,0.05296786926644004,0.003240671045853162,0.10269506748702692,0.03125,0.03125,0.0408841316867376,6.0,0.0,0.3333333333333333,0.3333333333333333,0.12459925847386698
+Fibroblast,All_stable_genes,"Dox_1000ng/mL, 1d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,All_stable_genes,"Dox_1000ng/mL, 1d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,All_stable_genes,"Dox_1000ng/mL, 1d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,All_stable_genes,"Dox_1000ng/mL, 2d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,All_stable_genes,"Dox_1000ng/mL, 2d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,All_stable_genes,"Dox_1000ng/mL, 2d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,All_stable_genes,"Dox_1000ng/mL, 3d-ON",3,estimated,0.1635805618010785,-0.8263961393662511,1.153557262968408,1.0,1.0,0.5508417751505691,1.0,2.0,1.0,1.0,0.6651674265969136
+Fibroblast,All_stable_genes,"Dox_1000ng/mL, 3d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,All_stable_genes,"Dox_1000ng/mL, 3d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,All_stable_genes,"Dox_1000ng/mL, 3days",3,estimated,0.10444027857799881,-0.2606347714487352,0.46951532860473283,0.5,0.5,0.34347288354159566,2.0,1.0,0.64,0.64,0.4824984225268736
+Fibroblast,All_stable_genes,"Dox_1000ng/mL, 5d-ON/2d-OFF",3,estimated,0.2252346818388137,0.1529769427038125,0.2974924209738149,0.25,0.25,0.005513436016511857,3.0,0.0,0.4,0.4,0.05218970307933666
+Fibroblast,All_stable_genes,"Dox_2000ng/mL, 3days",6,estimated,-0.038261030774749884,-0.08535503834980226,0.008832976800302504,0.0625,0.0625,0.09107986911384953,1.0,5.0,0.4,0.4,0.21648256491627063
+Fibroblast,Hallmark: Angiogenesis,"Dox_1000ng/mL, 1d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Angiogenesis,"Dox_1000ng/mL, 1d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Angiogenesis,"Dox_1000ng/mL, 1d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Angiogenesis,"Dox_1000ng/mL, 2d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Angiogenesis,"Dox_1000ng/mL, 2d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Angiogenesis,"Dox_1000ng/mL, 2d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Angiogenesis,"Dox_1000ng/mL, 3d-ON",3,estimated,0.017995811477288626,-1.3360307959758757,1.372022418930453,1.0,1.0,0.9595972638758561,1.0,2.0,1.0,1.0,0.9595972638758561
+Fibroblast,Hallmark: Angiogenesis,"Dox_1000ng/mL, 3d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Angiogenesis,"Dox_1000ng/mL, 3d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Angiogenesis,"Dox_1000ng/mL, 3days",3,estimated,-0.15514012350999395,-0.2584882559228212,-0.051791991097166715,0.25,0.25,0.02314204715681952,0.0,3.0,0.4,0.4,0.09150575895369882
+Fibroblast,Hallmark: Angiogenesis,"Dox_1000ng/mL, 5d-ON/2d-OFF",3,estimated,-0.17806534110515934,-0.774592078932595,0.4184613967222762,0.5,0.5,0.32769746928381593,1.0,2.0,0.64,0.64,0.47665086441282317
+Fibroblast,Hallmark: Angiogenesis,"Dox_2000ng/mL, 3days",6,estimated,-0.2948198372981625,-0.47347937406412155,-0.1161603005322035,0.0625,0.0625,0.008154641106146353,1.0,5.0,0.4,0.4,0.05218970307933666
+Fibroblast,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 1d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 1d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 1d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 2d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 2d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 2d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 3d-ON",3,estimated,0.26672521444226255,-0.19838219204267354,0.7318326209271986,0.25,0.25,0.13240074250793446,3.0,0.0,0.4,0.4,0.2509472289147371
+Fibroblast,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 3d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 3d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 3days",3,estimated,0.0758716318233076,-0.03019109714470153,0.18193436079131672,0.25,0.25,0.09132858207405167,3.0,0.0,0.4,0.4,0.21648256491627063
+Fibroblast,Hallmark: Inflammatory Response,"Dox_1000ng/mL, 5d-ON/2d-OFF",3,estimated,0.25382115390465193,0.03880137845870682,0.46884092935059707,0.25,0.25,0.03664641542620086,3.0,0.0,0.4,0.4,0.11726852936384276
+Fibroblast,Hallmark: Inflammatory Response,"Dox_2000ng/mL, 3days",6,estimated,0.05718913012110557,-0.006825766359756048,0.12120402660196719,0.03125,0.03125,0.0700792328765902,6.0,0.0,0.3333333333333333,0.3333333333333333,0.18687795433757384
+Fibroblast,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 1d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 1d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 1d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 2d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 2d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 2d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 3d-ON",3,estimated,0.7560625635329664,0.2238618317321759,1.288263295333757,0.25,0.25,0.025735994705727794,3.0,0.0,0.4,0.4,0.09150575895369882
+Fibroblast,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 3d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 3d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 3days",3,estimated,0.6053700717299338,-0.3625605557010295,1.5733006991608973,0.25,0.25,0.11479723588769875,3.0,0.0,0.4,0.4,0.2509472289147371
+Fibroblast,Hallmark: Myc Targets V1,"Dox_1000ng/mL, 5d-ON/2d-OFF",3,estimated,0.5836101569844153,0.18489350149695793,0.9823268124718727,0.25,0.25,0.024297077914948954,3.0,0.0,0.4,0.4,0.09150575895369882
+Fibroblast,Hallmark: Myc Targets V1,"Dox_2000ng/mL, 3days",6,estimated,0.4975325087863303,0.34790784641147676,0.6471571711611839,0.03125,0.03125,0.0003609011483487132,6.0,0.0,0.3333333333333333,0.3333333333333333,0.011548836747158822
+Fibroblast,MT_core,"Dox_1000ng/mL, 1d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,MT_core,"Dox_1000ng/mL, 1d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,MT_core,"Dox_1000ng/mL, 1d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,MT_core,"Dox_1000ng/mL, 2d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,MT_core,"Dox_1000ng/mL, 2d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,MT_core,"Dox_1000ng/mL, 2d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,MT_core,"Dox_1000ng/mL, 3d-ON",3,estimated,0.15170647728717476,-0.44007747373766304,0.7434904283120126,0.5,0.5,0.38499669764089917,2.0,1.0,0.64,0.64,0.5028528295717867
+Fibroblast,MT_core,"Dox_1000ng/mL, 3d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,MT_core,"Dox_1000ng/mL, 3d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,MT_core,"Dox_1000ng/mL, 3days",3,estimated,-0.02049973170472121,-1.2981120138779796,1.257112550468537,1.0,1.0,0.9512411414466116,1.0,2.0,1.0,1.0,0.9595972638758561
+Fibroblast,MT_core,"Dox_1000ng/mL, 5d-ON/2d-OFF",3,estimated,1.2034713452374952,0.7573388501870876,1.6496038402879027,0.25,0.25,0.007341427499038845,3.0,0.0,0.4,0.4,0.05218970307933666
+Fibroblast,MT_core,"Dox_2000ng/mL, 3days",6,estimated,-0.048999271337759776,-0.286890419670668,0.18889187699514842,0.625,0.625,0.6191349124114198,2.0,4.0,0.7692307692307693,0.7692307692307693,0.7075827570416227
+Fibroblast,Middle-high,"Dox_1000ng/mL, 1d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Middle-high,"Dox_1000ng/mL, 1d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Middle-high,"Dox_1000ng/mL, 1d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Middle-high,"Dox_1000ng/mL, 2d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Middle-high,"Dox_1000ng/mL, 2d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Middle-high,"Dox_1000ng/mL, 2d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Middle-high,"Dox_1000ng/mL, 3d-ON",3,estimated,0.36977024898531347,-1.0082075341460348,1.7477480321166616,0.25,0.25,0.36758232256162926,3.0,0.0,0.4,0.4,0.5005376307222186
+Fibroblast,Middle-high,"Dox_1000ng/mL, 3d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Middle-high,"Dox_1000ng/mL, 3d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Middle-high,"Dox_1000ng/mL, 3days",3,estimated,0.22401507371906074,-0.32910495128745054,0.777135098725572,0.5,0.5,0.22352905912633128,2.0,1.0,0.64,0.64,0.37646999431803163
+Fibroblast,Middle-high,"Dox_1000ng/mL, 5d-ON/2d-OFF",3,estimated,0.11207233731878079,-0.08520436060459034,0.3093490352421519,0.25,0.25,0.13443219169061166,3.0,0.0,0.4,0.4,0.2509472289147371
+Fibroblast,Middle-high,"Dox_2000ng/mL, 3days",6,estimated,0.02085611103293455,-0.02370662416256027,0.06541884622842938,0.25,0.25,0.28280011410603095,4.0,2.0,0.4,0.4,0.4524801825696495
+Fibroblast,Old-high,"Dox_1000ng/mL, 1d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Old-high,"Dox_1000ng/mL, 1d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Old-high,"Dox_1000ng/mL, 1d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Old-high,"Dox_1000ng/mL, 2d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Old-high,"Dox_1000ng/mL, 2d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Old-high,"Dox_1000ng/mL, 2d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Old-high,"Dox_1000ng/mL, 3d-ON",3,estimated,0.11092325058535439,-1.1969567433514876,1.4188032445221963,1.0,1.0,0.750150194640332,1.0,2.0,1.0,1.0,0.8001602076163541
+Fibroblast,Old-high,"Dox_1000ng/mL, 3d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Old-high,"Dox_1000ng/mL, 3d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Old-high,"Dox_1000ng/mL, 3days",3,estimated,0.06767441496133113,-0.2729755677303926,0.4083243976530549,0.5,0.5,0.48272675038887314,2.0,1.0,0.64,0.64,0.6057747455860368
+Fibroblast,Old-high,"Dox_1000ng/mL, 5d-ON/2d-OFF",3,estimated,0.19799859237240794,0.005328247926398216,0.39066893681841763,0.25,0.25,0.04753136103541178,3.0,0.0,0.4,0.4,0.13827305028483428
+Fibroblast,Old-high,"Dox_2000ng/mL, 3days",6,estimated,-0.13723913528267226,-0.20737381137191502,-0.0671044591934295,0.03125,0.03125,0.004000492790674233,0.0,6.0,0.3333333333333333,0.3333333333333333,0.05218970307933666
+Fibroblast,Young-high,"Dox_1000ng/mL, 1d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Young-high,"Dox_1000ng/mL, 1d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Young-high,"Dox_1000ng/mL, 1d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Young-high,"Dox_1000ng/mL, 2d-ON",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Young-high,"Dox_1000ng/mL, 2d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Young-high,"Dox_1000ng/mL, 2d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Young-high,"Dox_1000ng/mL, 3d-ON",3,estimated,0.1856888227162501,-0.39863146247431924,0.7700091079068194,0.25,0.25,0.30491225740217276,3.0,0.0,0.4,0.4,0.4759605969204648
+Fibroblast,Young-high,"Dox_1000ng/mL, 3d-ON/16d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Young-high,"Dox_1000ng/mL, 3d-ON/8d-OFF",2,insufficient_independent_donor_lines,,,,,,,,,,,
+Fibroblast,Young-high,"Dox_1000ng/mL, 3days",3,estimated,0.1182175205447779,-0.26380375948490037,0.5002388005744561,0.5,0.5,0.3145143641898207,2.0,1.0,0.64,0.64,0.47665086441282317
+Fibroblast,Young-high,"Dox_1000ng/mL, 5d-ON/2d-OFF",3,estimated,0.3230422347835613,0.2219792969831069,0.4241051725840157,0.25,0.25,0.0052452376946851235,3.0,0.0,0.4,0.4,0.05218970307933666
+Fibroblast,Young-high,"Dox_2000ng/mL, 3days",6,estimated,0.037468901633472135,-0.01573056997192023,0.09066837323886451,0.15625,0.15625,0.1299911227043044,5.0,1.0,0.4,0.4,0.2509472289147371

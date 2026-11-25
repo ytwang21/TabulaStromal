@@ -1,0 +1,10 @@
+Fibroblast_pattern,Endothelial_pattern,n_shared_genes,Expected_under_gene_identity_shuffle,P_two_sided,Genes,FDR_9comparisons
+Young-high,Young-high,4,1.0754,0.003599280143971206,AGRN;NREP;NT5DC2;SOX4,0.029994001199760048
+Young-high,Middle-high,1,0.8142,1.0,FSCN1,1.0
+Young-high,Old-high,1,4.1104,0.007598480303939212,KLHL7,0.029994001199760048
+Middle-high,Young-high,0,0.1774,1.0,,1.0
+Middle-high,Middle-high,0,0.1402,1.0,,1.0
+Middle-high,Old-high,1,0.6824,1.0,BICDL1,1.0
+Old-high,Young-high,0,2.7472,0.009998000399920015,,0.029994001199760048
+Old-high,Middle-high,2,2.0456,1.0,CDKAL1;NNMT,1.0
+Old-high,Old-high,13,10.2072,0.028394321135772844,ANKRD37;BHLHE41;CPM;CRY2;ENPP5;FKBP5;ME1;MNDA;MT1M;PCGF5;SHOC2;SLCO4A1;TAF15,0.0638872225554889

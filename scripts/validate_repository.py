@@ -59,7 +59,7 @@ def main(argv=None):
             errors.append(f'Excluded research/credential format: {rel}')
         if path.stat().st_size > 2_000_000:
             approved=released.get(rel)
-            limit=64_000_000 if path.suffix=='.pptx' else 32_000_000 if path.suffix in {'.png','.pdf'} else 24_000_000
+            limit=64_000_000 if path.suffix=='.pptx' else 32_000_000 if path.suffix in {'.png','.pdf'} else 48_000_000 if path.name=='evidence_registry.csv' else 24_000_000
             if not (approved and path.suffix in {'.png','.pdf','.csv','.pptx'} and
                     path.stat().st_size <= limit and int(approved['bytes'])==path.stat().st_size and
                     hashlib.sha256(path.read_bytes()).hexdigest()==approved['sha256']):

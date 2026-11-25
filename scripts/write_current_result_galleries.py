@@ -25,14 +25,14 @@ def main():
     lisa=f3+'/TF_analysis/stable_celltype_LISA2_20261118'
     ecm=f3+'/2026_Nat Aging_HAECA/stromal_ECM_20261118'
     cell=feature+'/ModelFeature_cellAge'
-    scope='Current snapshot: **19 November 2026**. Counts refer to sample/proxy units unless stated otherwise. Selected expression features are not explicit cell-type proportions; predictive weights and regulatory annotations are not causal evidence.'
+    scope='Current snapshot: **25 November 2026**. Counts refer to sample/proxy units unless stated otherwise. Selected expression features are not explicit cell-type proportions; predictive weights and regulatory annotations are not causal evidence.'
     write('README.md',f'''# TabulaStromal
 
 **Human stromal atlases, celltype-resolved chronological-age prediction and downstream molecular associations.**
 
 TabulaStromal integrates fibroblast- and endothelial-lineage references containing **5,916,760** and **2,239,277 cells**. Clock development uses separately filtered sets of **640/437 samples**, grouped into **634/431 GSE/GSM proxies**. These labels are not independently verified donor counts, and the full atlas is not uniformly healthy.
 
-This release updates all five result modules from the source-verified 19 November snapshot, including the downstream presentation, original figures, aggregate tables, evidence records and three English Results sections.
+This release updates all five result modules from the source-verified 25 November snapshot, including the downstream presentation, original figures, aggregate tables, evidence records and three English Results sections.
 
 ## Model Overview
 
@@ -60,7 +60,7 @@ The current Figure 2 E/F instead shows **development-set in-sample fits** of per
 
 **Neither the development fits nor the outcome-selected external estimates establish independent generalization of the current compact models.** The reused 70% outcomes also participated in ALL100 selection. MAD in these current fit/external panels means median absolute prediction error (MedAE), unlike panel D. Exact values and evaluation scopes are linked in [Results Part 2](docs/results/Results_Part2_ClockPerformance_CellAge.md).
 
-The full grouped five-fold benchmark ranked XGBoost first for fibroblasts (mean validation R² 0.803) and ExtraTrees first for endothelial cells (0.716). These are different configurations from the compact ElasticNet fits. The [earlier unreduced EN branch](TabulaStromal_Rebenchmark_2026/) retains its original unadapted and held-out adaptation metrics as historical protocol evidence.
+The updated full fourteen-model grouped five-fold benchmark ranked XGBoost first for fibroblasts (mean validation R² 0.803) and XGBoost first for endothelial cells (0.727). These are different configurations from the compact ElasticNet fits. The [earlier unreduced EN branch](TabulaStromal_Rebenchmark_2026/) retains its original unadapted and held-out adaptation metrics as historical protocol evidence.
 
 ## Explore the five result modules
 
@@ -68,7 +68,7 @@ The full grouped five-fold benchmark ranked XGBoost first for fibroblasts (mean 
 |---|---|
 | [F1_StromalAtlas](F1_StromalAtlas/) | Atlas overview, detailed states, metadata coverage, retrospective annotation agreement and filtering figures |
 | [F2_ModelPerformance](F2_ModelPerformance/) | Updated original workflow, current complete Figure 2, B–F panels and exact aggregate metric tables |
-| [F3_ds_analysis](F3_ds_analysis/) | Selected features, functional annotation, LISA2, RNA networks, adult raw-count ECM, current CellAge, and the **40-slide PPTX** |
+| [F3_ds_analysis](F3_ds_analysis/) | Selected features, functional annotation, LISA2, RNA networks, adult raw-count ECM, current CellAge, and the **56-slide PPTX** |
 | [TabulaStromal_Rebenchmark_2026](TabulaStromal_Rebenchmark_2026/) | Current 750/350-feature definitions and optimization protocol, with the earlier unreduced EN branch labeled separately |
 | [CellAge_Exploration](CellAge_Exploration/) | Historical score provenance and its distinction from the current selected-state CellAge analysis |
 
@@ -86,9 +86,9 @@ Current selected features span **27 states per lineage**, encode **678/337 uniqu
 
 ## Audit and provenance
 
-The complete five-root metadata discovery contains **{release['source_files']:,} file entries**, including historical and environment files; it does not imply reading all file contents. The public release contains **{release['original_figure_files']} original scientific image/PDF files**, **{release['aggregate_tables']} aggregate/evidence tables** and the downstream PPTX. The content-read inventory now records **{release['source_reads_reverified']} source files**: 432 checked before the initial export plus the newly refreshed workflow PNG. See [audit scope and inventories](audit/README.md), [evidence registry](evidence/evidence_registry.csv), [release checks](audit/results_release_validation.json) and [Word rendering receipts](audit/docx_rendering_report.md).
+The complete five-root metadata discovery contains **{release['source_files']:,} file entries**, including historical and environment files; it does not imply reading all file contents. The public release contains **{release['original_figure_files']} original scientific image/PDF files**, **{release['aggregate_tables']} aggregate/evidence tables** and the downstream PPTX. The content-read inventory now records **{release['source_reads_reverified']} source files**: each rechecked against its current source before this export. See [audit scope and inventories](audit/README.md), [evidence registry](evidence/evidence_registry.csv), [release checks](audit/results_release_validation.json) and [Word rendering receipts](audit/docx_rendering_report.md).
 
-All descendants of the F3 audit directory named `VenEC_CLU_eye_audit` and `F3_features/Age10_20_audit_20261117` are excluded. A legitimate Celltype named `VenEC_CLU_eye` in current aggregate results is not that excluded audit directory. Source images are unaltered. The PPTX retains all 40 slides and embedded image bytes; personal server paths in its XML text are generalized. Full cache-path inventories remain local under ignored `outputs/`.
+All descendants of the F3 audit directory named `VenEC_CLU_eye_audit` and `F3_features/Age10_20_audit_20261117` are excluded. A legitimate Celltype named `VenEC_CLU_eye` in current aggregate results is not that excluded audit directory. Source images are unaltered. The PPTX retains all 56 slides and embedded image bytes; personal server paths in its XML text are generalized. Full cache-path inventories remain local under ignored `outputs/`.
 
 ## Run the source workflows
 
@@ -117,9 +117,9 @@ The source benchmark and inference workflows retain their documented data contra
 
 {scope}
 
-[Download the 40-slide downstream presentation](TabulaStromal_F3_Downstream_Results_20261119.pptx) · [Slide index](TabulaStromal_F3_PPT_slide_index.csv) · [Original image provenance](TabulaStromal_F3_PPT_sources.json) · [Results Part 3](../docs/results/Results_Part3_StableFeatures_Mechanisms.md) · [Figure legends](../docs/results/Figure_Legends.md)
+[Download the 56-slide downstream presentation](TabulaStromal_F3_Downstream_Results_20261119.pptx) · [Slide index](TabulaStromal_F3_PPT_slide_index.csv) · [Original image provenance](TabulaStromal_F3_PPT_sources.json) · [Results Part 3](../docs/results/Results_Part3_StableFeatures_Mechanisms.md) · [Figure legends](../docs/results/Figure_Legends.md)
 
-The presentation has **40 slides, 54 image placements and 52 unique original images**. Its source images and available PDF partners are reproduced below the corresponding analysis directories. Public PPTX XML paths are generalized; embedded scientific image bytes are unchanged. The PPT is a navigation aid; statistical claims use the underlying tables.
+The presentation has **56 slides, 74 image placements and 72 unique original images**. Its source images and available PDF partners are reproduced below the corresponding analysis directories. Public PPTX XML paths are generalized; embedded scientific image bytes are unchanged. The PPT is a navigation aid; statistical claims use the underlying tables.
 
 | Analysis | Results and scope |
 |---|---|
@@ -229,6 +229,46 @@ The historical figure is retained as provenance. Its equal-state relative compar
             if child:content+='Subdirectories: '+', '.join('['+n+']('+n.replace(' ','%20')+'/)' for n in child)+'.\n\n'
             if direct:content+='\n'.join('- ['+n+']('+n.replace(' ','%20')+')' for n in direct)+'\n'
             write(prefix/'README.md',content)
+    # Keep the new evidence visible in existing landing pages without a second release directory.
+    def extend(path,text):
+        p=ROOT/path;p.write_text(p.read_text().rstrip()+'\n\n'+text.strip()+'\n')
+    extend('README.md','''## Updated atlas and downstream evidence
+
+The 25 November audit includes marker-name curation and external label transfer, residual-study graph diagnostics, expression-pattern reliability and six exploratory extensions. Updated five-fold benchmark winners are XGBoost in both lineages (R² 0.803/0.727). Formal nonlinear tests identify 119 features, 38 also showing positive held-study relative-shape improvement. Paired sample-proxy tests have 24 primary and 24 separate sensitivity comparisons. The public six-donor-line fibroblast intervention reanalysis has no FDR-significant primary module response.
+
+[F1 updated figures and tables](F1_StromalAtlas/) · [Pattern results](F3_ds_analysis/F3_features/results/SF_pattern_analysis/) · [Six exploratory tasks and source-matched figures](F3_ds_analysis/exploration/)
+''')
+    extend('F1_StromalAtlas/README.md','''## Annotation curation and integration diagnostics
+
+Marker-name revision preserves 32/38 annotation units; frozen model features retain their earlier labels. Stored full-reference BBKNN graphs used tissue as the batch key. Conditional same-study enrichment remains 23.82-fold/16.26-fold above random mixing within tissue-by-broad-state strata. Matched reconstructed scIB is not full-graph scIB or scVI. External label transfer updates 79,285/47,847 cells and retains low-support assignments; it does not change saved clock-cohort validation.
+
+![Fibroblast integration diagnostics](figures/BatchRemoval_Fibroblast_Diagnostics.png)
+
+![Endothelial integration diagnostics](figures/BatchRemoval_Endothelial_Diagnostics.png)
+
+[Aggregate tables](tables/) · [Updated Results Part 1](../docs/results/Results_Part1_StromalAtlas.md)
+''')
+    extend('F3_ds_analysis/README.md','''## New pattern and exploratory analyses
+
+[Expression-window reliability and complete-background enrichment](F3_features/results/SF_pattern_analysis/) includes 520/161 displayed features, 22 shared displayed genes, and no significant pattern-specific term against displayed-selected backgrounds. [Six exploratory extensions](exploration/) cover clock/hUSI alignment, nonlinear age, public perturbation, formal tissue interaction, paired-lineage and metal-response associations. These are postselection analyses, with main and sensitivity families separated; no result establishes causal aging or independent validation of the compact clock.
+''')
+    write('F3_ds_analysis/exploration/README.md','''# Six exploratory downstream extensions
+
+Source snapshot: 25 November 2026. Candidate features and the fixed source model are unchanged; all analyses are postselection and observational except the public bulk fibroblast gene-set projection. Exact aggregate families and plots are linked below.
+
+| Task | Estimable / candidates | Main corrected findings |
+|---|---:|---|
+| [Clock–senescence](task01_clock_vs_senescence/) | 46 / 99 | 3 fibroblast associations; in-sample and shared-input dependence |
+| [Nonlinear age](task02_nonlinear_age/) | 649 / 1,100 | 119 FDR; 38 also positive held-study relative-shape improvement |
+| [Public perturbation](task03_perturbation/) | 64 / 192 | 0 primary donor-sign-flip FDR; 6 donor lines, 136 matched libraries |
+| [Tissue context](task04_tissue_context/) | 10 / 215 | 2 joint age-by-tissue module tests |
+| [Paired niche](task05_paired_niche/) | 24 / 24 primary | 10 main FDR; separate 24-test sensitivity has 15 |
+| [Metal response](task06_metal_response/) | 126 / 258 primary | 24 main FDR; healthy-only family is separate and overlapping |
+
+![Paired sample-proxy associations](task05_paired_niche/figures/paired_niche_associations.png)
+
+[Results and inference limits](../../docs/results/Results_Part3_StableFeatures_Mechanisms.md) · [Figure legends](../../docs/results/Figure_Legends.md)
+''')
     # Override topic landing pages with the relevant statistical interpretation.
     for path,title,note,image in [
         (feature,'Selected features and function','750/350 current pairs with 1,500-resample source frequencies. Age-group displays are descriptive and not differential-expression tests. Main functional networks use Reactome 2022; older signed Reactome 2024 plots are a separate family.',feature+'/results/Fibroblast/figures/top_dynamic_stable_features.png'),
@@ -241,7 +281,7 @@ The historical figure is retained as provenance. Its equal-state relative compar
 
 The completed five-root metadata discovery contains **{release['source_files']:,} entries**, including dependencies, historical runs and caches. This is metadata discovery, not a claim to read every file. The full path-level inventory remains local in ignored `outputs/source_audit/full_file_inventory.csv.gz`; the public summary accounts for every entry.
 
-The content-read inventory records **{release['source_reads_reverified']} files** with source hashes and modification times. The initial export rechecked 432 audited content files; the subsequent [workflow refresh](workflow_refresh.json) reads one additional source image and updates both published copies. The complete metadata scan remains the original snapshot; this targeted image refresh is not a new five-root scan. The public payload contains {release['original_figure_files']} original image/PDF assets, {release['aggregate_tables']} aggregate/evidence tables and the portable-text version of the 40-slide PPTX. No cell/sample-level observations, predictions, model bundles or matrices are published.
+The content-read inventory records **{release['source_reads_reverified']} files** with source hashes and modification times. This update rechecked the complete current content-read set and refreshed the five-root metadata inventory. Both overview PNG copies are matched to the original source; [workflow provenance](workflow_refresh.json) is retained. The public payload contains {release['original_figure_files']} original image/PDF assets, {release['aggregate_tables']} aggregate/evidence tables and the portable-text version of the 56-slide PPTX. No cell/sample-level observations, predictions, model bundles or matrices are published.
 
 | Record | Meaning |
 |---|---|
@@ -249,22 +289,22 @@ The content-read inventory records **{release['source_reads_reverified']} files*
 | [file_inventory.csv](file_inventory.csv) | Actually read core content, hashes and source-read scope |
 | [figure_inventory.csv](figure_inventory.csv) | Result figure candidates after dependency/private-path filtering; published status is separate |
 | [released_assets.csv](released_assets.csv) | Reviewed source/export hashes, transformations and protocol scope |
-| [workflow_refresh.json](workflow_refresh.json) | Incremental original workflow replacement, dimensions, hashes and unchanged metadata-scan scope |
-| [figure_manifest.csv](figure_manifest.csv) | Current manuscript Figure 1–6 / Extended Data / supplementary panel assignments |
+| [workflow_refresh.json](workflow_refresh.json) | Original workflow dimensions and hashes, rechecked during the current five-root metadata refresh |
+| [figure_manifest.csv](figure_manifest.csv) | Current manuscript Figure 1–7 / Extended Data / supplementary panel assignments |
 | [claim_to_evidence_report.csv](claim_to_evidence_report.csv) | {release['claim_mappings']} current Results paragraph/table mappings |
 | [Evidence registry](../evidence/evidence_registry.csv) | {release['evidence_records']:,} source-verified aggregate evidence entries; current and historical branches retained separately |
-| [numeric_and_statistical_checks.csv](numeric_and_statistical_checks.csv) | 3,749 distinct saved-output checks, zero failures |
-| [manuscript_numeric_consistency.csv](manuscript_numeric_consistency.csv) | 121 current main-text rounded-value checks |
-| [references_verified.csv](references_verified.csv) | Twenty verified bibliography records |
+| [numeric_and_statistical_checks.csv](numeric_and_statistical_checks.csv) | {len(rows('audit/numeric_and_statistical_checks.csv')):,} distinct saved-output checks, zero failures |
+| [manuscript_numeric_consistency.csv](manuscript_numeric_consistency.csv) | 167 current main-text rounded-value checks |
+| [references_verified.csv](references_verified.csv) | Twenty-two verified bibliography records |
 | [docx_validation_report.md](docx_validation_report.md), [docx_rendering_report.md](docx_rendering_report.md) | Current Results Word content, actual PDF rendering and hash receipts |
 
 Both excluded F3 audit subtrees and all descendants are absent from published paths. Original scientific images are unchanged. Presentation XML paths are generalized, with all embedded image bytes retained. PPT summaries are not replacements for statistical source tables. Counts do not equate sample proxies with independently verified donors.
 ''')
     write('README.zh-CN.md',f'''# TabulaStromal
 
-本次更新为 **2026-11-19** 经审计结果快照，包含 [F1 图谱](F1_StromalAtlas/)、[F2 模型表现](F2_ModelPerformance/)、[F3 下游机制关联](F3_ds_analysis/)、[Rebenchmark](TabulaStromal_Rebenchmark_2026/) 与 [CellAge](CellAge_Exploration/) 五个模块。
+本次更新为 **2026-11-25** 经审计结果快照，包含 [F1 图谱](F1_StromalAtlas/)、[F2 模型表现](F2_ModelPerformance/)、[F3 下游机制关联](F3_ds_analysis/)、[Rebenchmark](TabulaStromal_Rebenchmark_2026/) 与 [CellAge](CellAge_Exploration/) 五个模块。
 
-[英文首页及模型图](README.md) · [40 页下游 PPT](F3_ds_analysis/TabulaStromal_F3_Downstream_Results_20261119.pptx) · [三段英文 Results 与 Word/PDF](docs/results/) · [审计清单](audit/README.md)
+[英文首页及模型图](README.md) · [56 页下游 PPT](F3_ds_analysis/TabulaStromal_F3_Downstream_Results_20261119.pptx) · [三段英文 Results 与 Word/PDF](docs/results/) · [审计清单](audit/README.md)
 
 ## 更新后的 Model Overview
 
@@ -288,7 +328,7 @@ F3 包含稳定入选特征、功能富集、LISA2、RNA prior network、成人 
 ''')
     write('docs/results.md','''# Current results and interpretation
 
-The 19 November release supersedes the old Results narrative. Read [Part 1](results/Results_Part1_StromalAtlas.md), [Part 2](results/Results_Part2_ClockPerformance_CellAge.md), [Part 3](results/Results_Part3_StableFeatures_Mechanisms.md), [panel legends](results/Figure_Legends.md), and [verified references](results/References.md).
+The 25 November release supersedes the old Results narrative. Read [Part 1](results/Results_Part1_StromalAtlas.md), [Part 2](results/Results_Part2_ClockPerformance_CellAge.md), [Part 3](results/Results_Part3_StableFeatures_Mechanisms.md), [panel legends](results/Figure_Legends.md), and [verified references](results/References.md).
 
 The current compact EN uses 750/350 features; its development fits and ALL100-informed external estimates are not independent validation. The earlier original-EN K20k/K10k branch, 438/23-pair stable sets and old K8000 CellAge join remain historical protocol evidence. They are not substituted for current model metrics or F3 identities. Complete testing families, missing estimates and sample-proxy limitations are retained.
 
@@ -300,11 +340,11 @@ These existing tables preserve the earlier benchmark, original-EN and CellAge br
 ''')
     write('evidence/README.md','''# Source-linked aggregate evidence
 
-The registry preserves verified values and stable evidence IDs from the completed 19 November audit, including explicitly separate current and historical branches. It contains aggregate results, not individual prediction or score rows. Personal server prefixes are generalized. Current paragraph/table mappings are in [the claim report](../audit/claim_to_evidence_report.csv); source/output hashes are in [released assets](../audit/released_assets.csv). The registry can be downloaded when GitHub's CSV preview limit is exceeded.
+The registry preserves verified values and stable evidence IDs from the completed 25 November audit, including explicitly separate current and historical branches. It contains aggregate results, not individual prediction or score rows. Personal server prefixes are generalized. Current paragraph/table mappings are in [the claim report](../audit/claim_to_evidence_report.csv); source/output hashes are in [released assets](../audit/released_assets.csv). The registry can be downloaded when GitHub's CSV preview limit is exceeded.
 ''')
-    write('audit/analysis_status.md','''# Release status — 19 November 2026
+    write('audit/analysis_status.md','''# Release status — 25 November 2026
 
-Five result roots and the 40-slide F3 presentation were read through the completed manuscript audit; core content SHA256 values were rechecked before public export. Current Results 1–3, source-specific legends, references, figures, aggregate tables and evidence were updated. Excluded F3 trees do not contribute published paths or claims. Word/PDF validity is bound to exact hashes in the rendering report.
+Five result roots and the 56-slide F3 presentation were read through the completed manuscript audit; core content SHA256 values were rechecked before public export. Current Results 1–3, source-specific legends, references, figures, aggregate tables and evidence were updated. Excluded F3 trees do not contribute published paths or claims. Word/PDF validity is bound to exact hashes in the rendering report.
 
 Remaining limitations are scientific/reporting boundaries: unresolved donor identity, outcome-informed external selection, unavailable models due to coverage, overlapping signatures and lack of causal/longitudinal outcome validation. These do not imply unperformed experiments were completed.
 ''')

@@ -1,0 +1,13 @@
+{
+  "nuisance_confounding_guard": true,
+  "known_effect_recovered": true,
+  "restricted_spline_linear_tails": true,
+  "BH_reference": true,
+  "sample_proxy_canonicalization": true,
+  "n_png": 22,
+  "n_pdf": 22,
+  "source_inputs_unchanged": true,
+  "stable_lists_unchanged": true,
+  "adult_units_unique": true,
+  "all_completed_task_p_values_in_range": true
+}

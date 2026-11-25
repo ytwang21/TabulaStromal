@@ -59,3 +59,10 @@ The four gallery pages can be rebuilt using only public release metadata:
 python scripts/write_result_galleries.py
 python scripts/validate_results_release.py
 ```
+
+
+## Updated fourteen-family results and optional native H2O comparator
+
+Current saved real-data benchmark tables contain fourteen families, including `JungClock`, while the saved Figure 2 heatmaps and self-contained generic CI cover thirteen. The public default retains those thirteen families. To opt in to `JungClock`, append it to `models.names`, install the official H2O Python package 3.44.0.3 and compatible Java, and supply the reviewed level-3 process ontology and author reference resources via `jungclock.ontology`/`reference_dir`. Those external resources are not silently downloaded or relicensed. Configure `python_vendor`, JVM heap and `ice_root` for your installation. The source implementation uses native H2O GLMs and grouped process selection; normalized cell-state inputs omit bulk TPM/fsva, so this is an adaptation rather than exact reproduction of the original bulk model.
+
+Source: https://github.com/saschajung/Clock and https://doi.org/10.1038/s43587-026-01234-8 . Generic synthetic CI does not claim to rerun the native-H2O real-data study. The full fourteen-family saved metrics are independently recomputed in the manuscript evidence audit.

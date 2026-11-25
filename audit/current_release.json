@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-25",
   "modules": [
     "F1_StromalAtlas",
     "F2_ModelPerformance",
@@ -11,18 +11,17 @@
     "F3_ds_analysis/**/VenEC_CLU_eye_audit/**",
     "F3_ds_analysis/F3_features/Age10_20_audit_20261117/**"
   ],
-  "source_files": 1469578,
-  "source_reads_reverified": 433,
-  "evidence_records": 46088,
-  "claim_mappings": 32,
-  "figure_candidates": 1677,
-  "original_figure_files": 229,
-  "aggregate_tables": 201,
+  "source_files": 1153427,
+  "source_reads_reverified": 530,
+  "evidence_records": 96418,
+  "claim_mappings": 47,
+  "figure_candidates": 2021,
+  "original_figure_files": 319,
+  "aggregate_tables": 269,
   "presentations": 1,
-  "downstream_slides": 40,
-  "downstream_image_placements": 54,
-  "downstream_unique_original_images": 52,
+  "downstream_slides": 56,
+  "downstream_image_placements": 74,
+  "downstream_unique_original_images": 72,
   "raw_data_or_individual_predictions_published": false,
-  "complete_inventory_public": false,
-  "workflow_refresh": "audit/workflow_refresh.json"
+  "complete_inventory_public": false
 }

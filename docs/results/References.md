@@ -39,3 +39,7 @@
 19. Love MI, Huber W, Anders S. Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biol. 2014;15(12):550. https://doi.org/10.1186/s13059-014-0550-8
 
 20. Badia-I-Mompel P, Vélez Santiago J, Braunger J, Geiss C, Dimitrov D, Müller-Dott S, et al. decoupleR: ensemble of computational methods to infer biological activities from omics data. Bioinform Adv. 2022;2(1):vbac016. https://doi.org/10.1093/bioadv/vbac016
+
+21. Luecken MD, Büttner M, Chaichoompu K, Danese A, Interlandi M, Mueller MF, et al. Benchmarking atlas-level data integration in single-cell genomics. Nat Methods. 2022;19(1):41-50. https://doi.org/10.1038/s41592-021-01336-8
+
+22. Plesa AM, Jung S, Wang HH, et al. Transcriptomic reprogramming screen identifies SRSF1 as a regulator of aging. Nat Aging. 2026;6:2057-2073. https://doi.org/10.1038/s43587-026-01234-8
